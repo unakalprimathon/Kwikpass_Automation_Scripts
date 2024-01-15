@@ -217,11 +217,11 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		logger.info("TheLoveCO has Kwikpass AP");
 		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
 		if (s.isDisplayed()) {
-			logger.info("Kwikpass icon visible in Lotus Botanicals");
+			logger.info("Kwikpass icon visible in TheLOveCO");
 			logger.info("Verify_TheLoveCO_KwikPass_icon_visibility test case passed!");
 			logger.info("Test Cases Completed !");
 		} else {
-			logger.info("Kwikpass icon not-visible in Lotus Botanicals");
+			logger.info("Kwikpass icon not-visible in TheLOveCO");
 			logger.info("Verify_TheLoveCO_KwikPass_icon_visibility test case failed!");
 			captureScreen(driver, "Verify_TheLoveCO_KwikPass_icon_visibility failed");
 			Assert.fail("Verify_TheLoveCO_KwikPass_icon_visibility failed");
