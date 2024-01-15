@@ -1,0 +1,97 @@
+
+<suite name="Kwikpass_Automation_Scripts">
+
+	<listeners>
+		<listener class-name="com.kwikpass.utilities.Report" />
+	</listeners>
+
+	<test name="Kwickpass_Test">
+		<parameter name="browser" value="chrome" />
+			
+<classes>
+
+			<!--TheLoveCO Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_TheLoveCO_Test_Cases"/>
+			
+<!--			&lt;!&ndash;Weryze Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Weryze_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;Whatsup Wellness Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Whatsup_Wellness_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;MiGlow Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_MiGlow_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;Puer Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Puer_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;Italian Colony Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Italian_Colony_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;Heelium Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Heelium_Test_Cases" /> -->
+<!--			-->
+<!--			&lt;!&ndash;Saadaa Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Saadaa_Test_Cases" /> -->
+<!--			-->
+<!--			&lt;!&ndash;Eye Wear Labs Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_EyeWearLabs_Test_Cases" /> -->
+<!--			-->
+<!--			&lt;!&ndash;FireBoltt Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_FireBoltt_Test_Cases" /> -->
+<!--			-->
+<!--			&lt;!&ndash;GenieBags Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_GenieBags_Test_Cases" /> -->
+<!--			-->
+<!--			&lt;!&ndash;Guniaa Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Guniaa_Test_Cases" /> -->
+<!--			-->
+<!--			&lt;!&ndash;Hammer Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Hammer_Test_Cases" /> -->
+<!--			-->
+<!--			&lt;!&ndash;HOK Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_HOK_Test_Cases" /> -->
+<!--			-->
+<!--			&lt;!&ndash;HOM Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_HOM_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;Includ Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Includ_Test_Cases" /> -->
+<!--			-->
+<!--			&lt;!&ndash;LotuBotanical Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_LotuBotanical_Test_Cases" /> -->
+<!--			-->
+<!--			&lt;!&ndash;MyFitness Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_MyFitness_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;Nobero Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Nobero_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;OrganicBazaar Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_OrganicBazaar_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;PhotoJewels Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_PhotoJewels_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;Pinkfort Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Pinkfort_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;SafariBags Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_SafariBags_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;Sereko Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_Sereko_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;SilverTraq Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_SilverTraq_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;SwissBeauty Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_SwissBeauty_Test_Cases" />-->
+<!--			-->
+<!--			&lt;!&ndash;UrbanJungle Test cases &ndash;&gt;-->
+<!--			<class name="com.kwikpass.automation.scripts.TC_UrbanJungle_Test_Cases" /> -->
+			
+		</classes>
+	</test>
+
+</suite>
