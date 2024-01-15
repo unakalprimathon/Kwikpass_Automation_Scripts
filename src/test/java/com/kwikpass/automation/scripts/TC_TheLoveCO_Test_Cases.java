@@ -362,7 +362,7 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 				Assert.fail("Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
 			}
 		} else {
-			logger.info("Login Unsuccessful !");
+			logger.info("Kwikpass Login Unsuccessful !");
 			logger.info("Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Cases failed!");
 			captureScreen(driver, "Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed !");
 			Assert.fail("Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
