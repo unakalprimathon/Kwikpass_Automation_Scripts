@@ -494,7 +494,5 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 			captureScreen(driver, "Verify_TheLoveCO_Kwikpass_login_Done_Redirect_to_accountpage failed !");
 			Assert.fail("Verify_TheLoveCO_Kwikpass_login_Done_Redirect_to_accountpage failed");
 		}
-
 	}
-
 }
