@@ -18,7 +18,6 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 	
 	@Test
 	public void Verify_TheLoveCO_KwikPass_AP_modal_Verfication() throws IOException, InterruptedException {
-		logger.info("test");
 		logger.info("Verify_TheLoveCO_KwikPass_AP_modal_Verfication Test Case is running.....");
 		driver.get("https://theloveco.in/");
 		logger.info("URL is open");
