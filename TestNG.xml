@@ -89,9 +89,12 @@
 			<class name="com.kwikpass.automation.scripts.TC_SwissBeauty_Test_Cases" />
 
 			<!--UrbanJungle Test cases -->
-			<class name="com.kwikpass.automation.scripts.TC_UrbanJungle_Test_Cases" /> 
-			
-		</classes>
+			<class name="com.kwikpass.automation.scripts.TC_UrbanJungle_Test_Cases" />
+
+	<!--Urbangabru Test cases -->
+	<class name="com.kwikpass.automation.scripts.TC_Urbangabru_Test_Cases" />
+
+</classes>
 	</test>
 
 </suite>
