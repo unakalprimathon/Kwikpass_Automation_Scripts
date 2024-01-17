@@ -2749,3 +2749,11 @@
 2024-01-15 19:41:05,461 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
 2024-01-15 19:41:05,461 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
 2024-01-15 19:41:05,461 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/navee/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2024-01-17 19:30:54,735  INFO [main] Kwikpass:469 - Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test case is running.....
+2024-01-17 19:30:59,296  INFO [main] Kwikpass:471 - URL is open
+2024-01-17 19:30:59,296  INFO [main] Kwikpass:472 - Silvertraq has Kwikpass AP
+2024-01-17 19:30:59,864  INFO [main] Kwikpass:477 - Clicked Kwikpass Icon
+2024-01-17 19:31:02,894  INFO [main] Kwikpass:481 - switched to Kwikpass login modal iframe
+2024-01-17 19:31:02,928  INFO [main] Kwikpass:487 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-01-17 19:31:03,013  INFO [main] Kwikpass:489 - Mobile number entered
+2024-01-17 19:31:05,094  INFO [main] Kwikpass:492 - OTP entered

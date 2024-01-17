@@ -484,20 +484,40 @@ public class TC_SilverTraq_Test_Cases extends BaseClass implements Locator{
 		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
 		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
-			logger.info("Login Successful !");
-			driver.findElement(By.xpath(orderhistory_btn)).click();
-			sleep(5);
-			String curl = driver.getCurrentUrl();
-			String vurl = "https://www.silvertraq.com/account";
-			if (curl.equals(vurl)) {
-				driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
-				logger.info("Shopify login and session created in Urban Jungle after Kwikpass login .");
-				logger.info("Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Case passed!");
-				logger.info("Test Case Completed !");
+			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
+			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+			logger.info("Mobile number entered");
+			sleep(2);
+			driver.findElement(By.id(otp_input)).sendKeys(otp);
+			logger.info("OTP entered");
+			sleep(8);
+			driver.switchTo().defaultContent();
+			driver.findElement(By.id(kwikpass_icon_al)).click();
+			By logoutbtn = By.xpath(logout_btn);
+			By orderhistorybtn = By.xpath(orderhistory_btn);
+			boolean logoutbtnPresent = !driver.findElements(logoutbtn).isEmpty();
+			boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
+			if (logoutbtnPresent && orderhistorybtnPresent) {
+				logger.info("Login Successful !");
+				driver.findElement(By.xpath(orderhistory_btn)).click();
+				sleep(10);
+				String curl = driver.getCurrentUrl();
+				String vurl = "https://www.silvertraq.com/account";
+				if (curl.equals(vurl)) {
+					driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+					logger.info("Shopify login and session created in Silvertraq after Kwikpass login .");
+					logger.info("Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Case passed!");
+					logger.info("Test Case Completed !");
+				} else {
+					logger.info("Shopify login and session not created in Silvertraq after Kwikpass login .");
+					logger.info("Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Case failed!");
+					captureScreen(driver, "Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
+					Assert.fail("Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
+				}
 			} else {
-				logger.info("Shopify login and session not created in Urban Jungle after Kwikpass login .");
-				logger.info("Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Case failed!");
-				captureScreen(driver, "Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
+				logger.info("Kwikpass Login Unsuccessful !");
+				logger.info("Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Cases failed!");
+				captureScreen(driver, "Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed !");
 				Assert.fail("Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
 			}
 		} else {
