@@ -105,4 +105,5 @@ public interface Locator {
 	public String swissbeauty_reward_joinnow = locatorconfig.getswissbeauty_reward_joinnow();
 	public String nobero_iframe = locatorconfig.getnobero_iframe();
 	public String nobero_close_iframe = locatorconfig.getnobero_close_iframe();
+	public String gokwik_name_ = locatorconfig.getgokwik_name_();
 }

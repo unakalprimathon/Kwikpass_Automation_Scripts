@@ -178,7 +178,7 @@ public class TC_UrbanJungle_Test_Cases extends BaseClass implements Locator{
 				logger.info("Switched to gokwik checkout");
 				String X = driver.findElement(By.xpath(gokwikname)).getText();
 				logger.info(X);
-				String x1 = "Automation Testing";
+				String x1 = gokwik_name_;
 				if (X.equals(x1)) {
 					logger.info("Gokwik login successfull !");
 					logger.info("Verify_UrbanJungle_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen Test case passed!");
@@ -304,7 +304,7 @@ public class TC_UrbanJungle_Test_Cases extends BaseClass implements Locator{
 			logger.info("Switched to gokwik checkout");
 			String X = driver.findElement(By.xpath(gokwikname)).getText();
 			logger.info(X);
-			String x1 = "Automation Testing";
+			String x1 = gokwik_name_;
 			if (X.equals(x1)) {
 				logger.info("Gokwik login successfull !");
 				logger.info("Verify_UrbanJungle_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen Test case passed!");
@@ -440,8 +440,8 @@ public class TC_UrbanJungle_Test_Cases extends BaseClass implements Locator{
 			sleep(3);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			driver.switchTo().defaultContent();
 			sleep(10);
+			driver.switchTo().defaultContent();
 			WebElement close = driver.findElement(By.xpath(urbanjungle_popupclose));
 			if(close.isDisplayed()) {
 				WebDriverWait close_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -503,8 +503,8 @@ public class TC_UrbanJungle_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		driver.switchTo().defaultContent();
 		sleep(10);
+		driver.switchTo().defaultContent();
 		WebElement close = driver.findElement(By.xpath(urbanjungle_popupclose));
 		if(close.isDisplayed()) {
 			WebDriverWait close_wait = new WebDriverWait(driver, Duration.ofSeconds(10));

@@ -64,7 +64,7 @@ public class TC_SwissBeauty_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number); 
-		sleep(3);
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(10);
@@ -128,7 +128,7 @@ public class TC_SwissBeauty_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number); 
-		sleep(3);
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(10);
@@ -181,7 +181,7 @@ public class TC_SwissBeauty_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number); 
-		sleep(3);
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(10);
@@ -217,7 +217,7 @@ public class TC_SwissBeauty_Test_Cases extends BaseClass implements Locator{
 			logger.info("Switched to gokwik checkout");
 			String X = driver.findElement(By.xpath(gokwikname)).getText();
 			logger.info(X);
-			String x1 = "Automation Testing";
+			String x1 = gokwik_name_;
 			if (X.equals(x1)) {
 				logger.info("Gokwik login successfull !");
 				sleep(2);

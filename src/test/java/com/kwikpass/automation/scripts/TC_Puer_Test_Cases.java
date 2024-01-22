@@ -173,7 +173,7 @@ public class TC_Puer_Test_Cases extends BaseClass implements Locator{
 				logger.info("Switched to gokwik checkout");
 				String X = driver.findElement(By.xpath(gokwikname)).getText();
 				logger.info(X);
-				String x1 = "Automation Testing";
+				String x1 = gokwik_name_;
 				if (X.equals(x1)) {
 					logger.info("Gokwik login successfull !");
 					logger.info("Verify_Puer_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen Test case passed!");
@@ -289,7 +289,7 @@ public class TC_Puer_Test_Cases extends BaseClass implements Locator{
 			logger.info("Switched to gokwik checkout");
 			String X = driver.findElement(By.xpath(gokwikname)).getText();
 			logger.info(X);
-			String x1 = "Automation Testing";
+			String x1 = gokwik_name_;
 			if (X.equals(x1)) {
 				logger.info("Gokwik login successfull !");
 				logger.info("Verify_Puer_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen Test case passed!");

@@ -423,6 +423,10 @@ public class LocatorConfig {
 		String nobero_close_iframe = pro.getProperty("nobero_close_iframe");
 		return nobero_close_iframe;
 	}
+	public String getgokwik_name_() {
+		String gokwik_name_ = pro.getProperty("gokwik_name_");
+		return gokwik_name_;
+	}
 	
 	
 }

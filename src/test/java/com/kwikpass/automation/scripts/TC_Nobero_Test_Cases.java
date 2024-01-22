@@ -28,6 +28,7 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		lp.switchToNoberoIframe(nobero_iframe);
 		driver.findElement(By.xpath(nobero_close_iframe)).click();
 		driver.switchTo().defaultContent();
+		sleep(2);
 		WebElement dropdown = driver.findElement(By.xpath(nobero_kwikpass_icon));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(dropdown).perform();
@@ -64,6 +65,7 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		lp.switchToNoberoIframe(nobero_iframe);
 		driver.findElement(By.xpath(nobero_close_iframe)).click();
 		driver.switchTo().defaultContent();
+		sleep(2);
 		WebElement dropdown = driver.findElement(By.xpath(nobero_kwikpass_icon));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(dropdown).perform();
@@ -77,7 +79,7 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(8);
+		sleep(10);
 		driver.switchTo().defaultContent();
 		WebElement dropdown1 = driver.findElement(By.xpath(nobero_kwikpass_icon));
 		Actions actions1 = new Actions(driver);
@@ -106,6 +108,7 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		lp.switchToNoberoIframe(nobero_iframe);
 		driver.findElement(By.xpath(nobero_close_iframe)).click();
 		driver.switchTo().defaultContent();
+		sleep(2);
 		WebElement dropdown = driver.findElement(By.xpath(nobero_kwikpass_icon));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(dropdown).perform();
@@ -162,6 +165,7 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		lp.switchToNoberoIframe(nobero_iframe);
 		driver.findElement(By.xpath(nobero_close_iframe)).click();
 		driver.switchTo().defaultContent();
+		sleep(2);
 		WebElement login_dropdown = driver.findElement(By.xpath(nobero_kwikpass_icon));
 		Actions actions1 = new Actions(driver);
 		actions1.moveToElement(login_dropdown).perform();
@@ -203,7 +207,7 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 				logger.info("switched to gokwik iframe");
 				String X = driver.findElement(By.xpath(gokwikname)).getText();
 				logger.info(X);
-				String x1 = "Automation Testing";
+				String x1 = gokwik_name_;
 				if (X.equals(x1)) {
 					logger.info("Gokwik login successfull !");
 					sleep(2);
@@ -308,6 +312,7 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		lp.switchToNoberoIframe(nobero_iframe);
 		driver.findElement(By.xpath(nobero_close_iframe)).click();
 		driver.switchTo().defaultContent();
+		sleep(2);
 		WebElement login_dropdown = driver.findElement(By.xpath(nobero_kwikpass_icon));
 		Actions actions1 = new Actions(driver);
 		actions1.moveToElement(login_dropdown).perform();

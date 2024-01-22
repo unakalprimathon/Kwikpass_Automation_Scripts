@@ -151,7 +151,6 @@ public class TC_Weryze_Test_Cases  extends BaseClass implements Locator{
 
 	}
 	
-
 	@Test
 	public void Verify_Weryze_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException, InterruptedException {
 		logger.info("Verify_Weryze_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");

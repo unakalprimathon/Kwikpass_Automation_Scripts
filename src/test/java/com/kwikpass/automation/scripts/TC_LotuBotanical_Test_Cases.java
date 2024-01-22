@@ -200,7 +200,7 @@ public class TC_LotuBotanical_Test_Cases extends BaseClass implements Locator{
 			logger.info("Switched to gokwik checkout");
 			String X = driver.findElement(By.xpath(gokwikname)).getText();
 			logger.info(X);
-			String x1 = "Automation Testing";
+			String x1 = gokwik_name_;
 			if (X.equals(x1)) {
 				logger.info("Gokwik login successfull !");
 				sleep(2);

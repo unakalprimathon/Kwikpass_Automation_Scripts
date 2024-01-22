@@ -121,7 +121,6 @@ public class TC_Whatsup_Wellness_Test_Cases extends BaseClass implements Locator
 
 	}
 	
-
 	@Test
 	public void Verify_Whatsup_Wellness_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException, InterruptedException {
 		logger.info("Verify_Whatsup_Wellness_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
@@ -245,7 +244,7 @@ public class TC_Whatsup_Wellness_Test_Cases extends BaseClass implements Locator
 		if (account.equals(vaccount)) {
 			driver.navigate().to("https://whatsupwellness.in/account#profile");
 			logger.info("Navigating to account page");
-			sleep(60);
+			sleep(30);
 			String geturl = driver.getCurrentUrl();
 			logger.info(geturl);
 			String expectedUrl = "https://whatsupwellness.in/account#profile";

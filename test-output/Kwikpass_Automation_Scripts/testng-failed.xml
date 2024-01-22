@@ -20,6 +20,7 @@
       </class> <!-- com.kwikpass.automation.scripts.TC_Weryze_Test_Cases -->
       <class name="com.kwikpass.automation.scripts.TC_Includ_Test_Cases">
         <methods>
+          <include name="Verify_Includ_Kwikpass_login_Done_Redirect_to_accountpage"/>
           <include name="Verify_Includ_Kwikpass_login_using_OTP_Via_SMS"/>
           <include name="setUp"/>
           <include name="Verify_Includ_Kwikpass_login_Done_Gokwik_login_should_happen"/>
@@ -34,6 +35,7 @@
           <include name="setUp"/>
           <include name="Verify_Swiss_Beauty_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="Verify_Swiss_Beauty_Kwikpass_login_using_OTP_Via_SMS"/>
+          <include name="Verify_SwissBeauty_Kwikpass_login_using_OTP_Via_SMS_from_accountpage"/>
           <include name="Verify_SwissBeauty_Kwikpass_login_using_OTP_Via_SMS_from_Rewards"/>
           <include name="tearDown"/>
           <include name="Verify_Swiss_Beauty_Kwikpass_login_Done_Gokwik_login_should_happen"/>
@@ -46,6 +48,7 @@
           <include name="setUp"/>
           <include name="Verify_LotusBotanical_Kwikpass_login_Done_Redirect_to_accountpage"/>
           <include name="Verify_LotusBotanical_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_LotusBotanical_KwikPass_Login_at_accountpage"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.kwikpass.automation.scripts.TC_LotuBotanical_Test_Cases -->
@@ -56,6 +59,7 @@
           <include name="setUp"/>
           <include name="Verify_HOK_Kwikpass_login_Done_Redirect_to_accountpage"/>
           <include name="Verify_HOK_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_HOK_KwikPass_login_modal_verification"/>
           <include name="Verify_HOK_Kwikpass_login_using_OTP_Via_SMS_from_Rewards"/>
           <include name="Verify_HOK_Kwikpass_login_Done_Gokwik_login_should_happen"/>
           <include name="tearDown"/>
@@ -141,6 +145,7 @@
           <include name="Verify_MyFitness_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="setUp"/>
           <include name="Verify_MyFitness_Kwikpass_login_using_OTP_Via_SMS"/>
+          <include name="Verify_MyFitness_Kwikpass_login_Done_Redirect_to_accountpage"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.kwikpass.automation.scripts.TC_MyFitness_Test_Cases -->
@@ -174,24 +179,30 @@
       <class name="com.kwikpass.automation.scripts.TC_Pinkfort_Test_Cases">
         <methods>
           <include name="Verify_Pinkfort_Kwikpass_login_using_OTP_Via_SMS"/>
+          <include name="Verify_Pinkfort_KwikPass_Login_at_accountpage"/>
           <include name="setUp"/>
           <include name="Verify_Pinkfort_Kwikpass_login_Done_Gokwik_login_should_happen"/>
+          <include name="Verify_Pinkfort_Kwikpass_login_Done_Redirect_to_accountpage"/>
           <include name="Verfiy_Pinkfort_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.kwikpass.automation.scripts.TC_Pinkfort_Test_Cases -->
       <class name="com.kwikpass.automation.scripts.TC_Saadaa_Test_Cases">
         <methods>
+          <include name="Verify_Saadaa_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Saadaa_KwikPass_AP_modal_Verfication"/>
+          <include name="Verify_Saadaa_KwikPass_AP_Visiblity_At_PDP_page"/>
+          <include name="Verify_Saadaa_Kwikpass_login_from_AP_using_OTP_Via_SMS"/>
+          <include name="tearDown"/>
+          <include name="Verify_Saadaa_KwikPass_AP_Visiblity_At_Home_page"/>
           <include name="Verify_Saadaa_KwikPass_Login_at_accountpage"/>
           <include name="Verify_Saadaa_Kwikpass_login_Done_Redirect_to_accountpage"/>
           <include name="setUp"/>
-          <include name="Verify_Saadaa_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="Verify_Saadaa_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen"/>
           <include name="Verify_Saadaa_Kwikpass_login_from_Login_Modal_using_OTP_Via_SMS"/>
           <include name="Verify_Saadaa_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP"/>
-          <include name="Verify_Saadaa_Kwikpass_login_from_AP_using_OTP_Via_SMS"/>
           <include name="Verify_Saadaa_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen"/>
-          <include name="tearDown"/>
+          <include name="Verify_Saadaa_KwikPass_AP_Visiblity_At_Collection_page"/>
         </methods>
       </class> <!-- com.kwikpass.automation.scripts.TC_Saadaa_Test_Cases -->
       <class name="com.kwikpass.automation.scripts.TC_Sereko_Test_Cases">
@@ -202,6 +213,7 @@
           <include name="Verify_Sereko_KwikPass_Login_at_accountpage"/>
           <include name="Verify_Sereko_Kwikpass_login_from_Login_Modal_using_OTP_Via_SMS"/>
           <include name="Verify_Sereko_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen"/>
+          <include name="Verify_Sereko_KwikPass_Login_modal_Verfication"/>
           <include name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP"/>
           <include name="Verify_Sereko_Kwikpass_login_Done_Redirect_to_accountpage"/>
@@ -248,14 +260,11 @@
           <include name="Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="Verify_TheLoveCO_Kwikpass_login_Done_Redirect_to_accountpage"/>
           <include name="Verify_TheLoveCO_Kwikpass_login_from_AP_using_OTP_Via_SMS"/>
-          <include name="Verify_TheLoveCO_KwikPass_AP_Visiblity_At_Home_Page"/>
-          <include name="Verify_TheLoveCO_KwikPass_Login_modal_Verfication"/>
           <include name="Verify_TheLoveCO_Kwikpass_login_from_Login_Modal_using_OTP_Via_SMS"/>
           <include name="Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP"/>
           <include name="setUp"/>
           <include name="Verify_TheLoveCO_Kwikpass_login_using_OTP_Via_SMS_from_accountpage"/>
           <include name="tearDown"/>
-          <include name="Verify_TheLoveCO_KwikPass_AP_modal_Verfication"/>
         </methods>
       </class> <!-- com.kwikpass.automation.scripts.TC_TheLoveCO_Test_Cases -->
       <class name="com.kwikpass.automation.scripts.TC_Nobero_Test_Cases">
@@ -266,6 +275,7 @@
           <include name="Verify_Nobero_Kwikpass_login_Done_Redirect_to_accountpage"/>
           <include name="Verify_Nobero_KwikPass_Login_at_accountpage"/>
           <include name="Verify_Nobero_KwikPass_Login_Using_OTP_Via_SMS"/>
+          <include name="Verify_Nobero_KwikPass_icon_visibility"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.kwikpass.automation.scripts.TC_Nobero_Test_Cases -->

@@ -145,8 +145,8 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 			sleep(3);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			driver.switchTo().defaultContent();
 			sleep(10);
+			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click(); 
 			By logoutbtn = By.xpath(logout_btn); 
 			By orderhistorybtn = By.xpath(orderhistory_btn); 
@@ -189,8 +189,8 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		driver.switchTo().defaultContent();
 		sleep(10);
+		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn); 
 		By orderhistorybtn = By.xpath(orderhistory_btn);
@@ -280,8 +280,8 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 			sleep(3);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			driver.switchTo().defaultContent();
 			sleep(10);
+			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click(); 
 			By logoutbtn = By.xpath(logout_btn); 
 			By orderhistorybtn = By.xpath(orderhistory_btn); 
@@ -337,8 +337,8 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		driver.switchTo().defaultContent();
 		sleep(10);
+		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn); 
 		By orderhistorybtn = By.xpath(orderhistory_btn);
