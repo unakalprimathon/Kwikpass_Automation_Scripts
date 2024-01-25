@@ -5688,3 +5688,74 @@
 2024-01-22 18:34:43,628  INFO [main] Kwikpass:34 - The Kwikpass Login modal verification passed.
 2024-01-22 18:34:43,628  INFO [main] Kwikpass:35 - Verify_GenieBags_KwikPass_AP_modal_Verfication Test Cases passed!
 2024-01-22 18:34:43,628  INFO [main] Kwikpass:36 - Test Cases Completed !
+2024-01-25 19:04:34,130  INFO [main] Kwikpass:488 - Verify_True_Elements_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test case is running.....
+2024-01-25 19:04:37,395  INFO [main] Kwikpass:490 - URL is open
+2024-01-25 19:04:37,396  INFO [main] Kwikpass:491 - True Elements has Kwikpass AP
+2024-01-25 19:04:37,530  INFO [main] Kwikpass:496 - Clicked Kwikpass Icon
+2024-01-25 19:04:40,604  INFO [main] Kwikpass:500 - switched to Kwikpass login modal iframe
+2024-01-25 19:04:40,696  INFO [main] Kwikpass:508 - Mobile number entered
+2024-01-25 19:05:00,789  INFO [main] Kwikpass:515 - Clicked Kwikpass Icon after login
+2024-01-25 19:05:00,822  INFO [main] Kwikpass:521 - Login Successful !
+2024-01-25 19:05:08,905  INFO [main] Kwikpass:531 - Shopify login and session not created in Urban Jungle after Kwikpass login .
+2024-01-25 19:05:08,906  INFO [main] Kwikpass:532 - Verify_True_Elements_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Case failed!
+2024-01-25 19:09:34,504  INFO [main] Kwikpass:256 - Verify_True_Elements_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen Test case is running.....
+2024-01-25 19:09:37,098  INFO [main] Kwikpass:258 - URL is open
+2024-01-25 19:09:37,099  INFO [main] Kwikpass:259 - True_Elements has Kwikpass AP
+2024-01-25 19:09:37,238  INFO [main] Kwikpass:264 - Clicked Kwikpass Icon
+2024-01-25 19:09:40,281  INFO [main] Kwikpass:268 - switched to Kwikpass login modal iframe
+2024-01-25 19:09:40,361  INFO [main] Kwikpass:276 - Mobile number entered
+2024-01-25 19:10:00,478  INFO [main] Kwikpass:283 - Clicked Kwikpass Icon after login
+2024-01-25 19:10:00,511  INFO [main] Kwikpass:289 - Login Successful !
+2024-01-25 19:10:06,067  INFO [main] Kwikpass:292 - Navigated to PDP page
+2024-01-25 19:10:06,243  INFO [main] Kwikpass:297 - Clicked Add to cart button
+2024-01-25 19:10:32,161  INFO [main] Kwikpass:256 - Verify_True_Elements_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen Test case is running.....
+2024-01-25 19:10:35,653  INFO [main] Kwikpass:258 - URL is open
+2024-01-25 19:10:35,653  INFO [main] Kwikpass:259 - True_Elements has Kwikpass AP
+2024-01-25 19:10:35,783  INFO [main] Kwikpass:264 - Clicked Kwikpass Icon
+2024-01-25 19:10:38,834  INFO [main] Kwikpass:268 - switched to Kwikpass login modal iframe
+2024-01-25 19:10:38,923  INFO [main] Kwikpass:276 - Mobile number entered
+2024-01-25 19:10:59,022  INFO [main] Kwikpass:283 - Clicked Kwikpass Icon after login
+2024-01-25 19:10:59,055  INFO [main] Kwikpass:289 - Login Successful !
+2024-01-25 19:11:04,781  INFO [main] Kwikpass:292 - Navigated to PDP page
+2024-01-25 19:11:04,977  INFO [main] Kwikpass:297 - Clicked Add to cart button
+2024-01-25 19:11:08,104  INFO [main] Kwikpass:303 - clicked on Place Order button
+2024-01-25 19:11:11,151  INFO [main] Kwikpass:306 - Switched to gokwik checkout
+2024-01-25 19:11:33,295  INFO [main] Kwikpass:256 - Verify_True_Elements_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen Test case is running.....
+2024-01-25 19:11:36,359  INFO [main] Kwikpass:258 - URL is open
+2024-01-25 19:11:36,359  INFO [main] Kwikpass:259 - True_Elements has Kwikpass AP
+2024-01-25 19:11:36,501  INFO [main] Kwikpass:264 - Clicked Kwikpass Icon
+2024-01-25 19:11:39,551  INFO [main] Kwikpass:268 - switched to Kwikpass login modal iframe
+2024-01-25 19:11:39,643  INFO [main] Kwikpass:276 - Mobile number entered
+2024-01-25 19:11:59,749  INFO [main] Kwikpass:283 - Clicked Kwikpass Icon after login
+2024-01-25 19:11:59,782  INFO [main] Kwikpass:289 - Login Successful !
+2024-01-25 19:12:04,842  INFO [main] Kwikpass:292 - Navigated to PDP page
+2024-01-25 19:12:05,031  INFO [main] Kwikpass:297 - Clicked Add to cart button
+2024-01-25 19:12:08,151  INFO [main] Kwikpass:303 - clicked on Place Order button
+2024-01-25 19:12:13,221  INFO [main] Kwikpass:306 - Switched to gokwik checkout
+2024-01-25 19:15:41,815  INFO [main] Kwikpass:544 - Verify_TrueElements_KwikPass_login_modal_verification_from_accountpage Test case is running.....
+2024-01-25 19:15:45,538  INFO [main] Kwikpass:546 - URL is open
+2024-01-25 19:15:45,538  INFO [main] Kwikpass:547 - TrueElements does not have Kwikpass AP
+2024-01-25 19:15:50,590  INFO [main] Kwikpass:551 - switched to Kwikpass login modal iframe
+2024-01-25 19:15:50,622  INFO [main] Kwikpass:557 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-01-25 19:15:50,622  INFO [main] Kwikpass:558 - Verify_TrueElements_KwikPass_login_modal_verification_from_accountpage Test Cases passed!
+2024-01-25 19:15:50,622  INFO [main] Kwikpass:559 - Test Case Completed !
+2024-01-25 19:16:23,537  INFO [main] Kwikpass:570 - Verify_TrueElements_Kwikpass_login_using_OTP_Via_SMS_from_accountpage Test case is running.....
+2024-01-25 19:16:23,544  INFO [main] Kwikpass:571 - Verify_TrueElements_KwikPass_login_modal_verification_from_accountpage Test case is running.....
+2024-01-25 19:16:26,988  INFO [main] Kwikpass:573 - URL is open
+2024-01-25 19:16:26,989  INFO [main] Kwikpass:574 - TrueElements does not have Kwikpass AP
+2024-01-25 19:16:32,031  INFO [main] Kwikpass:578 - switched to Kwikpass login modal iframe
+2024-01-25 19:16:32,148  INFO [main] Kwikpass:591 - Mobile number entered
+2024-01-25 19:16:52,173  INFO [main] Kwikpass:597 - Kwikpass Login Successful !
+2024-01-25 19:16:52,173  INFO [main] Kwikpass:598 - Verify_TrueElements_Kwikpass_login_using_OTP_Via_SMS_from_accountpage Test Case passed!
+2024-01-25 19:16:52,174  INFO [main] Kwikpass:599 - Test Case Completed !
+2024-01-25 19:17:37,503  INFO [main] Kwikpass:614 - Verify_TrueElements_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....
+2024-01-25 19:17:40,877  INFO [main] Kwikpass:616 - URL is open
+2024-01-25 19:17:40,877  INFO [main] Kwikpass:617 - TrueElements does not have Kwikpass AP
+2024-01-25 19:17:41,020  INFO [main] Kwikpass:622 - Clicked Kwikpass Icon
+2024-01-25 19:17:44,065  INFO [main] Kwikpass:626 - switched to Kwikpass login modal iframe
+2024-01-25 19:17:44,150  INFO [main] Kwikpass:634 - Mobile number entered
+2024-01-25 19:18:04,252  INFO [main] Kwikpass:641 - Clicked Kwikpass Icon after login
+2024-01-25 19:18:06,407  INFO [main] Kwikpass:648 - Switched to default page
+2024-01-25 19:18:16,478  INFO [main] Kwikpass:653 - Kwikpass Login Successful !
+2024-01-25 19:18:16,479  INFO [main] Kwikpass:654 - Verify_TrueElements_Kwikpass_login_Done_Redirect_to_accountpage Test Case passed!
+2024-01-25 19:18:16,479  INFO [main] Kwikpass:655 - Test Case Completed !

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-22T18:34:23 IST" name="Default suite" finished-at="2024-01-22T18:34:44 IST" duration-ms="20369">
+  <suite started-at="2024-01-25T19:17:35 IST" name="Default suite" finished-at="2024-01-25T19:18:16 IST" duration-ms="41625">
     <groups>
     </groups>
-    <test started-at="2024-01-22T18:34:23 IST" name="Default test" finished-at="2024-01-22T18:34:44 IST" duration-ms="20369">
-      <class name="com.kwikpass.automation.scripts.TC_GenieBags_Test_Cases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_GenieBags_Test_Cases@3590fc5b]" started-at="2024-01-22T18:34:23 IST" name="setUp" finished-at="2024-01-22T18:34:25 IST" duration-ms="1940" status="PASS">
+    <test started-at="2024-01-25T19:17:35 IST" name="Default test" finished-at="2024-01-25T19:18:16 IST" duration-ms="41625">
+      <class name="com.kwikpass.automation.scripts.TC_TrueElements_Test_Cases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_TrueElements_Test_Cases@397fbdb]" started-at="2024-01-25T19:17:35 IST" name="setUp" finished-at="2024-01-25T19:17:37 IST" duration-ms="2164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_GenieBags_KwikPass_AP_modal_Verfication()[pri:0, instance:com.kwikpass.automation.scripts.TC_GenieBags_Test_Cases@3590fc5b]" started-at="2024-01-22T18:34:25 IST" name="Verify_GenieBags_KwikPass_AP_modal_Verfication" finished-at="2024-01-22T18:34:43 IST" duration-ms="17894" status="PASS">
+        <test-method signature="Verify_TrueElements_Kwikpass_login_Done_Redirect_to_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_TrueElements_Test_Cases@397fbdb]" started-at="2024-01-25T19:17:37 IST" name="Verify_TrueElements_Kwikpass_login_Done_Redirect_to_accountpage" finished-at="2024-01-25T19:18:16 IST" duration-ms="38993" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_GenieBags_KwikPass_AP_modal_Verfication -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_GenieBags_Test_Cases@3590fc5b]" started-at="2024-01-22T18:34:43 IST" name="tearDown" finished-at="2024-01-22T18:34:44 IST" duration-ms="486" status="PASS">
+        </test-method> <!-- Verify_TrueElements_Kwikpass_login_Done_Redirect_to_accountpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_TrueElements_Test_Cases@397fbdb]" started-at="2024-01-25T19:18:16 IST" name="tearDown" finished-at="2024-01-25T19:18:16 IST" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.kwikpass.automation.scripts.TC_GenieBags_Test_Cases -->
+      </class> <!-- com.kwikpass.automation.scripts.TC_TrueElements_Test_Cases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

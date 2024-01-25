@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kwikpass.automation.scripts.TC_Nobero_Test_Cases">
+      <class name="com.kwikpass.automation.scripts.TC_TrueElements_Test_Cases">
         <methods>
           <include name="setUp"/>
-          <include name="Verify_Nobero_KwikPass_Login_Using_OTP_Via_SMS"/>
+          <include name="Verify_True_Elements_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kwikpass.automation.scripts.TC_Nobero_Test_Cases -->
+      </class> <!-- com.kwikpass.automation.scripts.TC_TrueElements_Test_Cases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
