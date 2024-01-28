@@ -161,7 +161,7 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 			if (logoutbtnPresent && orderhistorybtnPresent) {
 				logger.info("Login Successful !");
 				sleep(3);
-				driver.navigate().to("https://true-elements.com/collections/gift/products/starter-pack-6-best-sellers-to-try");
+				driver.navigate().to("https://true-elements.com/products/9-in-1-snack-mix");
 				logger.info("Navigated to PDP page");
 				WebElement addtocart = driver.findElement(By.xpath(trueelements_addtocart));
 				WebDriverWait addtocart_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -177,9 +177,12 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 				sleep(5);
 				lp.switchToGokwikIframe(gokwik_iframe);
 				logger.info("Switched to gokwik checkout");
-				String X = driver.findElement(By.xpath(gokwikname)).getText();
+				WebElement gkpname = driver.findElement(By.xpath(gokwikname));
+				WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
+				String X = gkpname.getText();
 				logger.info(X);
-				String x1 = "Automation Testing";
+				String x1 = gokwik_name_;
 				if (X.equals(x1)) {
 					logger.info("Gokwik login successfull !");
 					sleep(2);
@@ -285,7 +288,7 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			logger.info("Login Successful !");
 			sleep(3);
-			driver.navigate().to("https://true-elements.com/collections/gift/products/starter-pack-6-best-sellers-to-try");
+			driver.navigate().to("https://true-elements.com/products/9-in-1-snack-mix");
 			logger.info("Navigated to PDP page");
 			WebElement addtocart = driver.findElement(By.xpath(trueelements_addtocart));
 			WebDriverWait addtocart_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -301,9 +304,12 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 			sleep(5);
 			lp.switchToGokwikIframe(gokwik_iframe);
 			logger.info("Switched to gokwik checkout");
-			String X = driver.findElement(By.xpath(gokwikname)).getText();
+			WebElement gkpname = driver.findElement(By.xpath(gokwikname));
+			WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
+			String X = gkpname.getText();
 			logger.info(X);
-			String x1 = "Automation Testing";
+			String x1 = gokwik_name_;
 			if (X.equals(x1)) {
 				logger.info("Gokwik login successfull !");
 				sleep(2);

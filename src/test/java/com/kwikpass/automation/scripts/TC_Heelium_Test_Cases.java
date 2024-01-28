@@ -171,7 +171,10 @@ public class TC_Heelium_Test_Cases extends BaseClass implements Locator{
 				sleep(5);
 				lp.switchToGokwikIframe(gokwik_iframe);
 				logger.info("Switched to gokwik checkout");
-				String X = driver.findElement(By.xpath(gokwikname)).getText();
+				WebElement gkpname = driver.findElement(By.xpath(gokwikname));
+				WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
+				String X = gkpname.getText();
 				logger.info(X);
 				String x1 = gokwik_name_;
 				if (X.equals(x1)) {
@@ -271,7 +274,7 @@ public class TC_Heelium_Test_Cases extends BaseClass implements Locator{
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			logger.info("Login Successful !");
 			sleep(3);
-			driver.navigate().to("https://heelium.in/products/liquid-detergent-advance-care");
+			driver.navigate().to("https://heelium.in/collections/bestsellers/products/bamboo-men-ankle-socks-3-pairs");
 			logger.info("Navigated to PDP page");
 			WebElement addtocart = driver.findElement(By.xpath(Heelium_addtocart));
 			WebDriverWait addtocart_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -287,7 +290,10 @@ public class TC_Heelium_Test_Cases extends BaseClass implements Locator{
 			sleep(5);
 			lp.switchToGokwikIframe(gokwik_iframe);
 			logger.info("Switched to gokwik checkout");
-			String X = driver.findElement(By.xpath(gokwikname)).getText();
+			WebElement gkpname = driver.findElement(By.xpath(gokwikname));
+			WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
+			String X = gkpname.getText();
 			logger.info(X);
 			String x1 = gokwik_name_;
 			if (X.equals(x1)) {

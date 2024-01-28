@@ -156,7 +156,7 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 				sleep(3);
 				driver.navigate().to("https://photojewels.in/products/hanuman-ji-photo-pendant");
 				logger.info("Navigated to PDP page");
-				WebElement buy_now = driver.findElement(By.xpath(photo_jewel_buynow_btn));
+				WebElement buy_now = driver.findElement(By.cssSelector(photo_jewel_buynow_btn));
 				WebDriverWait buy_now_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 				buy_now_wait.until(ExpectedConditions.elementToBeClickable(buy_now));
 				buy_now.click();
@@ -170,7 +170,10 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 				sleep(5);
 				lp.switchToGokwikIframe(gokwik_iframe);
 				logger.info("Switched to gokwik checkout");
-				String X = driver.findElement(By.xpath(gokwikname)).getText();
+				WebElement gkpname = driver.findElement(By.xpath(gokwikname));
+				WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
+				String X = gkpname.getText();
 				logger.info(X);
 				String x1 = gokwik_name_;
 				if (X.equals(x1)) {
@@ -283,10 +286,13 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 			placeorder_wait.until(ExpectedConditions.elementToBeClickable(placeorder));
 			placeorder.click();
 			logger.info("clicked on Place Order button");
-			sleep(3);
+			sleep(5);
 			lp.switchToGokwikIframe(gokwik_iframe);
 			logger.info("Switched to gokwik checkout");
-			String X = driver.findElement(By.xpath(gokwikname)).getText();
+			WebElement gkpname = driver.findElement(By.xpath(gokwikname));
+			WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
+			String X = gkpname.getText();
 			logger.info(X);
 			String x1 = gokwik_name_;
 			if (X.equals(x1)) {

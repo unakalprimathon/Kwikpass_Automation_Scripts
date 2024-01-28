@@ -161,16 +161,19 @@ public class TC_Sereko_Test_Cases extends BaseClass implements Locator{
 				addtocart_wait.until(ExpectedConditions.elementToBeClickable(addtocart));
 				addtocart.click();
 				logger.info("Clicked Add to cart button");
-				sleep(2);
+				sleep(5);
 				WebElement express_checkout = driver.findElement(By.className(sereko_placeorder_btn));
 				WebDriverWait express_checkout_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 				express_checkout_wait.until(ExpectedConditions.elementToBeClickable(express_checkout));
 				express_checkout.click();
 				logger.info("clicked on Proceed to checkout button");
-				sleep(3);
+				sleep(5);
 				lp.switchToGokwikIframe(gokwik_iframe);
 				logger.info("Switched to gokwik checkout");
-				String X = driver.findElement(By.xpath(gokwikname)).getText();
+				WebElement gkpname = driver.findElement(By.xpath(gokwikname));
+				WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
+				String X = gkpname.getText();
 				logger.info(X);
 				String x1 = gokwik_name_;
 				if (X.equals(x1)) {
@@ -276,16 +279,19 @@ public class TC_Sereko_Test_Cases extends BaseClass implements Locator{
 			buy_now_wait.until(ExpectedConditions.elementToBeClickable(buy_now));
 			buy_now.click();
 			logger.info("Clicked Add to cart button");
-			sleep(2);
+			sleep(5);
 			WebElement express_checkout = driver.findElement(By.className(sereko_placeorder_btn));
 			WebDriverWait express_checkout_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			express_checkout_wait.until(ExpectedConditions.elementToBeClickable(express_checkout));
 			express_checkout.click();
 			logger.info("clicked on Proceed to checkout button");
-			sleep(10);
+			sleep(5);
 			lp.switchToGokwikIframe(gokwik_iframe);
 			logger.info("Switched to gokwik checkout");
-			String X = driver.findElement(By.xpath(gokwikname)).getText();
+			WebElement gkpname = driver.findElement(By.xpath(gokwikname));
+			WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
+			String X = gkpname.getText();
 			logger.info(X);
 			String x1 = gokwik_name_;
 			if (X.equals(x1)) {

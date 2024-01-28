@@ -94,8 +94,8 @@
 			<!--TrueElements Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_TrueElements_Test_Cases"/>
 
-<!--	&lt;!&ndash;Urbangabru Test cases &ndash;&gt;-->
-<!--	<class name="com.kwikpass.automation.scripts.TC_Urbangabru_Test_Cases" />-->
+			<!--Urbangabru Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Urbangabru_Test_Cases"/>
 
 </classes>
 	</test>

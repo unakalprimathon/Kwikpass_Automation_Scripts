@@ -204,8 +204,11 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 				logger.info("clicked on Proceed to checkout button");
 				sleep(5);
 				lp.switchToGokwikIframe(gokwik_iframe);
-				logger.info("switched to gokwik iframe");
-				String X = driver.findElement(By.xpath(gokwikname)).getText();
+				logger.info("Switched to gokwik checkout");
+				WebElement gkpname = driver.findElement(By.xpath(gokwikname));
+				WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
+				String X = gkpname.getText();
 				logger.info(X);
 				String x1 = gokwik_name_;
 				if (X.equals(x1)) {

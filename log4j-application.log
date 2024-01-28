@@ -5759,3 +5759,11 @@
 2024-01-25 19:18:16,478  INFO [main] Kwikpass:653 - Kwikpass Login Successful !
 2024-01-25 19:18:16,479  INFO [main] Kwikpass:654 - Verify_TrueElements_Kwikpass_login_Done_Redirect_to_accountpage Test Case passed!
 2024-01-25 19:18:16,479  INFO [main] Kwikpass:655 - Test Case Completed !
+2024-01-28 12:26:57,951  INFO [main] Kwikpass:159 - Verify_Nobero_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-01-28 12:27:00,275  INFO [main] Kwikpass:161 - URL is open
+2024-01-28 12:27:00,275  INFO [main] Kwikpass:162 - Nobero does not have Kwikpass AP
+2024-01-28 12:27:07,778  INFO [main] Kwikpass:174 - Login / Signup button clicked
+2024-01-28 12:27:10,847  INFO [main] Kwikpass:177 - switched to Kwikpass login modal
+2024-01-28 12:27:10,876  INFO [main] Kwikpass:183 - The Kwikpass Login modal has OTP via SMS and WhatsApp login.
+2024-01-28 12:27:10,960  INFO [main] Kwikpass:185 - Mobile number entered
+2024-01-28 12:27:13,037  INFO [main] Kwikpass:188 - OTP entered

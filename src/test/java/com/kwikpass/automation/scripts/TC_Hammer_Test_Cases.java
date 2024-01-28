@@ -96,7 +96,7 @@ public class TC_Hammer_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://hammeronline.in/");
 		logger.info("URL is opened");
 		logger.info("Hammer does not have Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_al));
+		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
 		if (s.isDisplayed()) {
 			logger.info("Kwikpass icon is visible");
 			logger.info("Verify_Hammer_KwikPass_login_icon_Visibilty Test case Passed !");

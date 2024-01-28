@@ -427,6 +427,17 @@ public class LocatorConfig {
 		String gokwik_name_ = pro.getProperty("gokwik_name_");
 		return gokwik_name_;
 	}
-	
+	public String getweryze_spinwheel() {
+		String weryze_spinwheel = pro.getProperty("weryze_spinwheel");
+		return weryze_spinwheel;
+	}
+	public String getUrbangabru_addtocart() {
+		String Urbangabru_addtocart = pro.getProperty("Urbangabru_addtocart");
+		return Urbangabru_addtocart;
+	}
+	public String getUrbangabru_proceedtocheckout_btn() {
+		String Urbangabru_proceedtocheckout_btn = pro.getProperty("Urbangabru_proceedtocheckout_btn");
+		return Urbangabru_proceedtocheckout_btn;
+	}
 	
 }

@@ -218,10 +218,13 @@ public class TC_Pinkfort_Test_Cases extends BaseClass implements Locator{
 			gokwik_checkout_wait.until(ExpectedConditions.elementToBeClickable(gokwik_checkout));
 			gokwik_checkout.click();
 			logger.info("Clicked UPI/CARD/COD button");
-			sleep(3);
+			sleep(5);
 			lp.switchToGokwikIframe(gokwik_iframe);
 			logger.info("Switched to gokwik checkout");
-			String X = driver.findElement(By.xpath(gokwikname)).getText();
+			WebElement gkpname = driver.findElement(By.xpath(gokwikname));
+			WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
+			String X = gkpname.getText();
 			logger.info(X);
 			String x1 = gokwik_name_;
 			if (X.equals(x1)) {

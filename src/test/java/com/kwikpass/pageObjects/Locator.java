@@ -106,4 +106,7 @@ public interface Locator {
 	public String nobero_iframe = locatorconfig.getnobero_iframe();
 	public String nobero_close_iframe = locatorconfig.getnobero_close_iframe();
 	public String gokwik_name_ = locatorconfig.getgokwik_name_();
+	public String weryze_spinwheel = locatorconfig.getweryze_spinwheel();
+	public String Urbangabru_addtocart = locatorconfig.getUrbangabru_addtocart();
+	public String Urbangabru_proceedtocheckout_btn = locatorconfig.getUrbangabru_proceedtocheckout_btn();
 }
