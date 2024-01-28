@@ -119,4 +119,11 @@ public interface Locator {
 	public String Nurserylive_Punereward_btn = locatorconfig.getNurserylive_Punereward_btn();
 	public String Nurserylive_Pune_join_nowin_btn = locatorconfig.getNurserylive_Pune_join_nowin_btn();
 	public String MyWishCare_closepopup = locatorconfig.getMyWishCare_closepopup();
+	public String Gritstones_addtocart_btn = locatorconfig.getGritstones_addtocart_btn();
+	public String Gritstones_placeorder_btn = locatorconfig.getGritstones_placeorder_btn();
+	public String BlurTgya_orderhistory = locatorconfig.getBlurTgya_orderhistory();
+	public String BlueTyga_logout = locatorconfig.getBlueTyga_logout();
+	public String BlueTyga_buynow = locatorconfig.getBlueTyga_buynow();
+	public String BlueTyga_scrollto = locatorconfig.getBlueTyga_scrollto();
+	public String AdilQadri_order_now = locatorconfig.getAdilQadri_order_now();
 }

@@ -479,4 +479,32 @@ public class LocatorConfig {
 		String MyWishCare_closepopup = pro.getProperty("MyWishCare_closepopup");
 		return MyWishCare_closepopup;
 	}
+	public String getGritstones_addtocart_btn() {
+		String Gritstones_addtocart_btn = pro.getProperty("Gritstones_addtocart_btn");
+		return Gritstones_addtocart_btn;
+	}
+	public String getGritstones_placeorder_btn() {
+		String Gritstones_placeorder_btn = pro.getProperty("Gritstones_placeorder_btn");
+		return Gritstones_placeorder_btn;
+	}
+	public String getBlurTgya_orderhistory() {
+		String BlurTgya_orderhistory = pro.getProperty("BlurTgya_orderhistory");
+		return BlurTgya_orderhistory;
+	}
+	public String getBlueTyga_logout() {
+		String BlueTyga_logout = pro.getProperty("BlueTyga_logout");
+		return BlueTyga_logout;
+	}
+	public String getBlueTyga_buynow() {
+		String BlueTyga_buynow = pro.getProperty("BlueTyga_buynow");
+		return BlueTyga_buynow;
+	}
+	public String getBlueTyga_scrollto() {
+		String BlueTyga_scrollto = pro.getProperty("BlueTyga_scrollto");
+		return BlueTyga_scrollto;
+	}
+	public String getAdilQadri_order_now() {
+		String AdilQadri_order_now = pro.getProperty("AdilQadri_order_now");
+		return AdilQadri_order_now;
+	}
 }

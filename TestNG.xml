@@ -105,6 +105,18 @@
 			
 			<!--MyWishCare Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_MyWishCare_Test_Cases"/>
+			
+			<!--Gritstones Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Gritstones_Test_Cases"/>
+			
+			<!--BlueTyga Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_BlueTyga_Test_Cases"/>
+			
+			<!--Dennis_Lingo Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Dennis_Lingo_Test_Cases"/>
+			
+			<!--AdilQadri Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_AdilQadri_Test_Cases"/>
 </classes>
 	</test>
 
