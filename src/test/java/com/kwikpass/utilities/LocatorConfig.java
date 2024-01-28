@@ -439,5 +439,44 @@ public class LocatorConfig {
 		String Urbangabru_proceedtocheckout_btn = pro.getProperty("Urbangabru_proceedtocheckout_btn");
 		return Urbangabru_proceedtocheckout_btn;
 	}
-	
+	public String getKrishnaayurvedbuynow() {
+		String Krishnaayurvedbuynow = pro.getProperty("Krishnaayurvedbuynow");
+		return Krishnaayurvedbuynow;
+	}
+	public String getKrishnaayurvedreward_btn() {
+		String Krishnaayurvedreward_btn = pro.getProperty("Krishnaayurvedreward_btn");
+		return Krishnaayurvedreward_btn;
+	}
+	public String getKrishnaayurvedreward_iframe() {
+		String Krishnaayurvedreward_iframe = pro.getProperty("Krishnaayurvedreward_iframe");
+		return Krishnaayurvedreward_iframe;
+	}
+	public String getKrishnaayurved_signin_btn() {
+		String Krishnaayurved_signin_btn = pro.getProperty("Krishnaayurved_signin_btn");
+		return Krishnaayurved_signin_btn;
+	}
+	public String getNurserylive_Pune_kp_icon() {
+		String Nurserylive_Pune_kp_icon = pro.getProperty("Nurserylive_Pune_kp_icon");
+		return Nurserylive_Pune_kp_icon;
+	}
+	public String getNurserylive_Pune_myaccount_btn() {
+		String Nurserylive_Pune_myaccount_btn = pro.getProperty("Nurserylive_Pune_myaccount_btn");
+		return Nurserylive_Pune_myaccount_btn;
+	}
+	public String getNurserylive_Pune_logout_btn() {
+		String Nurserylive_Pune_logout_btn = pro.getProperty("Nurserylive_Pune_logout_btn");
+		return Nurserylive_Pune_logout_btn;
+	}
+	public String getNurserylive_Punereward_btn() {
+		String Nurserylive_Punereward_btn = pro.getProperty("Nurserylive_Punereward_btn");
+		return Nurserylive_Punereward_btn;
+	}
+	public String getNurserylive_Pune_join_nowin_btn() {
+		String Nurserylive_Pune_join_nowin_btn = pro.getProperty("Nurserylive_Pune_join_nowin_btn");
+		return Nurserylive_Pune_join_nowin_btn;
+	}
+	public String getMyWishCare_closepopup() {
+		String MyWishCare_closepopup = pro.getProperty("MyWishCare_closepopup");
+		return MyWishCare_closepopup;
+	}
 }

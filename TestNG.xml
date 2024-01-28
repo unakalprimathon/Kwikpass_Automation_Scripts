@@ -96,7 +96,15 @@
 
 			<!--Urbangabru Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Urbangabru_Test_Cases"/>
-
+			
+			<!--Krishnaayurved Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Krishnaayurved_Test_Cases"/>
+			
+			<!--Nurserylive_Pune Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Nurserylive_Pune_Test_Cases"/>
+			
+			<!--MyWishCare Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_MyWishCare_Test_Cases"/>
 </classes>
 	</test>
 

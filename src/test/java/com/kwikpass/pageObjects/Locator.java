@@ -109,4 +109,14 @@ public interface Locator {
 	public String weryze_spinwheel = locatorconfig.getweryze_spinwheel();
 	public String Urbangabru_addtocart = locatorconfig.getUrbangabru_addtocart();
 	public String Urbangabru_proceedtocheckout_btn = locatorconfig.getUrbangabru_proceedtocheckout_btn();
+	public String Krishnaayurvedbuynow = locatorconfig.getKrishnaayurvedbuynow();
+	public String Krishnaayurvedreward_btn = locatorconfig.getKrishnaayurvedreward_btn();
+	public String Krishnaayurvedreward_iframe = locatorconfig.getKrishnaayurvedreward_iframe();
+	public String Krishnaayurved_signin_btn = locatorconfig.getKrishnaayurved_signin_btn();
+	public String Nurserylive_Pune_kp_icon = locatorconfig.getNurserylive_Pune_kp_icon();
+	public String Nurserylive_Pune_myaccount_btn = locatorconfig.getNurserylive_Pune_myaccount_btn();
+	public String Nurserylive_Pune_logout_btn = locatorconfig.getNurserylive_Pune_logout_btn();
+	public String Nurserylive_Punereward_btn = locatorconfig.getNurserylive_Punereward_btn();
+	public String Nurserylive_Pune_join_nowin_btn = locatorconfig.getNurserylive_Pune_join_nowin_btn();
+	public String MyWishCare_closepopup = locatorconfig.getMyWishCare_closepopup();
 }
