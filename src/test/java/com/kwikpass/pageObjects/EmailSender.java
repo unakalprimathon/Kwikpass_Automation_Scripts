@@ -20,6 +20,7 @@ public class EmailSender{
 	public String fromemail = readconfig.getfrommail();
 	public String frompass = readconfig.getfrompass();
 	public String toemail = readconfig.gettoemail();
+	public String tocc = readconfig.gettocc();
     @Test(enabled = true)
     public void SendEmail() {
         // Sender's email configuration
@@ -28,6 +29,7 @@ public class EmailSender{
         String senderPassword = frompass;
         // Recipient's email
         String recipientEmail = toemail;
+        String cc = tocc;
 
         // Email properties
         Properties properties = new Properties();
@@ -51,6 +53,7 @@ public class EmailSender{
             // Set the sender and recipient addresses
             message.setFrom(new InternetAddress(senderEmail));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipientEmail));
+            message.setRecipients(Message.RecipientType.CC, InternetAddress.parse(cc));
 
             // Set the email subject
             message.setSubject("Kwikpass Automation Testing Report");

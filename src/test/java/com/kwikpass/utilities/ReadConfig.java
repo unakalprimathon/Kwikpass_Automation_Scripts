@@ -38,4 +38,9 @@ public class ReadConfig {
 		return toemail;
 		
 	}
+	public String gettocc() {
+		String tocc = pro.getProperty("tocc");
+		return tocc;
+		
+	}
 }
