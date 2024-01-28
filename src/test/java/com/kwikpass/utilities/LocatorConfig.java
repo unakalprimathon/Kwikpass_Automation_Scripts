@@ -507,4 +507,28 @@ public class LocatorConfig {
 		String AdilQadri_order_now = pro.getProperty("AdilQadri_order_now");
 		return AdilQadri_order_now;
 	}
+	public String getLevis_kwikpass_login_btn() {
+		String Levis_kwikpass_login_btn = pro.getProperty("Levis_kwikpass_login_btn");
+		return Levis_kwikpass_login_btn;
+	}
+	public String getLevis_orderbtn() {
+		String Levis_orderbtn = pro.getProperty("Levis_orderbtn");
+		return Levis_orderbtn;
+	}
+	public String getLevis_kwikpass_aflogin() {
+		String Levis_kwikpass_aflogin = pro.getProperty("Levis_kwikpass_aflogin");
+		return Levis_kwikpass_aflogin;
+	}
+	public String getLevis_buynow_btn() {
+		String Levis_buynow_btn = pro.getProperty("Levis_buynow_btn");
+		return Levis_buynow_btn;
+	}
+	public String getFormen_buynow() {
+		String Formen_buynow = pro.getProperty("Formen_buynow");
+		return Formen_buynow;
+	}
+	public String getFormen_checkout() {
+		String Formen_checkout = pro.getProperty("Formen_checkout");
+		return Formen_checkout;
+	}
 }

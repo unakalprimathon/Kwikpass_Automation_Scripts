@@ -126,4 +126,10 @@ public interface Locator {
 	public String BlueTyga_buynow = locatorconfig.getBlueTyga_buynow();
 	public String BlueTyga_scrollto = locatorconfig.getBlueTyga_scrollto();
 	public String AdilQadri_order_now = locatorconfig.getAdilQadri_order_now();
+	public String Levis_kwikpass_login_btn = locatorconfig.getLevis_kwikpass_login_btn();
+	public String Levis_orderbtn = locatorconfig.getLevis_orderbtn();
+	public String Levis_kwikpass_aflogin = locatorconfig.getLevis_kwikpass_aflogin();
+	public String Levis_buynow_btn = locatorconfig.getLevis_buynow_btn();
+	public String Formen_buynow = locatorconfig.getFormen_buynow();
+	public String Formen_checkout = locatorconfig.getFormen_checkout();
 }

@@ -117,6 +117,12 @@
 			
 			<!--AdilQadri Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_AdilQadri_Test_Cases"/>
+			
+			<!--Levi's Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Levis_Test_Cases"/>
+			
+			<!--Formen Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Formen_Test_Cases"/>
 </classes>
 	</test>
 
