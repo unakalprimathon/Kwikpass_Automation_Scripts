@@ -531,4 +531,32 @@ public class LocatorConfig {
 		String Formen_checkout = pro.getProperty("Formen_checkout");
 		return Formen_checkout;
 	}
+	public String getBSC_addtocart() {
+		String BSC_addtocart = pro.getProperty("BSC_addtocart");
+		return BSC_addtocart;
+	}
+	public String getBSC_cart_btn() {
+		String BSC_cart_btn = pro.getProperty("BSC_cart_btn");
+		return BSC_cart_btn;
+	}
+	public String getBSC_placeorder() {
+		String BSC_placeorder = pro.getProperty("BSC_placeorder");
+		return BSC_placeorder;
+	}
+	public String getBSC_logout() {
+		String BSC_logout = pro.getProperty("BSC_logout");
+		return BSC_logout;
+	}
+	public String getGBT_cart_btn() {
+		String GBT_cart_btn = pro.getProperty("GBT_cart_btn");
+		return GBT_cart_btn;
+	}
+	public String getGBT_login_btn() {
+		String GBT_login_btn = pro.getProperty("GBT_login_btn");
+		return GBT_login_btn;
+	}
+	public String getFoxtale_buynow() {
+		String Foxtale_buynow = pro.getProperty("Foxtale_buynow");
+		return Foxtale_buynow;
+	}
 }

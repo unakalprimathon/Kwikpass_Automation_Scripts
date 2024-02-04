@@ -132,4 +132,11 @@ public interface Locator {
 	public String Levis_buynow_btn = locatorconfig.getLevis_buynow_btn();
 	public String Formen_buynow = locatorconfig.getFormen_buynow();
 	public String Formen_checkout = locatorconfig.getFormen_checkout();
+	public String BSC_addtocart = locatorconfig.getBSC_addtocart();
+	public String BSC_cart_btn = locatorconfig.getBSC_cart_btn();
+	public String BSC_placeorder = locatorconfig.getBSC_placeorder();
+	public String BSC_logout = locatorconfig.getBSC_logout();
+	public String GBT_cart_btn = locatorconfig.getGBT_cart_btn();
+	public String GBT_login_btn =locatorconfig.getGBT_login_btn();
+	public String Foxtale_buynow = locatorconfig.getFoxtale_buynow();
 }

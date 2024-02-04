@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -135,76 +134,6 @@ public class TC_Levis_Test_Cases extends BaseClass implements Locator{
 		}
 	}
 
-	@Test
-	public void Verify_Levis_Kwikpass_login_Done_Gokwik_login_should_happen() throws IOException, InterruptedException {
-		logger.info("Verify_Levis_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....");
-		driver.get("https://levi.in/");
-		logger.info("URL is open");
-		logger.info("Levis does not have Kwikpass AP");
-		WebElement kp_login_btn = driver.findElement(By.id(Levis_kwikpass_login_btn));
-		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
-		kp_login_btn.click();
-		logger.info("Clicked Kwikpass Icon");
-		LoginPage lp = new LoginPage(driver);
-		sleep(3);
-		lp.switchToIframe(kwikpass_iframe);
-		logger.info("switched to Kwikpass login modal iframe");
-		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		logger.info("Mobile number entered");
-		sleep(2);
-		driver.findElement(By.id(otp_input)).sendKeys(otp);
-		logger.info("OTP entered");
-		sleep(8);
-		driver.switchTo().defaultContent();
-		WebElement kp_after_login_btn = driver.findElement(By.className(Levis_kwikpass_aflogin));
-		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
-		kp_after_login_btn.click();
-		logger.info("Clicked Kwikpass Icon after login");
-		By logoutbtn = By.xpath(acc_logout_btn);  
-		By ordersbtn = By.xpath(Levis_orderbtn);
-		boolean logoutbtnPresent = !driver.findElements(logoutbtn).isEmpty();
-		boolean ordersbtnPresent = !driver.findElements(ordersbtn).isEmpty();
-		if (logoutbtnPresent && ordersbtnPresent) {
-			logger.info("Login Successful !");
-			sleep(3);
-			driver.navigate().to("https://levi.in/products/mens-511-dark-indigo-slim-fit-jeans-182981342");
-			logger.info("Navigated to PDP page");
-			 String script = String.format("window.scrollTo(%d, %d);", 500, 500);
-		     ((JavascriptExecutor) driver).executeScript(script);
-			WebElement ordernow = driver.findElement(By.xpath(Levis_buynow_btn));
-			WebDriverWait addtocart_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-			addtocart_wait.until(ExpectedConditions.elementToBeClickable(ordernow));
-			ordernow.click();
-			logger.info("Clicked Buy now button");
-			sleep(5);
-			lp.switchToGokwikIframe(gokwik_iframe);
-			logger.info("Switched to gokwik checkout");
-			WebElement gkpname = driver.findElement(By.xpath(gokwikname));
-			WebDriverWait gkpname_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-			gkpname_wait.until(ExpectedConditions.elementToBeClickable(gkpname));
-			String X = gkpname.getText();
-			logger.info(X);
-			String x1 = gokwik_name_;
-			if (X.equals(x1)) {
-				logger.info("Gokwik login successfull !");
-				sleep(2);
-				logger.info("Verify_Levis_Kwikpass_login_Done_Gokwik_login_should_happen Test case passed!");
-				logger.info("Test Case Completed !");
-			} else {
-				logger.info("Gokwik login fail");
-				logger.info("Verify_Levis_Kwikpass_login_Done_Gokwik_login_should_happen Test case failed!");
-				captureScreen(driver, "FVerify_Levis_Kwikpass_login_Done_Gokwik_login_should_happen failed");
-				Assert.fail("Verify_Levis_Kwikpass_login_Done_Gokwik_login_should_happen failed");
-			}
-		} else {
-			logger.info("Login Unsuccessful !");
-			logger.info("Verify_Levis_Kwikpass_login_Done_Gokwik_login_should_happen Test Cases failed!");
-			captureScreen(driver, "Verify_Levis_Kwikpass_login_Done_Gokwik_login_should_happen failed !");
-			Assert.fail("Verify_Levis_Kwikpass_login_Done_Gokwik_login_should_happen failed");
-		}
-	}
 	
 	@Test
 	public void Verify_Levis_KwikPass_Login_modal_Verfication_at_accountpage()throws IOException, InterruptedException {

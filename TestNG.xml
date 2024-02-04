@@ -93,15 +93,15 @@
 			
 			<!--TrueElements Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_TrueElements_Test_Cases"/>
-
+			
 			<!--Urbangabru Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Urbangabru_Test_Cases"/>
 			
 			<!--Krishnaayurved Test cases -->
-			<class name="com.kwikpass.automation.scripts.TC_Krishnaayurved_Test_Cases"/>
+			<class name="com.kwikpass.automation.scripts.TC_Krishnaayurved_Test_Cases"/>		
 			
 			<!--Nurserylive_Pune Test cases -->
-			<class name="com.kwikpass.automation.scripts.TC_Nurserylive_Pune_Test_Cases"/>
+			<class name="com.kwikpass.automation.scripts.TC_Nurserylive_Pune_Test_Cases"/>	
 			
 			<!--MyWishCare Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_MyWishCare_Test_Cases"/>
@@ -123,6 +123,16 @@
 			
 			<!--Formen Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Formen_Test_Cases"/>
+			
+			<!--BSC Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_BSC_Test_Cases"/>
+			
+			<!--GBT Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_GBT_Test_Cases"/>
+			
+			<!--Foxtale Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Foxtale_Test_Cases"/>
+			
 </classes>
 	</test>
 
