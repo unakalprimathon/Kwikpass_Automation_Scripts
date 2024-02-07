@@ -89,6 +89,13 @@ public class TC_MyWishCare_Test_Cases extends BaseClass implements Locator{
 		logger.info("OTP entered");
 		sleep(8);
 		driver.switchTo().defaultContent();
+		sleep(2);
+		WebElement nothanks = driver.findElement(By.xpath(MyWishCare_closepopup));
+		WebDriverWait nothanks_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		nothanks_wait.until(ExpectedConditions.elementToBeClickable(nothanks));
+		nothanks.click();
+		logger.info("Closed popup");
+		sleep(2);
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
@@ -132,6 +139,13 @@ public class TC_MyWishCare_Test_Cases extends BaseClass implements Locator{
 		logger.info("OTP entered");
 		sleep(8);
 		driver.switchTo().defaultContent();
+		sleep(2);
+		WebElement nothanks = driver.findElement(By.xpath(MyWishCare_closepopup));
+		WebDriverWait nothanks_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		nothanks_wait.until(ExpectedConditions.elementToBeClickable(nothanks));
+		nothanks.click();
+		logger.info("Closed popup");
+		sleep(2);
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
@@ -143,6 +157,11 @@ public class TC_MyWishCare_Test_Cases extends BaseClass implements Locator{
 		String vurl = "https://www.mywishcare.com/account";
 		if (curl.equals(vurl)) {
 			sleep(2);
+			WebElement nothanks1 = driver.findElement(By.xpath(MyWishCare_closepopup));
+			WebDriverWait nothanks1_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			nothanks1_wait.until(ExpectedConditions.elementToBeClickable(nothanks1));
+			nothanks1.click();
+			logger.info("Closed popup");
 			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
 			logger.info("Shopify login and session created in MyWishCare after Kwikpass login passed.");
 			logger.info("Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
@@ -210,6 +229,11 @@ public class TC_MyWishCare_Test_Cases extends BaseClass implements Locator{
 			String vurl = "https://www.mywishcare.com/account";
 			if (curl.equals(vurl)) {
 				sleep(2);
+				WebElement nothanks = driver.findElement(By.xpath(MyWishCare_closepopup));
+				WebDriverWait nothanks_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				nothanks_wait.until(ExpectedConditions.elementToBeClickable(nothanks));
+				nothanks.click();
+				logger.info("Closed popup");
 				driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
 				logger.info("The Kwikpass Login successfull.");
 				logger.info("Verify_MyWishCare_KwikPass_Login_at_accountpage Test Cases passed!");
@@ -249,10 +273,17 @@ public class TC_MyWishCare_Test_Cases extends BaseClass implements Locator{
 		logger.info("OTP entered");
 		sleep(8);
 		driver.switchTo().defaultContent();
+		sleep(2);
+		WebElement nothanks = driver.findElement(By.xpath(MyWishCare_closepopup));
+		WebDriverWait nothanks_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		nothanks_wait.until(ExpectedConditions.elementToBeClickable(nothanks));
+		nothanks.click();
+		logger.info("Closed popup");
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
 		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
 		By logoutbtn = By.xpath(logout_btn);
 		By orderhistorybtn = By.xpath(orderhistory_btn);
 		boolean logoutbtnPresent = !driver.findElements(logoutbtn).isEmpty();
@@ -263,6 +294,12 @@ public class TC_MyWishCare_Test_Cases extends BaseClass implements Locator{
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://www.mywishcare.com/account";
 			if (curl.equals(vurl)) {
+				sleep(2);
+				WebElement nothanks1 = driver.findElement(By.xpath(MyWishCare_closepopup));
+				WebDriverWait nothanks1_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				nothanks1_wait.until(ExpectedConditions.elementToBeClickable(nothanks1));
+				nothanks1.click();
+				logger.info("Closed popup");
 				driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
 				logger.info("Login Successful !");
 				logger.info("Verify_MyWishCare_Kwikpass_login_Done_Redirect_to_accountpage Test Case passed!");
