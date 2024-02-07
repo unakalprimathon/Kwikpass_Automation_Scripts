@@ -5767,3 +5767,365 @@
 2024-01-28 12:27:10,876  INFO [main] Kwikpass:183 - The Kwikpass Login modal has OTP via SMS and WhatsApp login.
 2024-01-28 12:27:10,960  INFO [main] Kwikpass:185 - Mobile number entered
 2024-01-28 12:27:13,037  INFO [main] Kwikpass:188 - OTP entered
+2024-02-04 12:49:20,589  INFO [main] Kwikpass:47 - Verify_TheLoveCO_KwikPass_AP_Visiblity_At_Collection_page Test Case is running.....
+2024-02-04 12:49:22,439  INFO [main] Kwikpass:49 - URL is open
+2024-02-04 12:49:22,439  INFO [main] Kwikpass:50 - TheLoveCO has Kwikpass AP
+2024-02-04 12:49:24,604  INFO [main] Kwikpass:52 - Navigated to collections pages
+2024-02-04 12:49:37,659  INFO [main] Kwikpass:56 - switched to Kwikpass login modal iframe
+2024-02-04 12:49:37,692  INFO [main] Kwikpass:62 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:49:37,692  INFO [main] Kwikpass:63 - Verify_TheLoveCO_KwikPass_AP_Visiblity_At_Collection_page Test Cases passed!
+2024-02-04 12:49:37,692  INFO [main] Kwikpass:64 - Test Cases Completed !
+2024-02-04 12:49:39,127  INFO [main] Kwikpass:75 - Verify_TheLoveCO_KwikPass_AP_Visiblity_At_Home_Page Test Case is running.....
+2024-02-04 12:49:40,939  INFO [main] Kwikpass:77 - URL is open
+2024-02-04 12:49:40,939  INFO [main] Kwikpass:78 - TheLoveCO has Kwikpass AP
+2024-02-04 12:49:54,002  INFO [main] Kwikpass:82 - switched to Kwikpass login modal iframe
+2024-02-04 12:49:54,020  INFO [main] Kwikpass:88 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:49:54,034  INFO [main] Kwikpass:89 - Verify_TheLoveCO_KwikPass_AP_Visiblity_At_Home_Page Test Cases passed!
+2024-02-04 12:49:54,034  INFO [main] Kwikpass:90 - Test Cases Completed !
+2024-02-04 12:49:55,353  INFO [main] Kwikpass:101 - Verify_TheLoveCO_KwikPass_AP_Visiblity_At_PDP_page Test Case is running.....
+2024-02-04 12:49:57,189  INFO [main] Kwikpass:103 - URL is open
+2024-02-04 12:49:57,189  INFO [main] Kwikpass:104 - TheLoveCO has Kwikpass AP
+2024-02-04 12:49:58,591  INFO [main] Kwikpass:106 - Navigated to PDP pages
+2024-02-04 12:50:11,642  INFO [main] Kwikpass:110 - switched to Kwikpass login modal iframe
+2024-02-04 12:50:11,674  INFO [main] Kwikpass:116 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:50:11,674  INFO [main] Kwikpass:117 - Verify_TheLoveCO_KwikPass_AP_Visiblity_At_PDP_page Test Cases passed!
+2024-02-04 12:50:11,674  INFO [main] Kwikpass:118 - Test Cases Completed !
+2024-02-04 12:50:13,029  INFO [main] Kwikpass:21 - Verify_TheLoveCO_KwikPass_AP_modal_Verfication Test Case is running.....
+2024-02-04 12:50:14,895  INFO [main] Kwikpass:23 - URL is open
+2024-02-04 12:50:14,895  INFO [main] Kwikpass:24 - TheLoveCO has Kwikpass AP
+2024-02-04 12:50:27,939  INFO [main] Kwikpass:28 - switched to Kwikpass login modal iframe
+2024-02-04 12:50:27,957  INFO [main] Kwikpass:34 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:50:27,957  INFO [main] Kwikpass:35 - Verify_TheLoveCO_KwikPass_AP_modal_Verfication Test Cases passed!
+2024-02-04 12:50:27,957  INFO [main] Kwikpass:36 - Test Cases Completed !
+2024-02-04 12:50:29,291  INFO [main] Kwikpass:234 - Verify_TheLoveCO_KwikPass_Login_modal_Verfication Test case is running.....
+2024-02-04 12:50:31,055  INFO [main] Kwikpass:236 - URL is open
+2024-02-04 12:50:31,055  INFO [main] Kwikpass:237 - TheLoveCO has Kwikpass AP
+2024-02-04 12:50:31,325  INFO [main] Kwikpass:242 - Clicked Kwikpass Icon
+2024-02-04 12:50:34,363  INFO [main] Kwikpass:246 - switched to Kwikpass login modal iframe
+2024-02-04 12:50:34,386  INFO [main] Kwikpass:252 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:50:34,386  INFO [main] Kwikpass:253 - Verify_TheLoveCO_KwikPass_Login_modal_Verfication Test Cases passed!
+2024-02-04 12:50:34,386  INFO [main] Kwikpass:254 - Test Cases Completed !
+2024-02-04 12:50:35,724  INFO [main] Kwikpass:214 - Verify_TheLoveCO_KwikPass_icon_visibility case is running.....
+2024-02-04 12:50:37,545  INFO [main] Kwikpass:216 - URL is open
+2024-02-04 12:50:37,545  INFO [main] Kwikpass:217 - TheLoveCO has Kwikpass AP
+2024-02-04 12:50:37,597  INFO [main] Kwikpass:220 - Kwikpass icon visible in TheLOveCO
+2024-02-04 12:50:37,597  INFO [main] Kwikpass:221 - Verify_TheLoveCO_KwikPass_icon_visibility test case passed!
+2024-02-04 12:50:37,598  INFO [main] Kwikpass:222 - Test Cases Completed !
+2024-02-04 12:50:38,847  INFO [main] Kwikpass:375 - Verify_TheLoveCO_KwikPass_login_modal_verification_from_accountpage Test case is running.....
+2024-02-04 12:50:41,656  INFO [main] Kwikpass:377 - URL is open
+2024-02-04 12:50:41,657  INFO [main] Kwikpass:378 - TheLoveCO does not have Kwikpass AP
+2024-02-04 12:50:46,698  INFO [main] Kwikpass:382 - switched to Kwikpass login modal iframe
+2024-02-04 12:50:46,714  INFO [main] Kwikpass:388 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:50:46,714  INFO [main] Kwikpass:389 - Verify_TheLoveCO_KwikPass_login_modal_verification_from_accountpage Test Cases passed!
+2024-02-04 12:50:46,714  INFO [main] Kwikpass:390 - Test Case Completed !
+2024-02-04 12:50:47,985  INFO [main] Kwikpass:446 - Verify_TheLoveCO_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....
+2024-02-04 12:50:50,182  INFO [main] Kwikpass:448 - URL is open
+2024-02-04 12:50:50,182  INFO [main] Kwikpass:449 - TheLoveCO does not have Kwikpass AP
+2024-02-04 12:50:52,478  INFO [main] Kwikpass:454 - Clicked Kwikpass Icon
+2024-02-04 12:50:55,507  INFO [main] Kwikpass:458 - switched to Kwikpass login modal iframe
+2024-02-04 12:50:56,886  INFO [main] Kwikpass:130 - Verify_TheLoveCO_Kwikpass_login_from_AP_using_OTP_Via_SMS Test Case is running.....
+2024-02-04 12:50:58,675  INFO [main] Kwikpass:132 - URL is open
+2024-02-04 12:50:58,675  INFO [main] Kwikpass:133 - TheLoveCO has Kwikpass AP
+2024-02-04 12:51:13,094  INFO [main] Kwikpass:175 - Verify_TheLoveCO_Kwikpass_login_from_Login_Modal_using_OTP_Via_SMS Test case is running.....
+2024-02-04 12:51:16,406  INFO [main] Kwikpass:177 - URL is open
+2024-02-04 12:51:16,406  INFO [main] Kwikpass:178 - TheLoveCO has Kwikpass AP
+2024-02-04 12:51:16,530  INFO [main] Kwikpass:183 - Clicked Kwikpass Icon
+2024-02-04 12:51:19,572  INFO [main] Kwikpass:187 - switched to Kwikpass login modal iframe
+2024-02-04 12:51:22,719  INFO [main] Kwikpass:191 - OTP entered
+2024-02-04 12:51:34,449  INFO [main] Kwikpass:401 - Verify_TheLoveCO_Kwikpass_login_using_OTP_Via_SMS_from_accountpage Test case is running.....
+2024-02-04 12:51:34,449  INFO [main] Kwikpass:402 - Verify_TheLoveCO_KwikPass_login_modal_verification_from_accountpage Test case is running.....
+2024-02-04 12:51:37,248  INFO [main] Kwikpass:404 - URL is open
+2024-02-04 12:51:37,248  INFO [main] Kwikpass:405 - TheLoveCO does not have Kwikpass AP
+2024-02-04 12:51:42,279  INFO [main] Kwikpass:409 - switched to Kwikpass login modal iframe
+2024-02-04 12:51:42,385  INFO [main] Kwikpass:416 - Mobile number entered
+2024-02-04 12:51:44,484  INFO [main] Kwikpass:419 - OTP entered
+2024-02-04 12:51:54,511  INFO [main] Kwikpass:430 - Kwikpass login unsuccessful.
+2024-02-04 12:51:54,512  INFO [main] Kwikpass:431 - Verify_TheLoveCO_Kwikpass_login_using_OTP_Via_SMS_from_accountpage Test Case failed!
+2024-02-04 12:51:55,948  INFO [main] Kwikpass:265 - Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Case is running.....
+2024-02-04 12:51:57,728  INFO [main] Kwikpass:267 - URL is open
+2024-02-04 12:51:57,728  INFO [main] Kwikpass:268 - TheLoveCO has Kwikpass AP
+2024-02-04 12:52:10,794  INFO [main] Kwikpass:272 - switched to Kwikpass login modal iframe
+2024-02-04 12:52:10,816  INFO [main] Kwikpass:278 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:52:13,990  INFO [main] Kwikpass:282 - OTP entered
+2024-02-04 12:52:25,344  INFO [main] Kwikpass:323 - Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test case is running.....
+2024-02-04 12:52:28,659  INFO [main] Kwikpass:325 - URL is open
+2024-02-04 12:52:28,659  INFO [main] Kwikpass:326 - TheLoveCO has Kwikpass AP
+2024-02-04 12:52:28,777  INFO [main] Kwikpass:331 - Clicked Kwikpass Icon
+2024-02-04 12:52:31,815  INFO [main] Kwikpass:335 - switched to Kwikpass login modal iframe
+2024-02-04 12:52:34,980  INFO [main] Kwikpass:339 - OTP entered
+2024-02-04 12:52:46,350  INFO [main] Kwikpass:266 - Verify_Weryze_KwikPass_login_from_accountpage Test case is running.....
+2024-02-04 12:52:48,721  INFO [main] Kwikpass:268 - URL is open
+2024-02-04 12:52:48,721  INFO [main] Kwikpass:269 - Weryze does not have Kwikpass AP
+2024-02-04 12:52:56,835  INFO [main] Kwikpass:276 - Closed spin wheel
+2024-02-04 12:52:58,889  INFO [main] Kwikpass:279 - switched to Kwikpass login modal iframe
+2024-02-04 12:52:58,985  INFO [main] Kwikpass:286 - Mobile number entered
+2024-02-04 12:53:01,055  INFO [main] Kwikpass:289 - OTP entered
+2024-02-04 12:53:11,075  INFO [main] Kwikpass:292 - Switched to default page
+2024-02-04 12:53:26,091  INFO [main] Kwikpass:307 - Shopify login and session not created in Weryze after Kwikpass login .
+2024-02-04 12:53:26,091  INFO [main] Kwikpass:308 - Verify_Weryze_KwikPass_login_from_accountpage Test Case failed!
+2024-02-04 12:53:27,530  INFO [main] Kwikpass:21 - Verify_Weryze_KwikPass_login_icon_Visibilty Test case is running.....
+2024-02-04 12:53:29,059  INFO [main] Kwikpass:23 - URL is open
+2024-02-04 12:53:29,060  INFO [main] Kwikpass:24 - Weryze does not have Kwikpass AP
+2024-02-04 12:53:29,225  INFO [main] Kwikpass:29 - The Kwikpass icon visible.
+2024-02-04 12:53:29,225  INFO [main] Kwikpass:30 - Verify_Weryze_KwikPass_login_icon_Visibilty Test Cases passed!
+2024-02-04 12:53:29,225  INFO [main] Kwikpass:31 - Test Case Completed !
+2024-02-04 12:53:30,512  INFO [main] Kwikpass:74 - Verify_Weryze_KwikPass_login_modal_verification Test case is running.....
+2024-02-04 12:53:32,082  INFO [main] Kwikpass:76 - URL is open
+2024-02-04 12:53:32,082  INFO [main] Kwikpass:77 - Weryze does not have Kwikpass AP
+2024-02-04 12:53:32,241  INFO [main] Kwikpass:82 - Clicked Kwikpass Icon
+2024-02-04 12:53:35,280  INFO [main] Kwikpass:86 - switched to Kwikpass login modal iframe
+2024-02-04 12:53:35,302  INFO [main] Kwikpass:92 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:53:35,302  INFO [main] Kwikpass:93 - Verify_Weryze_KwikPass_login_modal_verification Test Cases passed!
+2024-02-04 12:53:35,303  INFO [main] Kwikpass:94 - Test Case Completed !
+2024-02-04 12:53:36,615  INFO [main] Kwikpass:42 - Verify_Weryze_KwikPass_login_modal_verification_from_accountpage Test case is running.....
+2024-02-04 12:53:38,792  INFO [main] Kwikpass:44 - URL is open
+2024-02-04 12:53:38,793  INFO [main] Kwikpass:45 - Weryze does not have Kwikpass AP
+2024-02-04 12:53:46,894  INFO [main] Kwikpass:52 - Closed spin wheel
+2024-02-04 12:53:48,943  INFO [main] Kwikpass:55 - switched to Kwikpass login modal iframe
+2024-02-04 12:53:48,965  INFO [main] Kwikpass:61 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:53:48,965  INFO [main] Kwikpass:62 - Verify_Weryze_KwikPass_login_modal_verification_from_accountpage Test Cases passed!
+2024-02-04 12:53:48,966  INFO [main] Kwikpass:63 - Test Case Completed !
+2024-02-04 12:53:50,253  INFO [main] Kwikpass:322 - Verify_Weryze_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....
+2024-02-04 12:53:51,830  INFO [main] Kwikpass:324 - URL is open
+2024-02-04 12:53:51,830  INFO [main] Kwikpass:325 - Weryze does not have Kwikpass AP
+2024-02-04 12:53:59,921  INFO [main] Kwikpass:331 - Closed spin wheel
+2024-02-04 12:54:02,041  INFO [main] Kwikpass:337 - Clicked Kwikpass Icon
+2024-02-04 12:54:07,084  INFO [main] Kwikpass:341 - switched to Kwikpass login modal iframe
+2024-02-04 12:54:07,179  INFO [main] Kwikpass:343 - Mobile number entered
+2024-02-04 12:54:09,279  INFO [main] Kwikpass:346 - OTP entered
+2024-02-04 12:54:30,657  INFO [main] Kwikpass:105 - Verify_Weryze_Kwikpass_login_using_OTP_Via_SMS Test case is running.....
+2024-02-04 12:54:33,009  INFO [main] Kwikpass:107 - URL is open
+2024-02-04 12:54:33,010  INFO [main] Kwikpass:108 - Weryze does not have Kwikpass AP
+2024-02-04 12:54:33,161  INFO [main] Kwikpass:113 - Clicked Kwikpass Icon
+2024-02-04 12:54:41,254  INFO [main] Kwikpass:120 - Closed spin wheel
+2024-02-04 12:54:43,283  INFO [main] Kwikpass:123 - switched to Kwikpass login modal iframe
+2024-02-04 12:54:43,357  INFO [main] Kwikpass:125 - Mobile number entered
+2024-02-04 12:54:45,416  INFO [main] Kwikpass:128 - OTP entered
+2024-02-04 12:55:07,294  INFO [main] Kwikpass:206 - Verify_Weryze_Kwikpass_login_using_OTP_Via_SMS_from_Rewards Test case is running.....
+2024-02-04 12:55:09,566  INFO [main] Kwikpass:208 - URL is open
+2024-02-04 12:55:09,566  INFO [main] Kwikpass:209 - Weryze does not have Kwikpass AP
+2024-02-04 12:55:17,653  INFO [main] Kwikpass:216 - Closed spin wheel
+2024-02-04 12:55:19,733  INFO [main] Kwikpass:222 - Clicked rewards_btn 
+2024-02-04 12:55:29,768  INFO [main] Kwikpass:225 - Switched to rewards iframe
+2024-02-04 12:55:29,883  INFO [main] Kwikpass:230 - Clicked rewards_sign_btn 
+2024-02-04 12:55:34,947  INFO [main] Kwikpass:234 - switched to Kwikpass login modal iframe
+2024-02-04 12:55:35,015  INFO [main] Kwikpass:236 - Mobile number entered
+2024-02-04 12:55:37,081  INFO [main] Kwikpass:239 - OTP entered
+2024-02-04 12:55:58,908  INFO [main] Kwikpass:155 - Verify_Weryze_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-02-04 12:56:00,512  INFO [main] Kwikpass:157 - URL is open
+2024-02-04 12:56:00,512  INFO [main] Kwikpass:158 - Weryze does not have Kwikpass AP
+2024-02-04 12:56:00,729  INFO [main] Kwikpass:163 - Clicked Kwikpass Icon
+2024-02-04 12:56:08,803  INFO [main] Kwikpass:170 - Closed spin wheel
+2024-02-04 12:56:10,843  INFO [main] Kwikpass:173 - switched to Kwikpass login modal iframe
+2024-02-04 12:56:10,927  INFO [main] Kwikpass:175 - Mobile number entered
+2024-02-04 12:56:12,986  INFO [main] Kwikpass:178 - OTP entered
+2024-02-04 12:56:34,811  INFO [main] Kwikpass:47 - Verify_Whatsup_Wellness_KwikPass_login_modal_verification Test case is running.....
+2024-02-04 12:56:36,978  INFO [main] Kwikpass:49 - URL is open
+2024-02-04 12:56:36,978  INFO [main] Kwikpass:50 - Whatsup_Wellness does not have Kwikpass AP
+2024-02-04 12:56:37,092  INFO [main] Kwikpass:55 - Clicked Hamburger
+2024-02-04 12:56:38,251  INFO [main] Kwikpass:60 - Clicked login btn
+2024-02-04 12:56:43,305  INFO [main] Kwikpass:64 - switched to Kwikpass login modal iframe
+2024-02-04 12:56:43,329  INFO [main] Kwikpass:70 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:56:43,329  INFO [main] Kwikpass:71 - Verify_Whatsup_Wellness_KwikPass_login_modal_verification Test Cases passed!
+2024-02-04 12:56:43,329  INFO [main] Kwikpass:72 - Test Case Completed !
+2024-02-04 12:56:44,628  INFO [main] Kwikpass:21 - Verify_Whatsup_Wellness_KwikPass_login_modal_verification_from_accountpage Test case is running.....
+2024-02-04 12:56:48,071  INFO [main] Kwikpass:23 - URL is open
+2024-02-04 12:56:48,071  INFO [main] Kwikpass:24 - Whatsup_Wellness does not have Kwikpass AP
+2024-02-04 12:56:53,132  INFO [main] Kwikpass:28 - switched to Kwikpass login modal iframe
+2024-02-04 12:56:53,153  INFO [main] Kwikpass:34 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 12:56:53,154  INFO [main] Kwikpass:35 - Verify_Whatsup_Wellness_KwikPass_login_modal_verification_from_accountpage Test Cases passed!
+2024-02-04 12:56:53,154  INFO [main] Kwikpass:36 - Test Case Completed !
+2024-02-04 12:56:54,458  INFO [main] Kwikpass:216 - Verify_Whatsup_Wellness_Kwikpass_login_Done_Redirect_to_Account_page Test case is running.....
+2024-02-04 12:56:56,565  INFO [main] Kwikpass:218 - URL is open
+2024-02-04 12:56:56,565  INFO [main] Kwikpass:219 - Whatsup_Wellness does not have Kwikpass AP
+2024-02-04 12:56:56,668  INFO [main] Kwikpass:224 - Clicked Hamburger btn
+2024-02-04 12:56:57,827  INFO [main] Kwikpass:229 - Clicked login btn
+2024-02-04 12:57:02,875  INFO [main] Kwikpass:233 - switched to Kwikpass login modal iframe
+2024-02-04 12:57:02,942  INFO [main] Kwikpass:235 - Mobile number entered
+2024-02-04 12:57:05,000  INFO [main] Kwikpass:238 - OTP entered
+2024-02-04 12:57:15,005  INFO [main] Kwikpass:241 - Clicked Kwikpass Icon after login
+2024-02-04 12:57:15,036  INFO [main] Kwikpass:266 - Kwikpass Login Unsuccessful !
+2024-02-04 12:57:15,036  INFO [main] Kwikpass:267 - Verify_Whatsup_Wellness_Kwikpass_login_Done_Redirect_to_Account_page Test Cases failed!
+2024-02-04 12:57:16,405  INFO [main] Kwikpass:83 - Verify_Whatsup_Wellness_Kwikpass_login_using_OTP_Via_SMS Test case is running.....
+2024-02-04 12:57:18,613  INFO [main] Kwikpass:85 - URL is open
+2024-02-04 12:57:18,613  INFO [main] Kwikpass:86 - Whatsup_Wellness does not have Kwikpass AP
+2024-02-04 12:57:18,717  INFO [main] Kwikpass:91 - Clicked Hamburger btn
+2024-02-04 12:57:19,853  INFO [main] Kwikpass:96 - Clicked login btn
+2024-02-04 12:57:24,914  INFO [main] Kwikpass:100 - switched to Kwikpass login modal iframe
+2024-02-04 12:57:24,985  INFO [main] Kwikpass:102 - Mobile number entered
+2024-02-04 12:57:27,043  INFO [main] Kwikpass:105 - OTP entered
+2024-02-04 12:57:37,058  INFO [main] Kwikpass:108 - Clicked Kwikpass Icon after login
+2024-02-04 12:57:37,089  INFO [main] Kwikpass:116 - Kwikpass Login Unsuccessful !
+2024-02-04 12:57:37,089  INFO [main] Kwikpass:117 - Verify_Whatsup_Wellness_Kwikpass_login_using_OTP_Via_SMS Test Cases failed!
+2024-02-04 12:57:38,556  INFO [main] Kwikpass:171 - Verify_Whatsup_Wellness_Kwikpass_login_using_OTP_Via_SMS_from_accountpage Test case is running.....
+2024-02-04 12:57:38,556  INFO [main] Kwikpass:172 - Verify_Whatsup_Wellness_KwikPass_login_modal_verification_from_accountpage Test case is running.....
+2024-02-04 12:57:42,003  INFO [main] Kwikpass:174 - URL is open
+2024-02-04 12:57:42,004  INFO [main] Kwikpass:175 - Whatsup_Wellness does not have Kwikpass AP
+2024-02-04 12:57:47,036  INFO [main] Kwikpass:179 - switched to Kwikpass login modal iframe
+2024-02-04 12:57:47,122  INFO [main] Kwikpass:186 - Mobile number entered
+2024-02-04 12:57:49,184  INFO [main] Kwikpass:189 - OTP entered
+2024-02-04 12:57:59,214  INFO [main] Kwikpass:200 - Kwikpass login unsuccessful.
+2024-02-04 12:57:59,214  INFO [main] Kwikpass:201 - Verify_Whatsup_Wellness_Kwikpass_login_using_OTP_Via_SMS_from_accountpage Test Case failed!
+2024-02-04 12:58:00,703  INFO [main] Kwikpass:126 - Verify_Whatsup_Wellness_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-02-04 13:00:44,581  INFO [main] Kwikpass:255 - Verify_AdilQadri_KwikPass_Login_at_accountpage Test case is running.....
+2024-02-04 13:00:46,958  INFO [main] Kwikpass:257 - URL is open
+2024-02-04 13:00:46,959  INFO [main] Kwikpass:258 - AdilQadri has Kwikpass AP
+2024-02-04 13:00:46,959  INFO [main] Kwikpass:259 - Clicked Kwikpass Icon
+2024-02-04 13:00:50,001  INFO [main] Kwikpass:263 - switched to Kwikpass login modal iframe
+2024-02-04 13:00:50,035  INFO [main] Kwikpass:269 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-02-04 13:00:50,119  INFO [main] Kwikpass:271 - Mobile number entered
+2024-02-04 13:01:44,591  INFO [main] Kwikpass:255 - Verify_AdilQadri_KwikPass_Login_at_accountpage Test case is running.....
+2024-02-04 13:01:46,760  INFO [main] Kwikpass:257 - URL is open
+2024-02-04 13:01:46,761  INFO [main] Kwikpass:258 - AdilQadri has Kwikpass AP
+2024-02-04 13:01:46,761  INFO [main] Kwikpass:259 - Clicked Kwikpass Icon
+2024-02-04 13:01:49,810  INFO [main] Kwikpass:263 - switched to Kwikpass login modal iframe
+2024-02-04 13:01:49,837  INFO [main] Kwikpass:269 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-02-04 13:01:49,918  INFO [main] Kwikpass:271 - Mobile number entered
+2024-02-04 13:01:51,990  INFO [main] Kwikpass:274 - OTP entered
+2024-02-04 13:02:00,000  INFO [main] Kwikpass:285 - Verify_AdilQadri_KwikPass_Login_at_accountpage Test Case failed!
+2024-02-04 13:02:01,786  INFO [main] Kwikpass:228 - Verify_AdilQadri_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....
+2024-02-04 13:02:03,882  INFO [main] Kwikpass:230 - URL is open
+2024-02-04 13:02:03,883  INFO [main] Kwikpass:231 - AdilQadri has Kwikpass AP
+2024-02-04 13:02:03,884  INFO [main] Kwikpass:232 - Clicked Kwikpass Icon
+2024-02-04 13:02:06,932  INFO [main] Kwikpass:236 - switched to Kwikpass login modal iframe
+2024-02-04 13:02:06,955  INFO [main] Kwikpass:242 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 13:02:06,955  INFO [main] Kwikpass:243 - Verify_AdilQadri_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!
+2024-02-04 13:02:06,956  INFO [main] Kwikpass:244 - Test Cases Completed !
+2024-02-04 13:02:08,314  INFO [main] Kwikpass:52 - Verify_AdilQadri_KwikPass_login_icon_Visibilty Test case is running.....
+2024-02-04 13:02:10,220  INFO [main] Kwikpass:54 - URL is opened
+2024-02-04 13:02:10,220  INFO [main] Kwikpass:55 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:02:10,274  INFO [main] Kwikpass:58 - Kwikpass icon is visible
+2024-02-04 13:02:10,275  INFO [main] Kwikpass:59 - Verify_AdilQadri_KwikPass_login_icon_Visibilty Test case Passed !
+2024-02-04 13:02:10,275  INFO [main] Kwikpass:60 - Test Case Completed !
+2024-02-04 13:02:11,586  INFO [main] Kwikpass:21 - Verify_AdilQadri_KwikPass_login_modal_verification Test case is running.....
+2024-02-04 13:02:13,162  INFO [main] Kwikpass:23 - URL is open
+2024-02-04 13:02:13,162  INFO [main] Kwikpass:24 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:02:13,309  INFO [main] Kwikpass:29 - Clicked Kwikpass Icon
+2024-02-04 13:02:16,358  INFO [main] Kwikpass:33 - switched to Kwikpass login modal iframe
+2024-02-04 13:02:16,381  INFO [main] Kwikpass:39 - The Kwikpass Login modal verification passed.
+2024-02-04 13:02:16,381  INFO [main] Kwikpass:40 - Verify_AdilQadri_KwikPass_login_modal_verification Test Cases passed!
+2024-02-04 13:02:16,382  INFO [main] Kwikpass:41 - Test Case Completed !
+2024-02-04 13:02:17,635  INFO [main] Kwikpass:159 - Verify_AdilQadri_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-02-04 13:02:19,336  INFO [main] Kwikpass:161 - URL is open
+2024-02-04 13:02:19,337  INFO [main] Kwikpass:162 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:02:19,485  INFO [main] Kwikpass:167 - Clicked Kwikpass Icon
+2024-02-04 13:02:22,530  INFO [main] Kwikpass:171 - switched to Kwikpass login modal iframe
+2024-02-04 13:02:22,605  INFO [main] Kwikpass:173 - Mobile number entered
+2024-02-04 13:02:24,685  INFO [main] Kwikpass:176 - OTP entered
+2024-02-04 13:03:41,966  INFO [main] Kwikpass:255 - Verify_AdilQadri_KwikPass_Login_at_accountpage Test case is running.....
+2024-02-04 13:03:44,155  INFO [main] Kwikpass:257 - URL is open
+2024-02-04 13:03:44,155  INFO [main] Kwikpass:258 - AdilQadri has Kwikpass AP
+2024-02-04 13:03:44,156  INFO [main] Kwikpass:259 - Clicked Kwikpass Icon
+2024-02-04 13:03:47,211  INFO [main] Kwikpass:263 - switched to Kwikpass login modal iframe
+2024-02-04 13:03:47,238  INFO [main] Kwikpass:269 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-02-04 13:03:47,326  INFO [main] Kwikpass:271 - Mobile number entered
+2024-02-04 13:03:49,384  INFO [main] Kwikpass:274 - OTP entered
+2024-02-04 13:03:57,403  INFO [main] Kwikpass:285 - Verify_AdilQadri_KwikPass_Login_at_accountpage Test Case failed!
+2024-02-04 13:03:59,168  INFO [main] Kwikpass:228 - Verify_AdilQadri_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....
+2024-02-04 13:04:01,681  INFO [main] Kwikpass:230 - URL is open
+2024-02-04 13:04:01,681  INFO [main] Kwikpass:231 - AdilQadri has Kwikpass AP
+2024-02-04 13:04:01,682  INFO [main] Kwikpass:232 - Clicked Kwikpass Icon
+2024-02-04 13:04:04,716  INFO [main] Kwikpass:236 - switched to Kwikpass login modal iframe
+2024-02-04 13:04:04,739  INFO [main] Kwikpass:242 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 13:04:04,739  INFO [main] Kwikpass:243 - Verify_AdilQadri_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!
+2024-02-04 13:04:04,739  INFO [main] Kwikpass:244 - Test Cases Completed !
+2024-02-04 13:04:06,008  INFO [main] Kwikpass:52 - Verify_AdilQadri_KwikPass_login_icon_Visibilty Test case is running.....
+2024-02-04 13:04:07,591  INFO [main] Kwikpass:54 - URL is opened
+2024-02-04 13:04:07,592  INFO [main] Kwikpass:55 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:04:07,650  INFO [main] Kwikpass:58 - Kwikpass icon is visible
+2024-02-04 13:04:07,650  INFO [main] Kwikpass:59 - Verify_AdilQadri_KwikPass_login_icon_Visibilty Test case Passed !
+2024-02-04 13:04:07,650  INFO [main] Kwikpass:60 - Test Case Completed !
+2024-02-04 13:04:08,942  INFO [main] Kwikpass:21 - Verify_AdilQadri_KwikPass_login_modal_verification Test case is running.....
+2024-02-04 13:04:10,135  INFO [main] Kwikpass:23 - URL is open
+2024-02-04 13:04:10,135  INFO [main] Kwikpass:24 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:04:10,362  INFO [main] Kwikpass:29 - Clicked Kwikpass Icon
+2024-02-04 13:04:13,438  INFO [main] Kwikpass:33 - switched to Kwikpass login modal iframe
+2024-02-04 13:04:13,466  INFO [main] Kwikpass:39 - The Kwikpass Login modal verification passed.
+2024-02-04 13:04:13,467  INFO [main] Kwikpass:40 - Verify_AdilQadri_KwikPass_login_modal_verification Test Cases passed!
+2024-02-04 13:04:13,467  INFO [main] Kwikpass:41 - Test Case Completed !
+2024-02-04 13:04:14,748  INFO [main] Kwikpass:159 - Verify_AdilQadri_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-02-04 13:04:16,652  INFO [main] Kwikpass:161 - URL is open
+2024-02-04 13:04:16,653  INFO [main] Kwikpass:162 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:04:16,796  INFO [main] Kwikpass:167 - Clicked Kwikpass Icon
+2024-02-04 13:04:19,845  INFO [main] Kwikpass:171 - switched to Kwikpass login modal iframe
+2024-02-04 13:04:19,935  INFO [main] Kwikpass:173 - Mobile number entered
+2024-02-04 13:04:22,004  INFO [main] Kwikpass:176 - OTP entered
+2024-02-04 13:04:41,541  INFO [main] Kwikpass:299 - Verify_AdilQadri_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....
+2024-02-04 13:04:44,972  INFO [main] Kwikpass:301 - URL is open
+2024-02-04 13:04:44,973  INFO [main] Kwikpass:302 - AdilQadri has Kwikpass AP
+2024-02-04 13:04:45,116  INFO [main] Kwikpass:307 - Clicked Kwikpass Icon
+2024-02-04 13:04:48,157  INFO [main] Kwikpass:311 - switched to Kwikpass login modal iframe
+2024-02-04 13:04:48,230  INFO [main] Kwikpass:313 - Mobile number entered
+2024-02-04 13:04:50,298  INFO [main] Kwikpass:316 - OTP entered
+2024-02-04 13:04:59,730  INFO [main] Kwikpass:72 - Verify_AdilQadri_Kwikpass_login_using_OTP_Via_SMS Test case is running.....
+2024-02-04 13:05:01,459  INFO [main] Kwikpass:74 - URL is open
+2024-02-04 13:05:01,459  INFO [main] Kwikpass:75 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:05:01,616  INFO [main] Kwikpass:80 - Clicked Kwikpass Icon
+2024-02-04 13:05:04,689  INFO [main] Kwikpass:84 - switched to Kwikpass login modal iframe
+2024-02-04 13:05:04,759  INFO [main] Kwikpass:86 - Mobile number entered
+2024-02-04 13:05:06,844  INFO [main] Kwikpass:89 - OTP entered
+2024-02-04 13:05:27,023  INFO [main] Kwikpass:115 - Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-02-04 13:05:28,978  INFO [main] Kwikpass:117 - URL is open
+2024-02-04 13:05:28,978  INFO [main] Kwikpass:118 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:05:29,114  INFO [main] Kwikpass:123 - Clicked Kwikpass Icon
+2024-02-04 13:05:32,191  INFO [main] Kwikpass:127 - switched to Kwikpass login modal iframe
+2024-02-04 13:05:32,260  INFO [main] Kwikpass:129 - Mobile number entered
+2024-02-04 13:05:34,351  INFO [main] Kwikpass:132 - OTP entered
+2024-02-04 13:07:32,970  INFO [main] Kwikpass:255 - Verify_AdilQadri_KwikPass_Login_at_accountpage Test case is running.....
+2024-02-04 13:07:35,452  INFO [main] Kwikpass:257 - URL is open
+2024-02-04 13:07:35,452  INFO [main] Kwikpass:258 - AdilQadri has Kwikpass AP
+2024-02-04 13:07:38,505  INFO [main] Kwikpass:262 - switched to Kwikpass login modal iframe
+2024-02-04 13:07:38,532  INFO [main] Kwikpass:268 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-02-04 13:07:38,612  INFO [main] Kwikpass:270 - Mobile number entered
+2024-02-04 13:07:40,710  INFO [main] Kwikpass:273 - OTP entered
+2024-02-04 13:07:48,755  INFO [main] Kwikpass:284 - Verify_AdilQadri_KwikPass_Login_at_accountpage Test Case failed!
+2024-02-04 13:07:50,619  INFO [main] Kwikpass:228 - Verify_AdilQadri_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....
+2024-02-04 13:07:52,697  INFO [main] Kwikpass:230 - URL is open
+2024-02-04 13:07:52,698  INFO [main] Kwikpass:231 - AdilQadri has Kwikpass AP
+2024-02-04 13:07:52,698  INFO [main] Kwikpass:232 - Clicked Kwikpass Icon
+2024-02-04 13:07:55,750  INFO [main] Kwikpass:236 - switched to Kwikpass login modal iframe
+2024-02-04 13:07:55,777  INFO [main] Kwikpass:242 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-02-04 13:07:55,778  INFO [main] Kwikpass:243 - Verify_AdilQadri_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!
+2024-02-04 13:07:55,778  INFO [main] Kwikpass:244 - Test Cases Completed !
+2024-02-04 13:07:57,061  INFO [main] Kwikpass:52 - Verify_AdilQadri_KwikPass_login_icon_Visibilty Test case is running.....
+2024-02-04 13:07:58,735  INFO [main] Kwikpass:54 - URL is opened
+2024-02-04 13:07:58,736  INFO [main] Kwikpass:55 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:07:58,789  INFO [main] Kwikpass:58 - Kwikpass icon is visible
+2024-02-04 13:07:58,790  INFO [main] Kwikpass:59 - Verify_AdilQadri_KwikPass_login_icon_Visibilty Test case Passed !
+2024-02-04 13:07:58,790  INFO [main] Kwikpass:60 - Test Case Completed !
+2024-02-04 13:08:00,158  INFO [main] Kwikpass:21 - Verify_AdilQadri_KwikPass_login_modal_verification Test case is running.....
+2024-02-04 13:08:01,848  INFO [main] Kwikpass:23 - URL is open
+2024-02-04 13:08:01,848  INFO [main] Kwikpass:24 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:08:01,995  INFO [main] Kwikpass:29 - Clicked Kwikpass Icon
+2024-02-04 13:08:05,071  INFO [main] Kwikpass:33 - switched to Kwikpass login modal iframe
+2024-02-04 13:08:05,094  INFO [main] Kwikpass:39 - The Kwikpass Login modal verification passed.
+2024-02-04 13:08:05,095  INFO [main] Kwikpass:40 - Verify_AdilQadri_KwikPass_login_modal_verification Test Cases passed!
+2024-02-04 13:08:05,095  INFO [main] Kwikpass:41 - Test Case Completed !
+2024-02-04 13:08:06,347  INFO [main] Kwikpass:159 - Verify_AdilQadri_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-02-04 13:08:08,261  INFO [main] Kwikpass:161 - URL is open
+2024-02-04 13:08:08,261  INFO [main] Kwikpass:162 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:08:08,410  INFO [main] Kwikpass:167 - Clicked Kwikpass Icon
+2024-02-04 13:08:11,494  INFO [main] Kwikpass:171 - switched to Kwikpass login modal iframe
+2024-02-04 13:08:11,563  INFO [main] Kwikpass:173 - Mobile number entered
+2024-02-04 13:08:13,656  INFO [main] Kwikpass:176 - OTP entered
+2024-02-04 13:08:33,289  INFO [main] Kwikpass:298 - Verify_AdilQadri_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....
+2024-02-04 13:08:35,799  INFO [main] Kwikpass:300 - URL is open
+2024-02-04 13:08:35,799  INFO [main] Kwikpass:301 - AdilQadri has Kwikpass AP
+2024-02-04 13:08:35,928  INFO [main] Kwikpass:306 - Clicked Kwikpass Icon
+2024-02-04 13:08:38,979  INFO [main] Kwikpass:310 - switched to Kwikpass login modal iframe
+2024-02-04 13:08:39,054  INFO [main] Kwikpass:312 - Mobile number entered
+2024-02-04 13:08:41,125  INFO [main] Kwikpass:315 - OTP entered
+2024-02-04 13:08:50,902  INFO [main] Kwikpass:72 - Verify_AdilQadri_Kwikpass_login_using_OTP_Via_SMS Test case is running.....
+2024-02-04 13:08:52,508  INFO [main] Kwikpass:74 - URL is open
+2024-02-04 13:08:52,508  INFO [main] Kwikpass:75 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:08:52,641  INFO [main] Kwikpass:80 - Clicked Kwikpass Icon
+2024-02-04 13:08:55,712  INFO [main] Kwikpass:84 - switched to Kwikpass login modal iframe
+2024-02-04 13:08:55,804  INFO [main] Kwikpass:86 - Mobile number entered
+2024-02-04 13:08:57,871  INFO [main] Kwikpass:89 - OTP entered
+2024-02-04 13:09:18,017  INFO [main] Kwikpass:115 - Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-02-04 13:09:19,693  INFO [main] Kwikpass:117 - URL is open
+2024-02-04 13:09:19,694  INFO [main] Kwikpass:118 - AdilQadri does not have Kwikpass AP
+2024-02-04 13:09:19,835  INFO [main] Kwikpass:123 - Clicked Kwikpass Icon
+2024-02-04 13:09:22,877  INFO [main] Kwikpass:127 - switched to Kwikpass login modal iframe
+2024-02-04 13:09:22,951  INFO [main] Kwikpass:129 - Mobile number entered
+2024-02-04 13:09:25,019  INFO [main] Kwikpass:132 - OTP entered

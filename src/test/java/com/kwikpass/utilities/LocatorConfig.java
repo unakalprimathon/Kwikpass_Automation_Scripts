@@ -559,4 +559,16 @@ public class LocatorConfig {
 		String Foxtale_buynow = pro.getProperty("Foxtale_buynow");
 		return Foxtale_buynow;
 	}
+	public String getPortronics_iframe() {
+		String Portronics_iframe = pro.getProperty("Portronics_iframe");
+		return Portronics_iframe;
+	}
+	public String getPortronics_allow() {
+		String Portronics_allow = pro.getProperty("Portronics_allow");
+		return Portronics_allow;
+	}
+	public String getgokwik_buy_now() {
+		String gokwik_buy_now = pro.getProperty("gokwik_buy_now");
+		return gokwik_buy_now;
+	}
 }

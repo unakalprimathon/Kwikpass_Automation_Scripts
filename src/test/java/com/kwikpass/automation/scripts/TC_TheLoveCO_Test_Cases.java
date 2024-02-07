@@ -377,7 +377,7 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		logger.info("URL is open");
 		logger.info("TheLoveCO does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
-		sleep(5);
+		sleep(8);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		By optid = By.id(mobile_input); 
@@ -404,7 +404,7 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		logger.info("URL is open");
 		logger.info("TheLoveCO does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
-		sleep(5);
+		sleep(8);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		By optid = By.id(mobile_input); 

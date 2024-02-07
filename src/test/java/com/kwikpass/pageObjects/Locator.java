@@ -13,6 +13,7 @@ public interface Locator {
 	public String whatsappid = locatorconfig.getwhatsappid();
 	public String kwikpass_icon_al = locatorconfig.getkwikpass_icon_al();
 	public String kwikpass_icon_bl = locatorconfig.getkwikpass_icon_bl();
+	public String gokwik_buy_now = locatorconfig.getgokwik_buy_now();
 	public String gokwikclose = locatorconfig.getgokwikclose();
 	public String gokwikyes = locatorconfig.getgokwikyes();
 	public String gokwikskip = locatorconfig.getgokwikskip();
@@ -139,4 +140,6 @@ public interface Locator {
 	public String GBT_cart_btn = locatorconfig.getGBT_cart_btn();
 	public String GBT_login_btn =locatorconfig.getGBT_login_btn();
 	public String Foxtale_buynow = locatorconfig.getFoxtale_buynow();
+	public String Portronics_iframe = locatorconfig.getPortronics_iframe();
+	public String Portronics_allow = locatorconfig.getPortronics_allow();
 }
