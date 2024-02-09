@@ -579,4 +579,12 @@ public class LocatorConfig {
 		String Assembly_placeorder = pro.getProperty("Assembly_placeorder");
 		return Assembly_placeorder;
 	}
+	public String getBSC_rewards_btn() {
+		String BSC_rewards_btn = pro.getProperty("BSC_rewards_btn");
+		return BSC_rewards_btn;
+	}
+	public String getBSC_rewards_joinnow_btn() {
+		String BSC_rewards_joinnow_btn = pro.getProperty("BSC_rewards_joinnow_btn");
+		return BSC_rewards_joinnow_btn;
+	}
 }

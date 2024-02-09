@@ -137,6 +137,8 @@ public interface Locator {
 	public String BSC_cart_btn = locatorconfig.getBSC_cart_btn();
 	public String BSC_placeorder = locatorconfig.getBSC_placeorder();
 	public String BSC_logout = locatorconfig.getBSC_logout();
+	public String BSC_rewards_btn = locatorconfig.getBSC_rewards_btn();
+	public String BSC_rewards_joinnow_btn = locatorconfig.getBSC_rewards_joinnow_btn();
 	public String GBT_cart_btn = locatorconfig.getGBT_cart_btn();
 	public String GBT_login_btn =locatorconfig.getGBT_login_btn();
 	public String Foxtale_buynow = locatorconfig.getFoxtale_buynow();

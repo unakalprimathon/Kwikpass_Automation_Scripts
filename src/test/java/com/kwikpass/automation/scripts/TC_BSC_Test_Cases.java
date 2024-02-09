@@ -197,9 +197,9 @@ public class TC_BSC_Test_Cases extends BaseClass implements Locator{
 			sleep(3);
 			driver.navigate().to("https://www.bombayshavingcompany.com/products/sensi-smart-3-value-pack-1-handle-3-cartridge");
 			logger.info("Navigated to PDP page");
-			 String script = String.format("window.scrollTo(%d, %d);", 500, 500);
-		     ((JavascriptExecutor) driver).executeScript(script);
-			WebElement add_to_cart = driver.findElement(By.id(BSC_addtocart));
+			String script = String.format("window.scrollTo(%d, %d);", 500, 500);
+			((JavascriptExecutor) driver).executeScript(script);
+			WebElement add_to_cart = driver.findElement(By.className(BSC_addtocart));
 			WebDriverWait add_to_cart_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			add_to_cart_wait.until(ExpectedConditions.elementToBeClickable(add_to_cart));
 			add_to_cart.click();
@@ -296,7 +296,7 @@ public class TC_BSC_Test_Cases extends BaseClass implements Locator{
 			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
-			String vurl = "https://www.bombayshavingcompany.com/account";
+			String vurl = "https://www.bombayshavingcompany.com/account#profile";
 			if (curl.equals(vurl)) {
 				driver.findElement(By.xpath(BSC_logout)).isDisplayed();
 				logger.info("The Kwikpass Login successfull.");
@@ -347,10 +347,10 @@ public class TC_BSC_Test_Cases extends BaseClass implements Locator{
 		boolean logoutbtnPresent = !driver.findElements(logoutbtn).isEmpty();
 		boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
 		if (logoutbtnPresent && orderhistorybtnPresent) {
-			driver.navigate().to("https://www.bombayshavingcompany.com/account");
+			driver.navigate().to("https://www.bombayshavingcompany.com/account#profile");
 			sleep(10);
 			String curl = driver.getCurrentUrl();
-			String vurl = "https://www.bombayshavingcompany.com/account";
+			String vurl = "https://www.bombayshavingcompany.com/account#profile";
 			if (curl.equals(vurl)) {
 				driver.findElement(By.xpath(BSC_logout)).isDisplayed();
 				logger.info("Login Successful !");
@@ -366,6 +366,51 @@ public class TC_BSC_Test_Cases extends BaseClass implements Locator{
 			logger.info("Verify_BSC_Kwikpass_login_Done_Redirect_to_accountpage Test Cases failed!");
 			captureScreen(driver, "Verify_BSC_Kwikpass_login_Done_Redirect_to_accountpage failed !");
 			Assert.fail("Verify_BSC_Kwikpass_login_Done_Redirect_to_accountpage failed");
+		}
+
+	}
+	
+	@Test
+	public void Verify_BSC_Kwikpass_login_using_OTP_Via_SMS_from_Rewards() throws IOException, InterruptedException {
+		logger.info("Verify_BSC_Kwikpass_login_using_OTP_Via_SMS_from_Rewards Test case is running.....");
+		driver.get("https://www.bombayshavingcompany.com/");
+		logger.info("URL is open");
+		logger.info("BSC does not have Kwikpass AP");
+		LoginPage lp = new LoginPage(driver);
+		WebElement rewards_btn = driver.findElement(By.xpath(BSC_rewards_btn));
+		WebDriverWait rewards_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		rewards_btn_wait.until(ExpectedConditions.elementToBeClickable(rewards_btn));
+		rewards_btn.click();
+		logger.info("Clicked rewards_btn ");
+		sleep(5);
+		WebElement rewards_sign_btn = driver.findElement(By.xpath(BSC_rewards_joinnow_btn));
+		WebDriverWait rewards_sign_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		rewards_sign_btn_wait.until(ExpectedConditions.elementToBeClickable(rewards_sign_btn));
+		rewards_sign_btn.click();
+		logger.info("Clicked rewards_joinnow_btn ");
+		sleep(5);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://www.bombayshavingcompany.com/account#profile";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Kwikpass Login Successful !");
+			logger.info("Verify_BSC_Kwikpass_login_using_OTP_Via_SMS_from_Rewards Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Kwikpass Login Unsuccessful !");
+			logger.info("Verify_BSC_Kwikpass_login_using_OTP_Via_SMS_from_Rewards Test Cases failed!");
+			captureScreen(driver, "Verify_BSC_Kwikpass_login_using_OTP_Via_SMS_from_Rewards failed !");
+			Assert.fail("Verify_BSC_Kwikpass_login_using_OTP_Via_SMS_from_Rewards failed");
 		}
 
 	}
