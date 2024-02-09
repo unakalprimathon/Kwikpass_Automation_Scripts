@@ -133,6 +133,9 @@
 			<!--Foxtale Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Foxtale_Test_Cases"/>
 			
+			<!--Assembly Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Assembly_Test_Cases"/>
+			
 </classes>
 	</test>
 

@@ -571,4 +571,12 @@ public class LocatorConfig {
 		String gokwik_buy_now = pro.getProperty("gokwik_buy_now");
 		return gokwik_buy_now;
 	}
+	public String getAssembly_addtocart() {
+		String Assembly_addtocart = pro.getProperty("Assembly_addtocart");
+		return Assembly_addtocart;
+	}
+	public String getAssembly_placeorder() {
+		String Assembly_placeorder = pro.getProperty("Assembly_placeorder");
+		return Assembly_placeorder;
+	}
 }

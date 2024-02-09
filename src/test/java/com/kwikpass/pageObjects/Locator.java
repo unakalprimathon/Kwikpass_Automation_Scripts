@@ -142,4 +142,6 @@ public interface Locator {
 	public String Foxtale_buynow = locatorconfig.getFoxtale_buynow();
 	public String Portronics_iframe = locatorconfig.getPortronics_iframe();
 	public String Portronics_allow = locatorconfig.getPortronics_allow();
+	public String Assembly_addtocart = locatorconfig.getAssembly_addtocart();
+	public String Assembly_placeorder = locatorconfig.getAssembly_placeorder();
 }
