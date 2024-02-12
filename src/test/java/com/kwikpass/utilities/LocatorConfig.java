@@ -587,4 +587,8 @@ public class LocatorConfig {
 		String BSC_rewards_joinnow_btn = pro.getProperty("BSC_rewards_joinnow_btn");
 		return BSC_rewards_joinnow_btn;
 	}
+	public String gettrueelements_viewcart() {
+		String trueelements_viewcart = pro.getProperty("trueelements_viewcart");
+		return trueelements_viewcart;
+	}
 }

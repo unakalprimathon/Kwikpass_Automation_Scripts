@@ -169,6 +169,12 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 				addtocart.click();
 				logger.info("Clicked Add to cart button");
 				sleep(3);
+				WebElement viewcart = driver.findElement(By.className(trueelements_viewcart));
+				WebDriverWait viewcart_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+				viewcart_wait.until(ExpectedConditions.elementToBeClickable(viewcart));
+				viewcart.click();
+				logger.info("Clicked viewcart button");
+				sleep(3);
 				WebElement placeorder = driver.findElement(By.className(trueelements_placeorder));
 				WebDriverWait placeorder_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 				placeorder_wait.until(ExpectedConditions.elementToBeClickable(placeorder));
@@ -295,6 +301,12 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 			addtocart_wait.until(ExpectedConditions.elementToBeClickable(addtocart));
 			addtocart.click();
 			logger.info("Clicked Add to cart button");
+			sleep(3);
+			WebElement viewcart = driver.findElement(By.className(trueelements_viewcart));
+			WebDriverWait viewcart_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			viewcart_wait.until(ExpectedConditions.elementToBeClickable(viewcart));
+			viewcart.click();
+			logger.info("Clicked viewcart button");
 			sleep(3);
 			WebElement placeorder = driver.findElement(By.className(trueelements_placeorder));
 			WebDriverWait placeorder_wait = new WebDriverWait(driver, Duration.ofSeconds(10));

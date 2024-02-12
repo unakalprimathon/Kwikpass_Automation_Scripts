@@ -146,4 +146,5 @@ public interface Locator {
 	public String Portronics_allow = locatorconfig.getPortronics_allow();
 	public String Assembly_addtocart = locatorconfig.getAssembly_addtocart();
 	public String Assembly_placeorder = locatorconfig.getAssembly_placeorder();
+	public String trueelements_viewcart = locatorconfig.gettrueelements_viewcart();
 }
