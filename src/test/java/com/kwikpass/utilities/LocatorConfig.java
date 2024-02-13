@@ -591,4 +591,12 @@ public class LocatorConfig {
 		String trueelements_viewcart = pro.getProperty("trueelements_viewcart");
 		return trueelements_viewcart;
 	}
+	public String getRitualistic_spinnow() {
+		String Ritualistic_spinnow = pro.getProperty("Ritualistic_spinnow");
+		return Ritualistic_spinnow;
+	}
+	public String getRitualistic_claimnow() {
+		String Ritualistic_claimnow = pro.getProperty("Ritualistic_claimnow");
+		return Ritualistic_claimnow;
+	}
 }
