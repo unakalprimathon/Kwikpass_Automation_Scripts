@@ -142,6 +142,9 @@
 			<!--Luxaderme Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Luxaderme_Test_Cases"/>
 			
+			<!--Dot And key Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Dot_And_key_Test_Cases"/>
+			
 </classes>
 	</test>
 

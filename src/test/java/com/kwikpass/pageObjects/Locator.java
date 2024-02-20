@@ -147,8 +147,8 @@ public interface Locator {
 	public String Assembly_addtocart = locatorconfig.getAssembly_addtocart();
 	public String Assembly_placeorder = locatorconfig.getAssembly_placeorder();
 	public String trueelements_viewcart = locatorconfig.gettrueelements_viewcart();
-	public String Ritualistic_spinnow = locatorconfig.getRitualistic_spinnow();
-	public String Ritualistic_claimnow = locatorconfig.getRitualistic_claimnow();
+	public String spin_now = locatorconfig.getspin_now();
+	public String claim_now = locatorconfig.getclaim_now();
 	public String luxaderme_addtobag = locatorconfig.getluxaderme_addtobag();
 	public String luxaderme_checkout = locatorconfig.getluxaderme_checkout();
 }

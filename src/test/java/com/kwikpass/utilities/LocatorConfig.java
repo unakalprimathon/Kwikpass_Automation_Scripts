@@ -591,13 +591,13 @@ public class LocatorConfig {
 		String trueelements_viewcart = pro.getProperty("trueelements_viewcart");
 		return trueelements_viewcart;
 	}
-	public String getRitualistic_spinnow() {
-		String Ritualistic_spinnow = pro.getProperty("Ritualistic_spinnow");
-		return Ritualistic_spinnow;
+	public String getspin_now() {
+		String spin_now = pro.getProperty("spin_now");
+		return spin_now;
 	}
-	public String getRitualistic_claimnow() {
-		String Ritualistic_claimnow = pro.getProperty("Ritualistic_claimnow");
-		return Ritualistic_claimnow;
+	public String getclaim_now() {
+		String claim_now = pro.getProperty("claim_now");
+		return claim_now;
 	}
 	public String getluxaderme_addtobag() {
 		String luxaderme_addtobag = pro.getProperty("luxaderme_addtobag");
