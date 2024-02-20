@@ -599,4 +599,12 @@ public class LocatorConfig {
 		String Ritualistic_claimnow = pro.getProperty("Ritualistic_claimnow");
 		return Ritualistic_claimnow;
 	}
+	public String getluxaderme_addtobag() {
+		String luxaderme_addtobag = pro.getProperty("luxaderme_addtobag");
+		return luxaderme_addtobag;
+	}
+	public String getluxaderme_checkout() {
+		String luxaderme_checkout = pro.getProperty("luxaderme_checkout");
+		return luxaderme_checkout;
+	}
 }

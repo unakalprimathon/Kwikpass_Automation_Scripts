@@ -149,4 +149,6 @@ public interface Locator {
 	public String trueelements_viewcart = locatorconfig.gettrueelements_viewcart();
 	public String Ritualistic_spinnow = locatorconfig.getRitualistic_spinnow();
 	public String Ritualistic_claimnow = locatorconfig.getRitualistic_claimnow();
+	public String luxaderme_addtobag = locatorconfig.getluxaderme_addtobag();
+	public String luxaderme_checkout = locatorconfig.getluxaderme_checkout();
 }

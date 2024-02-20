@@ -136,8 +136,11 @@
 			<!--Assembly Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Assembly_Test_Cases"/>
 			
-			<!--Ritualistic Test cases -->
-			<class name="com.kwikpass.automation.scripts.TC_Ritualistic_Test_Cases"/>
+			<!-- Ritualistic Test cases 
+			<class name="com.kwikpass.automation.scripts.TC_Ritualistic_Test_Cases"/>-->
+			
+			<!--Luxaderme Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Luxaderme_Test_Cases"/>
 			
 </classes>
 	</test>
