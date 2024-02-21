@@ -151,4 +151,6 @@ public interface Locator {
 	public String claim_now = locatorconfig.getclaim_now();
 	public String luxaderme_addtobag = locatorconfig.getluxaderme_addtobag();
 	public String luxaderme_checkout = locatorconfig.getluxaderme_checkout();
+	public String bombae_orderhistory = locatorconfig.getbombae_orderhistory();
+	public String bombae_acclogout = locatorconfig.getbombae_acclogout();
 }

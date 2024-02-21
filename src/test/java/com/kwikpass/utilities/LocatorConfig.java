@@ -607,4 +607,12 @@ public class LocatorConfig {
 		String luxaderme_checkout = pro.getProperty("luxaderme_checkout");
 		return luxaderme_checkout;
 	}
+	public String getbombae_orderhistory() {
+		String bombae_orderhistory = pro.getProperty("bombae_orderhistory");
+		return bombae_orderhistory;
+	}
+	public String getbombae_acclogout() {
+		String bombae_acclogout = pro.getProperty("bombae_acclogout");
+		return bombae_acclogout;
+	}
 }

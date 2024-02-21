@@ -145,6 +145,9 @@
 			<!--Dot And key Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Dot_And_key_Test_Cases"/>
 			
+			<!--Bombae Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Bombae_Test_Cases"/>
+			
 </classes>
 	</test>
 
