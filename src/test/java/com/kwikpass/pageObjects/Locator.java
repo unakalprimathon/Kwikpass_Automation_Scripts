@@ -107,6 +107,7 @@ public interface Locator {
 	public String nobero_iframe = locatorconfig.getnobero_iframe();
 	public String nobero_close_iframe = locatorconfig.getnobero_close_iframe();
 	public String gokwik_name_ = locatorconfig.getgokwik_name_();
+	public String eyewearpop = locatorconfig.geteyewearpop();
 	public String weryze_spinwheel = locatorconfig.getweryze_spinwheel();
 	public String Urbangabru_addtocart = locatorconfig.getUrbangabru_addtocart();
 	public String Urbangabru_proceedtocheckout_btn = locatorconfig.getUrbangabru_proceedtocheckout_btn();
@@ -147,10 +148,13 @@ public interface Locator {
 	public String Assembly_addtocart = locatorconfig.getAssembly_addtocart();
 	public String Assembly_placeorder = locatorconfig.getAssembly_placeorder();
 	public String trueelements_viewcart = locatorconfig.gettrueelements_viewcart();
-	public String spin_now = locatorconfig.getspin_now();
-	public String claim_now = locatorconfig.getclaim_now();
 	public String luxaderme_addtobag = locatorconfig.getluxaderme_addtobag();
 	public String luxaderme_checkout = locatorconfig.getluxaderme_checkout();
+	public String spin_now = locatorconfig.getspin_now();
+	public String claim_now = locatorconfig.getclaim_now();
 	public String bombae_orderhistory = locatorconfig.getbombae_orderhistory();
 	public String bombae_acclogout = locatorconfig.getbombae_acclogout();
+	public String hatke_login_btn = locatorconfig.gethatke_login_btn();
+	public String hatke_myaccount_btn = locatorconfig.gethatke_myaccount_btn();
+	public String True_Elements_kwikpass_icon_bl = locatorconfig.getTrue_Elements_kwikpass_icon_bl();
 }

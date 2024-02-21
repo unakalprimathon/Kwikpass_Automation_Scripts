@@ -427,6 +427,10 @@ public class LocatorConfig {
 		String gokwik_name_ = pro.getProperty("gokwik_name_");
 		return gokwik_name_;
 	}
+	public String geteyewearpop() {
+		String eyewearpop = pro.getProperty("eyewearpop");
+		return eyewearpop;
+	}
 	public String getweryze_spinwheel() {
 		String weryze_spinwheel = pro.getProperty("weryze_spinwheel");
 		return weryze_spinwheel;
@@ -591,14 +595,6 @@ public class LocatorConfig {
 		String trueelements_viewcart = pro.getProperty("trueelements_viewcart");
 		return trueelements_viewcart;
 	}
-	public String getspin_now() {
-		String spin_now = pro.getProperty("spin_now");
-		return spin_now;
-	}
-	public String getclaim_now() {
-		String claim_now = pro.getProperty("claim_now");
-		return claim_now;
-	}
 	public String getluxaderme_addtobag() {
 		String luxaderme_addtobag = pro.getProperty("luxaderme_addtobag");
 		return luxaderme_addtobag;
@@ -606,6 +602,14 @@ public class LocatorConfig {
 	public String getluxaderme_checkout() {
 		String luxaderme_checkout = pro.getProperty("luxaderme_checkout");
 		return luxaderme_checkout;
+	}
+	public String getspin_now() {
+		String spin_now = pro.getProperty("spin_now");
+		return spin_now;
+	}
+	public String getclaim_now() {
+		String claim_now = pro.getProperty("claim_now");
+		return claim_now;
 	}
 	public String getbombae_orderhistory() {
 		String bombae_orderhistory = pro.getProperty("bombae_orderhistory");
@@ -615,4 +619,18 @@ public class LocatorConfig {
 		String bombae_acclogout = pro.getProperty("bombae_acclogout");
 		return bombae_acclogout;
 	}
+	public String gethatke_login_btn() {
+		String hatke_login_btn = pro.getProperty("hatke_login_btn");
+		return hatke_login_btn;
+	}
+	public String getTrue_Elements_kwikpass_icon_bl() {
+		String True_Elements_kwikpass_icon_bl = pro.getProperty("True_Elements_kwikpass_icon_bl");
+		return True_Elements_kwikpass_icon_bl;
+	}
+	public String gethatke_myaccount_btn() {
+		String hatke_myaccount_btn = pro.getProperty("hatke_myaccount_btn");
+		return hatke_myaccount_btn;
+	}
+	
+	
 }

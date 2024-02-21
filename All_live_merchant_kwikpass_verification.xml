@@ -1,0 +1,16 @@
+<suite name="kp_Automation_Scripts">
+
+	<listeners>
+		<listener class-name="com.kwikpass.utilities.Report" />
+	</listeners>
+
+	<test name="Kwickpass_Test">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class
+				name="com.kwikpass.dailycheck.All_Live_Merchant_Kwikpass_verification" />
+		</classes>
+	</test>
+
+</suite>

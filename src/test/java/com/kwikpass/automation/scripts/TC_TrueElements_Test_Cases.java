@@ -266,7 +266,7 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://true-elements.com/");
 		logger.info("URL is open");
 		logger.info("True_Elements has Kwikpass AP");
-		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebElement kp_login_btn = driver.findElement(By.id(True_Elements_kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
@@ -350,7 +350,7 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://true-elements.com/");
 		logger.info("URL is open");
 		logger.info("True Elements has Kwikpass AP");
-		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebElement kp_login_btn = driver.findElement(By.id(True_Elements_kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
@@ -394,7 +394,7 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://true-elements.com/");
 		logger.info("URL is open");
 		logger.info("True_Elements has Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
+		WebElement s = driver.findElement(By.id(True_Elements_kwikpass_icon_bl));
 		if (s.isDisplayed()) {
 			logger.info("Kwikpass icon visible in True Elements");
 			logger.info("Verify_True_Elements_KwikPass_icon_visibility test case passed!");
@@ -414,7 +414,7 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://true-elements.com/");
 		logger.info("URL is open");
 		logger.info("True_Elements has Kwikpass AP");
-		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebElement kp_login_btn = driver.findElement(By.id(True_Elements_kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
@@ -507,7 +507,7 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://true-elements.com/");
 		logger.info("URL is open");
 		logger.info("True Elements has Kwikpass AP");
-		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebElement kp_login_btn = driver.findElement(By.id(True_Elements_kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
@@ -633,7 +633,7 @@ public class TC_TrueElements_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://true-elements.com/");
 		logger.info("URL is open");
 		logger.info("TrueElements does not have Kwikpass AP");
-		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebElement kp_login_btn = driver.findElement(By.id(True_Elements_kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
