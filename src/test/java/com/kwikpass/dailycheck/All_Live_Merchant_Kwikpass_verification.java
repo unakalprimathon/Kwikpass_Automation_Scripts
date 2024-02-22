@@ -1641,6 +1641,37 @@ public class All_Live_Merchant_Kwikpass_verification extends BaseClass implement
 		}
 	}
 	
+	@Test
+	public void Verify_Yoho_LifeStyle_KwikPass_login_modal_verification() throws IOException, InterruptedException {
+		logger.info("Verify_Yoho_LifeStyle_KwikPass_login_modal_verification Test case is running.....");
+		driver.get("https://yoholife.in/");
+		logger.info("URL is open");
+		logger.info("Yoho_LifeStyle does not have Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		sleep(3);
+		LoginPage lp = new LoginPage(driver);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		By mobileinputfield = By.id(mobile_input); 
+		By whatsapp_btn = By.id(whatsappid); 
+		boolean mobileinputfieldpresent = !driver.findElements(mobileinputfield).isEmpty();
+		boolean whatsappidpresent = !driver.findElements(whatsapp_btn).isEmpty();
+		if (mobileinputfieldpresent && whatsappidpresent) {
+			logger.info("The Kwikpass Login modal verification passed.");
+			logger.info("Verify_Yoho_LifeStyle_KwikPass_login_modal_verification Test Cases passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("The Kwikpass Login modal verification failed.");
+			logger.info("Verify_Yoho_LifeStyle_KwikPass_login_modal_verification Test Cases failed!");
+			captureScreen(driver, "Verify_Yoho_LifeStyle_KwikPass_login_modal_verification failed");
+			Assert.fail("Verify_Yoho_LifeStyle_KwikPass_login_modal_verification failed");
+		}
+	}
+
 	
 
 }

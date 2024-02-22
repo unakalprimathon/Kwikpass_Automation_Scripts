@@ -631,6 +631,13 @@ public class LocatorConfig {
 		String hatke_myaccount_btn = pro.getProperty("hatke_myaccount_btn");
 		return hatke_myaccount_btn;
 	}
-	
+	public String getYoho_LifeStyle_addtocart() {
+		String Yoho_LifeStyle_addtocart = pro.getProperty("Yoho_LifeStyle_addtocart");
+		return Yoho_LifeStyle_addtocart;
+	}
+	public String getYoho_LifeStyle_checkout_btn() {
+		String Yoho_LifeStyle_checkout_btn = pro.getProperty("Yoho_LifeStyle_checkout_btn");
+		return Yoho_LifeStyle_checkout_btn;
+	}
 	
 }

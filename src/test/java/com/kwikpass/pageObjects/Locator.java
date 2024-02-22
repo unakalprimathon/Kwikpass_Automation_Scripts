@@ -157,4 +157,6 @@ public interface Locator {
 	public String hatke_login_btn = locatorconfig.gethatke_login_btn();
 	public String hatke_myaccount_btn = locatorconfig.gethatke_myaccount_btn();
 	public String True_Elements_kwikpass_icon_bl = locatorconfig.getTrue_Elements_kwikpass_icon_bl();
+	public String Yoho_LifeStyle_addtocart = locatorconfig.getYoho_LifeStyle_addtocart();
+	public String Yoho_LifeStyle_checkout_btn = locatorconfig.getYoho_LifeStyle_checkout_btn();
 }

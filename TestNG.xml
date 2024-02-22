@@ -157,6 +157,9 @@
 			<!--TheHatke Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_TheHatke_Test_Cases"/>
 			
+			<!--Yoho_LifeStyle Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Yoho_LifeStyle_Test_Cases"/>
+			
 </classes>
 	</test>
 
