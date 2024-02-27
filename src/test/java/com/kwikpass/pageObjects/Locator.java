@@ -159,4 +159,9 @@ public interface Locator {
 	public String True_Elements_kwikpass_icon_bl = locatorconfig.getTrue_Elements_kwikpass_icon_bl();
 	public String Yoho_LifeStyle_addtocart = locatorconfig.getYoho_LifeStyle_addtocart();
 	public String Yoho_LifeStyle_checkout_btn = locatorconfig.getYoho_LifeStyle_checkout_btn();
+	public String Plum_Goodness_addtocart = locatorconfig.getPlum_Goodness_addtocart();
+	public String Plum_Goodness_cart_btn = locatorconfig.getPlum_Goodness_cart_btn();
+	public String Plum_Goodness_checkout = locatorconfig.getPlum_Goodness_checkout();
+	public String Plum_Goodness_rewards_btn = locatorconfig.getPlum_Goodness_rewards_btn();
+	public String Plum_Goodness_rewards_login_btn = locatorconfig.getPlum_Goodness_rewards_login_btn();
 }

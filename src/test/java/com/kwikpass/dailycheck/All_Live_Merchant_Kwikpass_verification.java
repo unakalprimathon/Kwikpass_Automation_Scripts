@@ -1672,6 +1672,35 @@ public class All_Live_Merchant_Kwikpass_verification extends BaseClass implement
 		}
 	}
 
-	
+	@Test
+	public void Verify_Plum_Goodness_KwikPass_Login_modal_Verfication() throws IOException, InterruptedException {
+		logger.info("Verify_Plum_Goodness_KwikPass_Login_modal_Verfication Test case is running.....");
+		driver.get("https://plumgoodness.com/");
+		logger.info("URL is open");
+		logger.info("Plum_Goodness has Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		By mobile_input_field = By.id(mobile_input);
+		By whatsapp_btn = By.id(whatsappid);
+		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+			logger.info("The Kwikpass Login modal has OTP via SMS and WhatsApp login options.");
+			logger.info("Verify_Plum_Goodness_KwikPass_Login_modal_Verfication Test Cases passed!");
+			logger.info("Test Cases Completed !");
+		} else {
+			logger.info("The Kwikpass Login modal doesn't has OTP via SMS or WhatsApp login options.");
+			logger.info("Verify_Plum_Goodness_KwikPass_Login_modal_Verfication Test Cases failed!");
+			captureScreen(driver, "Verify_Plum_Goodness_KwikPass_Login_modal_Verfication failed");
+			Assert.fail("Verify_Plum_Goodness_KwikPass_Login_modal_Verfication failed");
+		}
+	}
 
 }

@@ -142,8 +142,8 @@
 			<!--Amydus Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Amydus_Test_Cases"/>
 			
-			<!-- Ritualistic Test cases 
-			<class name="com.kwikpass.automation.scripts.TC_Ritualistic_Test_Cases"/>-->
+			<!-- Ritualistic Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Ritualistic_Test_Cases"/>
 			
 			<!--Luxaderme Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Luxaderme_Test_Cases"/>
@@ -162,6 +162,9 @@
 			
 			<!--Hause&kinder Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Hause_And_Kinder_Test_Cases"/>
+			
+			<!--Plum_Goodness Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Plum_Goodness_Test_Cases"/>
 			
 </classes>
 	</test>

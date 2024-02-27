@@ -639,5 +639,24 @@ public class LocatorConfig {
 		String Yoho_LifeStyle_checkout_btn = pro.getProperty("Yoho_LifeStyle_checkout_btn");
 		return Yoho_LifeStyle_checkout_btn;
 	}
-	
+	public String getPlum_Goodness_addtocart() {
+		String Plum_Goodness_addtocart = pro.getProperty("Plum_Goodness_addtocart");
+		return Plum_Goodness_addtocart;
+	}
+	public String getPlum_Goodness_cart_btn() {
+		String Plum_Goodness_cart_btn = pro.getProperty("Plum_Goodness_cart_btn");
+		return Plum_Goodness_cart_btn;
+	}
+	public String getPlum_Goodness_checkout() {
+		String Plum_Goodness_checkout = pro.getProperty("Plum_Goodness_checkout");
+		return Plum_Goodness_checkout;
+	}
+	public String getPlum_Goodness_rewards_btn() {
+		String Plum_Goodness_rewards_btn = pro.getProperty("Plum_Goodness_rewards_btn");
+		return Plum_Goodness_rewards_btn;
+	}
+	public String getPlum_Goodness_rewards_login_btn() {
+		String Plum_Goodness_rewards_login_btn = pro.getProperty("Plum_Goodness_rewards_login_btn");
+		return Plum_Goodness_rewards_login_btn;
+	}
 }
