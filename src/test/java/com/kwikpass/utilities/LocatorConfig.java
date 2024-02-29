@@ -659,4 +659,43 @@ public class LocatorConfig {
 		String Plum_Goodness_rewards_login_btn = pro.getProperty("Plum_Goodness_rewards_login_btn");
 		return Plum_Goodness_rewards_login_btn;
 	}
+	public String getRitualistic_iframe() {
+		String Ritualistic_iframe = pro.getProperty("Ritualistic_iframe");
+		return Ritualistic_iframe;
+	}
+	public String getRitualistic_close_popup() {
+		String Ritualistic_close_popup = pro.getProperty("Ritualistic_close_popup");
+		return Ritualistic_close_popup;
+	}
+	public String getGrandmaa_Secret_buy_now() {
+		String Grandmaa_Secret_buy_now = pro.getProperty("Grandmaa_Secret_buy_now");
+		return Grandmaa_Secret_buy_now;
+	}
+	public String getBersache_order_now() {
+		String Bersache_order_now = pro.getProperty("Bersache_order_now");
+		return Bersache_order_now;
+	}
+	public String getBlue_island_kp_login_btn() {
+		String Blue_island_kp_login_btn = pro.getProperty("Blue_island_kp_login_btn");
+		return Blue_island_kp_login_btn;
+	}
+	public String getBlue_island_iframe() {
+		String Blue_island_iframe = pro.getProperty("Blue_island_iframe");
+		return Blue_island_iframe;
+	}
+	public String getBlue_island_close_popup() {
+		String Blue_island_close_popup = pro.getProperty("Blue_island_close_popup");
+		return Blue_island_close_popup;
+	}
+	public String getBlue_island_selectsize() {
+		String Blue_island_selectsize = pro.getProperty("Blue_island_selectsize");
+		return Blue_island_selectsize;
+	}
+	public String getBlue_island_order_now() {
+		String Blue_island_order_now = pro.getProperty("Blue_island_order_now");
+		return Blue_island_order_now;
+	}
+	
+	
 }
+

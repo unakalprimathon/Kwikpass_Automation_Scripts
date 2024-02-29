@@ -85,6 +85,7 @@ public class All_Live_Merchant_Kwikpass_verification extends BaseClass implement
 		driver.get("https://assemblytravel.com/");
 		logger.info("URL is open");
 		logger.info("Assembly has Kwikpass AP");
+		sleep(2);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -552,6 +553,7 @@ public class All_Live_Merchant_Kwikpass_verification extends BaseClass implement
 		driver.get("https://heelium.in/");
 		logger.info("URL is open");
 		logger.info("Heelium has Kwikpass AP");
+		sleep(3);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -875,7 +877,6 @@ public class All_Live_Merchant_Kwikpass_verification extends BaseClass implement
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
 		logger.info("Clicked Kwikpass Icon");
-		sleep(3);
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -1616,7 +1617,7 @@ public class All_Live_Merchant_Kwikpass_verification extends BaseClass implement
 		driver.get("https://freakins.com/pages/women");
 		logger.info("URL is open");
 		logger.info("Freakins has Kwikpass AP");
-		WebElement kp_login_btn = driver.findElement(By.xpath(hatke_login_btn));
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
@@ -1641,37 +1642,6 @@ public class All_Live_Merchant_Kwikpass_verification extends BaseClass implement
 		}
 	}
 	
-	@Test
-	public void Verify_Yoho_LifeStyle_KwikPass_login_modal_verification() throws IOException, InterruptedException {
-		logger.info("Verify_Yoho_LifeStyle_KwikPass_login_modal_verification Test case is running.....");
-		driver.get("https://yoholife.in/");
-		logger.info("URL is open");
-		logger.info("Yoho_LifeStyle does not have Kwikpass AP");
-		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
-		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
-		kp_login_btn.click();
-		logger.info("Clicked Kwikpass Icon");
-		sleep(3);
-		LoginPage lp = new LoginPage(driver);
-		lp.switchToIframe(kwikpass_iframe);
-		logger.info("switched to Kwikpass login modal iframe");
-		By mobileinputfield = By.id(mobile_input); 
-		By whatsapp_btn = By.id(whatsappid); 
-		boolean mobileinputfieldpresent = !driver.findElements(mobileinputfield).isEmpty();
-		boolean whatsappidpresent = !driver.findElements(whatsapp_btn).isEmpty();
-		if (mobileinputfieldpresent && whatsappidpresent) {
-			logger.info("The Kwikpass Login modal verification passed.");
-			logger.info("Verify_Yoho_LifeStyle_KwikPass_login_modal_verification Test Cases passed!");
-			logger.info("Test Case Completed !");
-		} else {
-			logger.info("The Kwikpass Login modal verification failed.");
-			logger.info("Verify_Yoho_LifeStyle_KwikPass_login_modal_verification Test Cases failed!");
-			captureScreen(driver, "Verify_Yoho_LifeStyle_KwikPass_login_modal_verification failed");
-			Assert.fail("Verify_Yoho_LifeStyle_KwikPass_login_modal_verification failed");
-		}
-	}
-
 	@Test
 	public void Verify_Plum_Goodness_KwikPass_Login_modal_Verfication() throws IOException, InterruptedException {
 		logger.info("Verify_Plum_Goodness_KwikPass_Login_modal_Verfication Test case is running.....");
@@ -1702,5 +1672,123 @@ public class All_Live_Merchant_Kwikpass_verification extends BaseClass implement
 			Assert.fail("Verify_Plum_Goodness_KwikPass_Login_modal_Verfication failed");
 		}
 	}
+	
+	@Test
+	public void Verify_Bersache_KwikPass_Login_modal_Verfication() throws IOException, InterruptedException {
+		logger.info("Verify_Bersache_KwikPass_Login_modal_Verfication Test case is running.....");
+		driver.get("https://bersache.com/");
+		logger.info("URL is open");
+		logger.info("Bersache has Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		By mobile_input_field = By.id(mobile_input);
+		By whatsapp_btn = By.id(whatsappid);
+		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+			logger.info("The Kwikpass Login modal has OTP via SMS and WhatsApp login options.");
+			logger.info("Verify_Bersache_KwikPass_Login_modal_Verfication Test Cases passed!");
+			logger.info("Test Cases Completed !");
+		} else {
+			logger.info("The Kwikpass Login modal doesn't has OTP via SMS or WhatsApp login options.");
+			logger.info("Verify_Bersache_KwikPass_Login_modal_Verfication Test Cases failed!");
+			captureScreen(driver, "Verify_Bersache_KwikPass_Login_modal_Verfication failed");
+			Assert.fail("Verify_Bersache_KwikPass_Login_modal_Verfication failed");
+		}
+	}
+	
+	@Test
+	public void Verify_Blue_ialand_KwikPass_Login_modal_Verfication() throws IOException, InterruptedException {
+		logger.info("Verify_Blue_ialand_KwikPass_Login_modal_Verfication Test case is running.....");
+		driver.get("https://blueisland.in/");
+		logger.info("URL is open");
+		logger.info("Blue_ialand has Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.xpath(Blue_island_kp_login_btn));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		By mobile_input_field = By.id(mobile_input);
+		By whatsapp_btn = By.id(whatsappid);
+		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+			logger.info("The Kwikpass Login modal has OTP via SMS and WhatsApp login options.");
+			logger.info("Verify_Blue_ialand_KwikPass_Login_modal_Verfication Test Cases passed!");
+			logger.info("Test Cases Completed !");
+		} else {
+			logger.info("The Kwikpass Login modal doesn't has OTP via SMS or WhatsApp login options.");
+			logger.info("Verify_Blue_ialand_KwikPass_Login_modal_Verfication Test Cases failed!");
+			captureScreen(driver, "Verify_Blue_ialand_KwikPass_Login_modal_Verfication failed");
+			Assert.fail("Verify_Blue_ialand_KwikPass_Login_modal_Verfication failed");
+		}
+	}
+	
+	@Test
+	public void Verify_Grandmaa_Secret_KwikPass_Login_modal_Verfication() throws IOException, InterruptedException {
+		logger.info("Verify_Grandmaa_Secret_KwikPass_Login_modal_Verfication Test case is running.....");
+		driver.get("https://grandmaasecret.com/");
+		logger.info("URL is open");
+		logger.info("Grandmaa_Secret has Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		By mobile_input_field = By.id(mobile_input);
+		By whatsapp_btn = By.id(whatsappid);
+		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+			logger.info("The Kwikpass Login modal has OTP via SMS and WhatsApp login options.");
+			logger.info("Verify_Grandmaa_Secret_KwikPass_Login_modal_Verfication Test Cases passed!");
+			logger.info("Test Cases Completed !");
+		} else {
+			logger.info("The Kwikpass Login modal doesn't has OTP via SMS or WhatsApp login options.");
+			logger.info("Verify_Grandmaa_Secret_KwikPass_Login_modal_Verfication Test Cases failed!");
+			captureScreen(driver, "Verify_Grandmaa_Secret_KwikPass_Login_modal_Verfication failed");
+			Assert.fail("Verify_Grandmaa_Secret_KwikPass_Login_modal_Verfication failed");
+		}
+	}
 
+	@Test
+	public void Verify_Xctasy_KwikPass_Login_modal_Verfication_at_accountpage()throws IOException, InterruptedException {
+		logger.info("Verify_Xctasy_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
+		driver.get("https://xctasy.co/account");
+		logger.info("URL is open");
+		logger.info("Xctasy has Kwikpass AP");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		By mobile_input_field = By.id(mobile_input);
+		By whatsapp_btn = By.id(whatsappid);
+		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+			logger.info("The Kwikpass Login modal has OTP via SMS and WhatsApp login options.");
+			logger.info("Verify_Xctasy_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!");
+			logger.info("Test Cases Completed !");
+		} else {
+			logger.info("The Kwikpass Login modal doesn't has OTP via SMS or WhatsApp login options.");
+			logger.info("Verify_Xctasy_KwikPass_Login_modal_Verfication_at_accountpage Test Cases failed!");
+			captureScreen(driver, "Verify_Xctasy_KwikPass_Login_modal_Verfication_at_accountpage failed");
+			Assert.fail("Verify_Xctasy_KwikPass_Login_modal_Verfication_at_accountpage failed");
+		}
+	}
 }

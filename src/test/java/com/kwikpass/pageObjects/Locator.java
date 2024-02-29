@@ -164,4 +164,13 @@ public interface Locator {
 	public String Plum_Goodness_checkout = locatorconfig.getPlum_Goodness_checkout();
 	public String Plum_Goodness_rewards_btn = locatorconfig.getPlum_Goodness_rewards_btn();
 	public String Plum_Goodness_rewards_login_btn = locatorconfig.getPlum_Goodness_rewards_login_btn();
+	public String Ritualistic_iframe = locatorconfig.getRitualistic_iframe();
+	public String Ritualistic_close_popup = locatorconfig.getRitualistic_close_popup();
+	public String Grandmaa_Secret_buy_now = locatorconfig.getGrandmaa_Secret_buy_now();
+	public String Bersache_order_now = locatorconfig.getBersache_order_now();
+	public String Blue_island_kp_login_btn = locatorconfig.getBlue_island_kp_login_btn();
+	public String Blue_island_iframe = locatorconfig.getBlue_island_iframe();
+	public String Blue_island_close_popup = locatorconfig.getBlue_island_close_popup();
+	public String Blue_island_selectsize = locatorconfig.getBlue_island_selectsize();
+	public String Blue_island_order_now = locatorconfig.getBlue_island_order_now();
 }

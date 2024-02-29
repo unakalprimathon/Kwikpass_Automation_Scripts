@@ -148,7 +148,7 @@
 			<!--Luxaderme Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Luxaderme_Test_Cases"/>
 			
-			<!--Dot And key Test cases -->
+			<!--Dot And key Test cases-->
 			<class name="com.kwikpass.automation.scripts.TC_Dot_And_key_Test_Cases"/>
 			
 			<!--Bombae Test cases -->
@@ -157,14 +157,29 @@
 			<!--TheHatke Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_TheHatke_Test_Cases"/>
 			
-			<!--Yoho_LifeStyle Test cases -->
-			<class name="com.kwikpass.automation.scripts.TC_Yoho_LifeStyle_Test_Cases"/>
-			
 			<!--Hause&kinder Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Hause_And_Kinder_Test_Cases"/>
 			
+			<!--Yoho_LifeStyle Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Yoho_LifeStyle_Test_Cases"/>
+			
 			<!--Plum_Goodness Test cases -->
-			<class name="com.kwikpass.automation.scripts.TC_Plum_Goodness_Test_Cases"/>
+			<class name="com.kwikpass.automation.scripts.TC_Plum_Goodness_Test_Cases" />
+			
+			<!--Grandmaa_Secret Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Grandmaa_Secret_Test_Cases" />
+			
+			<!--Bersache Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Bersache_Test_Cases" />
+			
+			<!--Blue_island Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Blue_island_Test_Cases" />
+			
+			<!--Freakins Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Freakins_Test_Cases" />
+			
+			<!--Xctasy Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Xctasy_Test_Cases" />
 			
 </classes>
 	</test>
