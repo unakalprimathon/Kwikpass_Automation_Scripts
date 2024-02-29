@@ -173,4 +173,8 @@ public interface Locator {
 	public String Blue_island_close_popup = locatorconfig.getBlue_island_close_popup();
 	public String Blue_island_selectsize = locatorconfig.getBlue_island_selectsize();
 	public String Blue_island_order_now = locatorconfig.getBlue_island_order_now();
+	public String Hause_And_Kinder_buy_now = locatorconfig.getHause_And_Kinder_buy_now();
+	public String Hause_And_Kinder_rewards_btn = locatorconfig.getHause_And_Kinder_rewards_btn();
+	public String Hause_And_Kinder_iframe = locatorconfig.getHause_And_Kinder_iframe();
+	public String Hause_And_Kinder_rewards_signin_btn = locatorconfig.getHause_And_Kinder_rewards_signin_btn();
 }

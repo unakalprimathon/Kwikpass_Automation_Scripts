@@ -695,7 +695,22 @@ public class LocatorConfig {
 		String Blue_island_order_now = pro.getProperty("Blue_island_order_now");
 		return Blue_island_order_now;
 	}
-	
+	public String getHause_And_Kinder_buy_now() {
+		String Hause_And_Kinder_buy_now = pro.getProperty("Hause_And_Kinder_buy_now");
+		return Hause_And_Kinder_buy_now;
+	}
+	public String getHause_And_Kinder_rewards_btn() {
+		String Hause_And_Kinder_rewards_btn = pro.getProperty("Hause_And_Kinder_rewards_btn");
+		return Hause_And_Kinder_rewards_btn;
+	}
+	public String getHause_And_Kinder_iframe() {
+		String Hause_And_Kinder_iframe = pro.getProperty("Hause_And_Kinder_iframe");
+		return Hause_And_Kinder_iframe;
+	}
+	public String getHause_And_Kinder_rewards_signin_btn() {
+		String Hause_And_Kinder_rewards_signin_btn = pro.getProperty("Hause_And_Kinder_rewards_signin_btn");
+		return Hause_And_Kinder_rewards_signin_btn;
+	}
 	
 }
 
