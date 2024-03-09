@@ -331,8 +331,10 @@ public class TC_Ritualistic_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://www.ritualistic.in/");
 		logger.info("URL is open");
 		logger.info("Ritualistic has Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon visible in Lotus Botanicals");
 			logger.info("Verify_Ritualistic_KwikPass_login_icon_Visibilty test case passed!");
 			logger.info("Test Cases Completed !");

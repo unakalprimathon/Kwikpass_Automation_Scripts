@@ -140,15 +140,12 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
-//			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-//			logger.info("Mobile number entered");
-//			sleep(2);
-//			driver.findElement(By.id(otp_input)).sendKeys(otp);
-//			logger.info("OTP entered");
-//			sleep(8);
-			driver.findElement(By.id(mobile_input)).sendKeys("7019281976");
+			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(20);
+			sleep(2);
+			driver.findElement(By.id(otp_input)).sendKeys(otp);
+			logger.info("OTP entered");
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click();
 			By logoutbtn = By.xpath(logout_btn);
@@ -223,15 +220,12 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
-//			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-//			logger.info("Mobile number entered");
-//			sleep(2);
-//			driver.findElement(By.id(otp_input)).sendKeys(otp);
-//			logger.info("OTP entered");
-//			sleep(8);
-			driver.findElement(By.id(mobile_input)).sendKeys("7019281976");
+			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(20);
+			sleep(2);
+			driver.findElement(By.id(otp_input)).sendKeys(otp);
+			logger.info("OTP entered");
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click();
 			By logoutbtn = By.xpath(logout_btn);
@@ -271,15 +265,12 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
-//		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-//		logger.info("Mobile number entered");
-//		sleep(2);
-//		driver.findElement(By.id(otp_input)).sendKeys(otp);
-//		logger.info("OTP entered");
-//		sleep(8);
-		driver.findElement(By.id(mobile_input)).sendKeys("7019281976");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(20);
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
@@ -291,7 +282,7 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 			sleep(3);
 			driver.navigate().to("https://plumgoodness.com/products/vitamin-c-face-serum");
 			logger.info("Navigated to PDP page");
-			WebElement addtocart = driver.findElement(By.xpath(Plum_Goodness_addtocart));
+			WebElement addtocart = driver.findElement(By.className(Plum_Goodness_addtocart));
 			WebDriverWait addtocart_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			addtocart_wait.until(ExpectedConditions.elementToBeClickable(addtocart));
 			addtocart.click();
@@ -351,15 +342,12 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
-//		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-//		logger.info("Mobile number entered");
-//		sleep(2);
-//		driver.findElement(By.id(otp_input)).sendKeys(otp);
-//		logger.info("OTP entered");
-//		sleep(8);
-		driver.findElement(By.id(mobile_input)).sendKeys("7019281976");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(20);
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
@@ -446,15 +434,12 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
-//			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-//			logger.info("Mobile number entered");
-//			sleep(2);
-//			driver.findElement(By.id(otp_input)).sendKeys(otp);
-//			logger.info("OTP entered");
-//			sleep(8);
-			driver.findElement(By.id(mobile_input)).sendKeys("7019281976");
+			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(20);
+			sleep(2);
+			driver.findElement(By.id(otp_input)).sendKeys(otp);
+			logger.info("OTP entered");
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click();
 			By logoutbtn = By.xpath(logout_btn);
@@ -464,7 +449,7 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 			if (logoutbtnPresent && orderhistorybtnPresent) {
 				logger.info("Login Successful !");
 				driver.findElement(By.xpath(orderhistory_btn)).click();
-				sleep(10);
+				sleep(20);
 				String curl = driver.getCurrentUrl();
 				String vurl = "https://plumgoodness.com/account";
 				if (curl.equals(vurl)) {
@@ -508,15 +493,12 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
-//		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-//		logger.info("Mobile number entered");
-//		sleep(2);
-//		driver.findElement(By.id(otp_input)).sendKeys(otp);
-//		logger.info("OTP entered");
-//		sleep(8);
-		driver.findElement(By.id(mobile_input)).sendKeys("7019281976");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(20);
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
@@ -526,7 +508,7 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			logger.info("Login Successful !");
 			driver.findElement(By.xpath(orderhistory_btn)).click();
-			sleep(10);
+			sleep(20);
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://plumgoodness.com/account";
 			if (curl.equals(vurl)) {
@@ -557,7 +539,7 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		logger.info("Plum_Goodness has Kwikpass AP");
 		logger.info("Clicked Kwikpass Icon");
 		LoginPage lp = new LoginPage(driver);
-		sleep(3);
+		sleep(5);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		By mobile_input_field = By.id(mobile_input);
@@ -584,7 +566,7 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		logger.info("Plum_Goodness has Kwikpass AP");
 		logger.info("Clicked Kwikpass Icon");
 		LoginPage lp = new LoginPage(driver);
-		sleep(3);
+		sleep(5);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		By mobile_input_field = By.id(mobile_input);
@@ -593,15 +575,12 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
-//			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-//			logger.info("Mobile number entered");
-//			sleep(2);
-//			driver.findElement(By.id(otp_input)).sendKeys(otp);
-//			logger.info("OTP entered");
-//			sleep(8);
-			driver.findElement(By.id(mobile_input)).sendKeys("7019281976");
+			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(20);
+			sleep(2);
+			driver.findElement(By.id(otp_input)).sendKeys(otp);
+			logger.info("OTP entered");
+			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://plumgoodness.com/account";
@@ -638,15 +617,12 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
-//		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-//		logger.info("Mobile number entered");
-//		sleep(2);
-//		driver.findElement(By.id(otp_input)).sendKeys(otp);
-//		logger.info("OTP entered");
-//		sleep(8);
-		driver.findElement(By.id(mobile_input)).sendKeys("7019281976");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(20);
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
@@ -655,7 +631,7 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			driver.navigate().to("https://plumgoodness.com/account");
-			sleep(10);
+			sleep(20);
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://plumgoodness.com/account";
 			if (curl.equals(vurl)) {
@@ -704,15 +680,12 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
-//			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-//			logger.info("Mobile number entered");
-//			sleep(2);
-//			driver.findElement(By.id(otp_input)).sendKeys(otp);
-//			logger.info("OTP entered");
-//			sleep(8);
-			driver.findElement(By.id(mobile_input)).sendKeys("7019281976");
+			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(20);
+			sleep(2);
+			driver.findElement(By.id(otp_input)).sendKeys(otp);
+			logger.info("OTP entered");
+			sleep(15);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://plumgoodness.com/account";
@@ -749,15 +722,12 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
-//		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-//		logger.info("Mobile number entered");
-//		sleep(2);
-//		driver.findElement(By.id(otp_input)).sendKeys(otp);
-//		logger.info("OTP entered");
-//		sleep(8);
-		driver.findElement(By.id(mobile_input)).sendKeys("7019281976");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(20);
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
@@ -777,7 +747,7 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 			Login_reg_btn_wait.until(ExpectedConditions.elementToBeClickable(Login_reg_btn));
 			Login_reg_btn.click();
 			logger.info("Clicked login button");
-			sleep(15);
+			sleep(10);
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://plumgoodness.com/account";
 			if (curl.equals(vurl)) {

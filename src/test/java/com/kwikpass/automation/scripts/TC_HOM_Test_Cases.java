@@ -141,10 +141,11 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click(); 
 			By logoutbtn = By.xpath(logout_btn); 
@@ -184,13 +185,7 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 				String x1 = gokwik_name_;
 				if (X.equals(x1)) {
 					logger.info("Gokwik login successfull !");
-					sleep(4);
-					driver.findElement(By.xpath(gokwikclose)).click();
-					logger.info("close button clicked");
-					driver.findElement(By.xpath(gokwikyes)).click();
-					logger.info("closed gokwik checkout");
-					driver.switchTo().defaultContent();
-					logger.info("Switched to default main page");
+					sleep(2);
 					logger.info("Verify_HOM_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen Test case passed!");
 					logger.info("Test Case Completed !");
 				} else {
@@ -203,8 +198,13 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 				logger.info("Kwikpass Login Unsuccessful !");
 				logger.info("Verify_HOM_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen Test Cases failed!");
 				captureScreen(driver, "Verify_HOM_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen failed !");
-				Assert.fail("Verify_HOM_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen");
+				Assert.fail("Verify_HOM_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen failed");
 			}
+		}else {
+			logger.info("Kwikpass Login Unsuccessful !");
+			logger.info("Verify_HOM_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen Test Cases failed!");
+			captureScreen(driver, "Verify_HOM_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen failed !");
+			Assert.fail("Verify_HOM_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen failed");
 		}
 	}
 	
@@ -224,11 +224,12 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
-			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number); 
-			sleep(3);
+			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click();  
 			By logoutbtn = By.xpath(logout_btn); 
@@ -268,11 +269,12 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
-		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number); 
-		sleep(3);
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn); 
@@ -346,10 +348,11 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		sleep(3);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn);
@@ -375,8 +378,10 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://houseofmangalam.com/");
 		logger.info("URL is open");
 		logger.info("HOM has Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon visible in HOM");
 			logger.info("Verify_HOM_KwikPass_login_icon_Visibilty test case passed!");
 			logger.info("Test Cases Completed !");
@@ -437,10 +442,11 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click(); 
 			By logoutbtn = By.xpath(logout_btn); 
@@ -493,11 +499,12 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
-		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number); 
-		sleep(3);
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn); 
@@ -579,7 +586,7 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://houseofmangalam.com/account";
@@ -621,7 +628,7 @@ public class TC_HOM_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);

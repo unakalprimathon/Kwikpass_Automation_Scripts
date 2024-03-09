@@ -62,11 +62,12 @@ public class TC_Hammer_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
-		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number); 
-		sleep(3);
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		WebElement kp_afterlogin_btn = driver.findElement(By.id(kwikpass_icon_al));   
 		WebDriverWait kp_afterlogin_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -96,8 +97,10 @@ public class TC_Hammer_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://hammeronline.in/");
 		logger.info("URL is opened");
 		logger.info("Hammer does not have Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon is visible");
 			logger.info("Verify_Hammer_KwikPass_login_icon_Visibilty Test case Passed !");
 			logger.info("Test Case Completed !");
@@ -124,11 +127,12 @@ public class TC_Hammer_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
-		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number); 
-		sleep(3);
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		WebElement kp_afterlogin_btn = driver.findElement(By.id(kwikpass_icon_al));   
 		WebDriverWait kp_afterlogin_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -157,8 +161,7 @@ public class TC_Hammer_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Hammer_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://hammeronline.in/account");
 		logger.info("URL is open");
-		logger.info("Hammer has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Hammer does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -184,8 +187,7 @@ public class TC_Hammer_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Hammer_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://hammeronline.in/account");
 		logger.info("URL is open");
-		logger.info("Hammer has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Hammer does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -201,7 +203,7 @@ public class TC_Hammer_Test_Cases extends BaseClass implements Locator{
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://hammeronline.in/account";
@@ -228,7 +230,7 @@ public class TC_Hammer_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Hammer_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://hammeronline.in/");
 		logger.info("URL is open");
-		logger.info("Hammer has Kwikpass AP");
+		logger.info("Hammer does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -243,7 +245,7 @@ public class TC_Hammer_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);

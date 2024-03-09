@@ -144,7 +144,7 @@ public class TC_Italian_Colony_Test_Cases extends BaseClass implements Locator{
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click();
 			By logoutbtn = By.xpath(logout_btn);
@@ -190,7 +190,7 @@ public class TC_Italian_Colony_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
@@ -216,8 +216,10 @@ public class TC_Italian_Colony_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://www.italiancolony.com/");
 		logger.info("URL is open");
 		logger.info("Italian_Colony has Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon visible in Italian_Colony");
 			logger.info("Verify_Italian_Colony_KwikPass_icon_visibility test case passed!");
 			logger.info("Test Cases Completed !");
@@ -282,7 +284,7 @@ public class TC_Italian_Colony_Test_Cases extends BaseClass implements Locator{
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click();
 			By logoutbtn = By.xpath(logout_btn);
@@ -341,7 +343,7 @@ public class TC_Italian_Colony_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
@@ -423,7 +425,7 @@ public class TC_Italian_Colony_Test_Cases extends BaseClass implements Locator{
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://www.italiancolony.com/account";
@@ -465,7 +467,7 @@ public class TC_Italian_Colony_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
@@ -526,7 +528,7 @@ public class TC_Italian_Colony_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));

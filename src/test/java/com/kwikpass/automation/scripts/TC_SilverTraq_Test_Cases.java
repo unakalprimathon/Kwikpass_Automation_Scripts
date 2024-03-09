@@ -147,10 +147,11 @@ public class TC_SilverTraq_Test_Cases extends BaseClass implements Locator{
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click(); 
 			By logoutbtn = By.xpath(logout_btn); 
@@ -221,10 +222,11 @@ public class TC_SilverTraq_Test_Cases extends BaseClass implements Locator{
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click(); 
 			By logoutbtn = By.xpath(logout_btn); 
@@ -266,10 +268,11 @@ public class TC_SilverTraq_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		sleep(3);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn); 
@@ -331,10 +334,11 @@ public class TC_SilverTraq_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		sleep(3);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn); 
@@ -361,8 +365,10 @@ public class TC_SilverTraq_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://www.silvertraq.com/");
 		logger.info("URL is open");
 		logger.info("Silvertraq has Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon visible in Lotus Botanicals");
 			logger.info("Verify_Silvertraq_KwikPass_login_icon_Visibilty test case passed!");
 			logger.info("Test Cases Completed !");
@@ -429,10 +435,11 @@ public class TC_SilverTraq_Test_Cases extends BaseClass implements Locator{
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click();
 			By logoutbtn = By.xpath(logout_btn); 
@@ -584,7 +591,7 @@ public class TC_SilverTraq_Test_Cases extends BaseClass implements Locator{
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(15);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://www.silvertraq.com/account";
@@ -626,7 +633,7 @@ public class TC_SilverTraq_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);

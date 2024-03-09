@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+
 public class LocatorConfig {
 
 	Properties pro;
@@ -711,6 +712,58 @@ public class LocatorConfig {
 		String Hause_And_Kinder_rewards_signin_btn = pro.getProperty("Hause_And_Kinder_rewards_signin_btn");
 		return Hause_And_Kinder_rewards_signin_btn;
 	}
+	public String getMivi_popup_iframe() {
+		String Mivi_popup_iframe = pro.getProperty("Mivi_popup_iframe");
+		return Mivi_popup_iframe;
+	}
+	public String getMivi_close_popup_btn() {
+		String Mivi_close_popup_btn = pro.getProperty("Mivi_close_popup_btn");
+		return Mivi_close_popup_btn;
+	}
+	public String getMivi_addto_cart_btn() {
+		String Mivi_addto_cart_btn = pro.getProperty("Mivi_addto_cart_btn");
+		return Mivi_addto_cart_btn;
+	}
+	public String getMivi_place_order_btn() {
+		String Mivi_place_order_btn = pro.getProperty("Mivi_place_order_btn");
+		return Mivi_place_order_btn;
+	}
+	public String getMivi_rewards_btn_iframe() {
+		String Mivi_rewards_btn_iframe = pro.getProperty("Mivi_rewards_btn_iframe");
+		return Mivi_rewards_btn_iframe;
+	}
+	public String getMivi_rewards_btn() {
+		String Mivi_rewards_btn = pro.getProperty("Mivi_rewards_btn");
+		return Mivi_rewards_btn;
+	}
+	public String getMivi_rewards_iframe() {
+		String Mivi_rewards_iframe = pro.getProperty("Mivi_rewards_iframe");
+		return Mivi_rewards_iframe;
+	}
+	public String getMivi_rewards_signin_btn() {
+		String Mivi_rewards_signin_btn = pro.getProperty("Mivi_rewards_signin_btn");
+		return Mivi_rewards_signin_btn;
+	}
+	public String getJust_Herbs_kp_login_btn() {
+		String Just_Herbs_kp_login_btn = pro.getProperty("Just_Herbs_kp_login_btn");
+		return Just_Herbs_kp_login_btn;
+	}
+	public String getJust_Herbs_user_icon() {
+		String Just_Herbs_user_icon = pro.getProperty("Just_Herbs_user_icon");
+		return Just_Herbs_user_icon;
+	}
+	public String getJust_Herbs_account_btn() {
+		String Just_Herbs_account_btn = pro.getProperty("Just_Herbs_account_btn");
+		return Just_Herbs_account_btn;
+	}
+	public String getJust_Herbs_iframe() {
+		String Just_Herbs_iframe = pro.getProperty("Just_Herbs_iframe");
+		return Just_Herbs_iframe;
+	}
+	public String getJust_Herbs_close_popup() {
+		String Just_Herbs_close_popup = pro.getProperty("Just_Herbs_close_popup");
+		return Just_Herbs_close_popup;
+	}
+	
 	
 }
-

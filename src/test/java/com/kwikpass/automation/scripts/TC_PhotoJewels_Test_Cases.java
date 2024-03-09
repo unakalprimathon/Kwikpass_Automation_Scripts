@@ -141,10 +141,11 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click();
 			By logoutbtn = By.xpath(logout_btn); 
@@ -216,10 +217,11 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click();
 			By logoutbtn = By.xpath(logout_btn); 
@@ -260,10 +262,11 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		sleep(3);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn); 
@@ -331,10 +334,11 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		sleep(3);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn); 
@@ -422,10 +426,11 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click();
 			By logoutbtn = By.xpath(logout_btn); 
@@ -480,10 +485,11 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		sleep(3);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn); 
@@ -565,7 +571,7 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://photojewels.in/account";
@@ -607,7 +613,7 @@ public class TC_PhotoJewels_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);

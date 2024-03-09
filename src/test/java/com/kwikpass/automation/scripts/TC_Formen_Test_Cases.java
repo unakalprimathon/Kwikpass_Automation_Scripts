@@ -53,8 +53,10 @@ public class TC_Formen_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://www.formen.health/");
 		logger.info("URL is opened");
 		logger.info("Formen does not have Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon is visible");
 			logger.info("Verify_Formen_KwikPass_login_icon_Visibilty Test case Passed !");
 			logger.info("Test Case Completed !");
@@ -190,17 +192,18 @@ public class TC_Formen_Test_Cases extends BaseClass implements Locator{
 			sleep(3);
 			driver.navigate().to("https://www.formen.health/products/hair-growth-solution");
 			logger.info("Navigated to PDP page");
-			WebElement buy_now = driver.findElement(By.id(Formen_buynow));
+			WebElement buy_now = driver.findElement(By.xpath(Formen_buynow));
 			WebDriverWait buy_now_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			buy_now_wait.until(ExpectedConditions.elementToBeClickable(buy_now));
 			buy_now.click();
 			logger.info("Clicked Buy now button");
-			sleep(1);
+			sleep(5);
 			WebElement placeorder = driver.findElement(By.xpath(Formen_checkout));
 			WebDriverWait placeorder_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			placeorder_wait.until(ExpectedConditions.elementToBeClickable(placeorder));
 			placeorder.click();
 			logger.info("clicked on Express checkout button");
+			driver.switchTo().defaultContent();
 			sleep(5);
 			lp.switchToGokwikIframe(gokwik_iframe);
 			logger.info("Switched to gokwik checkout");
@@ -234,8 +237,7 @@ public class TC_Formen_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Formen_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://www.formen.health/account");
 		logger.info("URL is open");
-		logger.info("Formen has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Formen does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -261,8 +263,7 @@ public class TC_Formen_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Formen_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://www.formen.health/account");
 		logger.info("URL is open");
-		logger.info("Formen has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Formen does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -305,7 +306,7 @@ public class TC_Formen_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Formen_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://www.formen.health/");
 		logger.info("URL is open");
-		logger.info("Formen has Kwikpass AP");
+		logger.info("Formen does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));

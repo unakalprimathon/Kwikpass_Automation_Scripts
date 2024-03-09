@@ -166,8 +166,10 @@ public class TC_Guniaa_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://guniaa.com/");
 		logger.info("URL is open");
 		logger.info("Guniaa has Kwikpass Auto Load Popup");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl)); 
-		if (s.isDisplayed()) {
+		WebElement kp_before_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_before_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_before_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_before_login_btn));
+		if (kp_before_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon is visible");
 			logger.info("Verfiy_Guniaa_KwikPass_icon_visibilty Test case passed !");
 			logger.info("Test Case Completed !");
@@ -191,10 +193,10 @@ public class TC_Guniaa_Test_Cases extends BaseClass implements Locator{
 		logger.info("switched to Kwikpass AP modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(3);
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -234,10 +236,10 @@ public class TC_Guniaa_Test_Cases extends BaseClass implements Locator{
 		sleep(3);
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(3);
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -303,10 +305,10 @@ public class TC_Guniaa_Test_Cases extends BaseClass implements Locator{
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(3);
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -314,7 +316,7 @@ public class TC_Guniaa_Test_Cases extends BaseClass implements Locator{
 		kp_after_login_btn.click();
 		logger.info("Clicked Kwikpass Icon after login");
 		driver.findElement(By.xpath(orderhistory_btn)).click();
-		sleep(7);
+		sleep(10);
 		String curl = driver.getCurrentUrl();
 		String vurl = "https://guniaa.com/account";
 		if (curl.equals(vurl)) {
@@ -347,10 +349,10 @@ public class TC_Guniaa_Test_Cases extends BaseClass implements Locator{
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(3);
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -358,7 +360,7 @@ public class TC_Guniaa_Test_Cases extends BaseClass implements Locator{
 		kp_after_login_btn.click();
 		logger.info("Clicked Kwikpass Icon after login");
 		driver.findElement(By.xpath(orderhistory_btn)).click();
-		sleep(7);
+		sleep(20);
 		String curl = driver.getCurrentUrl();
 		String vurl = "https://guniaa.com/account";
 		if (curl.equals(vurl)) {
@@ -424,7 +426,7 @@ public class TC_Guniaa_Test_Cases extends BaseClass implements Locator{
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://guniaa.com/account";
@@ -466,7 +468,7 @@ public class TC_Guniaa_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
@@ -475,7 +477,7 @@ public class TC_Guniaa_Test_Cases extends BaseClass implements Locator{
 		boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			driver.navigate().to("https://guniaa.com/account");
-			sleep(10);
+			sleep(20);
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://guniaa.com/account";
 			if (curl.equals(vurl)) {

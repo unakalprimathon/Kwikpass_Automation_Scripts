@@ -53,8 +53,10 @@ public class TC_Gritstones_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://www.gritstones.com/");
 		logger.info("URL is opened");
 		logger.info("Gritstones does not have Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon is visible");
 			logger.info("Verify_Gritstones_KwikPass_login_icon_Visibilty Test case Passed !");
 			logger.info("Test Case Completed !");
@@ -188,9 +190,9 @@ public class TC_Gritstones_Test_Cases extends BaseClass implements Locator{
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			logger.info("Login Successful !");
 			sleep(3);
-			driver.navigate().to("https://www.gritstones.com/collections/new/products/anthra-melange-waffle-knit-henley-t-shirt");
+			driver.navigate().to("https://www.gritstones.com/collections/new/products/black-oversized-dyed-shade-rayon-shirt-1");
 			logger.info("Navigated to PDP page");
-			WebElement addtocart = driver.findElement(By.name(Gritstones_addtocart_btn));
+			WebElement addtocart = driver.findElement(By.xpath(Gritstones_addtocart_btn));
 			WebDriverWait addtocart_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			addtocart_wait.until(ExpectedConditions.elementToBeClickable(addtocart));
 			addtocart.click();
@@ -234,8 +236,7 @@ public class TC_Gritstones_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Gritstones_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://www.gritstones.com/account");
 		logger.info("URL is open");
-		logger.info("Gritstones has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Gritstones does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -261,7 +262,7 @@ public class TC_Gritstones_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Gritstones_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://www.gritstones.com/account");
 		logger.info("URL is open");
-		logger.info("Gritstones has Kwikpass AP");
+		logger.info("Gritstones does not have Kwikpass AP");
 		logger.info("Clicked Kwikpass Icon");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
@@ -305,7 +306,7 @@ public class TC_Gritstones_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Gritstones_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://www.gritstones.com/");
 		logger.info("URL is open");
-		logger.info("Gritstones has Kwikpass AP");
+		logger.info("Gritstones does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));

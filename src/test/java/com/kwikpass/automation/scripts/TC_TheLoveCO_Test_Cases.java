@@ -142,10 +142,11 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click(); 
 			By logoutbtn = By.xpath(logout_btn); 
@@ -186,10 +187,11 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		sleep(3);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn); 
@@ -277,10 +279,11 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			driver.findElement(By.id(kwikpass_icon_al)).click(); 
 			By logoutbtn = By.xpath(logout_btn); 
@@ -290,7 +293,7 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 			if (logoutbtnPresent && orderhistorybtnPresent) {
 				logger.info("Login Successful !");
 				driver.findElement(By.xpath(orderhistory_btn)).click();
-				sleep(10);
+				sleep(18);
 				String curl = driver.getCurrentUrl();
 				String vurl = "https://theloveco.in/account";
 				if (curl.equals(vurl)) {
@@ -334,10 +337,11 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		sleep(3);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click(); 
 		By logoutbtn = By.xpath(logout_btn); 
@@ -347,7 +351,7 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		if (logoutbtnPresent || orderhistorybtnPresent) {
 			logger.info("Login Successful !");
 			driver.findElement(By.xpath(orderhistory_btn)).click();
-			sleep(10);
+			sleep(18);
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://theloveco.in/account";
 			if (curl.equals(vurl)) {
@@ -377,7 +381,7 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		logger.info("URL is open");
 		logger.info("TheLoveCO does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
-		sleep(8);
+		sleep(5);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		By optid = By.id(mobile_input); 
@@ -404,7 +408,7 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		logger.info("URL is open");
 		logger.info("TheLoveCO does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
-		sleep(8);
+		sleep(5);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		By optid = By.id(mobile_input); 
@@ -417,7 +421,7 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://theloveco.in/account";
@@ -461,7 +465,7 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -475,7 +479,7 @@ public class TC_TheLoveCO_Test_Cases extends BaseClass implements Locator {
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			driver.navigate().to("https://theloveco.in/account");
 			logger.info("Switched to default page");
-			sleep(10);
+			sleep(18);
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://theloveco.in/account";
 			if (curl.equals(vurl)) {

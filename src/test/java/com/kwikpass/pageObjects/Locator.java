@@ -177,4 +177,17 @@ public interface Locator {
 	public String Hause_And_Kinder_rewards_btn = locatorconfig.getHause_And_Kinder_rewards_btn();
 	public String Hause_And_Kinder_iframe = locatorconfig.getHause_And_Kinder_iframe();
 	public String Hause_And_Kinder_rewards_signin_btn = locatorconfig.getHause_And_Kinder_rewards_signin_btn();
+	public String Mivi_popup_iframe = locatorconfig.getMivi_popup_iframe();
+	public String Mivi_close_popup_btn = locatorconfig.getMivi_close_popup_btn();
+	public String Mivi_addto_cart_btn = locatorconfig.getMivi_addto_cart_btn();
+	public String Mivi_place_order_btn = locatorconfig.getMivi_place_order_btn();
+	public String Mivi_rewards_btn_iframe = locatorconfig.getMivi_rewards_btn_iframe();
+	public String Mivi_rewards_btn = locatorconfig.getMivi_rewards_btn();
+	public String Mivi_rewards_iframe = locatorconfig.getMivi_rewards_iframe();
+	public String Mivi_rewards_signin_btn = locatorconfig.getMivi_rewards_signin_btn();
+	public String Just_Herbs_kp_login_btn = locatorconfig.getJust_Herbs_kp_login_btn();
+	public String Just_Herbs_user_icon = locatorconfig.getJust_Herbs_user_icon();
+	public String Just_Herbs_account_btn = locatorconfig.getJust_Herbs_account_btn();
+	public String Just_Herbs_iframe = locatorconfig.getJust_Herbs_iframe();
+	public String Just_Herbs_close_popup = locatorconfig.getJust_Herbs_close_popup();
 }

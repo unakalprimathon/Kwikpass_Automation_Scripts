@@ -1,5 +1,5 @@
 
-<suite name="Kwikpass_Automation_Scripts">
+<suite name="kp_Automation_Scripts">
 
 	<listeners>
 		<listener class-name="com.kwikpass.utilities.Report" />
@@ -181,6 +181,11 @@
 			<!--Xctasy Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Xctasy_Test_Cases" />
 			
+			<!--Mivi Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Mivi_Test_Cases" />
+			
+			<!--Soul_Flower Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Soul_Flower_Test_Cases" />
 </classes>
 	</test>
 

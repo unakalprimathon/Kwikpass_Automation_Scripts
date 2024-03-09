@@ -162,8 +162,7 @@ public class TC_Bombae_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Bombae_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://mybombae.in/account");
 		logger.info("URL is open");
-		logger.info("Bombae has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Bombae does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(5);
 		lp.switchToIframe(kwikpass_iframe);
@@ -189,8 +188,7 @@ public class TC_Bombae_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Bombae_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://mybombae.in/account");
 		logger.info("URL is open");
-		logger.info("Bombae has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Bombae does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(5);
 		lp.switchToIframe(kwikpass_iframe);
@@ -233,7 +231,7 @@ public class TC_Bombae_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Bombae_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://mybombae.in/");
 		logger.info("URL is open");
-		logger.info("Bombae has Kwikpass AP");
+		logger.info("Bombae does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));

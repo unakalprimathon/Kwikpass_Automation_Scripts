@@ -53,8 +53,10 @@ public class TC_Luxaderme_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://luxaderme.in/");
 		logger.info("URL is opened");
 		logger.info("Luxaderme does not have Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon is visible");
 			logger.info("Verify_Luxaderme_KwikPass_login_icon_Visibilty Test case Passed !");
 			logger.info("Test Case Completed !");
@@ -234,8 +236,7 @@ public class TC_Luxaderme_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Luxaderme_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://luxaderme.in/account");
 		logger.info("URL is open");
-		logger.info("Luxaderme has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Luxaderme does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -261,8 +262,7 @@ public class TC_Luxaderme_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Luxaderme_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://luxaderme.in/account");
 		logger.info("URL is open");
-		logger.info("Luxaderme has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Luxaderme does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -305,7 +305,7 @@ public class TC_Luxaderme_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Luxaderme_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://luxaderme.in/");
 		logger.info("URL is open");
-		logger.info("Luxaderme has Kwikpass AP");
+		logger.info("Luxaderme does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -329,7 +329,7 @@ public class TC_Luxaderme_Test_Cases extends BaseClass implements Locator{
 		boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			driver.navigate().to("https://luxaderme.in/account");
-			sleep(20);
+			sleep(10);
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://luxaderme.in/account";
 			if (curl.equals(vurl)) {

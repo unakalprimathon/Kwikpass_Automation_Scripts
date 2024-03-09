@@ -1,0 +1,109 @@
+
+<suite name="kp_Automation_Scripts">
+
+	<listeners>
+		<listener class-name="com.kwikpass.utilities.Report" />
+	</listeners>
+
+	<test name="Kwickpass_Test">
+		<parameter name="browser" value="chrome" />
+			
+<classes>
+	
+			<!--FireBoltt Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_FireBoltt_Test_Cases" />
+			
+			<!--Plum_Goodness Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Plum_Goodness_Test_Cases" />
+			
+			<!--Nobero Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Nobero_Test_Cases" />
+			
+			<!--Levi's Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Levis_Test_Cases"/>
+			
+			<!--Pinkfort Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Pinkfort_Test_Cases" />
+
+			<!--SafariBags Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_SafariBags_Test_Cases" />
+			
+			<!--Krishnaayurved Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Krishnaayurved_Test_Cases"/>
+			
+			<!--AdilQadri Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_AdilQadri_Test_Cases"/>
+			
+			<!--Eye Wear Labs Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_EyeWearLabs_Test_Cases" />
+			
+			<!--Foxtale Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Foxtale_Test_Cases"/>
+			
+			<!--Portronics Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Portronics_Test_Cases"/>
+			
+			<!--Saadaa Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Saadaa_Test_Cases" />
+			
+			<!--SwissBeauty Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_SwissBeauty_Test_Cases" />
+			
+			<!--OrganicBazaar Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_OrganicBazaar_Test_Cases" />
+			
+			<!--Assembly Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Assembly_Test_Cases"/>
+			
+			<!--BSC Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_BSC_Test_Cases"/>
+			
+			<!--LotuBotanical Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_LotuBotanical_Test_Cases" />
+			
+			<!--Dennis_Lingo Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Dennis_Lingo_Test_Cases"/>
+			
+			<!--Urbangabru Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Urbangabru_Test_Cases"/>
+			
+			<!--Gritstones Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Gritstones_Test_Cases"/>
+			
+			<!--Heelium Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Heelium_Test_Cases" />
+			
+			<!--PhotoJewels Test cases 
+			<class name="com.kwikpass.automation.scripts.TC_PhotoJewels_Test_Cases" />-->
+			
+			<!--MyFitness Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_MyFitness_Test_Cases" />
+			
+			<!--SafariBags Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_SafariBags_Test_Cases" />
+			
+			<!--Guniaa Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Guniaa_Test_Cases" />
+
+			<!--Hammer Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Hammer_Test_Cases" />
+			
+			<!--BlueTyga Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_BlueTyga_Test_Cases"/>
+			
+			<!--Italian Colony Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Italian_Colony_Test_Cases" />
+			
+			<!--Dot And key Test cases-->
+			<class name="com.kwikpass.automation.scripts.TC_Dot_And_key_Test_Cases"/>
+			
+			<!--Yoho_LifeStyle Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Yoho_LifeStyle_Test_Cases"/>
+			
+			<!-- Ritualistic Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Ritualistic_Test_Cases"/>
+			
+</classes>
+	</test>
+
+</suite>

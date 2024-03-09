@@ -34,11 +34,6 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		kwikpass_btn.click();
 		logger.info("Clicked kwikpass_btn");
 		LoginPage lp = new LoginPage(driver);
-		sleep(18);
-		lp.switchToIframe(Saadaa_popup_iframe);
-		driver.findElement(By.className(Saadaa_popup_close)).click();
-		driver.switchTo().defaultContent();
-		logger.info("close saadaa popup");
 		sleep(2);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
@@ -47,7 +42,7 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		String x = driver.findElement(By.id(Saadaa_account_txt)).getText();
 		logger.info(x);
@@ -55,7 +50,7 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		if (x.equals(x11)) {
 			logger.info("Login Successful !");
 			sleep(3);
-			driver.navigate().to("https://saadaa.in/products/rose-taupe-airy-linen-short-kurta");
+			driver.navigate().to("https://saadaa.in/products/peacock-blue-solid-regular-fit-cotton-trouser");
 			logger.info("Navigated to PDP page");
 			WebElement selectsize = driver.findElement(By.xpath(Saadaa_selectsize));
 			WebDriverWait selectsize_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -120,11 +115,6 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		kwikpass_btn.click();
 		logger.info("Clicked kwikpass_btn");
 		LoginPage lp = new LoginPage(driver);
-		sleep(18);
-		lp.switchToIframe(Saadaa_popup_iframe);
-		driver.findElement(By.className(Saadaa_popup_close)).click();
-		driver.switchTo().defaultContent();
-		logger.info("close saadaa popup");
 		sleep(2);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
@@ -133,7 +123,7 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		String x = driver.findElement(By.id(Saadaa_account_txt)).getText();
 		logger.info(x);
@@ -168,11 +158,6 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		kwikpass_btn.click();
 		logger.info("Clicked kwikpass_btn");
 		LoginPage lp = new LoginPage(driver);
-		sleep(18);
-		lp.switchToIframe(Saadaa_popup_iframe);
-		driver.findElement(By.className(Saadaa_popup_close)).click();
-		driver.switchTo().defaultContent();
-		logger.info("close saadaa popup");
 		sleep(2);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
@@ -211,11 +196,6 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		kwikpass_btn.click();
 		logger.info("Clicked kwikpass_btn");
 		LoginPage lp = new LoginPage(driver);
-		sleep(18);
-		lp.switchToIframe(Saadaa_popup_iframe);
-		driver.findElement(By.className(Saadaa_popup_close)).click();
-		driver.switchTo().defaultContent();
-		logger.info("close saadaa popup");
 		sleep(2);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
@@ -224,13 +204,18 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(7);
 		driver.switchTo().defaultContent();
 		String x = driver.findElement(By.id(Saadaa_account_txt)).getText();
 		logger.info(x);
 		String x11 = "ACCOUNT";
 		if (x.equals(x11)) {
 			logger.info("Login Successful !");
+			sleep(5);
+			lp.switchToIframe(Saadaa_popup_iframe);
+			driver.findElement(By.className(Saadaa_popup_close)).click();
+			driver.switchTo().defaultContent();
+			logger.info("close saadaa popup");
 			WebElement kwikpass_btn1 = driver.findElement(By.id(Saadaa_account_txt));
 			WebDriverWait kwikpass_btn1_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			kwikpass_btn1_wait.until(ExpectedConditions.elementToBeClickable(kwikpass_btn1));
@@ -294,11 +279,6 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		logger.info("Saadaa has Kwikpass AP");
 		logger.info("Clicked Kwikpass Icon");
 		LoginPage lp = new LoginPage(driver);
-		sleep(18);
-		lp.switchToIframe(Saadaa_popup_iframe);
-		driver.findElement(By.className(Saadaa_popup_close)).click();
-		driver.switchTo().defaultContent();
-		logger.info("close saadaa popup");
 		sleep(2);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
@@ -313,7 +293,7 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://saadaa.in/account";
@@ -353,11 +333,6 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		kwikpass_btn.click();
 		logger.info("Clicked kwikpass_btn");
 		LoginPage lp = new LoginPage(driver);
-		sleep(18);
-		lp.switchToIframe(Saadaa_popup_iframe);
-		driver.findElement(By.className(Saadaa_popup_close)).click();
-		driver.switchTo().defaultContent();
-		logger.info("close saadaa popup");
 		sleep(2);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
@@ -366,7 +341,7 @@ public class TC_Saadaa_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		String x = driver.findElement(By.id(Saadaa_account_txt)).getText();
 		logger.info(x);

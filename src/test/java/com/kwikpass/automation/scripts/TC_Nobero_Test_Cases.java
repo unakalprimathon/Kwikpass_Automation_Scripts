@@ -18,7 +18,7 @@ import com.kwikpass.pageObjects.LoginPage;
 public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 
 	@Test
-	public void Verify_Nobero_KwikPass_icon_visibility() throws IOException, InterruptedException {
+	public void Verify_Nobero_KwikPass_icon_visibility_Login_modal_verification() throws IOException, InterruptedException {
 		logger.info("Verify_Nobero_KwikPass_icon_visibility Test case is running.....");
 		driver.get("https://nobero.com/");
 		logger.info("URL is open");
@@ -76,10 +76,11 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		sleep(3);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		WebElement dropdown1 = driver.findElement(By.xpath(nobero_kwikpass_icon));
 		Actions actions1 = new Actions(driver);
@@ -235,8 +236,7 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Nobero_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://nobero.com/account");
 		logger.info("URL is open");
-		logger.info("Nobero has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Nobero does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -262,8 +262,7 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Nobero_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://nobero.com/account");
 		logger.info("URL is open");
-		logger.info("Nobero has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Nobero does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(5);
 		lp.switchToNoberoIframe(nobero_iframe);
@@ -279,10 +278,11 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			sleep(3);
+			logger.info("Mobile number entered");
+			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(15);
+			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://nobero.com/account";
@@ -309,7 +309,7 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Nobero_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://nobero.com/");
 		logger.info("URL is open");
-		logger.info("Nobero has Kwikpass AP");
+		logger.info("Nobero does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(5);
 		lp.switchToNoberoIframe(nobero_iframe);
@@ -326,11 +326,12 @@ public class TC_Nobero_Test_Cases extends BaseClass implements Locator{
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-		sleep(3);
+		logger.info("Mobile number entered");
+		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
+		sleep(8);
 		driver.switchTo().defaultContent();
-		sleep(15);
 			driver.navigate().to("https://nobero.com/account");
 			sleep(10);
 			String curl = driver.getCurrentUrl();

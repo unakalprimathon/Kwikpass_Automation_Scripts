@@ -250,6 +250,7 @@ public class TC_Assembly_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://assemblytravel.com/");
 		logger.info("URL is open");
 		logger.info("Assembly has Kwikpass AP");
+		sleep(2);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -321,6 +322,7 @@ public class TC_Assembly_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://assemblytravel.com/");
 		logger.info("URL is open");
 		logger.info("Assembly has Kwikpass AP");
+		sleep(2);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -361,8 +363,11 @@ public class TC_Assembly_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://assemblytravel.com/");
 		logger.info("URL is open");
 		logger.info("Assembly has Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		sleep(2);
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon visible in Assembly");
 			logger.info("Verify_Assembly_KwikPass_icon_visibility test case passed!");
 			logger.info("Test Cases Completed !");
@@ -381,6 +386,7 @@ public class TC_Assembly_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://assemblytravel.com/");
 		logger.info("URL is open");
 		logger.info("Assembly has Kwikpass AP");
+		sleep(2);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -466,12 +472,12 @@ public class TC_Assembly_Test_Cases extends BaseClass implements Locator{
 	}
 
 	@Test
-	public void Verify_Assembly_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()
-			throws IOException, InterruptedException {
+	public void Verify_Assembly_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()throws IOException, InterruptedException {
 		logger.info("Verify_Assembly_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test case is running.....");
 		driver.get("https://assemblytravel.com/");
 		logger.info("URL is open");
 		logger.info("Assembly has Kwikpass AP");
+		sleep(2);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -520,13 +526,11 @@ public class TC_Assembly_Test_Cases extends BaseClass implements Locator{
 	}
 
 	@Test
-	public void Verify_Assembly_KwikPass_Login_modal_Verfication_at_accountpage()
-			throws IOException, InterruptedException {
+	public void Verify_Assembly_KwikPass_Login_modal_Verfication_at_accountpage()throws IOException, InterruptedException {
 		logger.info("Verify_Assembly_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://assemblytravel.com/account");
 		logger.info("URL is open");
 		logger.info("Assembly has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -553,7 +557,6 @@ public class TC_Assembly_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://assemblytravel.com/account");
 		logger.info("URL is open");
 		logger.info("Assembly has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -597,6 +600,7 @@ public class TC_Assembly_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://assemblytravel.com/");
 		logger.info("URL is open");
 		logger.info("Assembly has Kwikpass AP");
+		sleep(2);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));

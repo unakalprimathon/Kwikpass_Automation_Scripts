@@ -53,8 +53,10 @@ public class TC_Grandmaa_Secret_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://grandmaasecret.com/");
 		logger.info("URL is opened");
 		logger.info("Grandmaa_Secret does not have Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon is visible");
 			logger.info("Verify_Grandmaa_Secret_KwikPass_login_icon_Visibilty Test case Passed !");
 			logger.info("Test Case Completed !");
@@ -228,8 +230,7 @@ public class TC_Grandmaa_Secret_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Grandmaa_Secret_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://grandmaasecret.com/account");
 		logger.info("URL is open");
-		logger.info("Grandmaa_Secret has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Grandmaa_Secret does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -255,8 +256,7 @@ public class TC_Grandmaa_Secret_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Grandmaa_Secret_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://grandmaasecret.com/account");
 		logger.info("URL is open");
-		logger.info("Grandmaa_Secret has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Grandmaa_Secret does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -299,7 +299,7 @@ public class TC_Grandmaa_Secret_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Grandmaa_Secret_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://grandmaasecret.com/");
 		logger.info("URL is open");
-		logger.info("Grandmaa_Secret has Kwikpass AP");
+		logger.info("Grandmaa_Secret does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));

@@ -249,8 +249,10 @@ public class TC_Dot_And_key_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://www.dotandkey.com/");
 		logger.info("URL is open");
 		logger.info("Dot_And_Key has Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon visible in Lotus Botanicals");
 			logger.info("Verify_Dot_And_Key_KwikPass_login_icon_Visibilty test case passed!");
 			logger.info("Test Cases Completed !");

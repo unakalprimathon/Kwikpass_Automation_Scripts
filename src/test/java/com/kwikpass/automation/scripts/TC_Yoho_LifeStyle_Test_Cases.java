@@ -236,8 +236,7 @@ public class TC_Yoho_LifeStyle_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Yoho_LifeStyle_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://yoholife.in/account");
 		logger.info("URL is open");
-		logger.info("Yoho_LifeStyle has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Yoho_LifeStyle does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(5);
 		lp.switchToIframe(kwikpass_iframe);
@@ -263,8 +262,7 @@ public class TC_Yoho_LifeStyle_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Yoho_LifeStyle_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://yoholife.in/account");
 		logger.info("URL is open");
-		logger.info("Yoho_LifeStyle has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Yoho_LifeStyle does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(5);
 		lp.switchToIframe(kwikpass_iframe);
@@ -307,7 +305,7 @@ public class TC_Yoho_LifeStyle_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Yoho_LifeStyle_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://yoholife.in/");
 		logger.info("URL is open");
-		logger.info("Yoho_LifeStyle has Kwikpass AP");
+		logger.info("Yoho_LifeStyle does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));

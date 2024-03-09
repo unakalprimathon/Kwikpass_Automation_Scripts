@@ -173,7 +173,7 @@ public class TC_Portronics_Test_Cases extends BaseClass implements Locator{
 		kp_after_login_btn.click();
 		logger.info("Clicked Kwikpass Icon after login");
 		driver.findElement(By.xpath(orderhistory_btn)).click();
-		sleep(10);
+		sleep(15);
 		String curl = driver.getCurrentUrl();
 		String vurl = "https://www.portronics.com/account?p=0";
 		if (curl.equals(vurl)) {
@@ -271,8 +271,7 @@ public class TC_Portronics_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Portronics_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://www.portronics.com/account?p=0");
 		logger.info("URL is open");
-		logger.info("Portronics has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Portronics does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -298,8 +297,7 @@ public class TC_Portronics_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Portronics_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://www.portronics.com/account?p=0");
 		logger.info("URL is open");
-		logger.info("Portronics has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Portronics does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -342,7 +340,7 @@ public class TC_Portronics_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Portronics_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://www.portronics.com/");
 		logger.info("URL is open");
-		logger.info("Portronics has Kwikpass AP");
+		logger.info("Portronics does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		lp.switchToIframe(Portronics_iframe);
 		WebElement allow = driver.findElement(By.xpath(Portronics_allow));
@@ -374,7 +372,7 @@ public class TC_Portronics_Test_Cases extends BaseClass implements Locator{
 		boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			driver.navigate().to("https://www.portronics.com/account?p=0");
-			sleep(10);
+			sleep(20);
 			String curl = driver.getCurrentUrl();
 			String vurl = "https://www.portronics.com/account?p=0";
 			if (curl.equals(vurl)) {

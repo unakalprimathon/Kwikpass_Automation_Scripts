@@ -53,7 +53,8 @@ public class TC_Whatsup_Wellness_Test_Cases extends BaseClass implements Locator
 		hamburger_wait.until(ExpectedConditions.elementToBeClickable(hamburger));
 		hamburger.click();
 		logger.info("Clicked Hamburger");
-		WebElement login_btn = driver.findElement(By.id(whatsup_wellness_login_btn));
+		sleep(2);
+		WebElement login_btn = driver.findElement(By.xpath(whatsup_wellness_login_btn));
 		WebDriverWait login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		login_btn_wait.until(ExpectedConditions.elementToBeClickable(login_btn));
 		login_btn.click();
@@ -88,8 +89,9 @@ public class TC_Whatsup_Wellness_Test_Cases extends BaseClass implements Locator
 		WebDriverWait hamburger_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		hamburger_wait.until(ExpectedConditions.elementToBeClickable(hamburger));
 		hamburger.click();
-		logger.info("Clicked Hamburger btn");
-		WebElement login_btn = driver.findElement(By.id(whatsup_wellness_login_btn));
+		logger.info("Clicked Hamburger");
+		sleep(2);
+		WebElement login_btn = driver.findElement(By.xpath(whatsup_wellness_login_btn));
 		WebDriverWait login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		login_btn_wait.until(ExpectedConditions.elementToBeClickable(login_btn));
 		login_btn.click();
@@ -103,10 +105,10 @@ public class TC_Whatsup_Wellness_Test_Cases extends BaseClass implements Locator
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		logger.info("Clicked Kwikpass Icon after login");
-		String account = driver.findElement(By.id(whatsup_wellness_login_btn)).getText();
+		String account = driver.findElement(By.xpath(whatsup_wellness_login_btn)).getText();
 		String vaccount = "Account";
 		if (account.equals(vaccount)) {
 			logger.info("Kwikpass Login Successful !");
@@ -131,8 +133,9 @@ public class TC_Whatsup_Wellness_Test_Cases extends BaseClass implements Locator
 		WebDriverWait hamburger_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		hamburger_wait.until(ExpectedConditions.elementToBeClickable(hamburger));
 		hamburger.click();
-		logger.info("Clicked Hamburger btn");
-		WebElement login_btn = driver.findElement(By.id(whatsup_wellness_login_btn));
+		logger.info("Clicked Hamburger");
+		sleep(2);
+		WebElement login_btn = driver.findElement(By.xpath(whatsup_wellness_login_btn));
 		WebDriverWait login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		login_btn_wait.until(ExpectedConditions.elementToBeClickable(login_btn));
 		login_btn.click();
@@ -146,12 +149,16 @@ public class TC_Whatsup_Wellness_Test_Cases extends BaseClass implements Locator
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
-		driver.findElement(By.id(whatsup_wellness_login_btn)).click();
-		sleep(10);
+		WebElement after_login_btn = driver.findElement(By.xpath(whatsup_wellness_login_btn));
+		WebDriverWait after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(after_login_btn));
+		after_login_btn.click();
+		logger.info("Clicked Account btn");
+		sleep(30);
 		String curl = driver.getCurrentUrl();
-		String vurl = "https://whatsupwellness.in/account#profile";
+		String vurl = "https://whatsupwellness.in/account";
 		if (curl.equals(vurl)) {
 			driver.findElement(By.xpath(whatsup_wellness_logout_btn)).isDisplayed();
 			logger.info("Shopify login and session created in Whatsup_Wellness after Kwikpass login .");
@@ -187,10 +194,10 @@ public class TC_Whatsup_Wellness_Test_Cases extends BaseClass implements Locator
 			sleep(2);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
-			sleep(10);
+			sleep(30);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
-			String vurl = "https://whatsupwellness.in/account#profile";
+			String vurl = "https://whatsupwellness.in/account";
 			if (curl.equals(vurl)) {
 				driver.findElement(By.xpath(whatsup_wellness_logout_btn)).isDisplayed();
 				logger.info("Kwikpass Login Successful !");
@@ -221,8 +228,9 @@ public class TC_Whatsup_Wellness_Test_Cases extends BaseClass implements Locator
 		WebDriverWait hamburger_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		hamburger_wait.until(ExpectedConditions.elementToBeClickable(hamburger));
 		hamburger.click();
-		logger.info("Clicked Hamburger btn");
-		WebElement login_btn = driver.findElement(By.id(whatsup_wellness_login_btn));
+		logger.info("Clicked Hamburger");
+		sleep(2);
+		WebElement login_btn = driver.findElement(By.xpath(whatsup_wellness_login_btn));
 		WebDriverWait login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		login_btn_wait.until(ExpectedConditions.elementToBeClickable(login_btn));
 		login_btn.click();
@@ -236,18 +244,18 @@ public class TC_Whatsup_Wellness_Test_Cases extends BaseClass implements Locator
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(10);
+		sleep(8);
 		driver.switchTo().defaultContent();
 		logger.info("Clicked Kwikpass Icon after login");
-		String account = driver.findElement(By.id(whatsup_wellness_login_btn)).getText();
+		String account = driver.findElement(By.xpath(whatsup_wellness_login_btn)).getText();
 		String vaccount = "Account";
 		if (account.equals(vaccount)) {
-			driver.navigate().to("https://whatsupwellness.in/account#profile");
+			driver.navigate().to("https://whatsupwellness.in/account");
 			logger.info("Navigating to account page");
 			sleep(30);
 			String geturl = driver.getCurrentUrl();
 			logger.info(geturl);
-			String expectedUrl = "https://whatsupwellness.in/account#profile";
+			String expectedUrl = "https://whatsupwellness.in/account";
 	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	        wait.until(ExpectedConditions.urlToBe(expectedUrl));
 	        logger.info("Navigated to account page");

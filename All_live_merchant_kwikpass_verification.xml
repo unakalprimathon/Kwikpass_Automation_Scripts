@@ -9,7 +9,7 @@
 
 		<classes>
 			<class
-				name="com.kwikpass.dailycheck.All_Live_Merchant_Kwikpass_verification" />
+				name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check" />
 		</classes>
 	</test>
 

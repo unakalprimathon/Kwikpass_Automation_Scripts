@@ -54,7 +54,7 @@ public class EmailSender{
             message.setFrom(new InternetAddress(senderEmail));
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipientEmail));
             message.setRecipients(Message.RecipientType.CC, InternetAddress.parse(cc));
-
+            
             // Set the email subject
             message.setSubject("Kwikpass Automation Testing Report");
 

@@ -121,7 +121,7 @@ public class TC_Levis_Test_Cases extends BaseClass implements Locator{
 		driver.findElement(By.xpath(Levis_orderbtn)).click();
 		sleep(10);
 		String curl = driver.getCurrentUrl();
-		String vurl = "https://levi.in/account";
+		String vurl = "https://levi.in/pages/order-details";
 		if (curl.equals(vurl)) {
 			logger.info("Shopify login and session created in Levis after Kwikpass login passed.");
 			logger.info("Verify_Levis_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");

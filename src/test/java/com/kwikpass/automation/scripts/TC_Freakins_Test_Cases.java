@@ -53,8 +53,10 @@ public class TC_Freakins_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://freakins.com/pages/men/");
 		logger.info("URL is opened");
 		logger.info("Freakins does not have Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon is visible");
 			logger.info("Verify_Freakins_KwikPass_login_icon_Visibilty Test case Passed !");
 			logger.info("Test Case Completed !");
@@ -159,8 +161,7 @@ public class TC_Freakins_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Freakins_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://freakins.com/account");
 		logger.info("URL is open");
-		logger.info("Freakins has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Freakins does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -186,8 +187,7 @@ public class TC_Freakins_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Freakins_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://freakins.com/account");
 		logger.info("URL is open");
-		logger.info("Freakins has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("Freakins does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -230,7 +230,7 @@ public class TC_Freakins_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_Freakins_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://freakins.com/pages/men/");
 		logger.info("URL is open");
-		logger.info("Freakins has Kwikpass AP");
+		logger.info("Freakins does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));

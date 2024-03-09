@@ -204,13 +204,13 @@ public class TC_BSC_Test_Cases extends BaseClass implements Locator{
 			add_to_cart_wait.until(ExpectedConditions.elementToBeClickable(add_to_cart));
 			add_to_cart.click();
 			logger.info("Clicked Add to Cart button");
-			sleep(3);
+			sleep(8);
 			WebElement cart_btn = driver.findElement(By.xpath(BSC_cart_btn));
 			WebDriverWait cart_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			cart_btn_wait.until(ExpectedConditions.elementToBeClickable(cart_btn));
 			cart_btn.click();
 			logger.info("clicked on Express checkout button");
-			sleep(3);
+			sleep(5);
 			WebElement placeorder = driver.findElement(By.className(BSC_placeorder));
 			WebDriverWait placeorder_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			placeorder_wait.until(ExpectedConditions.elementToBeClickable(placeorder));
@@ -249,8 +249,7 @@ public class TC_BSC_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_BSC_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
 		driver.get("https://www.bombayshavingcompany.com/account#order");
 		logger.info("URL is open");
-		logger.info("BSC has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("BSC does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -276,8 +275,7 @@ public class TC_BSC_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_BSC_KwikPass_Login_at_accountpage Test case is running.....");
 		driver.get("https://www.bombayshavingcompany.com/account");
 		logger.info("URL is open");
-		logger.info("BSC has Kwikpass AP");
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("BSC does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -320,7 +318,7 @@ public class TC_BSC_Test_Cases extends BaseClass implements Locator{
 		logger.info("Verify_BSC_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
 		driver.get("https://www.bombayshavingcompany.com/");
 		logger.info("URL is open");
-		logger.info("BSC has Kwikpass AP");
+		logger.info("BSC does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -377,6 +375,7 @@ public class TC_BSC_Test_Cases extends BaseClass implements Locator{
 		logger.info("URL is open");
 		logger.info("BSC does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
+		sleep(3);
 		WebElement rewards_btn = driver.findElement(By.xpath(BSC_rewards_btn));
 		WebDriverWait rewards_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		rewards_btn_wait.until(ExpectedConditions.elementToBeClickable(rewards_btn));
@@ -396,9 +395,8 @@ public class TC_BSC_Test_Cases extends BaseClass implements Locator{
 		sleep(2);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
-		sleep(8);
 		driver.switchTo().defaultContent();
-		sleep(10);
+		sleep(8);
 		String curl = driver.getCurrentUrl();
 		String vurl = "https://www.bombayshavingcompany.com/account#profile";
 		if (curl.equals(vurl)) {
