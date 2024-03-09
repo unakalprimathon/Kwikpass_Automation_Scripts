@@ -764,6 +764,30 @@ public class LocatorConfig {
 		String Just_Herbs_close_popup = pro.getProperty("Just_Herbs_close_popup");
 		return Just_Herbs_close_popup;
 	}
+	public String getClensta_addtocart() {
+		String Clensta_addtocart = pro.getProperty("Clensta_addtocart");
+		return Clensta_addtocart;
+	}
+	public String getClensta_checkout() {
+		String Clensta_checkout = pro.getProperty("Clensta_checkout");
+		return Clensta_checkout;
+	}
+	public String getJust_Herbs_logout_btn() {
+		String Just_Herbs_logout_btn = pro.getProperty("Just_Herbs_logout_btn");
+		return Just_Herbs_logout_btn;
+	}
+	public String getJust_Herbs_addtocart() {
+		String Just_Herbs_addtocart = pro.getProperty("Just_Herbs_addtocart");
+		return Just_Herbs_addtocart;
+	}
+	public String getJust_Herbs_cart() {
+		String Just_Herbs_cart = pro.getProperty("Just_Herbs_cart");
+		return Just_Herbs_cart;
+	}
+	public String getJust_Herbs_placeorder_btn() {
+		String Just_Herbs_placeorder_btn = pro.getProperty("Just_Herbs_placeorder_btn");
+		return Just_Herbs_placeorder_btn;
+	}
 	
 	
 }

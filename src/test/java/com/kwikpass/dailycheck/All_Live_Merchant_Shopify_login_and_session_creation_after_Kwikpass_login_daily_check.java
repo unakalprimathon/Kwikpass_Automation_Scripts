@@ -3079,4 +3079,91 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		}
 	}
 	
+	@Test
+	public void Verify_Punekar_Cotton_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Punekar_Cotton_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://www.punekarcotton.com/");
+		logger.info("URL is open");
+		logger.info("Punekar Cotton has Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://www.punekarcotton.com/account";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in Clensta after Kwikpass login passed.");
+			logger.info("Verify_Punekar_Cotton_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in Clensta after Kwikpass login failed.");
+			logger.info("Verify_Punekar_Cotton_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Punekar_Cotton_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Punekar_Cotton_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+	
+	@Test
+	public void Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://www.stickitup.xyz/");
+		logger.info("URL is open");
+		logger.info("Stick it up has Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://www.stickitup.xyz/account";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in Clensta after Kwikpass login passed.");
+			logger.info("Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in Clensta after Kwikpass login failed.");
+			logger.info("Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
 }

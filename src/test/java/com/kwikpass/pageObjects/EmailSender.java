@@ -60,7 +60,7 @@ public class EmailSender{
 
             // Set the email body
             MimeBodyPart textMime = new MimeBodyPart();
-            textMime.setText("Hi All,\n\n" + "Please find the attached automation test report.\n"
+            textMime.setText("Hi All,\n\n" + "Please find the attached Automation Testing Report on all live merchants.\n"
                     + "NOTE :- PLEASE DOWNLOAD THE FILE TO REVIEW REPORT.\n\n" + "Thank you,\n" + "Naveen Unakal");
 
             // Attach the HTML report to the email

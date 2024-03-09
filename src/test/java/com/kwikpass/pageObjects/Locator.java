@@ -190,4 +190,10 @@ public interface Locator {
 	public String Just_Herbs_account_btn = locatorconfig.getJust_Herbs_account_btn();
 	public String Just_Herbs_iframe = locatorconfig.getJust_Herbs_iframe();
 	public String Just_Herbs_close_popup = locatorconfig.getJust_Herbs_close_popup();
+	public String Just_Herbs_logout_btn = locatorconfig.getJust_Herbs_logout_btn();
+	public String Clensta_addtocart = locatorconfig.getClensta_addtocart();
+	public String Clensta_checkout = locatorconfig.getClensta_checkout();
+	public String Just_Herbs_addtocart = locatorconfig.getJust_Herbs_addtocart();
+	public String Just_Herbs_cart = locatorconfig.getJust_Herbs_cart();
+	public String Just_Herbs_placeorder_btn = locatorconfig.getJust_Herbs_placeorder_btn();
 }

@@ -186,6 +186,14 @@
 			
 			<!--Soul_Flower Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Soul_Flower_Test_Cases" />
+			
+			<!--Clensta Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Clensta_Test_Cases" />
+			
+			<!--Just_Herbs Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Just_Herbs_Test_Cases" />
+			
+			
 </classes>
 	</test>
 

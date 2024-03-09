@@ -7,21 +7,202 @@
   <test thread-count="5" name="Kwickpass_Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
+      <class name="com.kwikpass.automation.scripts.TC_TheHatke_Test_Cases">
         <methods>
-          <include name="Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login"/>
-          <include name="Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login"/>
-          <include name="Verify_Guniaa_Shopify_login_and_session_creation_after_Kwikpass_login_From_Login_Modal"/>
-          <include name="Verify_Portronics_Shopify_login_and_session_creation_after_Kwikpass_login"/>
-          <include name="Verify_Clensta_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_TheHatke_KwikPass_Login_modal_Verfication"/>
+          <include name="Verify_TheHatke_Kwikpass_login_using_OTP_Via_SMS_from_accountpage"/>
+          <include name="Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="setUp"/>
-          <include name="Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Hause_And_Kinder_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_TheHatke_Kwikpass_login_Done_Redirect_to_accountpage"/>
+          <include name="Verify_TheHatke_Kwikpass_login_from_Login_Modal_using_OTP_Via_SMS"/>
+          <include name="Verify_TheHatke_KwikPass_login_modal_verification_from_accountpage"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
+      </class> <!-- com.kwikpass.automation.scripts.TC_TheHatke_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_SwissBeauty_Test_Cases">
+        <methods>
+          <include name="setUp"/>
+          <include name="Verify_SwissBeauty_Kwikpass_login_using_OTP_Via_SMS_from_Rewards"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_SwissBeauty_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_HOK_Test_Cases">
+        <methods>
+          <include name="Verify_HOK_Kwikpass_login_using_OTP_Via_SMS"/>
+          <include name="setUp"/>
+          <include name="Verify_HOK_Kwikpass_login_Done_Redirect_to_accountpage"/>
+          <include name="Verify_HOK_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_HOK_KwikPass_login_icon_Visibilty"/>
+          <include name="Verify_HOK_KwikPass_login_modal_verification"/>
+          <include name="Verify_HOK_Kwikpass_login_using_OTP_Via_SMS_from_Rewards"/>
+          <include name="Verify_HOK_Kwikpass_login_Done_Gokwik_login_should_happen"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_HOK_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Grandmaa_Secret_Test_Cases">
+        <methods>
+          <include name="setUp"/>
+          <include name="Verify_Grandmaa_Secret_Kwikpass_login_Done_Gokwik_login_should_happen"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Grandmaa_Secret_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Just_Herbs_Test_Cases">
+        <methods>
+          <include name="Verify_Just_Herbs_Kwikpass_login_Done_Gokwik_login_should_happen"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Just_Herbs_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Amydus_Test_Cases">
+        <methods>
+          <include name="Verify_Amydus_KwikPass_login_modal_verification"/>
+          <include name="setUp"/>
+          <include name="Verify_Amydus_Kwikpass_login_Done_Redirect_to_accountpage"/>
+          <include name="Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_Amydus_KwikPass_Login_at_accountpage"/>
+          <include name="Verify_Amydus_KwikPass_login_icon_Visibilty"/>
+          <include name="Verify_Amydus_Kwikpass_login_Done_Gokwik_login_should_happen"/>
+          <include name="tearDown"/>
+          <include name="Verify_Amydus_KwikPass_Login_modal_Verfication_at_accountpage"/>
+          <include name="Verify_Amydus_Kwikpass_login_using_OTP_Via_SMS"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Amydus_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Bombae_Test_Cases">
+        <methods>
+          <include name="setUp"/>
+          <include name="Verify_Bombae_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Bombae_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Whatsup_Wellness_Test_Cases">
+        <methods>
+          <include name="Verify_Whatsup_Wellness_Kwikpass_login_Done_Redirect_to_Account_page"/>
+          <include name="setUp"/>
+          <include name="Verify_Whatsup_Wellness_Kwikpass_login_using_OTP_Via_SMS_from_accountpage"/>
+          <include name="Verify_Whatsup_Wellness_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Whatsup_Wellness_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_MyWishCare_Test_Cases">
+        <methods>
+          <include name="Verify_MyWishCare_Kwikpass_login_Done_Redirect_to_accountpage"/>
+          <include name="setUp"/>
+          <include name="Verify_MyWishCare_KwikPass_Login_at_accountpage"/>
+          <include name="tearDown"/>
+          <include name="Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_MyWishCare_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Guniaa_Test_Cases">
+        <methods>
+          <include name="Verify_Guniaa_Shopify_login_and_session_creation_after_Kwikpass_login_From__Auto_Load_Popup"/>
+          <include name="setUp"/>
+          <include name="Verify_Guniaa_Kwikpass_login_Done_Redirect_to_accountpage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Guniaa_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Ritualistic_Test_Cases">
+        <methods>
+          <include name="Verify_Ritualistic_Kwikpass_login_from_Login_Modal_using_OTP_Via_SMS"/>
+          <include name="Verify_Ritualistic_KwikPass_AP_modal_Verfication"/>
+          <include name="Verify_Ritualistic_Kwikpass_login_from_AP_using_OTP_Via_SMS"/>
+          <include name="Verify_Ritualistic_KwikPass_Login_modal_Verfication"/>
+          <include name="Verify_Ritualistic_KwikPass_AP_Visiblity_At_Home_page"/>
+          <include name="Verify_Ritualistic_Kwikpass_login_Done_Redirect_to_accountpage"/>
+          <include name="tearDown"/>
+          <include name="Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP"/>
+          <include name="Verify_Ritualistic_KwikPass_icon_visibility"/>
+          <include name="Verify_Ritualistic_KwikPass_Login_modal_Verfication_at_accountpage"/>
+          <include name="setUp"/>
+          <include name="Verify_Ritualistic_KwikPass_AP_Visiblity_At_Collection_page"/>
+          <include name="Verify_Ritualistic_KwikPass_AP_Visiblity_At_PDP_page"/>
+          <include name="Verify_Ritualistic_KwikPass_Login_at_accountpage"/>
+          <include name="Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Ritualistic_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Formen_Test_Cases">
+        <methods>
+          <include name="Verify_Formen_Kwikpass_login_Done_Gokwik_login_should_happen"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Formen_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_SilverTraq_Test_Cases">
+        <methods>
+          <include name="Verify_SilverTraq_Kwikpass_login_Done_Redirect_to_accountpage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_SilverTraq_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Italian_Colony_Test_Cases">
+        <methods>
+          <include name="Verify_Italian_Colony_Kwikpass_login_using_OTP_Via_SMS_from_Rewards"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Italian_Colony_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Blue_island_Test_Cases">
+        <methods>
+          <include name="Verify_Blue_island_KwikPass_Login_at_accountpage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Blue_island_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Luxaderme_Test_Cases">
+        <methods>
+          <include name="setUp"/>
+          <include name="Verify_Luxaderme_Kwikpass_login_Done_Gokwik_login_should_happen"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Luxaderme_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Portronics_Test_Cases">
+        <methods>
+          <include name="setUp"/>
+          <include name="Verify_Portronics_Kwikpass_login_Done_Redirect_to_accountpage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Portronics_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_PhotoJewels_Test_Cases">
+        <methods>
+          <include name="Verify_PhotoJewels_KwikPass_Login_modal_Verfication_at_accountpage"/>
+          <include name="Verify_Photo_Jewels_Kwikpass_login_from_AP_using_OTP_Via_SMS"/>
+          <include name="Verify_Photo_Jewels_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen"/>
+          <include name="Verify_PhotoJewels_Kwikpass_login_Done_Redirect_to_accountpage"/>
+          <include name="Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP"/>
+          <include name="Verify_Photo_Jewels_KwikPass_Login_modal_Verfication"/>
+          <include name="Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Photo_Jewels_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen"/>
+          <include name="tearDown"/>
+          <include name="Verify_Photo_Jewels_KwikPass_AP_Visiblity_At_Collection_page"/>
+          <include name="Verify_Photo_Jewels_KwikPass_AP_Visiblity_At_PDP_page"/>
+          <include name="Verify_PhotoJewels_KwikPass_Login_at_accountpage"/>
+          <include name="setUp"/>
+          <include name="Verify_Photo_Jewels_KwikPass_AP_Visiblity_At_Home_page"/>
+          <include name="Verify_Photo_Jewels_Kwikpass_login_from_Login_Modal_using_OTP_Via_SMS"/>
+          <include name="Verify_Photo_Jewels_KwikPass_icon_visibility"/>
+          <include name="Verify_Photo_Jewels_KwikPass_AP_modal_Verfication"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_PhotoJewels_Test_Cases -->
+      <class name="com.kwikpass.automation.scripts.TC_Sereko_Test_Cases">
+        <methods>
+          <include name="Verify_Sereko_Kwikpass_login_from_AP_using_OTP_Via_SMS"/>
+          <include name="Verify_Sereko_KwikPass_AP_modal_Verfication"/>
+          <include name="Verify_Sereko_KwikPass_AP_Visiblity_At_PDP_page"/>
+          <include name="Verify_Sereko_KwikPass_Login_modal_Verfication"/>
+          <include name="tearDown"/>
+          <include name="Verify_Sereko_KwikPass_AP_Visiblity_At_Collection_page"/>
+          <include name="setUp"/>
+          <include name="Verify_Sereko_KwikPass_Login_at_accountpage"/>
+          <include name="Verify_Sereko_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen"/>
+          <include name="Verify_Sereko_Kwikpass_login_from_Login_Modal_using_OTP_Via_SMS"/>
+          <include name="Verify_Sereko_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen"/>
+          <include name="Verify_Sereko_KwikPass_AP_Visiblity_At_Home_page"/>
+          <include name="Verify_Sereko_KwikPass_icon_visibility"/>
+          <include name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP"/>
+          <include name="Verify_Sereko_KwikPass_Login_modal_Verfication_at_accountpage"/>
+          <include name="Verify_Sereko_Kwikpass_login_Done_Redirect_to_accountpage"/>
+        </methods>
+      </class> <!-- com.kwikpass.automation.scripts.TC_Sereko_Test_Cases -->
     </classes>
   </test> <!-- Kwickpass_Test(failed) -->
 </suite> <!-- Failed suite [kp_Automation_Scripts] -->
