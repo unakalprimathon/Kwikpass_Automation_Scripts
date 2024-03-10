@@ -11,9 +11,9 @@
         <methods>
           <include name="Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Guniaa_Shopify_login_and_session_creation_after_Kwikpass_login_From_Login_Modal"/>
           <include name="Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="Verify_HOK_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_Guniaa_Shopify_login_and_session_creation_after_Kwikpass_login_From_Login_Modal"/>
           <include name="Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="setUp"/>
           <include name="Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>

@@ -22,14 +22,13 @@ public class TC_HOK_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://houseofkari.in/");
 		logger.info("URL is open");
 		logger.info("HOK does not have Kwikpass AP");
-		WebElement closehok = driver.findElement(By.xpath(hokclose));
-		WebDriverWait closehok_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		closehok_wait.until(ExpectedConditions.visibilityOf(closehok));
-		if(closehok.isDisplayed()) {
-			closehok.click();
-		}
-		logger.info("closed merchant popups");
 		sleep(2);
+		By closehok = By.xpath(hokclose);
+		boolean closehokPresent = !driver.findElements(closehok).isEmpty();
+		if(closehokPresent) {
+			driver.findElement(closehok).click();
+			logger.info("closed merchant popups");
+		}
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -62,14 +61,13 @@ public class TC_HOK_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://houseofkari.in/");
 		logger.info("URL is open");
 		logger.info("HOK does not have Kwikpass AP");
-		WebElement closehok = driver.findElement(By.xpath(hokclose));
-		WebDriverWait closehok_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		closehok_wait.until(ExpectedConditions.visibilityOf(closehok));
-		if(closehok.isDisplayed()) {
-			closehok.click();
-		}
-		logger.info("closed merchant popups");
 		sleep(2);
+		By closehok = By.xpath(hokclose);
+		boolean closehokPresent = !driver.findElements(closehok).isEmpty();
+		if(closehokPresent) {
+			driver.findElement(closehok).click();
+			logger.info("closed merchant popups");
+		}
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -115,14 +113,13 @@ public class TC_HOK_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://houseofkari.in/");
 		logger.info("URL is opened");
 		logger.info("HOK does not have Kwikpass AP");
-		WebElement closehok = driver.findElement(By.xpath(hokclose));
-		WebDriverWait closehok_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		closehok_wait.until(ExpectedConditions.visibilityOf(closehok));
-		if(closehok.isDisplayed()) {
-			closehok.click();
-		}
-		logger.info("closed merchant popups");
 		sleep(2);
+		By closehok = By.xpath(hokclose);
+		boolean closehokPresent = !driver.findElements(closehok).isEmpty();
+		if(closehokPresent) {
+			driver.findElement(closehok).click();
+			logger.info("closed merchant popups");
+		}
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -144,14 +141,13 @@ public class TC_HOK_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://houseofkari.in/");
 		logger.info("URL is open");
 		logger.info("HOK does not have Kwikpass AP");
-		WebElement closehok = driver.findElement(By.xpath(hokclose));
-		WebDriverWait closehok_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		closehok_wait.until(ExpectedConditions.visibilityOf(closehok));
-		if(closehok.isDisplayed()) {
-			closehok.click();
-		}
-		logger.info("closed merchant popups");
 		sleep(2);
+		By closehok = By.xpath(hokclose);
+		boolean closehokPresent = !driver.findElements(closehok).isEmpty();
+		if(closehokPresent) {
+			driver.findElement(closehok).click();
+			logger.info("closed merchant popups");
+		}
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -197,14 +193,13 @@ public class TC_HOK_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://houseofkari.in/");
 		logger.info("URL is open");
 		logger.info("HOK does not have Kwikpass AP");
-		WebElement closehok = driver.findElement(By.xpath(hokclose));
-		WebDriverWait closehok_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		closehok_wait.until(ExpectedConditions.visibilityOf(closehok));
-		if(closehok.isDisplayed()) {
-			closehok.click();
-		}
-		logger.info("closed merchant popups");
 		sleep(2);
+		By closehok = By.xpath(hokclose);
+		boolean closehokPresent = !driver.findElements(closehok).isEmpty();
+		if(closehokPresent) {
+			driver.findElement(closehok).click();
+			logger.info("closed merchant popups");
+		}
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -350,14 +345,13 @@ public class TC_HOK_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://houseofkari.in/");
 		logger.info("URL is open");
 		logger.info("HOK does not have Kwikpass AP");
-		WebElement closehok = driver.findElement(By.xpath(hokclose));
-		WebDriverWait closehok_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		closehok_wait.until(ExpectedConditions.visibilityOf(closehok));
-		if(closehok.isDisplayed()) {
-			closehok.click();
-		}
-		logger.info("closed merchant popups");
 		sleep(2);
+		By closehok = By.xpath(hokclose);
+		boolean closehokPresent = !driver.findElements(closehok).isEmpty();
+		if(closehokPresent) {
+			driver.findElement(closehok).click();
+			logger.info("closed merchant popups");
+		}
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -415,13 +409,12 @@ public class TC_HOK_Test_Cases extends BaseClass implements Locator{
 		logger.info("HOK does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(5);
-		WebElement closehok = driver.findElement(By.xpath(hokclose));
-		WebDriverWait closehok_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		closehok_wait.until(ExpectedConditions.visibilityOf(closehok));
-		if(closehok.isDisplayed()) {
-			closehok.click();
+		By closehok = By.xpath(hokclose);
+		boolean closehokPresent = !driver.findElements(closehok).isEmpty();
+		if(closehokPresent) {
+			driver.findElement(closehok).click();
+			logger.info("closed merchant popups");
 		}
-		logger.info("closed merchant popups");
 		sleep(2);
 		WebElement rewards_btn = driver.findElement(By.xpath(hokrewardsbtniframe));
 		WebDriverWait rewards_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));

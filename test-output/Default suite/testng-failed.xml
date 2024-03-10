@@ -5,8 +5,8 @@
     <classes>
       <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
         <methods>
+          <include name="Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="setUp"/>
-          <include name="Verify_Punekar_Cotton_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
