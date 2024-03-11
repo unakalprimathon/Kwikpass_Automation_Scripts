@@ -196,4 +196,8 @@ public interface Locator {
 	public String Just_Herbs_addtocart = locatorconfig.getJust_Herbs_addtocart();
 	public String Just_Herbs_cart = locatorconfig.getJust_Herbs_cart();
 	public String Just_Herbs_placeorder_btn = locatorconfig.getJust_Herbs_placeorder_btn();
+	public String Punekar_Cottons_buynow = locatorconfig.getPunekar_Cottons_buynow();
+	public String The_Man_Company_addtocart = locatorconfig.getThe_Man_Company_addtocart();
+	public String The_Man_Company_cart = locatorconfig.getThe_Man_Company_cart();
+	public String The_Man_Company_Proceedtocheckout = locatorconfig.getThe_Man_Company_Proceedtocheckout();
 }

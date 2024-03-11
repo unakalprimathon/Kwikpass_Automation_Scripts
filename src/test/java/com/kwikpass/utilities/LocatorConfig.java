@@ -788,6 +788,22 @@ public class LocatorConfig {
 		String Just_Herbs_placeorder_btn = pro.getProperty("Just_Herbs_placeorder_btn");
 		return Just_Herbs_placeorder_btn;
 	}
+	public String getPunekar_Cottons_buynow() {
+		String Punekar_Cottons_buynow = pro.getProperty("Punekar_Cottons_buynow");
+		return Punekar_Cottons_buynow;
+	}
+	public String getThe_Man_Company_addtocart() {
+		String The_Man_Company_addtocart = pro.getProperty("The_Man_Company_addtocart");
+		return The_Man_Company_addtocart;
+	}
+	public String getThe_Man_Company_cart() {
+		String The_Man_Company_cart = pro.getProperty("The_Man_Company_cart");
+		return The_Man_Company_cart;
+	}
+	public String getThe_Man_Company_Proceedtocheckout() {
+		String The_Man_Company_Proceedtocheckout = pro.getProperty("The_Man_Company_Proceedtocheckout");
+		return The_Man_Company_Proceedtocheckout;
+	}
 	
 	
 }

@@ -373,8 +373,10 @@ public class TC_Plum_Goodness_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://plumgoodness.com/");
 		logger.info("URL is open");
 		logger.info("Plum_Goodness has Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon visible in Plum_Goodness");
 			logger.info("Verify_Plum_Goodness_KwikPass_icon_visibility test case passed!");
 			logger.info("Test Cases Completed !");

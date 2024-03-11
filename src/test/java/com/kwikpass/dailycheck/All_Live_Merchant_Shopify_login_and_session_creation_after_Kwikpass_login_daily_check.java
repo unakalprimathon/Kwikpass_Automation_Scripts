@@ -220,7 +220,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		WebDriverWait closepopup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		closepopup_wait.until(ExpectedConditions.elementToBeClickable(closepopup));
 		closepopup.click();
-		logger.info("Clicked Kwikpass Icon");
+		logger.info("closed popup");
 		driver.switchTo().defaultContent();
 		sleep(2);
 		lp.switchToIframe(kwikpass_iframe);
@@ -3208,4 +3208,55 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			Assert.fail("Verify_Karagiri_KwikPass_Login_at_accountpage failed");
 		}
 	}
+	
+	@Test
+	public void Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()throws IOException, InterruptedException {
+		logger.info("Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test case is running.....");
+		driver.get("https://www.themancompany.com/");
+		logger.info("URL is open");
+		logger.info("The_Man_Company has Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		By kp_account = By.id(kwikpass_icon_al);
+		boolean kp_account_present = !driver.findElements(kp_account).isEmpty();
+		if (kp_account_present) {
+			logger.info("Login Successful !");
+			driver.findElement(By.id(kwikpass_icon_al)).click();
+			sleep(20);
+			String curl = driver.getCurrentUrl();
+			String vurl = "https://www.themancompany.com/account#profile";
+			if (curl.equals(vurl)) {
+				driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+				logger.info("Shopify login and session created in Urban Jungle after Kwikpass login .");
+				logger.info("Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Case passed!");
+				logger.info("Test Case Completed !");
+			} else {
+				logger.info("Shopify login and session not created in Urban Jungle after Kwikpass login .");
+				logger.info("Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Case failed!");
+				captureScreen(driver,"Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
+				Assert.fail("Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
+			}
+		} else {
+			logger.info("Login Unsuccessful !");
+			logger.info("Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Cases failed!");
+			captureScreen(driver,"Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed !");
+			Assert.fail("Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
+		}
+
+	}
+
 }

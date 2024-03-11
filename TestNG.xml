@@ -193,6 +193,12 @@
 			<!--Just_Herbs Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Just_Herbs_Test_Cases" />
 			
+			<!--Punekar_Cottons Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Punekar_Cottons_Test_Cases" />
+			
+			<!--The_Man_Company Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_The_Man_Company_Test_Cases" />
+			
 			
 </classes>
 	</test>
