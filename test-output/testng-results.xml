@@ -1,133 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-13T15:58:27 IST" name="Default suite" finished-at="2024-03-13T16:02:21 IST" duration-ms="233691">
+  <suite started-at="2024-03-13T17:19:20 IST" name="Default suite" finished-at="2024-03-13T17:19:50 IST" duration-ms="30175">
     <groups>
     </groups>
-    <test started-at="2024-03-13T15:58:27 IST" name="Default test" finished-at="2024-03-13T16:02:21 IST" duration-ms="233691">
-      <class name="com.kwikpass.automation.scripts.TC_Mivi_Test_Cases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:58:27 IST" name="setUp" finished-at="2024-03-13T15:58:30 IST" duration-ms="3165" status="PASS">
+    <test started-at="2024-03-13T17:19:20 IST" name="Default test" finished-at="2024-03-13T17:19:50 IST" duration-ms="30175">
+      <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@31190526]" started-at="2024-03-13T17:19:20 IST" name="setUp" finished-at="2024-03-13T17:19:23 IST" duration-ms="2969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_KwikPass_Login_From_Rewards()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:58:30 IST" name="Verify_Mivi_KwikPass_Login_From_Rewards" finished-at="2024-03-13T15:59:01 IST" duration-ms="30266" status="PASS">
+        <test-method signature="Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@31190526]" started-at="2024-03-13T17:19:23 IST" name="Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-13T17:19:50 IST" duration-ms="26836" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Mivi_KwikPass_Login_From_Rewards -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:01 IST" name="tearDown" finished-at="2024-03-13T15:59:01 IST" duration-ms="645" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:01 IST" name="setUp" finished-at="2024-03-13T15:59:03 IST" duration-ms="1167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_KwikPass_Login_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:03 IST" name="Verify_Mivi_KwikPass_Login_at_accountpage" finished-at="2024-03-13T15:59:19 IST" duration-ms="16491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Mivi_KwikPass_Login_at_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:19 IST" name="tearDown" finished-at="2024-03-13T15:59:20 IST" duration-ms="598" status="PASS">
+        </test-method> <!-- Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@31190526]" started-at="2024-03-13T17:19:50 IST" name="tearDown" finished-at="2024-03-13T17:19:50 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:20 IST" name="setUp" finished-at="2024-03-13T15:59:21 IST" duration-ms="952" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_KwikPass_Login_modal_Verfication_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:21 IST" name="Verify_Mivi_KwikPass_Login_modal_Verfication_at_accountpage" finished-at="2024-03-13T15:59:27 IST" duration-ms="6334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Mivi_KwikPass_Login_modal_Verfication_at_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:27 IST" name="tearDown" finished-at="2024-03-13T15:59:27 IST" duration-ms="501" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:27 IST" name="setUp" finished-at="2024-03-13T15:59:28 IST" duration-ms="967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_KwikPass_login_icon_Visibilty()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:28 IST" name="Verify_Mivi_KwikPass_login_icon_Visibilty" finished-at="2024-03-13T15:59:31 IST" duration-ms="2422" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Mivi_KwikPass_login_icon_Visibilty -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:31 IST" name="tearDown" finished-at="2024-03-13T15:59:31 IST" duration-ms="395" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:31 IST" name="setUp" finished-at="2024-03-13T15:59:32 IST" duration-ms="1044" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_KwikPass_login_modal_verification()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:32 IST" name="Verify_Mivi_KwikPass_login_modal_verification" finished-at="2024-03-13T15:59:38 IST" duration-ms="6041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Mivi_KwikPass_login_modal_verification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:38 IST" name="tearDown" finished-at="2024-03-13T15:59:39 IST" duration-ms="423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:39 IST" name="setUp" finished-at="2024-03-13T15:59:40 IST" duration-ms="1025" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_Kwikpass_login_Done_Gokwik_login_should_happen()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:40 IST" name="Verify_Mivi_Kwikpass_login_Done_Gokwik_login_should_happen" finished-at="2024-03-13T16:00:17 IST" duration-ms="37033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Mivi_Kwikpass_login_Done_Gokwik_login_should_happen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:17 IST" name="tearDown" finished-at="2024-03-13T16:00:17 IST" duration-ms="591" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:17 IST" name="setUp" finished-at="2024-03-13T16:00:19 IST" duration-ms="1535" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_Kwikpass_login_Done_Redirect_to_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:19 IST" name="Verify_Mivi_Kwikpass_login_Done_Redirect_to_accountpage" finished-at="2024-03-13T16:00:53 IST" duration-ms="34092" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Mivi_Kwikpass_login_Done_Redirect_to_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:53 IST" name="tearDown" finished-at="2024-03-13T16:00:53 IST" duration-ms="460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:53 IST" name="setUp" finished-at="2024-03-13T16:00:54 IST" duration-ms="927" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:54 IST" name="Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS" finished-at="2024-03-13T16:01:13 IST" duration-ms="18251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:13 IST" name="tearDown" finished-at="2024-03-13T16:01:13 IST" duration-ms="424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:13 IST" name="setUp" finished-at="2024-03-13T16:01:14 IST" duration-ms="1054" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS_Done_Rewards_login_should_happen()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:14 IST" name="Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS_Done_Rewards_login_should_happen" finished-at="2024-03-13T16:01:51 IST" duration-ms="36833" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS_Done_Rewards_login_should_happen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:51 IST" name="tearDown" finished-at="2024-03-13T16:01:51 IST" duration-ms="432" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:51 IST" name="setUp" finished-at="2024-03-13T16:01:52 IST" duration-ms="986" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:52 IST" name="Verify_Mivi_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-13T16:02:20 IST" duration-ms="28038" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Mivi_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:02:20 IST" name="tearDown" finished-at="2024-03-13T16:02:21 IST" duration-ms="539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kwikpass.automation.scripts.TC_Mivi_Test_Cases -->
+      </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

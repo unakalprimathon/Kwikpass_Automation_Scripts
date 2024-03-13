@@ -33257,3 +33257,15 @@
 2024-03-13 16:02:20,941  INFO [main] Kwikpass:164 - Shopify login and session created in Mivi after Kwikpass login passed.
 2024-03-13 16:02:20,941  INFO [main] Kwikpass:165 - Verify_Mivi_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
 2024-03-13 16:02:20,941  INFO [main] Kwikpass:166 - Test Case Completed !
+2024-03-13 17:19:14,418  INFO [main] Kwikpass:1922 - Verfiy_Pinkfort_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-13 17:19:23,788  INFO [main] Kwikpass:22 - Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-13 17:19:26,527  INFO [main] Kwikpass:24 - URL is open
+2024-03-13 17:19:26,528  INFO [main] Kwikpass:25 - AdilQadri does not have Kwikpass AP
+2024-03-13 17:19:26,897  INFO [main] Kwikpass:30 - Clicked Kwikpass Icon
+2024-03-13 17:19:30,029  INFO [main] Kwikpass:34 - switched to Kwikpass login modal iframe
+2024-03-13 17:19:30,176  INFO [main] Kwikpass:36 - Mobile number entered
+2024-03-13 17:19:32,278  INFO [main] Kwikpass:39 - OTP entered
+2024-03-13 17:19:40,463  INFO [main] Kwikpass:46 - Clicked Kwikpass Icon after login
+2024-03-13 17:19:50,608  INFO [main] Kwikpass:53 - Shopify login and session created in AdilQadri after Kwikpass login passed.
+2024-03-13 17:19:50,609  INFO [main] Kwikpass:54 - Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-13 17:19:50,610  INFO [main] Kwikpass:55 - Test Case Completed !
