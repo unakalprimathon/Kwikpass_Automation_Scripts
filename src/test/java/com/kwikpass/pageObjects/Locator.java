@@ -200,4 +200,5 @@ public interface Locator {
 	public String The_Man_Company_addtocart = locatorconfig.getThe_Man_Company_addtocart();
 	public String The_Man_Company_cart = locatorconfig.getThe_Man_Company_cart();
 	public String The_Man_Company_Proceedtocheckout = locatorconfig.getThe_Man_Company_Proceedtocheckout();
+	public String Hyphen_popup = locatorconfig.getHyphen_popup();
 }

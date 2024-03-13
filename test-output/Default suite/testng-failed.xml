@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kwikpass.automation.scripts.TC_The_Man_Company_Test_Cases">
+      <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
         <methods>
-          <include name="Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP"/>
-          <include name="Verify_The_Man_Company_Kwikpass_login_from_AP_using_OTP_Via_SMS"/>
-          <include name="Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="setUp"/>
-          <include name="Verify_The_Man_Company_Kwikpass_login_Done_Redirect_to_accountpage"/>
-          <include name="Verify_The_Man_Company_KwikPass_Login_at_accountpage"/>
-          <include name="Verify_The_Man_Company_Kwikpass_login_from_AP_Done_Gokwik_login_should_happen"/>
-          <include name="Verify_The_Man_Company_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen"/>
-          <include name="Verify_The_Man_Company_Kwikpass_login_from_Login_Modal_using_OTP_Via_SMS"/>
+          <include name="Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kwikpass.automation.scripts.TC_The_Man_Company_Test_Cases -->
+      </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

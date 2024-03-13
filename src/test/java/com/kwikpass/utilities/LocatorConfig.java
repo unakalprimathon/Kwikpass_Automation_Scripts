@@ -804,6 +804,10 @@ public class LocatorConfig {
 		String The_Man_Company_Proceedtocheckout = pro.getProperty("The_Man_Company_Proceedtocheckout");
 		return The_Man_Company_Proceedtocheckout;
 	}
+	public String getHyphen_popup() {
+		String Hyphen_popup = pro.getProperty("Hyphen_popup");
+		return Hyphen_popup;
+	}
 	
 	
 }

@@ -1,1256 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="65" passed="58" failed="7" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-11T15:10:30 IST" name="kp_Automation_Scripts" finished-at="2024-03-11T15:39:33 IST" duration-ms="1743611">
+  <suite started-at="2024-03-13T15:58:27 IST" name="Default suite" finished-at="2024-03-13T16:02:21 IST" duration-ms="233691">
     <groups>
     </groups>
-    <test started-at="2024-03-11T15:10:30 IST" name="Kwickpass_Test" finished-at="2024-03-11T15:39:33 IST" duration-ms="1743611">
-      <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:10:30 IST" name="setUp" finished-at="2024-03-11T15:10:32 IST" duration-ms="2611" status="PASS">
+    <test started-at="2024-03-13T15:58:27 IST" name="Default test" finished-at="2024-03-13T16:02:21 IST" duration-ms="233691">
+      <class name="com.kwikpass.automation.scripts.TC_Mivi_Test_Cases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:58:27 IST" name="setUp" finished-at="2024-03-13T15:58:30 IST" duration-ms="3165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verfiy_Pinkfort_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:10:32 IST" name="Verfiy_Pinkfort_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:10:59 IST" duration-ms="26316" status="PASS">
+        <test-method signature="Verify_Mivi_KwikPass_Login_From_Rewards()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:58:30 IST" name="Verify_Mivi_KwikPass_Login_From_Rewards" finished-at="2024-03-13T15:59:01 IST" duration-ms="30266" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verfiy_Pinkfort_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:10:59 IST" name="tearDown" finished-at="2024-03-11T15:10:59 IST" duration-ms="421" status="PASS">
+        </test-method> <!-- Verify_Mivi_KwikPass_Login_From_Rewards -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:01 IST" name="tearDown" finished-at="2024-03-13T15:59:01 IST" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:10:59 IST" name="setUp" finished-at="2024-03-11T15:11:00 IST" duration-ms="907" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:01 IST" name="setUp" finished-at="2024-03-13T15:59:03 IST" duration-ms="1167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:11:00 IST" name="Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:11:26 IST" duration-ms="25574" status="PASS">
+        <test-method signature="Verify_Mivi_KwikPass_Login_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:03 IST" name="Verify_Mivi_KwikPass_Login_at_accountpage" finished-at="2024-03-13T15:59:19 IST" duration-ms="16491" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:11:26 IST" name="tearDown" finished-at="2024-03-11T15:11:26 IST" duration-ms="418" status="PASS">
+        </test-method> <!-- Verify_Mivi_KwikPass_Login_at_accountpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:19 IST" name="tearDown" finished-at="2024-03-13T15:59:20 IST" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:11:26 IST" name="setUp" finished-at="2024-03-11T15:11:27 IST" duration-ms="948" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:20 IST" name="setUp" finished-at="2024-03-13T15:59:21 IST" duration-ms="952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:11:27 IST" name="Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:11:29 IST" duration-ms="2453" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [91174b05e9e4fa6f0275d162ebc24c4a, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60344}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60344/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 91174b05e9e4fa6f0275d162ebc24c4a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [91174b05e9e4fa6f0275d162ebc24c4a, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60344}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60344/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 91174b05e9e4fa6f0275d162ebc24c4a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login(All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="Verify_Mivi_KwikPass_Login_modal_Verfication_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:21 IST" name="Verify_Mivi_KwikPass_Login_modal_Verfication_at_accountpage" finished-at="2024-03-13T15:59:27 IST" duration-ms="6334" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:11:29 IST" name="tearDown" finished-at="2024-03-11T15:11:30 IST" duration-ms="364" status="PASS">
+        </test-method> <!-- Verify_Mivi_KwikPass_Login_modal_Verfication_at_accountpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:27 IST" name="tearDown" finished-at="2024-03-13T15:59:27 IST" duration-ms="501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:11:30 IST" name="setUp" finished-at="2024-03-11T15:11:31 IST" duration-ms="968" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:27 IST" name="setUp" finished-at="2024-03-13T15:59:28 IST" duration-ms="967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Assembly_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:11:31 IST" name="Verify_Assembly_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:11:59 IST" duration-ms="27805" status="PASS">
+        <test-method signature="Verify_Mivi_KwikPass_login_icon_Visibilty()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:28 IST" name="Verify_Mivi_KwikPass_login_icon_Visibilty" finished-at="2024-03-13T15:59:31 IST" duration-ms="2422" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Assembly_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:11:59 IST" name="tearDown" finished-at="2024-03-11T15:11:59 IST" duration-ms="427" status="PASS">
+        </test-method> <!-- Verify_Mivi_KwikPass_login_icon_Visibilty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:31 IST" name="tearDown" finished-at="2024-03-13T15:59:31 IST" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:11:59 IST" name="setUp" finished-at="2024-03-11T15:12:00 IST" duration-ms="890" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:31 IST" name="setUp" finished-at="2024-03-13T15:59:32 IST" duration-ms="1044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_BSC_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:12:00 IST" name="Verify_BSC_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:12:28 IST" duration-ms="28084" status="PASS">
+        <test-method signature="Verify_Mivi_KwikPass_login_modal_verification()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:32 IST" name="Verify_Mivi_KwikPass_login_modal_verification" finished-at="2024-03-13T15:59:38 IST" duration-ms="6041" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_BSC_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:12:28 IST" name="tearDown" finished-at="2024-03-11T15:12:28 IST" duration-ms="411" status="PASS">
+        </test-method> <!-- Verify_Mivi_KwikPass_login_modal_verification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:38 IST" name="tearDown" finished-at="2024-03-13T15:59:39 IST" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:12:28 IST" name="setUp" finished-at="2024-03-11T15:12:29 IST" duration-ms="919" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:39 IST" name="setUp" finished-at="2024-03-13T15:59:40 IST" duration-ms="1025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Bersache_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:12:29 IST" name="Verify_Bersache_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:12:55 IST" duration-ms="26034" status="PASS">
+        <test-method signature="Verify_Mivi_Kwikpass_login_Done_Gokwik_login_should_happen()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T15:59:40 IST" name="Verify_Mivi_Kwikpass_login_Done_Gokwik_login_should_happen" finished-at="2024-03-13T16:00:17 IST" duration-ms="37033" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Bersache_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:12:55 IST" name="tearDown" finished-at="2024-03-11T15:12:56 IST" duration-ms="424" status="PASS">
+        </test-method> <!-- Verify_Mivi_Kwikpass_login_Done_Gokwik_login_should_happen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:17 IST" name="tearDown" finished-at="2024-03-13T16:00:17 IST" duration-ms="591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:12:56 IST" name="setUp" finished-at="2024-03-11T15:12:57 IST" duration-ms="923" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:17 IST" name="setUp" finished-at="2024-03-13T16:00:19 IST" duration-ms="1535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_BlueTyga_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:12:57 IST" name="Verify_BlueTyga_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:13:22 IST" duration-ms="25577" status="PASS">
+        <test-method signature="Verify_Mivi_Kwikpass_login_Done_Redirect_to_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:19 IST" name="Verify_Mivi_Kwikpass_login_Done_Redirect_to_accountpage" finished-at="2024-03-13T16:00:53 IST" duration-ms="34092" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_BlueTyga_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:13:22 IST" name="tearDown" finished-at="2024-03-11T15:13:23 IST" duration-ms="446" status="PASS">
+        </test-method> <!-- Verify_Mivi_Kwikpass_login_Done_Redirect_to_accountpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:53 IST" name="tearDown" finished-at="2024-03-13T16:00:53 IST" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:13:23 IST" name="setUp" finished-at="2024-03-11T15:13:24 IST" duration-ms="1025" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:53 IST" name="setUp" finished-at="2024-03-13T16:00:54 IST" duration-ms="927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Blue_island_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:13:24 IST" name="Verify_Blue_island_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:13:59 IST" duration-ms="35367" status="PASS">
+        <test-method signature="Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:00:54 IST" name="Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS" finished-at="2024-03-13T16:01:13 IST" duration-ms="18251" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Blue_island_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:13:59 IST" name="tearDown" finished-at="2024-03-11T15:14:00 IST" duration-ms="442" status="PASS">
+        </test-method> <!-- Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:13 IST" name="tearDown" finished-at="2024-03-13T16:01:13 IST" duration-ms="424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:14:00 IST" name="setUp" finished-at="2024-03-11T15:14:00 IST" duration-ms="886" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:13 IST" name="setUp" finished-at="2024-03-13T16:01:14 IST" duration-ms="1054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Bombae_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:14:00 IST" name="Verify_Bombae_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:14:27 IST" duration-ms="26522" status="PASS">
+        <test-method signature="Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS_Done_Rewards_login_should_happen()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:14 IST" name="Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS_Done_Rewards_login_should_happen" finished-at="2024-03-13T16:01:51 IST" duration-ms="36833" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Bombae_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:14:27 IST" name="tearDown" finished-at="2024-03-11T15:14:27 IST" duration-ms="411" status="PASS">
+        </test-method> <!-- Verify_Mivi_Kwikpass_login_using_OTP_Via_SMS_Done_Rewards_login_should_happen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:51 IST" name="tearDown" finished-at="2024-03-13T16:01:51 IST" duration-ms="432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:14:27 IST" name="setUp" finished-at="2024-03-11T15:14:28 IST" duration-ms="873" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:51 IST" name="setUp" finished-at="2024-03-13T16:01:52 IST" duration-ms="986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Clensta_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:14:28 IST" name="Verify_Clensta_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:14:57 IST" duration-ms="28603" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Clensta_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:14:57 IST" name="tearDown" finished-at="2024-03-11T15:14:57 IST" duration-ms="470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:14:57 IST" name="setUp" finished-at="2024-03-11T15:14:58 IST" duration-ms="841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Dennis_Lingo_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:14:58 IST" name="Verify_Dennis_Lingo_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:15:24 IST" duration-ms="25492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Dennis_Lingo_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:15:24 IST" name="tearDown" finished-at="2024-03-11T15:15:24 IST" duration-ms="427" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:15:24 IST" name="setUp" finished-at="2024-03-11T15:15:25 IST" duration-ms="966" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:15:25 IST" name="Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:15:53 IST" duration-ms="27521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:15:53 IST" name="tearDown" finished-at="2024-03-11T15:15:53 IST" duration-ms="716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:15:53 IST" name="setUp" finished-at="2024-03-11T15:15:54 IST" duration-ms="1047" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Eyewearlabs_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:15:54 IST" name="Verify_Eyewearlabs_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:16:18 IST" duration-ms="23343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Eyewearlabs_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:16:18 IST" name="tearDown" finished-at="2024-03-11T15:16:18 IST" duration-ms="466" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:16:18 IST" name="setUp" finished-at="2024-03-11T15:16:19 IST" duration-ms="919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_FireBoltt_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:16:19 IST" name="Verify_FireBoltt_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:16:47 IST" duration-ms="27717" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_FireBoltt_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:16:47 IST" name="tearDown" finished-at="2024-03-11T15:16:47 IST" duration-ms="428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:16:47 IST" name="setUp" finished-at="2024-03-11T15:16:48 IST" duration-ms="903" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Formen_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:16:48 IST" name="Verify_Formen_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:17:19 IST" duration-ms="30680" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Formen_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:17:19 IST" name="tearDown" finished-at="2024-03-11T15:17:19 IST" duration-ms="455" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:17:19 IST" name="setUp" finished-at="2024-03-11T15:17:20 IST" duration-ms="891" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Foxtale_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:17:20 IST" name="Verify_Foxtale_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:17:48 IST" duration-ms="28033" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Foxtale_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:17:48 IST" name="tearDown" finished-at="2024-03-11T15:17:49 IST" duration-ms="418" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:17:49 IST" name="setUp" finished-at="2024-03-11T15:17:50 IST" duration-ms="919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Freakins_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:17:50 IST" name="Verify_Freakins_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:18:17 IST" duration-ms="27365" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Freakins_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:18:17 IST" name="tearDown" finished-at="2024-03-11T15:18:17 IST" duration-ms="418" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:18:17 IST" name="setUp" finished-at="2024-03-11T15:18:18 IST" duration-ms="867" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_GBT_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:18:18 IST" name="Verify_GBT_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:18:44 IST" duration-ms="25771" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_GBT_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:18:44 IST" name="tearDown" finished-at="2024-03-11T15:18:44 IST" duration-ms="436" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:18:44 IST" name="setUp" finished-at="2024-03-11T15:18:45 IST" duration-ms="901" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_GenieBags_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:18:45 IST" name="Verify_GenieBags_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:19:18 IST" duration-ms="32374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_GenieBags_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:19:18 IST" name="tearDown" finished-at="2024-03-11T15:19:18 IST" duration-ms="453" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:19:18 IST" name="setUp" finished-at="2024-03-11T15:19:19 IST" duration-ms="921" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Grandmaa_Secret_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:19:19 IST" name="Verify_Grandmaa_Secret_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:19:44 IST" duration-ms="25289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Grandmaa_Secret_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:19:44 IST" name="tearDown" finished-at="2024-03-11T15:19:45 IST" duration-ms="437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:19:45 IST" name="setUp" finished-at="2024-03-11T15:19:46 IST" duration-ms="847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Gritstones_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:19:46 IST" name="Verify_Gritstones_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:20:13 IST" duration-ms="27484" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Gritstones_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:20:13 IST" name="tearDown" finished-at="2024-03-11T15:20:14 IST" duration-ms="465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:20:14 IST" name="setUp" finished-at="2024-03-11T15:20:14 IST" duration-ms="879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Guniaa_Shopify_login_and_session_creation_after_Kwikpass_login_From_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:20:14 IST" name="Verify_Guniaa_Shopify_login_and_session_creation_after_Kwikpass_login_From_Login_Modal" finished-at="2024-03-11T15:20:55 IST" duration-ms="40946" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Guniaa_Shopify_login_and_session_creation_after_Kwikpass_login_From_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:20:55 IST" name="tearDown" finished-at="2024-03-11T15:20:56 IST" duration-ms="520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:20:56 IST" name="setUp" finished-at="2024-03-11T15:20:57 IST" duration-ms="939" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_HOK_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:20:57 IST" name="Verify_HOK_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:21:34 IST" duration-ms="36960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_HOK_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:21:34 IST" name="tearDown" finished-at="2024-03-11T15:21:34 IST" duration-ms="483" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:21:34 IST" name="setUp" finished-at="2024-03-11T15:21:35 IST" duration-ms="998" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_HOM_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:21:35 IST" name="Verify_HOM_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:22:03 IST" duration-ms="28146" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_HOM_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:22:03 IST" name="tearDown" finished-at="2024-03-11T15:22:04 IST" duration-ms="457" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:22:04 IST" name="setUp" finished-at="2024-03-11T15:22:05 IST" duration-ms="922" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Hammer_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:22:05 IST" name="Verify_Hammer_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:22:33 IST" duration-ms="28624" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Hammer_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:22:33 IST" name="tearDown" finished-at="2024-03-11T15:22:34 IST" duration-ms="423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:22:34 IST" name="setUp" finished-at="2024-03-11T15:22:35 IST" duration-ms="872" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Hause_And_Kinder_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:22:35 IST" name="Verify_Hause_And_Kinder_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:23:02 IST" duration-ms="26984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Hause_And_Kinder_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:23:02 IST" name="tearDown" finished-at="2024-03-11T15:23:02 IST" duration-ms="553" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:23:02 IST" name="setUp" finished-at="2024-03-11T15:23:03 IST" duration-ms="991" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Heelium_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:23:03 IST" name="Verify_Heelium_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:23:28 IST" duration-ms="24945" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Heelium_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:23:28 IST" name="tearDown" finished-at="2024-03-11T15:23:29 IST" duration-ms="419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:23:29 IST" name="setUp" finished-at="2024-03-11T15:23:30 IST" duration-ms="925" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Includ_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:23:30 IST" name="Verify_Includ_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:23:57 IST" duration-ms="27384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Includ_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:23:57 IST" name="tearDown" finished-at="2024-03-11T15:23:57 IST" duration-ms="445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:23:57 IST" name="setUp" finished-at="2024-03-11T15:23:58 IST" duration-ms="853" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Italian_Colony_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:23:58 IST" name="Verify_Italian_Colony_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:24:25 IST" duration-ms="26598" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Italian_Colony_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:24:25 IST" name="tearDown" finished-at="2024-03-11T15:24:25 IST" duration-ms="475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:24:25 IST" name="setUp" finished-at="2024-03-11T15:24:26 IST" duration-ms="872" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Just_Herbs_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:24:26 IST" name="Verify_Just_Herbs_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:24:56 IST" duration-ms="29514" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Just_Herbs_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:24:56 IST" name="tearDown" finished-at="2024-03-11T15:24:56 IST" duration-ms="460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:24:56 IST" name="setUp" finished-at="2024-03-11T15:24:57 IST" duration-ms="885" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Karagiri_KwikPass_Login_at_accountpage()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:24:57 IST" name="Verify_Karagiri_KwikPass_Login_at_accountpage" finished-at="2024-03-11T15:25:13 IST" duration-ms="15599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Karagiri_KwikPass_Login_at_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:25:13 IST" name="tearDown" finished-at="2024-03-11T15:25:13 IST" duration-ms="408" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:25:13 IST" name="setUp" finished-at="2024-03-11T15:25:15 IST" duration-ms="1547" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Krishnaayurved_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:25:15 IST" name="Verify_Krishnaayurved_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:25:41 IST" duration-ms="26680" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Krishnaayurved_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:25:41 IST" name="tearDown" finished-at="2024-03-11T15:25:42 IST" duration-ms="415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:25:42 IST" name="setUp" finished-at="2024-03-11T15:25:43 IST" duration-ms="957" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Levis_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:25:43 IST" name="Verify_Levis_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:26:10 IST" duration-ms="27233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Levis_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:26:10 IST" name="tearDown" finished-at="2024-03-11T15:26:10 IST" duration-ms="419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:26:10 IST" name="setUp" finished-at="2024-03-11T15:26:11 IST" duration-ms="841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_LotusBotanical_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:26:11 IST" name="Verify_LotusBotanical_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:26:37 IST" duration-ms="26229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_LotusBotanical_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:26:37 IST" name="tearDown" finished-at="2024-03-11T15:26:38 IST" duration-ms="419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:26:38 IST" name="setUp" finished-at="2024-03-11T15:26:39 IST" duration-ms="914" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Luxaderme_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:26:39 IST" name="Verify_Luxaderme_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:27:05 IST" duration-ms="26498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Luxaderme_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:27:05 IST" name="tearDown" finished-at="2024-03-11T15:27:06 IST" duration-ms="400" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:27:06 IST" name="setUp" finished-at="2024-03-11T15:27:06 IST" duration-ms="840" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_MiGlow_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:27:06 IST" name="Verify_MiGlow_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:27:32 IST" duration-ms="25773" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_MiGlow_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:27:32 IST" name="tearDown" finished-at="2024-03-11T15:27:33 IST" duration-ms="424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:27:33 IST" name="setUp" finished-at="2024-03-11T15:27:34 IST" duration-ms="882" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Mivi_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:27:34 IST" name="Verify_Mivi_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:28:02 IST" duration-ms="28257" status="PASS">
+        <test-method signature="Verify_Mivi_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:01:52 IST" name="Verify_Mivi_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-13T16:02:20 IST" duration-ms="28038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Mivi_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:28:02 IST" name="tearDown" finished-at="2024-03-11T15:28:02 IST" duration-ms="424" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Mivi_Test_Cases@4802796d]" started-at="2024-03-13T16:02:20 IST" name="tearDown" finished-at="2024-03-13T16:02:21 IST" duration-ms="539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:28:02 IST" name="setUp" finished-at="2024-03-11T15:28:03 IST" duration-ms="873" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_MyFitness_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:28:03 IST" name="Verify_MyFitness_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:28:32 IST" duration-ms="28472" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_MyFitness_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:28:32 IST" name="tearDown" finished-at="2024-03-11T15:28:32 IST" duration-ms="458" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:28:32 IST" name="setUp" finished-at="2024-03-11T15:28:33 IST" duration-ms="884" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:28:33 IST" name="Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:28:34 IST" duration-ms="1469" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1efb628d819bb60c62113422c21f6d9b, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50781/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1efb628d819bb60c62113422c21f6d9b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1efb628d819bb60c62113422c21f6d9b, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50781/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1efb628d819bb60c62113422c21f6d9b
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login(All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.java:1646)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:28:34 IST" name="tearDown" finished-at="2024-03-11T15:28:35 IST" duration-ms="331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:28:35 IST" name="setUp" finished-at="2024-03-11T15:28:36 IST" duration-ms="944" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Nobero_Shopify_Login_and_session_creation_Ater_Kwikpass_Login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:28:36 IST" name="Verify_Nobero_Shopify_Login_and_session_creation_Ater_Kwikpass_Login" finished-at="2024-03-11T15:29:07 IST" duration-ms="31402" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Nobero_Shopify_Login_and_session_creation_Ater_Kwikpass_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:29:07 IST" name="tearDown" finished-at="2024-03-11T15:29:08 IST" duration-ms="553" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:29:08 IST" name="setUp" finished-at="2024-03-11T15:29:09 IST" duration-ms="921" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Nurserylive_Pune_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:29:09 IST" name="Verify_Nurserylive_Pune_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:29:36 IST" duration-ms="27052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Nurserylive_Pune_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:29:36 IST" name="tearDown" finished-at="2024-03-11T15:29:36 IST" duration-ms="439" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:29:36 IST" name="setUp" finished-at="2024-03-11T15:29:37 IST" duration-ms="862" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Organic_Bazaar_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:29:37 IST" name="Verify_Organic_Bazaar_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:30:04 IST" duration-ms="27049" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Organic_Bazaar_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:30:04 IST" name="tearDown" finished-at="2024-03-11T15:30:04 IST" duration-ms="411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:30:04 IST" name="setUp" finished-at="2024-03-11T15:30:05 IST" duration-ms="932" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:30:05 IST" name="Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:30:08 IST" duration-ms="2815" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [943af27d4cc2028cea7b0a63409f72b9, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54948/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 943af27d4cc2028cea7b0a63409f72b9]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [943af27d4cc2028cea7b0a63409f72b9, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54948}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54948/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 943af27d4cc2028cea7b0a63409f72b9
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal(All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.java:1861)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:30:08 IST" name="tearDown" finished-at="2024-03-11T15:30:09 IST" duration-ms="374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:30:09 IST" name="setUp" finished-at="2024-03-11T15:30:09 IST" duration-ms="845" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Plum_Goodness_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:30:09 IST" name="Verify_Plum_Goodness_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:30:46 IST" duration-ms="36296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Plum_Goodness_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:30:46 IST" name="tearDown" finished-at="2024-03-11T15:30:46 IST" duration-ms="484" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:30:46 IST" name="setUp" finished-at="2024-03-11T15:30:48 IST" duration-ms="1570" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Portronics_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:30:48 IST" name="Verify_Portronics_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:31:22 IST" duration-ms="34133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Portronics_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:31:22 IST" name="tearDown" finished-at="2024-03-11T15:31:22 IST" duration-ms="422" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:31:22 IST" name="setUp" finished-at="2024-03-11T15:31:23 IST" duration-ms="898" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Puer_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:31:23 IST" name="Verify_Puer_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:31:49 IST" duration-ms="26106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Puer_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:31:49 IST" name="tearDown" finished-at="2024-03-11T15:31:50 IST" duration-ms="410" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:31:50 IST" name="setUp" finished-at="2024-03-11T15:31:51 IST" duration-ms="1498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Punekar_Cotton_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:31:51 IST" name="Verify_Punekar_Cotton_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:32:17 IST" duration-ms="25573" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Punekar_Cotton_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:32:17 IST" name="tearDown" finished-at="2024-03-11T15:32:17 IST" duration-ms="406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:32:17 IST" name="setUp" finished-at="2024-03-11T15:32:18 IST" duration-ms="889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:32:18 IST" name="Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:32:20 IST" duration-ms="2361" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [352a900fdbc807bbe5c71463f582c4d4, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55342}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55342/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 352a900fdbc807bbe5c71463f582c4d4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [352a900fdbc807bbe5c71463f582c4d4, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55342}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55342/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 352a900fdbc807bbe5c71463f582c4d4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal(All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.java:2127)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:32:20 IST" name="tearDown" finished-at="2024-03-11T15:32:21 IST" duration-ms="342" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:32:21 IST" name="setUp" finished-at="2024-03-11T15:32:22 IST" duration-ms="893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Saadaa_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:32:22 IST" name="Verify_Saadaa_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:32:51 IST" duration-ms="29535" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Saadaa_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:32:51 IST" name="tearDown" finished-at="2024-03-11T15:32:52 IST" duration-ms="524" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:32:52 IST" name="setUp" finished-at="2024-03-11T15:32:53 IST" duration-ms="894" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_SafariBags_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:32:53 IST" name="Verify_SafariBags_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:33:21 IST" duration-ms="28841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_SafariBags_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:33:21 IST" name="tearDown" finished-at="2024-03-11T15:33:22 IST" duration-ms="469" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:33:22 IST" name="setUp" finished-at="2024-03-11T15:33:23 IST" duration-ms="862" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:33:23 IST" name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:33:24 IST" duration-ms="1265" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dbad784ca3e0a08620415153bfb75da3, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55600}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55600/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dbad784ca3e0a08620415153bfb75da3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dbad784ca3e0a08620415153bfb75da3, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55600}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55600/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dbad784ca3e0a08620415153bfb75da3
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal(All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.java:2319)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:33:24 IST" name="tearDown" finished-at="2024-03-11T15:33:24 IST" duration-ms="352" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:33:24 IST" name="setUp" finished-at="2024-03-11T15:33:25 IST" duration-ms="899" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:33:25 IST" name="Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:33:53 IST" duration-ms="28139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Silvertraq_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:33:53 IST" name="tearDown" finished-at="2024-03-11T15:33:54 IST" duration-ms="438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:33:54 IST" name="setUp" finished-at="2024-03-11T15:33:55 IST" duration-ms="879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Soul_Flower_KwikPass_Login_at_accountpage()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:33:55 IST" name="Verify_Soul_Flower_KwikPass_Login_at_accountpage" finished-at="2024-03-11T15:34:14 IST" duration-ms="19262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Soul_Flower_KwikPass_Login_at_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:14 IST" name="tearDown" finished-at="2024-03-11T15:34:15 IST" duration-ms="518" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:15 IST" name="setUp" finished-at="2024-03-11T15:34:16 IST" duration-ms="999" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:16 IST" name="Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:34:18 IST" duration-ms="2589" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5981a85d26f17f72fdd619d13c5a7681, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55845}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55845/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5981a85d26f17f72fdd619d13c5a7681]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#kp\-login\-button\-header\-logo"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5981a85d26f17f72fdd619d13c5a7681, findElement {using=id, value=kp-login-button-header-logo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55845}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55845/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5981a85d26f17f72fdd619d13c5a7681
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login(All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.java:3131)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:18 IST" name="tearDown" finished-at="2024-03-11T15:34:19 IST" duration-ms="446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:19 IST" name="setUp" finished-at="2024-03-11T15:34:20 IST" duration-ms="1692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Swiss_Beauty_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:20 IST" name="Verify_Swiss_Beauty_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:34:49 IST" duration-ms="28913" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Swiss_Beauty_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:49 IST" name="tearDown" finished-at="2024-03-11T15:34:50 IST" duration-ms="433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:50 IST" name="setUp" finished-at="2024-03-11T15:34:50 IST" duration-ms="868" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:50 IST" name="Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:34:58 IST" duration-ms="7474" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#iframe\-kp"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1867a67bf52a22f9824d667f8be1f364, findElement {using=id, value=iframe-kp}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65297/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1867a67bf52a22f9824d667f8be1f364]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#iframe\-kp"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1867a67bf52a22f9824d667f8be1f364, findElement {using=id, value=iframe-kp}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\navee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65297/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1867a67bf52a22f9824d667f8be1f364
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at com.kwikpass.pageObjects.LoginPage.switchToIframe(LoginPage.java:16)
-at com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal(All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check.java:2497)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:58 IST" name="tearDown" finished-at="2024-03-11T15:34:58 IST" duration-ms="374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:58 IST" name="setUp" finished-at="2024-03-11T15:34:59 IST" duration-ms="875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:34:59 IST" name="Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:35:33 IST" duration-ms="34009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:35:33 IST" name="tearDown" finished-at="2024-03-11T15:35:34 IST" duration-ms="447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:35:34 IST" name="setUp" finished-at="2024-03-11T15:35:35 IST" duration-ms="1007" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:35:35 IST" name="Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:36:11 IST" duration-ms="36369" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:36:11 IST" name="tearDown" finished-at="2024-03-11T15:36:12 IST" duration-ms="469" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:36:12 IST" name="setUp" finished-at="2024-03-11T15:36:12 IST" duration-ms="919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_True_Elements_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:36:12 IST" name="Verify_True_Elements_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:36:38 IST" duration-ms="26009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_True_Elements_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:36:38 IST" name="tearDown" finished-at="2024-03-11T15:36:39 IST" duration-ms="470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:36:39 IST" name="setUp" finished-at="2024-03-11T15:36:40 IST" duration-ms="851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_UrbanJungle_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:36:40 IST" name="Verify_UrbanJungle_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal" finished-at="2024-03-11T15:37:08 IST" duration-ms="28048" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_UrbanJungle_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:37:08 IST" name="tearDown" finished-at="2024-03-11T15:37:08 IST" duration-ms="483" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:37:08 IST" name="setUp" finished-at="2024-03-11T15:37:09 IST" duration-ms="866" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Urbangabru_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:37:09 IST" name="Verify_Urbangabru_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:37:36 IST" duration-ms="26653" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Urbangabru_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:37:36 IST" name="tearDown" finished-at="2024-03-11T15:37:36 IST" duration-ms="394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:37:36 IST" name="setUp" finished-at="2024-03-11T15:37:37 IST" duration-ms="877" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Weryze_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:37:37 IST" name="Verify_Weryze_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:38:11 IST" duration-ms="33435" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Weryze_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:38:11 IST" name="tearDown" finished-at="2024-03-11T15:38:11 IST" duration-ms="414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:38:11 IST" name="setUp" finished-at="2024-03-11T15:38:12 IST" duration-ms="902" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Whatsup_Wellness_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:38:12 IST" name="Verify_Whatsup_Wellness_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:38:47 IST" duration-ms="35286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Whatsup_Wellness_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:38:47 IST" name="tearDown" finished-at="2024-03-11T15:38:47 IST" duration-ms="344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:38:47 IST" name="setUp" finished-at="2024-03-11T15:38:48 IST" duration-ms="856" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Xctasy_KwikPass_Login_at_accountpage()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:38:48 IST" name="Verify_Xctasy_KwikPass_Login_at_accountpage" finished-at="2024-03-11T15:39:05 IST" duration-ms="16403" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Xctasy_KwikPass_Login_at_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:39:05 IST" name="tearDown" finished-at="2024-03-11T15:39:05 IST" duration-ms="433" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:39:05 IST" name="setUp" finished-at="2024-03-11T15:39:06 IST" duration-ms="921" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_Yoho_LifeStyle_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:39:06 IST" name="Verify_Yoho_LifeStyle_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-11T15:39:33 IST" duration-ms="26681" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Yoho_LifeStyle_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@22555ebf]" started-at="2024-03-11T15:39:33 IST" name="tearDown" finished-at="2024-03-11T15:39:33 IST" duration-ms="437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
-    </test> <!-- Kwickpass_Test -->
-  </suite> <!-- kp_Automation_Scripts -->
+      </class> <!-- com.kwikpass.automation.scripts.TC_Mivi_Test_Cases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

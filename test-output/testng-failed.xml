@@ -14,9 +14,10 @@
           <include name="Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="setUp"/>
+          <include name="Verify_Puer_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->

@@ -219,8 +219,10 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		WebElement closepopup = driver.findElement(By.className(Blue_island_close_popup));
 		WebDriverWait closepopup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		closepopup_wait.until(ExpectedConditions.elementToBeClickable(closepopup));
-		closepopup.click();
-		logger.info("closed popup");
+		if (closepopup.isDisplayed()) {
+			closepopup.click();
+			logger.info("closed popup");
+		}
 		driver.switchTo().defaultContent();
 		sleep(2);
 		lp.switchToIframe(kwikpass_iframe);
@@ -1566,8 +1568,10 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		WebElement close = driver.findElement(By.className(Mivi_close_popup_btn));
 		WebDriverWait close_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		close_wait.until(ExpectedConditions.elementToBeClickable(close));
-		close.click();
-		logger.info("close popup");
+		if (close.isDisplayed()) {
+			close.click();
+			logger.info("close popup");
+		}
 		driver.switchTo().defaultContent();
 		sleep(2);
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
@@ -1663,8 +1667,10 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		WebElement nothanks = driver.findElement(By.xpath(MyWishCare_closepopup));
 		WebDriverWait nothanks_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		nothanks_wait.until(ExpectedConditions.elementToBeClickable(nothanks));
-		nothanks.click();
-		logger.info("Closed popup");
+		if (nothanks.isDisplayed()) {
+			nothanks.click();
+			logger.info("Closed popup");
+		}
 		sleep(2);
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -1697,7 +1703,13 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		LoginPage lp = new LoginPage(driver);
 		sleep(5);
 		lp.switchToNoberoIframe(nobero_iframe);
-		driver.findElement(By.xpath(nobero_close_iframe)).click();
+		WebElement popup = driver.findElement(By.xpath(nobero_close_iframe));
+		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
+		if (popup.isDisplayed()) {
+			popup.click();
+			logger.info("closed popup");
+		}
 		driver.switchTo().defaultContent();
 		sleep(2);
 		WebElement dropdown = driver.findElement(By.xpath(nobero_kwikpass_icon));
@@ -2023,8 +2035,10 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		WebElement allow = driver.findElement(By.xpath(Portronics_allow));
 		WebDriverWait allow_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		allow_wait.until(ExpectedConditions.elementToBeClickable(allow));
-		allow.click();
-		logger.info("Clicked allow btn");
+		if (allow.isDisplayed()) {
+			allow.click();
+			logger.info("Clicked allow btn");
+		}
 		driver.switchTo().defaultContent();
 		sleep(2);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
@@ -2150,10 +2164,15 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			WebElement popup = driver.findElement(By.className(Ritualistic_close_popup));
 			WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
-			popup.click();
-			logger.info("closed popup");
+			if (popup.isDisplayed()) {
+				popup.click();
+				logger.info("closed popup");
+			}
 			driver.switchTo().defaultContent();
-			driver.findElement(By.id(kwikpass_icon_al)).click();
+			WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+			WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+			kp_after_login_btn.click();
 			By logoutbtn = By.xpath(logout_btn);
 			By orderhistorybtn = By.xpath(orderhistory_btn);
 			boolean logoutbtnPresent = !driver.findElements(logoutbtn).isEmpty();
@@ -2220,9 +2239,14 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		sleep(8);
 		driver.switchTo().defaultContent();
 		lp.switchToIframe(Saadaa_popup_iframe);
-		driver.findElement(By.className(Saadaa_popup_close)).click();
+		WebElement popup = driver.findElement(By.className(Saadaa_popup_close));
+		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
+		if (popup.isDisplayed()) {
+			popup.click();
+			logger.info("close saadaa popup");
+		}
 		driver.switchTo().defaultContent();
-		logger.info("close saadaa popup");
 		String x = driver.findElement(By.id(Saadaa_account_txt)).getText();
 		logger.info(x);
 		String x11 = "ACCOUNT";
@@ -2762,8 +2786,10 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		WebElement spin = driver.findElement(By.className(weryze_spinwheel));
 		WebDriverWait spin_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		spin_wait.until(ExpectedConditions.elementToBeClickable(spin));
-		spin.click();
-		logger.info("Closed spin wheel");
+		if (spin.isDisplayed()) {
+			spin.click();
+			logger.info("Closed spin wheel");
+		}
 		sleep(2);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
@@ -3054,8 +3080,10 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		WebElement closepopup = driver.findElement(By.cssSelector(Just_Herbs_close_popup));
 		WebDriverWait closepopup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		closepopup_wait.until(ExpectedConditions.elementToBeClickable(closepopup));
-		closepopup.click();
-		logger.info("Clicked user icon after login");
+		if (closepopup.isDisplayed()) {
+			closepopup.click();
+			logger.info("Clicked user icon after login");
+		}
 		driver.switchTo().defaultContent();
 		WebElement account_btn = driver.findElement(By.xpath(Just_Herbs_account_btn));
 		WebDriverWait account_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -3257,6 +3285,146 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			Assert.fail("Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
 		}
 
+	}
+	
+	@Test
+	public void Verify_Louis_Stitch_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Louis_Stitch_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://www.louisstitch.com/");
+		logger.info("URL is open");
+		logger.info("Louis_Stitch does not have Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://www.louisstitch.com/account#profile";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in Louis Stitch after Kwikpass login passed.");
+			logger.info("Verify_Louis_Stitch_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in Louis Stitch after Kwikpass login failed.");
+			logger.info("Verify_Louis_Stitch_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Louis_Stitch_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Louis_Stitch_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+	
+	@Test
+	public void Verify_Japam_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Japam_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://japam.in/");
+		logger.info("URL is open");
+		logger.info("Japam does not have Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://japam.in/account";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in Japam after Kwikpass login passed.");
+			logger.info("Verify_Japam_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in Japam after Kwikpass login failed.");
+			logger.info("Verify_Japam_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Japam_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Japam_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+	
+	@Test
+	public void Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://letshyphen.com/");
+		logger.info("URL is open");
+		logger.info("Hyphen does not have Kwikpass AP");
+		sleep(2);
+		WebElement popup = driver.findElement(By.id(Hyphen_popup));
+		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
+		if (popup.isDisplayed()) {
+			popup.click();
+			logger.info("Closed popup");
+		}
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://letshyphen.com/account";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in Hyphen after Kwikpass login passed.");
+			logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in Hyphen after Kwikpass login failed.");
+			logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
 	}
 
 }

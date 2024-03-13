@@ -16,190 +16,190 @@ import com.kwikpass.pageObjects.LoginPage;
 
 public class TC_Dot_And_key_Test_Cases extends BaseClass implements Locator{
 	
-	@Test
-	public void Verify_Dot_And_Key_KwikPass_AP_modal_Verfication() throws IOException, InterruptedException {
-		logger.info("Verify_Dot_And_Key_KwikPass_AP_modal_Verfication Test Case is running.....");
-		driver.get("https://www.dotandkey.com/");
-		logger.info("URL is open");
-		logger.info("Dot_And_Key has Kwikpass AP");
-		sleep(48);
-		LoginPage lp = new LoginPage(driver);
-		lp.switchToIframe(kwikpass_iframe);
-		logger.info("switched to Kwikpass login modal iframe");
-		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
-		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
-		spinnow_btn.click();
-		logger.info("Clicked Spin now button");
-		sleep(12);
-		By mobile_input_field = By.id(mobile_input);   
-		By whatsapp_btn = By.id(whatsappid); 
-		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
-		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
-		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
-			logger.info("The Kwikpass Login modal has OTP via SMS and WhatsApp login options.");
-			logger.info("Verify_Dot_And_Key_KwikPass_AP_modal_Verfication Test Cases passed!");
-			logger.info("Test Cases Completed !");
-		} else {
-			logger.info("The Kwikpass Login modal doesn't has OTP via SMS or WhatsApp login options.");
-			logger.info("Verify_Dot_And_Key_KwikPass_AP_modal_Verfication Test Cases failed!");
-			captureScreen(driver, "Verify_Dot_And_Key_KwikPass_AP_modal_Verfication failed");
-			Assert.fail("Verify_Dot_And_Key_KwikPass_AP_modal_Verfication failed");
-		}
-	}
-
-	@Test
-	public void Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page() throws IOException, InterruptedException {
-		logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page Test Case is running.....");
-		driver.get("https://www.dotandkey.com/");
-		logger.info("URL is open");
-		logger.info("Dot_And_Key has Kwikpass AP");
-		driver.navigate().to("https://www.dotandkey.com/collections/moisturizers");
-		logger.info("Navigated to collections pages");
-		sleep(48);
-		LoginPage lp = new LoginPage(driver);
-		lp.switchToIframe(kwikpass_iframe);
-		logger.info("switched to Kwikpass login modal iframe");
-		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
-		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
-		spinnow_btn.click();
-		logger.info("Clicked Spin now button");
-		sleep(12);
-		By mobile_input_field = By.id(mobile_input);   
-		By whatsapp_btn = By.id(whatsappid); 
-		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
-		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
-		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
-			logger.info("The Kwikpass AP is visible.");
-			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page passed!");
-			logger.info("Test Cases Completed !");
-		} else {
-			logger.info("The Kwikpass AP is not visible.");
-			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page Test Cases failed!");
-			captureScreen(driver, "Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page failed");
-			Assert.fail("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page failed");
-		}
-	}
-	
-	@Test
-	public void Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Home_page() throws IOException, InterruptedException {
-		logger.info("Dot_And_Key KwikPass Auto Load Popup visiblity at Home Page Test Case is running.....");
-		driver.get("https://www.dotandkey.com/");
-		logger.info("URL is open");
-		logger.info("Dot_And_Key has Kwikpass AP");
-		sleep(48);
-		LoginPage lp = new LoginPage(driver);
-		lp.switchToIframe(kwikpass_iframe);
-		logger.info("switched to Kwikpass login modal iframe");
-		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
-		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
-		spinnow_btn.click();
-		logger.info("Clicked Spin now button");
-		sleep(12);
-		By mobile_input_field = By.id(mobile_input);   
-		By whatsapp_btn = By.id(whatsappid); 
-		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
-		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
-		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
-			logger.info("The Kwikpass AP is visible.");
-			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Home_page passed!");
-			logger.info("Test Cases Completed !");
-		} else {
-			logger.info("The Kwikpass AP is not visible.");
-			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Home_page Test Cases failed!");
-			captureScreen(driver, "Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Home_page failed");
-			Assert.fail("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Home_page failed");
-		}
-	}
-
-	@Test
-	public void Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page() throws IOException, InterruptedException {
-		logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page Test Case is running.....");
-		driver.get("https://www.dotandkey.com/");
-		logger.info("URL is open");
-		logger.info("Dot_And_Key has Kwikpass AP");
-		driver.navigate().to("https://www.dotandkey.com/products/vitamin-c-e-super-bright-moisturizer");
-		logger.info("Navigated to PDP pages");
-		sleep(48);
-		LoginPage lp = new LoginPage(driver);
-		lp.switchToIframe(kwikpass_iframe);
-		logger.info("switched to Kwikpass login modal iframe");
-		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
-		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
-		spinnow_btn.click();
-		logger.info("Clicked Spin now button");
-		sleep(12);
-		By mobile_input_field = By.id(mobile_input);   
-		By whatsapp_btn = By.id(whatsappid); 
-		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
-		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
-		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
-			logger.info("The Kwikpass AP is visible.");
-			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page passed!");
-			logger.info("Test Cases Completed !");
-		} else {
-			logger.info("The Kwikpass AP is not visible.");
-			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page Test Cases failed!");
-			captureScreen(driver, "Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page failed");
-			Assert.fail("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page failed");
-		}
-	}
-
-	
-	@Test
-	public void Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS() throws IOException, InterruptedException {
-		logger.info("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS Test Case is running.....");
-		driver.get("https://www.dotandkey.com/");
-		logger.info("URL is open");
-		logger.info("Dot_And_Key has Kwikpass AP");
-		sleep(48);
-		LoginPage lp = new LoginPage(driver);
-		lp.switchToIframe(kwikpass_iframe);
-		logger.info("switched to Kwikpass login modal iframe");
-		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
-		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
-		spinnow_btn.click();
-		logger.info("Clicked Spin now button");
-		sleep(12);
-		By mobile_input_field = By.id(mobile_input);   
-		By whatsapp_btn = By.id(whatsappid); 
-		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
-		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
-		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
-			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
-			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			logger.info("Mobile number entered");
-			sleep(2);
-			driver.findElement(By.id(otp_input)).sendKeys(otp);
-			logger.info("OTP entered");
-			sleep(8);
-			driver.switchTo().defaultContent();
-			driver.findElement(By.id(kwikpass_icon_al)).click(); 
-			By logoutbtn = By.xpath(logout_btn); 
-			By orderhistorybtn = By.xpath(orderhistory_btn);
-			boolean logoutbtnPresent = !driver.findElements(logoutbtn).isEmpty();
-			boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
-			if (logoutbtnPresent && orderhistorybtnPresent) {
-				logger.info("Kwikpass Login Successful !");
-				logger.info("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS Test Case passed!");
-				logger.info("Test Case Completed !");
-			} else {
-				logger.info("Kwikpass Login Unsuccessful !");
-				logger.info("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS Test Cases failed!");
-				captureScreen(driver, "Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS failed !");
-				Assert.fail("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS failed");
-			}
-		} else {
-			logger.info("The Kwikpass AP modal doesn't has OTP via SMS or WhatsApp login options.");
-			logger.info("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS Test Cases failed!");
-			captureScreen(driver, "Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS failed");
-			Assert.fail("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS failed");
-		}
-	}
+//	@Test
+//	public void Verify_Dot_And_Key_KwikPass_AP_modal_Verfication() throws IOException, InterruptedException {
+//		logger.info("Verify_Dot_And_Key_KwikPass_AP_modal_Verfication Test Case is running.....");
+//		driver.get("https://www.dotandkey.com/");
+//		logger.info("URL is open");
+//		logger.info("Dot_And_Key has Kwikpass AP");
+//		sleep(48);
+//		LoginPage lp = new LoginPage(driver);
+//		lp.switchToIframe(kwikpass_iframe);
+//		logger.info("switched to Kwikpass login modal iframe");
+//		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
+//		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
+//		spinnow_btn.click();
+//		logger.info("Clicked Spin now button");
+//		sleep(12);
+//		By mobile_input_field = By.id(mobile_input);   
+//		By whatsapp_btn = By.id(whatsappid); 
+//		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+//		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+//		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+//			logger.info("The Kwikpass Login modal has OTP via SMS and WhatsApp login options.");
+//			logger.info("Verify_Dot_And_Key_KwikPass_AP_modal_Verfication Test Cases passed!");
+//			logger.info("Test Cases Completed !");
+//		} else {
+//			logger.info("The Kwikpass Login modal doesn't has OTP via SMS or WhatsApp login options.");
+//			logger.info("Verify_Dot_And_Key_KwikPass_AP_modal_Verfication Test Cases failed!");
+//			captureScreen(driver, "Verify_Dot_And_Key_KwikPass_AP_modal_Verfication failed");
+//			Assert.fail("Verify_Dot_And_Key_KwikPass_AP_modal_Verfication failed");
+//		}
+//	}
+//
+//	@Test
+//	public void Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page() throws IOException, InterruptedException {
+//		logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page Test Case is running.....");
+//		driver.get("https://www.dotandkey.com/");
+//		logger.info("URL is open");
+//		logger.info("Dot_And_Key has Kwikpass AP");
+//		driver.navigate().to("https://www.dotandkey.com/collections/moisturizers");
+//		logger.info("Navigated to collections pages");
+//		sleep(48);
+//		LoginPage lp = new LoginPage(driver);
+//		lp.switchToIframe(kwikpass_iframe);
+//		logger.info("switched to Kwikpass login modal iframe");
+//		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
+//		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
+//		spinnow_btn.click();
+//		logger.info("Clicked Spin now button");
+//		sleep(12);
+//		By mobile_input_field = By.id(mobile_input);   
+//		By whatsapp_btn = By.id(whatsappid); 
+//		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+//		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+//		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+//			logger.info("The Kwikpass AP is visible.");
+//			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page passed!");
+//			logger.info("Test Cases Completed !");
+//		} else {
+//			logger.info("The Kwikpass AP is not visible.");
+//			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page Test Cases failed!");
+//			captureScreen(driver, "Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page failed");
+//			Assert.fail("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Collection_page failed");
+//		}
+//	}
+//	
+//	@Test
+//	public void Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Home_page() throws IOException, InterruptedException {
+//		logger.info("Dot_And_Key KwikPass Auto Load Popup visiblity at Home Page Test Case is running.....");
+//		driver.get("https://www.dotandkey.com/");
+//		logger.info("URL is open");
+//		logger.info("Dot_And_Key has Kwikpass AP");
+//		sleep(48);
+//		LoginPage lp = new LoginPage(driver);
+//		lp.switchToIframe(kwikpass_iframe);
+//		logger.info("switched to Kwikpass login modal iframe");
+//		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
+//		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
+//		spinnow_btn.click();
+//		logger.info("Clicked Spin now button");
+//		sleep(12);
+//		By mobile_input_field = By.id(mobile_input);   
+//		By whatsapp_btn = By.id(whatsappid); 
+//		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+//		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+//		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+//			logger.info("The Kwikpass AP is visible.");
+//			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Home_page passed!");
+//			logger.info("Test Cases Completed !");
+//		} else {
+//			logger.info("The Kwikpass AP is not visible.");
+//			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Home_page Test Cases failed!");
+//			captureScreen(driver, "Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Home_page failed");
+//			Assert.fail("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_Home_page failed");
+//		}
+//	}
+//
+//	@Test
+//	public void Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page() throws IOException, InterruptedException {
+//		logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page Test Case is running.....");
+//		driver.get("https://www.dotandkey.com/");
+//		logger.info("URL is open");
+//		logger.info("Dot_And_Key has Kwikpass AP");
+//		driver.navigate().to("https://www.dotandkey.com/products/vitamin-c-e-super-bright-moisturizer");
+//		logger.info("Navigated to PDP pages");
+//		sleep(48);
+//		LoginPage lp = new LoginPage(driver);
+//		lp.switchToIframe(kwikpass_iframe);
+//		logger.info("switched to Kwikpass login modal iframe");
+//		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
+//		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
+//		spinnow_btn.click();
+//		logger.info("Clicked Spin now button");
+//		sleep(12);
+//		By mobile_input_field = By.id(mobile_input);   
+//		By whatsapp_btn = By.id(whatsappid); 
+//		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+//		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+//		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+//			logger.info("The Kwikpass AP is visible.");
+//			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page passed!");
+//			logger.info("Test Cases Completed !");
+//		} else {
+//			logger.info("The Kwikpass AP is not visible.");
+//			logger.info("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page Test Cases failed!");
+//			captureScreen(driver, "Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page failed");
+//			Assert.fail("Verify_Dot_And_Key_KwikPass_AP_Visiblity_At_PDP_page failed");
+//		}
+//	}
+//
+//	
+//	@Test
+//	public void Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS() throws IOException, InterruptedException {
+//		logger.info("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS Test Case is running.....");
+//		driver.get("https://www.dotandkey.com/");
+//		logger.info("URL is open");
+//		logger.info("Dot_And_Key has Kwikpass AP");
+//		sleep(48);
+//		LoginPage lp = new LoginPage(driver);
+//		lp.switchToIframe(kwikpass_iframe);
+//		logger.info("switched to Kwikpass login modal iframe");
+//		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
+//		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
+//		spinnow_btn.click();
+//		logger.info("Clicked Spin now button");
+//		sleep(12);
+//		By mobile_input_field = By.id(mobile_input);   
+//		By whatsapp_btn = By.id(whatsappid); 
+//		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+//		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+//		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+//			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
+//			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+//			logger.info("Mobile number entered");
+//			sleep(2);
+//			driver.findElement(By.id(otp_input)).sendKeys(otp);
+//			logger.info("OTP entered");
+//			sleep(8);
+//			driver.switchTo().defaultContent();
+//			driver.findElement(By.id(kwikpass_icon_al)).click(); 
+//			By logoutbtn = By.xpath(logout_btn); 
+//			By orderhistorybtn = By.xpath(orderhistory_btn);
+//			boolean logoutbtnPresent = !driver.findElements(logoutbtn).isEmpty();
+//			boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
+//			if (logoutbtnPresent && orderhistorybtnPresent) {
+//				logger.info("Kwikpass Login Successful !");
+//				logger.info("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS Test Case passed!");
+//				logger.info("Test Case Completed !");
+//			} else {
+//				logger.info("Kwikpass Login Unsuccessful !");
+//				logger.info("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS Test Cases failed!");
+//				captureScreen(driver, "Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS failed !");
+//				Assert.fail("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS failed");
+//			}
+//		} else {
+//			logger.info("The Kwikpass AP modal doesn't has OTP via SMS or WhatsApp login options.");
+//			logger.info("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS Test Cases failed!");
+//			captureScreen(driver, "Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS failed");
+//			Assert.fail("Verify_Dot_And_Key_Kwikpass_login_from_AP_using_OTP_Via_SMS failed");
+//		}
+//	}
 
 
 	@Test
@@ -296,70 +296,70 @@ public class TC_Dot_And_key_Test_Cases extends BaseClass implements Locator{
 		}
 	}
 
-	@Test
-	public void Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP() throws IOException, InterruptedException {
-		logger.info("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Case is running.....");
-		driver.get("https://www.dotandkey.com/");
-		logger.info("URL is open");
-		logger.info("Dot_And_Key has Kwikpass AP");
-		sleep(48);
-		LoginPage lp = new LoginPage(driver);
-		lp.switchToIframe(kwikpass_iframe);
-		logger.info("switched to Kwikpass login modal iframe");
-		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
-		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
-		spinnow_btn.click();
-		logger.info("Clicked Spin now button");
-		sleep(12);
-		By mobile_input_field = By.id(mobile_input);   
-		By whatsapp_btn = By.id(whatsappid); 
-		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
-		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
-		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
-			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
-			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
-			logger.info("Mobile number entered");
-			sleep(2);
-			driver.findElement(By.id(otp_input)).sendKeys(otp);
-			logger.info("OTP entered");
-			sleep(8);
-			driver.switchTo().defaultContent();
-			driver.findElement(By.id(kwikpass_icon_al)).click();
-			By logoutbtn = By.xpath(logout_btn); 
-			By orderhistorybtn = By.xpath(orderhistory_btn); 
-			boolean logoutbtnPresent = !driver.findElements(logoutbtn).isEmpty();
-			boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
-			if (logoutbtnPresent && orderhistorybtnPresent) {
-				logger.info("Login Successful !");
-				driver.findElement(By.xpath(orderhistory_btn)).click();
-				sleep(10);
-				String curl = driver.getCurrentUrl();
-				String vurl = "https://www.dotandkey.com/account";
-				if (curl.equals(vurl)) {
-					driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
-					logger.info("Shopify login and session created in Dot_And_Key after Kwikpass login .");
-					logger.info("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Case passed!");
-					logger.info("Test Case Completed !");
-				} else {
-					logger.info("Shopify login and session not created in Dot_And_Key after Kwikpass login .");
-					logger.info("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Case failed!");
-					captureScreen(driver, "Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed");
-					Assert.fail("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed");
-				}
-			} else {
-				logger.info("Kwikpass Login Unsuccessful !");
-				logger.info("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Cases failed!");
-				captureScreen(driver, "Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed !");
-				Assert.fail("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed");
-			}
-		} else {
-			logger.info("The Kwikpass AP modal doesn't has OTP via SMS or WhatsApp login options.");
-			logger.info("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Cases failed!");
-			captureScreen(driver, "Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed");
-			Assert.fail("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed");
-		}
-	}
+//	@Test
+//	public void Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP() throws IOException, InterruptedException {
+//		logger.info("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Case is running.....");
+//		driver.get("https://www.dotandkey.com/");
+//		logger.info("URL is open");
+//		logger.info("Dot_And_Key has Kwikpass AP");
+//		sleep(48);
+//		LoginPage lp = new LoginPage(driver);
+//		lp.switchToIframe(kwikpass_iframe);
+//		logger.info("switched to Kwikpass login modal iframe");
+//		WebElement spinnow_btn = driver.findElement(By.xpath(spin_now));
+//		WebDriverWait spinnow_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		spinnow_btn_wait.until(ExpectedConditions.elementToBeClickable(spinnow_btn));
+//		spinnow_btn.click();
+//		logger.info("Clicked Spin now button");
+//		sleep(12);
+//		By mobile_input_field = By.id(mobile_input);   
+//		By whatsapp_btn = By.id(whatsappid); 
+//		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+//		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+//		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+//			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
+//			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+//			logger.info("Mobile number entered");
+//			sleep(2);
+//			driver.findElement(By.id(otp_input)).sendKeys(otp);
+//			logger.info("OTP entered");
+//			sleep(8);
+//			driver.switchTo().defaultContent();
+//			driver.findElement(By.id(kwikpass_icon_al)).click();
+//			By logoutbtn = By.xpath(logout_btn); 
+//			By orderhistorybtn = By.xpath(orderhistory_btn); 
+//			boolean logoutbtnPresent = !driver.findElements(logoutbtn).isEmpty();
+//			boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
+//			if (logoutbtnPresent && orderhistorybtnPresent) {
+//				logger.info("Login Successful !");
+//				driver.findElement(By.xpath(orderhistory_btn)).click();
+//				sleep(10);
+//				String curl = driver.getCurrentUrl();
+//				String vurl = "https://www.dotandkey.com/account";
+//				if (curl.equals(vurl)) {
+//					driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+//					logger.info("Shopify login and session created in Dot_And_Key after Kwikpass login .");
+//					logger.info("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Case passed!");
+//					logger.info("Test Case Completed !");
+//				} else {
+//					logger.info("Shopify login and session not created in Dot_And_Key after Kwikpass login .");
+//					logger.info("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Case failed!");
+//					captureScreen(driver, "Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed");
+//					Assert.fail("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed");
+//				}
+//			} else {
+//				logger.info("Kwikpass Login Unsuccessful !");
+//				logger.info("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Cases failed!");
+//				captureScreen(driver, "Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed !");
+//				Assert.fail("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed");
+//			}
+//		} else {
+//			logger.info("The Kwikpass AP modal doesn't has OTP via SMS or WhatsApp login options.");
+//			logger.info("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP Test Cases failed!");
+//			captureScreen(driver, "Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed");
+//			Assert.fail("Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_AP failed");
+//		}
+//	}
 
 	@Test
 	public void Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal() throws IOException, InterruptedException {
