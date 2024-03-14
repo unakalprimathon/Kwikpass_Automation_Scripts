@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [kp_Automation_Scripts]">
-  <listeners>
-    <listener class-name="com.kwikpass.utilities.Report"/>
-  </listeners>
-  <test thread-count="5" name="Kwickpass_Test(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
+      <class name="com.kwikpass.automation.scripts.TC_Hyphen_Test_Cases">
         <methods>
-          <include name="Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login"/>
-          <include name="Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login"/>
-          <include name="Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Hyphen_KwikPass_login_modal_verification"/>
           <include name="setUp"/>
-          <include name="Verify_Puer_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login"/>
-          <include name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
+      </class> <!-- com.kwikpass.automation.scripts.TC_Hyphen_Test_Cases -->
     </classes>
-  </test> <!-- Kwickpass_Test(failed) -->
-</suite> <!-- Failed suite [kp_Automation_Scripts] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

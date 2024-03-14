@@ -808,6 +808,22 @@ public class LocatorConfig {
 		String Hyphen_popup = pro.getProperty("Hyphen_popup");
 		return Hyphen_popup;
 	}
+	public String getStick_ItUp_addtocart() {
+		String Stick_ItUp_addtocart = pro.getProperty("Stick_ItUp_addtocart");
+		return Stick_ItUp_addtocart;
+	}
+	public String getStick_ItUp_checkout() {
+		String Stick_ItUp_checkout = pro.getProperty("Stick_ItUp_checkout");
+		return Stick_ItUp_checkout;
+	}
+	public String getLouis_Stitch_order_now() {
+		String Louis_Stitch_order_now = pro.getProperty("Louis_Stitch_order_now");
+		return Louis_Stitch_order_now;
+	}
+	public String getJapam_order_now() {
+		String Japam_order_now = pro.getProperty("Japam_order_now");
+		return Japam_order_now;
+	}
 	
 	
 }

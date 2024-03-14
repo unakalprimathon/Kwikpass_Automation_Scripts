@@ -26,10 +26,10 @@ public class BaseClass {
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + readconfig.getChromeDriverPath());
-//		driver = new ChromeDriver();
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless=new");
-		driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("--headless=new");
+//		driver = new ChromeDriver(options);
 		logger = Logger.getLogger("Kwikpass");
 		PropertyConfigurator.configure("log4j.properties");
 		driver.manage().window().maximize();

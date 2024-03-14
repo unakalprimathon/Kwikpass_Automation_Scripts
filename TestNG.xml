@@ -196,9 +196,20 @@
 			<!--Punekar_Cottons Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Punekar_Cottons_Test_Cases" />
 			
+			<!--Stick_ItUp Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Stick_ItUp_Test_Cases" />
+			
 			<!--The_Man_Company Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_The_Man_Company_Test_Cases" />
 			
+			<!--Louis_Stitch Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Louis_Stitch_Test_Cases" />
+			
+			<!--Japam Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Japam_Test_Cases" />
+			
+			<!--HyPhen Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Hyphen_Test_Cases" />
 			
 </classes>
 	</test>
