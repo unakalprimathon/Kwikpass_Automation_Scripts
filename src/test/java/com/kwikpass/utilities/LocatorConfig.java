@@ -824,6 +824,30 @@ public class LocatorConfig {
 		String Japam_order_now = pro.getProperty("Japam_order_now");
 		return Japam_order_now;
 	}
+	public String getHyphen_Addtocart() {
+		String Hyphen_Addtocart =  pro.getProperty("Hyphen_Addtocart");
+		return Hyphen_Addtocart;
+	}
+	public String getHyphen_placeorder() {
+		String Hyphen_placeorder =  pro.getProperty("Hyphen_placeorder");
+		return Hyphen_placeorder;
+	}
+	public String getLibas_addtocart() {
+		String Libas_addtocart = pro.getProperty("Libas_addtocart");
+		return Libas_addtocart;
+	}
+	public String getLibas_placeorder() {
+		String Libas_placeorder = pro.getProperty("Libas_placeorder");
+		return Libas_placeorder;
+	}
+	public String getCase_Mania_addtocart() {
+		String Case_Mania_addtocart = pro.getProperty("Case_Mania_addtocart");
+		return Case_Mania_addtocart;
+	}
+	public String getCase_Mania_placeorder() {
+		String Case_Mania_placeorder =  pro.getProperty("Case_Mania_placeorder");
+		return Case_Mania_placeorder;
+	}
 	
 	
 }

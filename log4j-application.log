@@ -35325,3 +35325,506 @@
 2024-03-14 19:05:31,510  INFO [main] Kwikpass:69 - Kwikpass icon is visible
 2024-03-14 19:05:31,510  INFO [main] Kwikpass:70 - Verify_Hyphen_KwikPass_login_icon_Visibilty Test case Passed !
 2024-03-14 19:05:31,511  INFO [main] Kwikpass:71 - Test Case Completed !
+2024-03-15 10:10:28,774  INFO [main] Kwikpass:1922 - Verfiy_Pinkfort_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:10:32,480  INFO [main] Kwikpass:1924 - URL is open
+2024-03-15 10:10:32,480  INFO [main] Kwikpass:1925 - Pinkfort does not have Kwikpass AP
+2024-03-15 10:10:32,882  INFO [main] Kwikpass:1930 - Clicked Kwikpass Icon
+2024-03-15 10:10:35,995  INFO [main] Kwikpass:1934 - switched to Kwikpass login modal iframe
+2024-03-15 10:10:36,136  INFO [main] Kwikpass:1936 - Mobile number entered
+2024-03-15 10:10:38,194  INFO [main] Kwikpass:1939 - OTP entered
+2024-03-15 10:10:46,374  INFO [main] Kwikpass:1948 - Login Successful !
+2024-03-15 10:10:56,530  INFO [main] Kwikpass:1955 - Shopify login and session created in Pinkfort after Kwikpass login .
+2024-03-15 10:10:56,530  INFO [main] Kwikpass:1956 - Verfiy_Pinkfort_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:10:56,531  INFO [main] Kwikpass:1957 - Test Case Completed !
+2024-03-15 10:10:58,012  INFO [main] Kwikpass:22 - Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:11:00,507  INFO [main] Kwikpass:24 - URL is open
+2024-03-15 10:11:00,508  INFO [main] Kwikpass:25 - AdilQadri does not have Kwikpass AP
+2024-03-15 10:11:00,715  INFO [main] Kwikpass:30 - Clicked Kwikpass Icon
+2024-03-15 10:11:03,857  INFO [main] Kwikpass:34 - switched to Kwikpass login modal iframe
+2024-03-15 10:11:03,951  INFO [main] Kwikpass:36 - Mobile number entered
+2024-03-15 10:11:06,044  INFO [main] Kwikpass:39 - OTP entered
+2024-03-15 10:11:14,276  INFO [main] Kwikpass:46 - Clicked Kwikpass Icon after login
+2024-03-15 10:11:24,379  INFO [main] Kwikpass:53 - Shopify login and session created in AdilQadri after Kwikpass login passed.
+2024-03-15 10:11:24,380  INFO [main] Kwikpass:54 - Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:11:24,380  INFO [main] Kwikpass:55 - Test Case Completed !
+2024-03-15 10:11:25,841  INFO [main] Kwikpass:66 - Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:11:28,911  INFO [main] Kwikpass:68 - URL is open
+2024-03-15 10:11:28,911  INFO [main] Kwikpass:69 - Amydus does not have Kwikpass AP
+2024-03-15 10:11:30,408  INFO [main] Kwikpass:110 - Verify_Assembly_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test case is running.....
+2024-03-15 10:11:34,669  INFO [main] Kwikpass:112 - URL is open
+2024-03-15 10:11:34,669  INFO [main] Kwikpass:113 - Assembly has Kwikpass AP
+2024-03-15 10:11:36,851  INFO [main] Kwikpass:119 - Clicked Kwikpass Icon
+2024-03-15 10:11:39,927  INFO [main] Kwikpass:123 - switched to Kwikpass login modal iframe
+2024-03-15 10:11:41,502  INFO [main] Kwikpass:348 - Verify_BSC_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:11:43,864  INFO [main] Kwikpass:350 - URL is open
+2024-03-15 10:11:43,865  INFO [main] Kwikpass:351 - BSC does not have Kwikpass AP
+2024-03-15 10:11:45,170  INFO [main] Kwikpass:163 - Verify_Bersache_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:11:50,164  INFO [main] Kwikpass:165 - URL is open
+2024-03-15 10:11:50,165  INFO [main] Kwikpass:166 - Bersache does not have Kwikpass AP
+2024-03-15 10:11:50,367  INFO [main] Kwikpass:171 - Clicked Kwikpass Icon
+2024-03-15 10:11:53,426  INFO [main] Kwikpass:175 - switched to Kwikpass login modal iframe
+2024-03-15 10:11:54,907  INFO [main] Kwikpass:260 - Verify_BlueTyga_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:11:58,247  INFO [main] Kwikpass:262 - URL is open
+2024-03-15 10:11:58,248  INFO [main] Kwikpass:263 - BlueTyga does not have Kwikpass AP
+2024-03-15 10:11:58,443  INFO [main] Kwikpass:268 - Clicked Kwikpass Icon
+2024-03-15 10:12:01,484  INFO [main] Kwikpass:272 - switched to Kwikpass login modal iframe
+2024-03-15 10:12:01,575  INFO [main] Kwikpass:274 - Mobile number entered
+2024-03-15 10:12:03,642  INFO [main] Kwikpass:277 - OTP entered
+2024-03-15 10:12:27,456  INFO [main] Kwikpass:1922 - Verfiy_Pinkfort_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:12:30,132  INFO [main] Kwikpass:1924 - URL is open
+2024-03-15 10:12:30,133  INFO [main] Kwikpass:1925 - Pinkfort does not have Kwikpass AP
+2024-03-15 10:12:30,346  INFO [main] Kwikpass:1930 - Clicked Kwikpass Icon
+2024-03-15 10:12:33,433  INFO [main] Kwikpass:1934 - switched to Kwikpass login modal iframe
+2024-03-15 10:12:33,568  INFO [main] Kwikpass:1936 - Mobile number entered
+2024-03-15 10:12:35,655  INFO [main] Kwikpass:1939 - OTP entered
+2024-03-15 10:12:43,788  INFO [main] Kwikpass:1948 - Login Successful !
+2024-03-15 10:12:53,902  INFO [main] Kwikpass:1955 - Shopify login and session created in Pinkfort after Kwikpass login .
+2024-03-15 10:12:53,902  INFO [main] Kwikpass:1956 - Verfiy_Pinkfort_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:12:53,902  INFO [main] Kwikpass:1957 - Test Case Completed !
+2024-03-15 10:12:55,498  INFO [main] Kwikpass:22 - Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:12:58,268  INFO [main] Kwikpass:24 - URL is open
+2024-03-15 10:12:58,268  INFO [main] Kwikpass:25 - AdilQadri does not have Kwikpass AP
+2024-03-15 10:12:58,416  INFO [main] Kwikpass:30 - Clicked Kwikpass Icon
+2024-03-15 10:13:01,468  INFO [main] Kwikpass:34 - switched to Kwikpass login modal iframe
+2024-03-15 10:13:01,582  INFO [main] Kwikpass:36 - Mobile number entered
+2024-03-15 10:13:03,655  INFO [main] Kwikpass:39 - OTP entered
+2024-03-15 10:13:11,767  INFO [main] Kwikpass:46 - Clicked Kwikpass Icon after login
+2024-03-15 10:13:21,880  INFO [main] Kwikpass:53 - Shopify login and session created in AdilQadri after Kwikpass login passed.
+2024-03-15 10:13:21,880  INFO [main] Kwikpass:54 - Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:13:21,880  INFO [main] Kwikpass:55 - Test Case Completed !
+2024-03-15 10:13:23,372  INFO [main] Kwikpass:66 - Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:13:26,580  INFO [main] Kwikpass:68 - URL is open
+2024-03-15 10:13:26,580  INFO [main] Kwikpass:69 - Amydus does not have Kwikpass AP
+2024-03-15 10:13:28,083  INFO [main] Kwikpass:110 - Verify_Assembly_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test case is running.....
+2024-03-15 10:13:30,872  INFO [main] Kwikpass:112 - URL is open
+2024-03-15 10:13:30,873  INFO [main] Kwikpass:113 - Assembly has Kwikpass AP
+2024-03-15 10:13:33,011  INFO [main] Kwikpass:119 - Clicked Kwikpass Icon
+2024-03-15 10:13:36,075  INFO [main] Kwikpass:123 - switched to Kwikpass login modal iframe
+2024-03-15 10:13:36,193  INFO [main] Kwikpass:125 - Mobile number entered
+2024-03-15 10:13:38,264  INFO [main] Kwikpass:128 - OTP entered
+2024-03-15 10:13:46,369  INFO [main] Kwikpass:137 - Login Successful !
+2024-03-15 10:13:56,510  INFO [main] Kwikpass:144 - Shopify login and session created in Urban Jungle after Kwikpass login .
+2024-03-15 10:13:56,511  INFO [main] Kwikpass:145 - Verify_Assembly_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Case passed!
+2024-03-15 10:13:56,511  INFO [main] Kwikpass:146 - Test Case Completed !
+2024-03-15 10:13:58,055  INFO [main] Kwikpass:348 - Verify_BSC_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:14:02,180  INFO [main] Kwikpass:350 - URL is open
+2024-03-15 10:14:02,181  INFO [main] Kwikpass:351 - BSC does not have Kwikpass AP
+2024-03-15 10:14:02,773  INFO [main] Kwikpass:356 - Clicked Kwikpass Icon
+2024-03-15 10:14:05,844  INFO [main] Kwikpass:360 - switched to Kwikpass login modal iframe
+2024-03-15 10:14:05,962  INFO [main] Kwikpass:362 - Mobile number entered
+2024-03-15 10:14:08,029  INFO [main] Kwikpass:365 - OTP entered
+2024-03-15 10:14:16,154  INFO [main] Kwikpass:372 - Clicked Kwikpass Icon after login
+2024-03-15 10:14:16,296  INFO [main] Kwikpass:377 - Clicked order_history_btn
+2024-03-15 10:14:26,367  INFO [main] Kwikpass:383 - Shopify login and session created in BSC after Kwikpass login passed.
+2024-03-15 10:14:26,367  INFO [main] Kwikpass:384 - Verify_BSC_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:14:26,368  INFO [main] Kwikpass:385 - Test Case Completed !
+2024-03-15 10:14:28,023  INFO [main] Kwikpass:163 - Verify_Bersache_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:14:32,174  INFO [main] Kwikpass:165 - URL is open
+2024-03-15 10:14:32,175  INFO [main] Kwikpass:166 - Bersache does not have Kwikpass AP
+2024-03-15 10:14:32,326  INFO [main] Kwikpass:171 - Clicked Kwikpass Icon
+2024-03-15 10:14:35,381  INFO [main] Kwikpass:175 - switched to Kwikpass login modal iframe
+2024-03-15 10:14:35,499  INFO [main] Kwikpass:177 - Mobile number entered
+2024-03-15 10:14:37,606  INFO [main] Kwikpass:180 - OTP entered
+2024-03-15 10:14:45,717  INFO [main] Kwikpass:187 - Clicked Kwikpass Icon after login
+2024-03-15 10:14:55,863  INFO [main] Kwikpass:194 - Shopify login and session created in Bersache after Kwikpass login passed.
+2024-03-15 10:14:55,863  INFO [main] Kwikpass:195 - Verify_Bersache_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:14:55,863  INFO [main] Kwikpass:196 - Test Case Completed !
+2024-03-15 10:14:57,398  INFO [main] Kwikpass:260 - Verify_BlueTyga_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:15:00,501  INFO [main] Kwikpass:262 - URL is open
+2024-03-15 10:15:00,501  INFO [main] Kwikpass:263 - BlueTyga does not have Kwikpass AP
+2024-03-15 10:15:00,685  INFO [main] Kwikpass:268 - Clicked Kwikpass Icon
+2024-03-15 10:15:03,747  INFO [main] Kwikpass:272 - switched to Kwikpass login modal iframe
+2024-03-15 10:15:03,871  INFO [main] Kwikpass:274 - Mobile number entered
+2024-03-15 10:15:05,940  INFO [main] Kwikpass:277 - OTP entered
+2024-03-15 10:15:14,028  INFO [main] Kwikpass:284 - Clicked Kwikpass Icon after login
+2024-03-15 10:15:24,145  INFO [main] Kwikpass:291 - Shopify login and session created in BlueTyga after Kwikpass login passed.
+2024-03-15 10:15:24,145  INFO [main] Kwikpass:292 - Verify_BlueTyga_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:15:24,145  INFO [main] Kwikpass:293 - Test Case Completed !
+2024-03-15 10:15:25,704  INFO [main] Kwikpass:207 - Verify_Blue_island_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:15:29,758  INFO [main] Kwikpass:209 - URL is open
+2024-03-15 10:15:29,758  INFO [main] Kwikpass:210 - Blue_island does not have Kwikpass AP
+2024-03-15 10:15:29,948  INFO [main] Kwikpass:215 - Clicked Kwikpass Icon
+2024-03-15 10:15:41,603  INFO [main] Kwikpass:304 - Verify_Bombae_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:15:44,637  INFO [main] Kwikpass:306 - URL is open
+2024-03-15 10:15:44,637  INFO [main] Kwikpass:307 - Bombae does not have Kwikpass AP
+2024-03-15 10:15:44,793  INFO [main] Kwikpass:312 - Clicked Kwikpass Icon
+2024-03-15 10:15:47,868  INFO [main] Kwikpass:316 - switched to Kwikpass login modal iframe
+2024-03-15 10:15:47,996  INFO [main] Kwikpass:318 - Mobile number entered
+2024-03-15 10:15:50,085  INFO [main] Kwikpass:321 - OTP entered
+2024-03-15 10:15:58,202  INFO [main] Kwikpass:328 - Clicked Kwikpass Icon after login
+2024-03-15 10:16:08,366  INFO [main] Kwikpass:335 - Shopify login and session created in Bombae after Kwikpass login passed.
+2024-03-15 10:16:08,366  INFO [main] Kwikpass:336 - Verify_Bombae_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:16:08,366  INFO [main] Kwikpass:337 - Test Case Completed !
+2024-03-15 10:16:10,406  INFO [main] Kwikpass:3477 - Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:16:13,248  INFO [main] Kwikpass:3479 - URL is open
+2024-03-15 10:16:13,248  INFO [main] Kwikpass:3480 - Case Mania does not have Kwikpass AP
+2024-03-15 10:16:13,387  INFO [main] Kwikpass:3485 - Clicked Kwikpass Icon
+2024-03-15 10:16:16,424  INFO [main] Kwikpass:3489 - switched to Kwikpass login modal iframe
+2024-03-15 10:16:16,542  INFO [main] Kwikpass:3491 - Mobile number entered
+2024-03-15 10:16:18,610  INFO [main] Kwikpass:3494 - OTP entered
+2024-03-15 10:16:26,695  INFO [main] Kwikpass:3501 - Clicked Kwikpass Icon after login
+2024-03-15 10:16:36,812  INFO [main] Kwikpass:3508 - Shopify login and session created in Case Mania after Kwikpass login passed.
+2024-03-15 10:16:36,812  INFO [main] Kwikpass:3509 - Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:16:36,812  INFO [main] Kwikpass:3510 - Test Case Completed !
+2024-03-15 10:16:38,462  INFO [main] Kwikpass:3009 - Verify_Clensta_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:16:51,487  INFO [main] Kwikpass:3011 - URL is open
+2024-03-15 10:16:51,488  INFO [main] Kwikpass:3012 - Clensta does not have Kwikpass AP
+2024-03-15 10:16:51,731  INFO [main] Kwikpass:3017 - Clicked Kwikpass Icon
+2024-03-15 10:16:54,784  INFO [main] Kwikpass:3021 - switched to Kwikpass login modal iframe
+2024-03-15 10:16:56,936  INFO [main] Kwikpass:396 - Verify_Dennis_Lingo_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:17:01,000  INFO [main] Kwikpass:398 - URL is open
+2024-03-15 10:17:01,000  INFO [main] Kwikpass:399 - Dennis_Lingo does not have Kwikpass AP
+2024-03-15 10:17:01,164  INFO [main] Kwikpass:404 - Clicked Kwikpass Icon
+2024-03-15 10:17:04,234  INFO [main] Kwikpass:408 - switched to Kwikpass login modal iframe
+2024-03-15 10:17:04,367  INFO [main] Kwikpass:410 - Mobile number entered
+2024-03-15 10:17:06,489  INFO [main] Kwikpass:413 - OTP entered
+2024-03-15 10:17:14,575  INFO [main] Kwikpass:420 - Clicked Kwikpass Icon after login
+2024-03-15 10:17:24,696  INFO [main] Kwikpass:427 - Shopify login and session created in Dennis_Lingo after Kwikpass login passed.
+2024-03-15 10:17:24,697  INFO [main] Kwikpass:428 - Verify_Dennis_Lingo_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:17:24,697  INFO [main] Kwikpass:429 - Test Case Completed !
+2024-03-15 10:17:26,242  INFO [main] Kwikpass:440 - Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test case is running.....
+2024-03-15 10:17:31,070  INFO [main] Kwikpass:442 - URL is open
+2024-03-15 10:17:31,070  INFO [main] Kwikpass:443 - Dot_And_Key has Kwikpass AP
+2024-03-15 10:17:31,786  INFO [main] Kwikpass:448 - Clicked Kwikpass Icon
+2024-03-15 10:17:34,834  INFO [main] Kwikpass:452 - switched to Kwikpass login modal iframe
+2024-03-15 10:17:34,884  INFO [main] Kwikpass:495 - Kwikpass Login Unsuccessful !
+2024-03-15 10:17:34,884  INFO [main] Kwikpass:496 - Verify_Dot_And_Key_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Cases failed!
+2024-03-15 10:17:37,150  INFO [main] Kwikpass:505 - Verify_Eyewearlabs_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:17:39,795  INFO [main] Kwikpass:507 - URL is open
+2024-03-15 10:17:39,795  INFO [main] Kwikpass:508 - Eyewearlabs does not have Kwikpass AP
+2024-03-15 10:17:40,288  INFO [main] Kwikpass:513 - Clicked Kwikpass Icon
+2024-03-15 10:17:43,378  INFO [main] Kwikpass:517 - switched to Kwikpass iframe
+2024-03-15 10:17:43,507  INFO [main] Kwikpass:519 - Mobile number entered
+2024-03-15 10:17:45,565  INFO [main] Kwikpass:522 - OTP entered
+2024-03-15 10:17:53,655  INFO [main] Kwikpass:529 - Clicked Kwikpass Icon after login
+2024-03-15 10:18:01,764  INFO [main] Kwikpass:536 - Shopify login and session created in Eyewearlabs after Kwikpass login .
+2024-03-15 10:18:01,765  INFO [main] Kwikpass:537 - Verify_Eyewearlabs_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 10:18:01,765  INFO [main] Kwikpass:538 - Test Case Completed !
+2024-03-15 10:18:03,436  INFO [main] Kwikpass:550 - Verify_FireBoltt_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 10:18:08,789  INFO [main] Kwikpass:552 - URL is open
+2024-03-15 10:18:08,790  INFO [main] Kwikpass:553 - FireBoltt does not have Kwikpass AP
+2024-03-15 10:18:08,966  INFO [main] Kwikpass:558 - Clicked Kwikpass Icon
+2024-03-15 10:18:12,014  INFO [main] Kwikpass:562 - switched to Kwikpass login modal iframe
+2024-03-15 10:18:12,114  INFO [main] Kwikpass:564 - Mobile number entered
+2024-03-15 10:18:14,226  INFO [main] Kwikpass:567 - OTP entered
+2024-03-15 11:58:08,112  INFO [main] Kwikpass:188 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 11:58:12,142  INFO [main] Kwikpass:190 - URL is open
+2024-03-15 11:58:12,144  INFO [main] Kwikpass:191 - Hyphen does not have Kwikpass AP
+2024-03-15 11:58:14,539  INFO [main] Kwikpass:198 - Closed popup
+2024-03-15 11:58:16,776  INFO [main] Kwikpass:205 - Clicked Kwikpass Icon
+2024-03-15 11:58:19,856  INFO [main] Kwikpass:209 - switched to Kwikpass login modal iframe
+2024-03-15 11:58:19,990  INFO [main] Kwikpass:211 - Mobile number entered
+2024-03-15 11:58:22,111  INFO [main] Kwikpass:214 - OTP entered
+2024-03-15 11:58:30,250  INFO [main] Kwikpass:221 - Clicked Kwikpass Icon after login
+2024-03-15 11:58:30,340  INFO [main] Kwikpass:227 - Login Successful !
+2024-03-15 11:58:35,672  INFO [main] Kwikpass:230 - Navigated to PDP page
+2024-03-15 11:59:00,456  INFO [main] Kwikpass:188 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 11:59:04,305  INFO [main] Kwikpass:190 - URL is open
+2024-03-15 11:59:04,305  INFO [main] Kwikpass:191 - Hyphen does not have Kwikpass AP
+2024-03-15 11:59:06,592  INFO [main] Kwikpass:198 - Closed popup
+2024-03-15 11:59:08,873  INFO [main] Kwikpass:205 - Clicked Kwikpass Icon
+2024-03-15 11:59:12,054  INFO [main] Kwikpass:209 - switched to Kwikpass login modal iframe
+2024-03-15 11:59:12,210  INFO [main] Kwikpass:211 - Mobile number entered
+2024-03-15 11:59:14,461  INFO [main] Kwikpass:214 - OTP entered
+2024-03-15 11:59:22,638  INFO [main] Kwikpass:221 - Clicked Kwikpass Icon after login
+2024-03-15 11:59:22,679  INFO [main] Kwikpass:227 - Login Successful !
+2024-03-15 11:59:29,870  INFO [main] Kwikpass:230 - Navigated to PDP page
+2024-03-15 11:59:30,192  INFO [main] Kwikpass:235 - Clicked Add to cart button
+2024-03-15 11:59:37,103  INFO [main] Kwikpass:241 - Clicked Buy now button
+2024-03-15 11:59:42,351  INFO [main] Kwikpass:244 - Switched to gokwik checkout
+2024-03-15 11:59:42,633  INFO [main] Kwikpass:249 - Naveen Unakal
+2024-03-15 11:59:42,633  INFO [main] Kwikpass:252 - Gokwik login successfull !
+2024-03-15 11:59:44,652  INFO [main] Kwikpass:254 - Verify_Hyphen_Kwikpass_login_Done_Gokwik_login_should_happen Test case passed!
+2024-03-15 11:59:44,652  INFO [main] Kwikpass:255 - Test Case Completed !
+2024-03-15 11:59:58,177  INFO [main] Kwikpass:298 - Verify_Hyphen_KwikPass_Login_at_accountpage Test case is running.....
+2024-03-15 12:00:05,590  INFO [main] Kwikpass:300 - URL is open
+2024-03-15 12:00:05,590  INFO [main] Kwikpass:301 - Hyphen does not have Kwikpass AP
+2024-03-15 12:00:08,708  INFO [main] Kwikpass:305 - switched to Kwikpass login modal iframe
+2024-03-15 12:00:08,757  INFO [main] Kwikpass:311 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-03-15 12:00:08,912  INFO [main] Kwikpass:313 - Mobile number entered
+2024-03-15 12:00:11,053  INFO [main] Kwikpass:316 - OTP entered
+2024-03-15 12:00:19,229  INFO [main] Kwikpass:323 - The Kwikpass Login successfull.
+2024-03-15 12:00:19,229  INFO [main] Kwikpass:324 - Verify_Hyphen_KwikPass_Login_at_accountpage Test Cases passed!
+2024-03-15 12:00:19,229  INFO [main] Kwikpass:325 - Test Cases Completed !
+2024-03-15 12:00:21,242  INFO [main] Kwikpass:272 - Verify_Hyphen_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....
+2024-03-15 12:00:27,271  INFO [main] Kwikpass:274 - URL is open
+2024-03-15 12:00:27,272  INFO [main] Kwikpass:275 - Hyphen does not have Kwikpass AP
+2024-03-15 12:00:30,353  INFO [main] Kwikpass:279 - switched to Kwikpass login modal iframe
+2024-03-15 12:00:30,403  INFO [main] Kwikpass:285 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-03-15 12:00:30,403  INFO [main] Kwikpass:286 - Verify_Hyphen_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!
+2024-03-15 12:00:30,403  INFO [main] Kwikpass:287 - Test Cases Completed !
+2024-03-15 12:00:32,359  INFO [main] Kwikpass:61 - Verify_Hyphen_KwikPass_login_icon_Visibilty Test case is running.....
+2024-03-15 12:00:36,465  INFO [main] Kwikpass:63 - URL is opened
+2024-03-15 12:00:36,465  INFO [main] Kwikpass:64 - Hyphen does not have Kwikpass AP
+2024-03-15 12:00:36,580  INFO [main] Kwikpass:69 - Kwikpass icon is visible
+2024-03-15 12:00:36,580  INFO [main] Kwikpass:70 - Verify_Hyphen_KwikPass_login_icon_Visibilty Test case Passed !
+2024-03-15 12:00:36,580  INFO [main] Kwikpass:71 - Test Case Completed !
+2024-03-15 12:00:39,096  INFO [main] Kwikpass:21 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 12:00:43,003  INFO [main] Kwikpass:23 - URL is open
+2024-03-15 12:00:43,004  INFO [main] Kwikpass:24 - Hyphen does not have Kwikpass AP
+2024-03-15 12:00:45,202  INFO [main] Kwikpass:31 - Closed popup
+2024-03-15 12:00:47,440  INFO [main] Kwikpass:38 - Clicked Kwikpass Icon
+2024-03-15 12:00:50,510  INFO [main] Kwikpass:42 - switched to Kwikpass login modal iframe
+2024-03-15 12:00:50,539  INFO [main] Kwikpass:48 - The Kwikpass Login modal verification passed.
+2024-03-15 12:00:50,539  INFO [main] Kwikpass:49 - Verify_Hyphen_KwikPass_login_modal_verification Test Cases passed!
+2024-03-15 12:00:50,539  INFO [main] Kwikpass:50 - Test Case Completed !
+2024-03-15 12:00:52,501  INFO [main] Kwikpass:188 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 12:00:56,813  INFO [main] Kwikpass:190 - URL is open
+2024-03-15 12:00:56,813  INFO [main] Kwikpass:191 - Hyphen does not have Kwikpass AP
+2024-03-15 12:00:58,966  INFO [main] Kwikpass:198 - Closed popup
+2024-03-15 12:01:01,241  INFO [main] Kwikpass:205 - Clicked Kwikpass Icon
+2024-03-15 12:01:04,306  INFO [main] Kwikpass:209 - switched to Kwikpass login modal iframe
+2024-03-15 12:01:04,422  INFO [main] Kwikpass:211 - Mobile number entered
+2024-03-15 12:01:06,516  INFO [main] Kwikpass:214 - OTP entered
+2024-03-15 12:01:14,708  INFO [main] Kwikpass:221 - Clicked Kwikpass Icon after login
+2024-03-15 12:01:14,743  INFO [main] Kwikpass:227 - Login Successful !
+2024-03-15 12:01:21,159  INFO [main] Kwikpass:230 - Navigated to PDP page
+2024-03-15 12:01:21,327  INFO [main] Kwikpass:235 - Clicked Add to cart button
+2024-03-15 12:01:32,157  INFO [main] Kwikpass:241 - Clicked Buy now button
+2024-03-15 12:01:37,265  INFO [main] Kwikpass:244 - Switched to gokwik checkout
+2024-03-15 12:01:37,399  INFO [main] Kwikpass:249 - Naveen Unakal
+2024-03-15 12:01:37,400  INFO [main] Kwikpass:252 - Gokwik login successfull !
+2024-03-15 12:01:39,412  INFO [main] Kwikpass:254 - Verify_Hyphen_Kwikpass_login_Done_Gokwik_login_should_happen Test case passed!
+2024-03-15 12:01:39,412  INFO [main] Kwikpass:255 - Test Case Completed !
+2024-03-15 12:01:42,450  INFO [main] Kwikpass:341 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 12:01:46,248  INFO [main] Kwikpass:343 - URL is open
+2024-03-15 12:01:46,249  INFO [main] Kwikpass:344 - Hyphen does not have Kwikpass AP
+2024-03-15 12:01:48,505  INFO [main] Kwikpass:351 - Closed popup
+2024-03-15 12:01:50,747  INFO [main] Kwikpass:358 - Clicked Kwikpass Icon
+2024-03-15 12:01:53,847  INFO [main] Kwikpass:362 - switched to Kwikpass login modal iframe
+2024-03-15 12:01:53,963  INFO [main] Kwikpass:364 - Mobile number entered
+2024-03-15 12:01:56,034  INFO [main] Kwikpass:367 - OTP entered
+2024-03-15 12:02:19,689  INFO [main] Kwikpass:382 - Login Successful !
+2024-03-15 12:02:19,689  INFO [main] Kwikpass:383 - Verify_Hyphen_Kwikpass_login_Done_Redirect_to_accountpage Test Case passed!
+2024-03-15 12:02:19,689  INFO [main] Kwikpass:384 - Test Case Completed !
+2024-03-15 12:02:21,684  INFO [main] Kwikpass:83 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 12:02:25,900  INFO [main] Kwikpass:85 - URL is open
+2024-03-15 12:02:25,900  INFO [main] Kwikpass:86 - Hyphen does not have Kwikpass AP
+2024-03-15 12:02:28,043  INFO [main] Kwikpass:93 - Closed popup
+2024-03-15 12:02:30,317  INFO [main] Kwikpass:100 - Clicked Kwikpass Icon
+2024-03-15 12:02:33,414  INFO [main] Kwikpass:104 - switched to Kwikpass login modal iframe
+2024-03-15 12:02:33,525  INFO [main] Kwikpass:106 - Mobile number entered
+2024-03-15 12:02:35,612  INFO [main] Kwikpass:109 - OTP entered
+2024-03-15 12:02:47,010  INFO [main] Kwikpass:135 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 12:02:51,334  INFO [main] Kwikpass:137 - URL is open
+2024-03-15 12:02:51,335  INFO [main] Kwikpass:138 - Hyphen does not have Kwikpass AP
+2024-03-15 12:02:53,573  INFO [main] Kwikpass:145 - Closed popup
+2024-03-15 12:02:55,802  INFO [main] Kwikpass:152 - Clicked Kwikpass Icon
+2024-03-15 12:02:58,867  INFO [main] Kwikpass:156 - switched to Kwikpass login modal iframe
+2024-03-15 12:02:59,040  INFO [main] Kwikpass:158 - Mobile number entered
+2024-03-15 12:03:01,107  INFO [main] Kwikpass:161 - OTP entered
+2024-03-15 12:03:09,269  INFO [main] Kwikpass:168 - Clicked Kwikpass Icon after login
+2024-03-15 12:03:19,442  INFO [main] Kwikpass:175 - Shopify login and session created in Hyphen after Kwikpass login passed.
+2024-03-15 12:03:19,442  INFO [main] Kwikpass:176 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 12:03:19,442  INFO [main] Kwikpass:177 - Test Case Completed !
+2024-03-15 12:04:36,103  INFO [main] Kwikpass:135 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 12:04:42,033  INFO [main] Kwikpass:137 - URL is open
+2024-03-15 12:04:42,033  INFO [main] Kwikpass:138 - Hyphen does not have Kwikpass AP
+2024-03-15 12:04:44,445  INFO [main] Kwikpass:145 - Closed popup
+2024-03-15 12:04:46,700  INFO [main] Kwikpass:152 - Clicked Kwikpass Icon
+2024-03-15 12:04:49,860  INFO [main] Kwikpass:156 - switched to Kwikpass login modal iframe
+2024-03-15 12:04:50,023  INFO [main] Kwikpass:158 - Mobile number entered
+2024-03-15 12:04:52,110  INFO [main] Kwikpass:161 - OTP entered
+2024-03-15 12:05:00,307  INFO [main] Kwikpass:168 - Clicked Kwikpass Icon after login
+2024-03-15 12:05:10,506  INFO [main] Kwikpass:175 - Shopify login and session created in Hyphen after Kwikpass login passed.
+2024-03-15 12:05:10,510  INFO [main] Kwikpass:176 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 12:05:10,510  INFO [main] Kwikpass:177 - Test Case Completed !
+2024-03-15 12:15:20,696  INFO [main] Kwikpass:3477 - Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 12:15:25,872  INFO [main] Kwikpass:3479 - URL is open
+2024-03-15 12:15:25,873  INFO [main] Kwikpass:3480 - Case Mania does not have Kwikpass AP
+2024-03-15 12:15:26,064  INFO [main] Kwikpass:3485 - Clicked Kwikpass Icon
+2024-03-15 12:15:29,170  INFO [main] Kwikpass:3489 - switched to Kwikpass login modal iframe
+2024-03-15 12:15:29,329  INFO [main] Kwikpass:3491 - Mobile number entered
+2024-03-15 12:15:31,463  INFO [main] Kwikpass:3494 - OTP entered
+2024-03-15 12:15:39,656  INFO [main] Kwikpass:3501 - Clicked Kwikpass Icon after login
+2024-03-15 12:15:49,766  INFO [main] Kwikpass:3512 - Shopify login and session not created in Case Mania after Kwikpass login failed.
+2024-03-15 12:15:49,766  INFO [main] Kwikpass:3513 - Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!
+2024-03-15 12:16:44,696  INFO [main] Kwikpass:3433 - Verify_Slurrp_Farm_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 12:16:50,732  INFO [main] Kwikpass:3435 - URL is open
+2024-03-15 12:16:50,732  INFO [main] Kwikpass:3436 - Slurrp Farm does not have Kwikpass AP
+2024-03-15 12:16:51,154  INFO [main] Kwikpass:3441 - Clicked Kwikpass Icon
+2024-03-15 12:16:54,260  INFO [main] Kwikpass:3445 - switched to Kwikpass login modal iframe
+2024-03-15 12:16:54,503  INFO [main] Kwikpass:3447 - Mobile number entered
+2024-03-15 12:16:56,686  INFO [main] Kwikpass:3450 - OTP entered
+2024-03-15 12:17:04,919  INFO [main] Kwikpass:3457 - Clicked Kwikpass Icon after login
+2024-03-15 12:17:15,138  INFO [main] Kwikpass:3464 - Shopify login and session created in Slurrp Farm after Kwikpass login passed.
+2024-03-15 12:17:15,138  INFO [main] Kwikpass:3465 - Verify_Slurrp_Farm_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 12:17:15,138  INFO [main] Kwikpass:3466 - Test Case Completed !
+2024-03-15 12:17:26,444  INFO [main] Kwikpass:3380 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 12:17:31,402  INFO [main] Kwikpass:3382 - URL is open
+2024-03-15 12:17:31,402  INFO [main] Kwikpass:3383 - Hyphen does not have Kwikpass AP
+2024-03-15 12:17:33,694  INFO [main] Kwikpass:3390 - Closed popup
+2024-03-15 12:17:35,935  INFO [main] Kwikpass:3397 - Clicked Kwikpass Icon
+2024-03-15 12:17:39,023  INFO [main] Kwikpass:3401 - switched to Kwikpass login modal iframe
+2024-03-15 12:17:39,152  INFO [main] Kwikpass:3403 - Mobile number entered
+2024-03-15 12:17:41,246  INFO [main] Kwikpass:3406 - OTP entered
+2024-03-15 12:17:49,489  INFO [main] Kwikpass:3413 - Clicked Kwikpass Icon after login
+2024-03-15 12:17:59,660  INFO [main] Kwikpass:3420 - Shopify login and session created in Hyphen after Kwikpass login passed.
+2024-03-15 12:17:59,660  INFO [main] Kwikpass:3421 - Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 12:17:59,660  INFO [main] Kwikpass:3422 - Test Case Completed !
+2024-03-15 12:18:09,161  INFO [main] Kwikpass:3336 - Verify_Japam_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 12:18:13,676  INFO [main] Kwikpass:3338 - URL is open
+2024-03-15 12:18:13,676  INFO [main] Kwikpass:3339 - Japam does not have Kwikpass AP
+2024-03-15 12:18:14,091  INFO [main] Kwikpass:3344 - Clicked Kwikpass Icon
+2024-03-15 12:18:17,242  INFO [main] Kwikpass:3348 - switched to Kwikpass login modal iframe
+2024-03-15 12:18:17,408  INFO [main] Kwikpass:3350 - Mobile number entered
+2024-03-15 12:18:19,554  INFO [main] Kwikpass:3353 - OTP entered
+2024-03-15 12:18:27,729  INFO [main] Kwikpass:3360 - Clicked Kwikpass Icon after login
+2024-03-15 12:18:37,887  INFO [main] Kwikpass:3367 - Shopify login and session created in Japam after Kwikpass login passed.
+2024-03-15 12:18:37,887  INFO [main] Kwikpass:3368 - Verify_Japam_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 12:18:37,887  INFO [main] Kwikpass:3369 - Test Case Completed !
+2024-03-15 13:57:09,486  INFO [main] Kwikpass:117 - Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 13:57:15,318  INFO [main] Kwikpass:119 - URL is open
+2024-03-15 13:57:15,319  INFO [main] Kwikpass:120 - Libas does not have Kwikpass AP
+2024-03-15 13:57:15,849  INFO [main] Kwikpass:125 - Clicked Kwikpass Icon
+2024-03-15 13:57:18,983  INFO [main] Kwikpass:129 - switched to Kwikpass login modal iframe
+2024-03-15 13:57:19,114  INFO [main] Kwikpass:131 - Mobile number entered
+2024-03-15 13:57:21,415  INFO [main] Kwikpass:134 - OTP entered
+2024-03-15 13:57:29,676  INFO [main] Kwikpass:141 - Clicked Kwikpass Icon after login
+2024-03-15 13:57:39,856  INFO [main] Kwikpass:152 - Shopify login and session not created in Libas after Kwikpass login failed.
+2024-03-15 13:57:39,856  INFO [main] Kwikpass:153 - Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!
+2024-03-15 13:58:19,312  INFO [main] Kwikpass:262 - Verify_Libas_KwikPass_Login_at_accountpage Test case is running.....
+2024-03-15 13:58:25,947  INFO [main] Kwikpass:264 - URL is open
+2024-03-15 13:58:25,947  INFO [main] Kwikpass:265 - Libas does not have Kwikpass AP
+2024-03-15 13:58:29,141  INFO [main] Kwikpass:269 - switched to Kwikpass login modal iframe
+2024-03-15 13:58:29,220  INFO [main] Kwikpass:275 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-03-15 13:58:29,430  INFO [main] Kwikpass:277 - Mobile number entered
+2024-03-15 13:58:34,227  INFO [main] Kwikpass:236 - Verify_Libas_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....
+2024-03-15 13:58:40,607  INFO [main] Kwikpass:238 - URL is open
+2024-03-15 13:58:40,608  INFO [main] Kwikpass:239 - Libas does not have Kwikpass AP
+2024-03-15 13:58:43,833  INFO [main] Kwikpass:243 - switched to Kwikpass login modal iframe
+2024-03-15 13:58:43,893  INFO [main] Kwikpass:249 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-03-15 13:58:43,894  INFO [main] Kwikpass:250 - Verify_Libas_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!
+2024-03-15 13:58:43,895  INFO [main] Kwikpass:251 - Test Cases Completed !
+2024-03-15 13:58:54,885  INFO [main] Kwikpass:262 - Verify_Libas_KwikPass_Login_at_accountpage Test case is running.....
+2024-03-15 13:59:00,944  INFO [main] Kwikpass:264 - URL is open
+2024-03-15 13:59:00,944  INFO [main] Kwikpass:265 - Libas does not have Kwikpass AP
+2024-03-15 13:59:04,076  INFO [main] Kwikpass:269 - switched to Kwikpass login modal iframe
+2024-03-15 13:59:04,148  INFO [main] Kwikpass:275 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-03-15 13:59:04,319  INFO [main] Kwikpass:277 - Mobile number entered
+2024-03-15 13:59:08,959  INFO [main] Kwikpass:236 - Verify_Libas_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....
+2024-03-15 13:59:14,964  INFO [main] Kwikpass:238 - URL is open
+2024-03-15 13:59:14,965  INFO [main] Kwikpass:239 - Libas does not have Kwikpass AP
+2024-03-15 13:59:18,061  INFO [main] Kwikpass:243 - switched to Kwikpass login modal iframe
+2024-03-15 13:59:18,093  INFO [main] Kwikpass:249 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-03-15 13:59:18,093  INFO [main] Kwikpass:250 - Verify_Libas_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!
+2024-03-15 13:59:18,093  INFO [main] Kwikpass:251 - Test Cases Completed !
+2024-03-15 13:59:20,508  INFO [main] Kwikpass:52 - Verify_Libas_KwikPass_login_icon_Visibilty Test case is running.....
+2024-03-15 13:59:30,961  INFO [main] Kwikpass:54 - URL is opened
+2024-03-15 13:59:30,961  INFO [main] Kwikpass:55 - Libas does not have Kwikpass AP
+2024-03-15 13:59:31,266  INFO [main] Kwikpass:60 - Kwikpass icon is visible
+2024-03-15 13:59:31,268  INFO [main] Kwikpass:61 - Verify_Libas_KwikPass_login_icon_Visibilty Test case Passed !
+2024-03-15 13:59:31,268  INFO [main] Kwikpass:62 - Test Case Completed !
+2024-03-15 13:59:33,463  INFO [main] Kwikpass:21 - Verify_Libas_KwikPass_login_modal_verification Test case is running.....
+2024-03-15 13:59:42,713  INFO [main] Kwikpass:23 - URL is open
+2024-03-15 13:59:42,715  INFO [main] Kwikpass:24 - Libas does not have Kwikpass AP
+2024-03-15 13:59:43,355  INFO [main] Kwikpass:29 - Clicked Kwikpass Icon
+2024-03-15 13:59:46,437  INFO [main] Kwikpass:33 - switched to Kwikpass login modal iframe
+2024-03-15 13:59:46,472  INFO [main] Kwikpass:39 - The Kwikpass Login modal verification passed.
+2024-03-15 13:59:46,472  INFO [main] Kwikpass:40 - Verify_Libas_KwikPass_login_modal_verification Test Cases passed!
+2024-03-15 13:59:46,472  INFO [main] Kwikpass:41 - Test Case Completed !
+2024-03-15 13:59:48,637  INFO [main] Kwikpass:161 - Verify_Libas_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-03-15 13:59:54,537  INFO [main] Kwikpass:163 - URL is open
+2024-03-15 13:59:54,539  INFO [main] Kwikpass:164 - Libas does not have Kwikpass AP
+2024-03-15 13:59:55,188  INFO [main] Kwikpass:169 - Clicked Kwikpass Icon
+2024-03-15 13:59:58,328  INFO [main] Kwikpass:173 - switched to Kwikpass login modal iframe
+2024-03-15 13:59:58,495  INFO [main] Kwikpass:175 - Mobile number entered
+2024-03-15 14:00:00,623  INFO [main] Kwikpass:178 - OTP entered
+2024-03-15 14:00:09,410  INFO [main] Kwikpass:185 - Clicked Kwikpass Icon after login
+2024-03-15 14:00:09,482  INFO [main] Kwikpass:191 - Login Successful !
+2024-03-15 14:00:18,782  INFO [main] Kwikpass:194 - Navigated to PDP page
+2024-03-15 14:00:21,663  INFO [main] Kwikpass:305 - Verify_Libas_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....
+2024-03-15 14:13:41,799  INFO [main] Kwikpass:161 - Verify_Case_Mania_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-03-15 14:13:44,896  INFO [main] Kwikpass:163 - URL is open
+2024-03-15 14:13:44,896  INFO [main] Kwikpass:164 - Case_Mania does not have Kwikpass AP
+2024-03-15 14:13:45,135  INFO [main] Kwikpass:169 - Clicked Kwikpass Icon
+2024-03-15 14:13:48,246  INFO [main] Kwikpass:173 - switched to Kwikpass login modal iframe
+2024-03-15 14:13:48,453  INFO [main] Kwikpass:175 - Mobile number entered
+2024-03-15 14:13:50,548  INFO [main] Kwikpass:178 - OTP entered
+2024-03-15 14:13:58,737  INFO [main] Kwikpass:185 - Clicked Kwikpass Icon after login
+2024-03-15 14:13:58,785  INFO [main] Kwikpass:191 - Login Successful !
+2024-03-15 14:14:29,931  INFO [main] Kwikpass:262 - Verify_Case_Mania_KwikPass_Login_at_accountpage Test case is running.....
+2024-03-15 14:14:34,547  INFO [main] Kwikpass:264 - URL is open
+2024-03-15 14:14:34,550  INFO [main] Kwikpass:265 - Case_Mania does not have Kwikpass AP
+2024-03-15 14:14:37,697  INFO [main] Kwikpass:269 - switched to Kwikpass login modal iframe
+2024-03-15 14:14:37,761  INFO [main] Kwikpass:275 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-03-15 14:14:37,948  INFO [main] Kwikpass:277 - Mobile number entered
+2024-03-15 14:14:40,076  INFO [main] Kwikpass:280 - OTP entered
+2024-03-15 14:14:48,350  INFO [main] Kwikpass:287 - The Kwikpass Login successfull.
+2024-03-15 14:14:48,350  INFO [main] Kwikpass:288 - Verify_Case_Mania_KwikPass_Login_at_accountpage Test Cases passed!
+2024-03-15 14:14:48,352  INFO [main] Kwikpass:289 - Test Cases Completed !
+2024-03-15 14:14:50,878  INFO [main] Kwikpass:236 - Verify_Case_Mania_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....
+2024-03-15 14:14:54,191  INFO [main] Kwikpass:238 - URL is open
+2024-03-15 14:14:54,191  INFO [main] Kwikpass:239 - Case_Mania does not have Kwikpass AP
+2024-03-15 14:14:57,253  INFO [main] Kwikpass:243 - switched to Kwikpass login modal iframe
+2024-03-15 14:14:57,301  INFO [main] Kwikpass:249 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-03-15 14:14:57,301  INFO [main] Kwikpass:250 - Verify_Case_Mania_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!
+2024-03-15 14:14:57,302  INFO [main] Kwikpass:251 - Test Cases Completed !
+2024-03-15 14:14:59,970  INFO [main] Kwikpass:52 - Verify_Case_Mania_KwikPass_login_icon_Visibilty Test case is running.....
+2024-03-15 14:15:02,641  INFO [main] Kwikpass:54 - URL is opened
+2024-03-15 14:15:02,641  INFO [main] Kwikpass:55 - Case_Mania does not have Kwikpass AP
+2024-03-15 14:15:02,751  INFO [main] Kwikpass:60 - Kwikpass icon is visible
+2024-03-15 14:15:02,751  INFO [main] Kwikpass:61 - Verify_Case_Mania_KwikPass_login_icon_Visibilty Test case Passed !
+2024-03-15 14:15:02,752  INFO [main] Kwikpass:62 - Test Case Completed !
+2024-03-15 14:15:04,835  INFO [main] Kwikpass:21 - Verify_Case_Mania_KwikPass_login_modal_verification Test case is running.....
+2024-03-15 14:15:07,314  INFO [main] Kwikpass:23 - URL is open
+2024-03-15 14:15:07,315  INFO [main] Kwikpass:24 - Case_Mania does not have Kwikpass AP
+2024-03-15 14:15:07,526  INFO [main] Kwikpass:29 - Clicked Kwikpass Icon
+2024-03-15 14:15:10,628  INFO [main] Kwikpass:33 - switched to Kwikpass login modal iframe
+2024-03-15 14:15:10,680  INFO [main] Kwikpass:39 - The Kwikpass Login modal verification passed.
+2024-03-15 14:15:10,680  INFO [main] Kwikpass:40 - Verify_Case_Mania_KwikPass_login_modal_verification Test Cases passed!
+2024-03-15 14:15:10,681  INFO [main] Kwikpass:41 - Test Case Completed !
+2024-03-15 14:15:24,245  INFO [main] Kwikpass:161 - Verify_Case_Mania_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-03-15 14:15:27,264  INFO [main] Kwikpass:163 - URL is open
+2024-03-15 14:15:27,265  INFO [main] Kwikpass:164 - Case_Mania does not have Kwikpass AP
+2024-03-15 14:15:27,595  INFO [main] Kwikpass:169 - Clicked Kwikpass Icon
+2024-03-15 14:15:30,703  INFO [main] Kwikpass:173 - switched to Kwikpass login modal iframe
+2024-03-15 14:15:30,937  INFO [main] Kwikpass:175 - Mobile number entered
+2024-03-15 14:15:33,058  INFO [main] Kwikpass:178 - OTP entered
+2024-03-15 14:15:41,237  INFO [main] Kwikpass:185 - Clicked Kwikpass Icon after login
+2024-03-15 14:15:41,266  INFO [main] Kwikpass:191 - Login Successful !
+2024-03-15 14:15:46,202  INFO [main] Kwikpass:194 - Navigated to PDP page
+2024-03-15 14:15:46,473  INFO [main] Kwikpass:199 - Clicked add to cart button
+2024-03-15 14:15:54,152  INFO [main] Kwikpass:305 - Verify_Case_Mania_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....
+2024-03-15 14:15:54,907  INFO [main] Kwikpass:307 - URL is open
+2024-03-15 14:15:54,909  INFO [main] Kwikpass:308 - Case_Mania does not have Kwikpass AP
+2024-03-15 14:15:56,993  INFO [main] Kwikpass:313 - Clicked Kwikpass Icon
+2024-03-15 14:16:00,087  INFO [main] Kwikpass:317 - switched to Kwikpass login modal iframe
+2024-03-15 14:16:00,241  INFO [main] Kwikpass:319 - Mobile number entered
+2024-03-15 14:16:02,376  INFO [main] Kwikpass:322 - OTP entered
+2024-03-15 14:16:22,133  INFO [main] Kwikpass:337 - Login Successful !
+2024-03-15 14:16:22,133  INFO [main] Kwikpass:338 - Verify_Case_Mania_Kwikpass_login_Done_Redirect_to_accountpage Test Case passed!
+2024-03-15 14:16:22,134  INFO [main] Kwikpass:339 - Test Case Completed !
+2024-03-15 14:16:24,899  INFO [main] Kwikpass:74 - Verify_Case_Mania_Kwikpass_login_using_OTP_Via_SMS Test case is running.....
+2024-03-15 14:16:27,600  INFO [main] Kwikpass:76 - URL is open
+2024-03-15 14:16:27,601  INFO [main] Kwikpass:77 - Case_Mania does not have Kwikpass AP
+2024-03-15 14:16:27,796  INFO [main] Kwikpass:82 - Clicked Kwikpass Icon
+2024-03-15 14:16:30,852  INFO [main] Kwikpass:86 - switched to Kwikpass login modal iframe
+2024-03-15 14:16:31,000  INFO [main] Kwikpass:88 - Mobile number entered
+2024-03-15 14:16:33,121  INFO [main] Kwikpass:91 - OTP entered
+2024-03-15 14:16:41,266  INFO [main] Kwikpass:98 - Clicked Kwikpass Icon after login
+2024-03-15 14:16:41,302  INFO [main] Kwikpass:104 - Kwikpass Login Successful !
+2024-03-15 14:16:41,302  INFO [main] Kwikpass:105 - Verify_Case_Mania_Kwikpass_login_using_OTP_Via_SMS Test Case passed!
+2024-03-15 14:16:41,302  INFO [main] Kwikpass:106 - Test Case Completed !
+2024-03-15 14:16:43,858  INFO [main] Kwikpass:117 - Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 14:16:46,455  INFO [main] Kwikpass:119 - URL is open
+2024-03-15 14:16:46,456  INFO [main] Kwikpass:120 - Case_Mania does not have Kwikpass AP
+2024-03-15 14:16:46,677  INFO [main] Kwikpass:125 - Clicked Kwikpass Icon
+2024-03-15 14:16:49,798  INFO [main] Kwikpass:129 - switched to Kwikpass login modal iframe
+2024-03-15 14:16:49,920  INFO [main] Kwikpass:131 - Mobile number entered
+2024-03-15 14:16:52,071  INFO [main] Kwikpass:134 - OTP entered
+2024-03-15 14:17:00,272  INFO [main] Kwikpass:141 - Clicked Kwikpass Icon after login
+2024-03-15 14:17:10,528  INFO [main] Kwikpass:148 - Shopify login and session created in Case_Mania after Kwikpass login passed.
+2024-03-15 14:17:10,528  INFO [main] Kwikpass:149 - Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 14:17:10,528  INFO [main] Kwikpass:150 - Test Case Completed !
+2024-03-15 14:17:30,016  INFO [main] Kwikpass:161 - Verify_Case_Mania_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-03-15 14:17:32,460  INFO [main] Kwikpass:163 - URL is open
+2024-03-15 14:17:32,461  INFO [main] Kwikpass:164 - Case_Mania does not have Kwikpass AP
+2024-03-15 14:17:32,673  INFO [main] Kwikpass:169 - Clicked Kwikpass Icon
+2024-03-15 14:17:35,781  INFO [main] Kwikpass:173 - switched to Kwikpass login modal iframe
+2024-03-15 14:17:35,959  INFO [main] Kwikpass:175 - Mobile number entered
+2024-03-15 14:17:38,073  INFO [main] Kwikpass:178 - OTP entered
+2024-03-15 14:17:46,281  INFO [main] Kwikpass:185 - Clicked Kwikpass Icon after login
+2024-03-15 14:17:46,332  INFO [main] Kwikpass:191 - Login Successful !
+2024-03-15 14:17:50,879  INFO [main] Kwikpass:194 - Navigated to PDP page
+2024-03-15 14:17:51,196  INFO [main] Kwikpass:199 - Clicked add to cart button

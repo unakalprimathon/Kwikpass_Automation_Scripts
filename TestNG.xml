@@ -211,6 +211,15 @@
 			<!--HyPhen Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Hyphen_Test_Cases" />
 			
+			<!--mCaffeine Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_mcaffeine_Test_Cases" />
+			
+			<!--Libas Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Libas_Test_Cases" />
+			
+			<!--Case_Mania Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Case_Mania_Test_Cases" />
+			
 </classes>
 	</test>
 

@@ -205,4 +205,10 @@ public interface Locator {
 	public String Stick_ItUp_checkout = locatorconfig.getStick_ItUp_checkout();
 	public String Louis_Stitch_order_now = locatorconfig.getLouis_Stitch_order_now();
 	public String Japam_order_now = locatorconfig.getJapam_order_now();
+	public String Hyphen_Addtocart =  locatorconfig.getHyphen_Addtocart();
+	public String Hyphen_placeorder = locatorconfig.getHyphen_placeorder();
+	public String Libas_addtocart = locatorconfig.getLibas_addtocart();
+	public String Libas_placeorder = locatorconfig.getLibas_placeorder();
+	public String Case_Mania_addtocart = locatorconfig.getCase_Mania_addtocart();
+	public String Case_Mania_placeorder = locatorconfig.getCase_Mania_placeorder();
 }

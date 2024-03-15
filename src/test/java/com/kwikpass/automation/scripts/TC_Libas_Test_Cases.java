@@ -14,23 +14,14 @@ import com.kwikpass.pageObjects.BaseClass;
 import com.kwikpass.pageObjects.Locator;
 import com.kwikpass.pageObjects.LoginPage;
 
-public class TC_Hyphen_Test_Cases extends BaseClass implements Locator{
+public class TC_Libas_Test_Cases extends  BaseClass implements Locator{
 	
 	@Test
-	public void Verify_Hyphen_KwikPass_login_modal_verification() throws IOException, InterruptedException {
-		logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
-		driver.get("https://letshyphen.com/");
+	public void Verify_Libas_KwikPass_login_modal_verification() throws IOException, InterruptedException {
+		logger.info("Verify_Libas_KwikPass_login_modal_verification Test case is running.....");
+		driver.get("https://www.libas.in/");
 		logger.info("URL is open");
-		logger.info("Hyphen does not have Kwikpass AP");
-		sleep(2);
-		WebElement popup = driver.findElement(By.id(Hyphen_popup));
-		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
-		if (popup.isDisplayed()) {
-			popup.click();
-			logger.info("Closed popup");
-		}
-		sleep(2);
+		logger.info("Libas does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -46,53 +37,44 @@ public class TC_Hyphen_Test_Cases extends BaseClass implements Locator{
 		boolean whatsappidpresent = !driver.findElements(whatsapp_btn).isEmpty();
 		if (mobileinputfieldpresent && whatsappidpresent) {
 			logger.info("The Kwikpass Login modal verification passed.");
-			logger.info("Verify_Hyphen_KwikPass_login_modal_verification Test Cases passed!");
+			logger.info("Verify_Libas_KwikPass_login_modal_verification Test Cases passed!");
 			logger.info("Test Case Completed !");
 		} else {
 			logger.info("The Kwikpass Login modal verification failed.");
-			logger.info("Verify_Hyphen_KwikPass_login_modal_verification Test Cases failed!");
-			captureScreen(driver, "Verify_Hyphen_KwikPass_login_modal_verification failed");
-			Assert.fail("Verify_Hyphen_KwikPass_login_modal_verification failed");
+			logger.info("Verify_Libas_KwikPass_login_modal_verification Test Cases failed!");
+			captureScreen(driver, "Verify_Libas_KwikPass_login_modal_verification failed");
+			Assert.fail("Verify_Libas_KwikPass_login_modal_verification failed");
 		}
 	}
 
 	@Test
-	public void Verify_Hyphen_KwikPass_login_icon_Visibilty() throws IOException, InterruptedException {
-		logger.info("Verify_Hyphen_KwikPass_login_icon_Visibilty Test case is running.....");
-		driver.get("https://letshyphen.com/");
+	public void Verify_Libas_KwikPass_login_icon_Visibilty() throws IOException, InterruptedException {
+		logger.info("Verify_Libas_KwikPass_login_icon_Visibilty Test case is running.....");
+		driver.get("https://www.libas.in/");
 		logger.info("URL is opened");
-		logger.info("Hyphen does not have Kwikpass AP");
+		logger.info("Libas does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon is visible");
-			logger.info("Verify_Hyphen_KwikPass_login_icon_Visibilty Test case Passed !");
+			logger.info("Verify_Libas_KwikPass_login_icon_Visibilty Test case Passed !");
 			logger.info("Test Case Completed !");
 		} else {
 			logger.info("Kwikpass icon not-visible");
-			logger.info("Verify_Hyphen_KwikPass_login_icon_Visibilty Test case Failed !");
-			captureScreen(driver, "Verify_Hyphen_KwikPass_login_icon_Visibilty failed");
-			Assert.fail("Verify_Hyphen_KwikPass_login_icon_Visibilty failed");
+			logger.info("Verify_Libas_KwikPass_login_icon_Visibilty Test case Failed !");
+			captureScreen(driver, "Verify_Libas_KwikPass_login_icon_Visibilty failed");
+			Assert.fail("Verify_Libas_KwikPass_login_icon_Visibilty failed");
 		}
 	}
 	
 
 	@Test
-	public void Verify_Hyphen_Kwikpass_login_using_OTP_Via_SMS() throws IOException, InterruptedException {
-		logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
-		driver.get("https://letshyphen.com/");
+	public void Verify_Libas_Kwikpass_login_using_OTP_Via_SMS() throws IOException, InterruptedException {
+		logger.info("Verify_Libas_Kwikpass_login_using_OTP_Via_SMS Test case is running.....");
+		driver.get("https://www.libas.in/");
 		logger.info("URL is open");
-		logger.info("Hyphen does not have Kwikpass AP");
-		sleep(2);
-		WebElement popup = driver.findElement(By.id(Hyphen_popup));
-		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
-		if (popup.isDisplayed()) {
-			popup.click();
-			logger.info("Closed popup");
-		}
-		sleep(2);
+		logger.info("Libas does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -120,31 +102,22 @@ public class TC_Hyphen_Test_Cases extends BaseClass implements Locator{
 		boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			logger.info("Kwikpass Login Successful !");
-			logger.info("Verify_Hyphen_Kwikpass_login_using_OTP_Via_SMS Test Case passed!");
+			logger.info("Verify_Libas_Kwikpass_login_using_OTP_Via_SMS Test Case passed!");
 			logger.info("Test Case Completed !");
 		} else {
 			logger.info("Kwikpass Login Unsuccessful !");
-			logger.info("Verify_Hyphen_Kwikpass_login_using_OTP_Via_SMS Test Cases failed!");
-			captureScreen(driver, "Verify_Hyphen_Kwikpass_login_using_OTP_Via_SMS failed !");
-			Assert.fail("Verify_Hyphen_Kwikpass_login_using_OTP_Via_SMS failed");
+			logger.info("Verify_Libas_Kwikpass_login_using_OTP_Via_SMS Test Cases failed!");
+			captureScreen(driver, "Verify_Libas_Kwikpass_login_using_OTP_Via_SMS failed !");
+			Assert.fail("Verify_Libas_Kwikpass_login_using_OTP_Via_SMS failed");
 		}
 	}
 	
 	@Test
-	public void Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
-		logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
-		driver.get("https://letshyphen.com/");
+	public void Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://www.libas.in/");
 		logger.info("URL is open");
-		logger.info("Hyphen does not have Kwikpass AP");
-		sleep(2);
-		WebElement popup = driver.findElement(By.id(Hyphen_popup));
-		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
-		if (popup.isDisplayed()) {
-			popup.click();
-			logger.info("Closed popup");
-		}
-		sleep(2);
+		logger.info("Libas does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -169,35 +142,26 @@ public class TC_Hyphen_Test_Cases extends BaseClass implements Locator{
 		driver.findElement(By.xpath(orderhistory_btn)).click();
 		sleep(10);
 		String curl = driver.getCurrentUrl();
-		String vurl = "https://letshyphen.com/account";
+		String vurl = "https://www.libas.in/account#profile";
 		if (curl.equals(vurl)) {
 			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
-			logger.info("Shopify login and session created in Hyphen after Kwikpass login passed.");
-			logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Shopify login and session created in Libas after Kwikpass login passed.");
+			logger.info("Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
 			logger.info("Test Case Completed !");
 		} else {
-			logger.info("Shopify login and session not created in Hyphen after Kwikpass login failed.");
-			logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
-			captureScreen(driver, "Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login failed");
-			Assert.fail("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			logger.info("Shopify login and session not created in Libas after Kwikpass login failed.");
+			logger.info("Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login failed");
 		}
 	}
 
 	@Test
-	public void Verify_Hyphen_Kwikpass_login_Done_Gokwik_login_should_happen() throws IOException, InterruptedException {
-		logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
-		driver.get("https://letshyphen.com/");
+	public void Verify_Libas_Kwikpass_login_Done_Gokwik_login_should_happen() throws IOException, InterruptedException {
+		logger.info("Verify_Libas_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....");
+		driver.get("https://www.libas.in/");
 		logger.info("URL is open");
-		logger.info("Hyphen does not have Kwikpass AP");
-		sleep(2);
-		WebElement popup = driver.findElement(By.id(Hyphen_popup));
-		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
-		if (popup.isDisplayed()) {
-			popup.click();
-			logger.info("Closed popup");
-		}
-		sleep(2);
+		logger.info("Libas does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -226,18 +190,18 @@ public class TC_Hyphen_Test_Cases extends BaseClass implements Locator{
 		if (logoutbtnPresent && orderhistorybtnPresent) {
 			logger.info("Login Successful !");
 			sleep(3);
-			driver.navigate().to("https://letshyphen.com/products/oil-control-daily-exfoliating-cleanser-gently-exfoliates-makes-skin-oil-free-100-ml");
+			driver.navigate().to("https://libas.in/collections/gerua-by-libas/products/mustard-solid-silk-blend-straight-kurta-with-trousers-dupatta-gs840");
 			logger.info("Navigated to PDP page");
-			WebElement addtocart = driver.findElement(By.className(Hyphen_Addtocart));
+			WebElement addtocart = driver.findElement(By.xpath(Libas_addtocart));
 			WebDriverWait addtocart_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 			addtocart_wait.until(ExpectedConditions.elementToBeClickable(addtocart));
 			addtocart.click();
-			logger.info("Clicked Add to cart button");
+			logger.info("Clicked add to cart button");
 			sleep(5);
-			WebElement placeoder = driver.findElement(By.className(Hyphen_placeorder));
+			WebElement placeorder = driver.findElement(By.xpath(Libas_placeorder));
 			WebDriverWait placeorder_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-			placeorder_wait.until(ExpectedConditions.elementToBeClickable(placeoder));
-			placeoder.click();
+			placeorder_wait.until(ExpectedConditions.elementToBeClickable(placeorder));
+			placeorder.click();
 			logger.info("Clicked Buy now button");
 			sleep(5);
 			lp.switchToGokwikIframe(gokwik_iframe);
@@ -251,28 +215,28 @@ public class TC_Hyphen_Test_Cases extends BaseClass implements Locator{
 			if (X.equals(x1)) {
 				logger.info("Gokwik login successfull !");
 				sleep(2);
-				logger.info("Verify_Hyphen_Kwikpass_login_Done_Gokwik_login_should_happen Test case passed!");
+				logger.info("Verify_Libas_Kwikpass_login_Done_Gokwik_login_should_happen Test case passed!");
 				logger.info("Test Case Completed !");
 			} else {
 				logger.info("Gokwik login fail");
-				logger.info("Verify_Hyphen_Kwikpass_login_Done_Gokwik_login_should_happen Test case failed!");
-				captureScreen(driver, "FVerify_Hyphen_Kwikpass_login_Done_Gokwik_login_should_happen failed");
-				Assert.fail("Verify_Hyphen_Kwikpass_login_Done_Gokwik_login_should_happen failed");
+				logger.info("Verify_Libas_Kwikpass_login_Done_Gokwik_login_should_happen Test case failed!");
+				captureScreen(driver, "FVerify_Libas_Kwikpass_login_Done_Gokwik_login_should_happen failed");
+				Assert.fail("Verify_Libas_Kwikpass_login_Done_Gokwik_login_should_happen failed");
 			}
 		} else {
 			logger.info("Login Unsuccessful !");
-			logger.info("Verify_Hyphen_Kwikpass_login_Done_Gokwik_login_should_happen Test Cases failed!");
-			captureScreen(driver, "Verify_Hyphen_Kwikpass_login_Done_Gokwik_login_should_happen failed !");
-			Assert.fail("Verify_Hyphen_Kwikpass_login_Done_Gokwik_login_should_happen failed");
+			logger.info("Verify_Libas_Kwikpass_login_Done_Gokwik_login_should_happen Test Cases failed!");
+			captureScreen(driver, "Verify_Libas_Kwikpass_login_Done_Gokwik_login_should_happen failed !");
+			Assert.fail("Verify_Libas_Kwikpass_login_Done_Gokwik_login_should_happen failed");
 		}
 	}
 	
 	@Test
-	public void Verify_Hyphen_KwikPass_Login_modal_Verfication_at_accountpage()throws IOException, InterruptedException {
-		logger.info("Verify_Hyphen_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
-		driver.get("https://letshyphen.com/account");
+	public void Verify_Libas_KwikPass_Login_modal_Verfication_at_accountpage()throws IOException, InterruptedException {
+		logger.info("Verify_Libas_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....");
+		driver.get("https://www.libas.in/account#profile");
 		logger.info("URL is open");
-		logger.info("Hyphen does not have Kwikpass AP");
+		logger.info("Libas does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -283,22 +247,22 @@ public class TC_Hyphen_Test_Cases extends BaseClass implements Locator{
 		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
 		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
 			logger.info("The Kwikpass Login modal has OTP via SMS and WhatsApp login options.");
-			logger.info("Verify_Hyphen_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!");
+			logger.info("Verify_Libas_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!");
 			logger.info("Test Cases Completed !");
 		} else {
 			logger.info("The Kwikpass Login modal doesn't has OTP via SMS or WhatsApp login options.");
-			logger.info("Verify_Hyphen_KwikPass_Login_modal_Verfication_at_accountpage Test Cases failed!");
-			captureScreen(driver, "Verify_Hyphen_KwikPass_Login_modal_Verfication_at_accountpage failed");
-			Assert.fail("Verify_Hyphen_KwikPass_Login_modal_Verfication_at_accountpage failed");
+			logger.info("Verify_Libas_KwikPass_Login_modal_Verfication_at_accountpage Test Cases failed!");
+			captureScreen(driver, "Verify_Libas_KwikPass_Login_modal_Verfication_at_accountpage failed");
+			Assert.fail("Verify_Libas_KwikPass_Login_modal_Verfication_at_accountpage failed");
 		}
 	}
 
 	@Test
-	public void Verify_Hyphen_KwikPass_Login_at_accountpage() throws IOException, InterruptedException {
-		logger.info("Verify_Hyphen_KwikPass_Login_at_accountpage Test case is running.....");
-		driver.get("https://letshyphen.com/account");
+	public void Verify_Libas_KwikPass_Login_at_accountpage() throws IOException, InterruptedException {
+		logger.info("Verify_Libas_KwikPass_Login_at_accountpage Test case is running.....");
+		driver.get("https://www.libas.in/account#profile");
 		logger.info("URL is open");
-		logger.info("Hyphen does not have Kwikpass AP");
+		logger.info("Libas does not have Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
 		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
@@ -317,40 +281,31 @@ public class TC_Hyphen_Test_Cases extends BaseClass implements Locator{
 			sleep(8);
 			driver.switchTo().defaultContent();
 			String curl = driver.getCurrentUrl();
-			String vurl = "https://letshyphen.com/account";
+			String vurl = "https://www.libas.in/account#profile";
 			if (curl.equals(vurl)) {
 				driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
 				logger.info("The Kwikpass Login successfull.");
-				logger.info("Verify_Hyphen_KwikPass_Login_at_accountpage Test Cases passed!");
+				logger.info("Verify_Libas_KwikPass_Login_at_accountpage Test Cases passed!");
 				logger.info("Test Cases Completed !");
 			} else {
-				logger.info("Verify_Hyphen_KwikPass_Login_at_accountpage Test Case failed!");
-				captureScreen(driver,"Verify_Hyphen_KwikPass_Login_at_accountpage failed");
-				Assert.fail("Verify_Hyphen_KwikPass_Login_at_accountpage failed");
+				logger.info("Verify_Libas_KwikPass_Login_at_accountpage Test Case failed!");
+				captureScreen(driver,"Verify_Libas_KwikPass_Login_at_accountpage failed");
+				Assert.fail("Verify_Libas_KwikPass_Login_at_accountpage failed");
 			}
 		} else {
 			logger.info("The Kwikpass Login modal doesn't has OTP via SMS or WhatsApp login options.");
-			logger.info("Verify_Hyphen_KwikPass_Login_at_accountpage Test Cases failed!");
-			captureScreen(driver, "Verify_Hyphen_KwikPass_Login_at_accountpage failed");
-			Assert.fail("Verify_Hyphen_KwikPass_Login_at_accountpage failed");
+			logger.info("Verify_Libas_KwikPass_Login_at_accountpage Test Cases failed!");
+			captureScreen(driver, "Verify_Libas_KwikPass_Login_at_accountpage failed");
+			Assert.fail("Verify_Libas_KwikPass_Login_at_accountpage failed");
 		}
 	}
 	
 	@Test
-	public void Verify_Hyphen_Kwikpass_login_Done_Redirect_to_accountpage()throws IOException, InterruptedException {
-		logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
-		driver.get("https://letshyphen.com/");
+	public void Verify_Libas_Kwikpass_login_Done_Redirect_to_accountpage()throws IOException, InterruptedException {
+		logger.info("Verify_Libas_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....");
+		driver.get("https://www.libas.in/");
 		logger.info("URL is open");
-		logger.info("Hyphen does not have Kwikpass AP");
-		sleep(2);
-		WebElement popup = driver.findElement(By.id(Hyphen_popup));
-		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
-		if (popup.isDisplayed()) {
-			popup.click();
-			logger.info("Closed popup");
-		}
-		sleep(2);
+		logger.info("Libas does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -373,25 +328,25 @@ public class TC_Hyphen_Test_Cases extends BaseClass implements Locator{
 		boolean logoutbtnPresent = !driver.findElements(logoutbtn).isEmpty();
 		boolean orderhistorybtnPresent = !driver.findElements(orderhistorybtn).isEmpty();
 		if (logoutbtnPresent && orderhistorybtnPresent) {
-			driver.navigate().to("https://letshyphen.com/account");
+			driver.navigate().to("https://www.libas.in/account#profile");
 			sleep(10);
 			String curl = driver.getCurrentUrl();
-			String vurl = "https://letshyphen.com/account";
+			String vurl = "https://www.libas.in/account#profile";
 			if (curl.equals(vurl)) {
 				driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
 				logger.info("Login Successful !");
-				logger.info("Verify_Hyphen_Kwikpass_login_Done_Redirect_to_accountpage Test Case passed!");
+				logger.info("Verify_Libas_Kwikpass_login_Done_Redirect_to_accountpage Test Case passed!");
 				logger.info("Test Case Completed !");
 			} else {
-				logger.info("Verify_Hyphen_Kwikpass_login_Done_Redirect_to_accountpage Test Case failed!");
-				captureScreen(driver,"Verify_Hyphen_Kwikpass_login_Done_Redirect_to_accountpage failed");
-				Assert.fail("Verify_Hyphen_Kwikpass_login_Done_Redirect_to_accountpage failed");
+				logger.info("Verify_Libas_Kwikpass_login_Done_Redirect_to_accountpage Test Case failed!");
+				captureScreen(driver,"Verify_Libas_Kwikpass_login_Done_Redirect_to_accountpage failed");
+				Assert.fail("Verify_Libas_Kwikpass_login_Done_Redirect_to_accountpage failed");
 			}
 		} else {
 			logger.info("Login Unsuccessful !");
-			logger.info("Verify_Hyphen_Kwikpass_login_Done_Redirect_to_accountpage Test Cases failed!");
-			captureScreen(driver, "Verify_Hyphen_Kwikpass_login_Done_Redirect_to_accountpage failed !");
-			Assert.fail("Verify_Hyphen_Kwikpass_login_Done_Redirect_to_accountpage failed");
+			logger.info("Verify_Libas_Kwikpass_login_Done_Redirect_to_accountpage Test Cases failed!");
+			captureScreen(driver, "Verify_Libas_Kwikpass_login_Done_Redirect_to_accountpage failed !");
+			Assert.fail("Verify_Libas_Kwikpass_login_Done_Redirect_to_accountpage failed");
 		}
 
 	}
