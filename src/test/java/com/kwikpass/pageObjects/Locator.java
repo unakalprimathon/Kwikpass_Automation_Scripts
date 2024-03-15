@@ -211,4 +211,7 @@ public interface Locator {
 	public String Libas_placeorder = locatorconfig.getLibas_placeorder();
 	public String Case_Mania_addtocart = locatorconfig.getCase_Mania_addtocart();
 	public String Case_Mania_placeorder = locatorconfig.getCase_Mania_placeorder();
+	public String Slurrp_Farm_addtocart = locatorconfig.getSlurrp_Farm_addtocart();
+	public String Slurrp_Farm_cart = locatorconfig.getSlurrp_Farm_cart();
+	public String Slurrp_Farm_Proceedtocheckout = locatorconfig.getSlurrp_Farm_Proceedtocheckout();
 }

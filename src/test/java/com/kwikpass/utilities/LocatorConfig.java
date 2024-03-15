@@ -848,6 +848,18 @@ public class LocatorConfig {
 		String Case_Mania_placeorder =  pro.getProperty("Case_Mania_placeorder");
 		return Case_Mania_placeorder;
 	}
+	public String getSlurrp_Farm_addtocart() {
+		String Slurrp_Farm_Proceedtocheckout = pro.getProperty("Slurrp_Farm_Proceedtocheckout");
+		return Slurrp_Farm_Proceedtocheckout;
+	}
+	public String getSlurrp_Farm_cart() {
+		String Slurrp_Farm_cart = pro.getProperty("Slurrp_Farm_cart");
+		return Slurrp_Farm_cart;
+	}
+	public String getSlurrp_Farm_Proceedtocheckout() {
+		String Slurrp_Farm_Proceedtocheckout = pro.getProperty("Slurrp_Farm_Proceedtocheckout");
+		return Slurrp_Farm_Proceedtocheckout;
+	}
 	
 	
 }

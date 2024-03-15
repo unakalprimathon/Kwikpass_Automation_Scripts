@@ -35828,3 +35828,118 @@
 2024-03-15 14:17:46,332  INFO [main] Kwikpass:191 - Login Successful !
 2024-03-15 14:17:50,879  INFO [main] Kwikpass:194 - Navigated to PDP page
 2024-03-15 14:17:51,196  INFO [main] Kwikpass:199 - Clicked add to cart button
+2024-03-15 15:43:25,757  INFO [main] Kwikpass:268 - Verify_Slurrp_Farm_KwikPass_Login_at_accountpage Test case is running.....
+2024-03-15 15:43:34,791  INFO [main] Kwikpass:270 - URL is open
+2024-03-15 15:43:34,791  INFO [main] Kwikpass:271 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 15:43:37,867  INFO [main] Kwikpass:275 - switched to Kwikpass login modal iframe
+2024-03-15 15:43:37,898  INFO [main] Kwikpass:281 - The Kwikpass AP modal has OTP via SMS and WhatsApp login options.
+2024-03-15 15:43:38,001  INFO [main] Kwikpass:283 - Mobile number entered
+2024-03-15 15:43:40,060  INFO [main] Kwikpass:286 - OTP entered
+2024-03-15 15:43:48,126  INFO [main] Kwikpass:293 - The Kwikpass Login successfull.
+2024-03-15 15:43:48,126  INFO [main] Kwikpass:294 - Verify_Slurrp_Farm_KwikPass_Login_at_accountpage Test Cases passed!
+2024-03-15 15:43:48,126  INFO [main] Kwikpass:295 - Test Cases Completed !
+2024-03-15 15:43:49,653  INFO [main] Kwikpass:242 - Verify_Slurrp_Farm_KwikPass_Login_modal_Verfication_at_accountpage Test case is running.....
+2024-03-15 15:43:54,945  INFO [main] Kwikpass:244 - URL is open
+2024-03-15 15:43:54,946  INFO [main] Kwikpass:245 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 15:43:58,001  INFO [main] Kwikpass:249 - switched to Kwikpass login modal iframe
+2024-03-15 15:43:58,031  INFO [main] Kwikpass:255 - The Kwikpass Login modal has OTP via SMS and WhatsApp login options.
+2024-03-15 15:43:58,032  INFO [main] Kwikpass:256 - Verify_Slurrp_Farm_KwikPass_Login_modal_Verfication_at_accountpage Test Cases passed!
+2024-03-15 15:43:58,032  INFO [main] Kwikpass:257 - Test Cases Completed !
+2024-03-15 15:43:59,583  INFO [main] Kwikpass:52 - Verify_Slurrp_Farm_KwikPass_login_icon_Visibilty Test case is running.....
+2024-03-15 15:44:04,503  INFO [main] Kwikpass:54 - URL is opened
+2024-03-15 15:44:04,504  INFO [main] Kwikpass:55 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 15:44:04,630  INFO [main] Kwikpass:60 - Kwikpass icon is visible
+2024-03-15 15:44:04,630  INFO [main] Kwikpass:61 - Verify_Slurrp_Farm_KwikPass_login_icon_Visibilty Test case Passed !
+2024-03-15 15:44:04,630  INFO [main] Kwikpass:62 - Test Case Completed !
+2024-03-15 15:44:06,211  INFO [main] Kwikpass:21 - Verify_Slurrp_Farm_KwikPass_login_modal_verification Test case is running.....
+2024-03-15 15:44:09,844  INFO [main] Kwikpass:23 - URL is open
+2024-03-15 15:44:09,845  INFO [main] Kwikpass:24 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 15:44:10,060  INFO [main] Kwikpass:29 - Clicked Kwikpass Icon
+2024-03-15 15:44:13,112  INFO [main] Kwikpass:33 - switched to Kwikpass login modal iframe
+2024-03-15 15:44:13,140  INFO [main] Kwikpass:39 - The Kwikpass Login modal verification passed.
+2024-03-15 15:44:13,141  INFO [main] Kwikpass:40 - Verify_Slurrp_Farm_KwikPass_login_modal_verification Test Cases passed!
+2024-03-15 15:44:13,141  INFO [main] Kwikpass:41 - Test Case Completed !
+2024-03-15 15:44:14,830  INFO [main] Kwikpass:161 - Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-03-15 15:44:18,394  INFO [main] Kwikpass:163 - URL is open
+2024-03-15 15:44:18,395  INFO [main] Kwikpass:164 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 15:44:18,620  INFO [main] Kwikpass:169 - Clicked Kwikpass Icon
+2024-03-15 15:44:21,676  INFO [main] Kwikpass:173 - switched to Kwikpass login modal iframe
+2024-03-15 15:44:21,790  INFO [main] Kwikpass:175 - Mobile number entered
+2024-03-15 15:44:23,861  INFO [main] Kwikpass:178 - OTP entered
+2024-03-15 15:44:31,977  INFO [main] Kwikpass:185 - Clicked Kwikpass Icon after login
+2024-03-15 15:44:32,012  INFO [main] Kwikpass:191 - Login Successful !
+2024-03-15 15:44:37,420  INFO [main] Kwikpass:194 - Navigated to PDP page
+2024-03-15 15:44:49,131  INFO [main] Kwikpass:311 - Verify_Slurrp_Farm_Kwikpass_login_Done_Redirect_to_accountpage Test case is running.....
+2024-03-15 15:44:53,119  INFO [main] Kwikpass:313 - URL is open
+2024-03-15 15:44:53,120  INFO [main] Kwikpass:314 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 15:44:53,341  INFO [main] Kwikpass:319 - Clicked Kwikpass Icon
+2024-03-15 15:44:56,382  INFO [main] Kwikpass:323 - switched to Kwikpass login modal iframe
+2024-03-15 15:44:56,471  INFO [main] Kwikpass:325 - Mobile number entered
+2024-03-15 15:44:58,528  INFO [main] Kwikpass:328 - OTP entered
+2024-03-15 15:45:21,674  INFO [main] Kwikpass:343 - Login Successful !
+2024-03-15 15:45:21,674  INFO [main] Kwikpass:344 - Verify_Slurrp_Farm_Kwikpass_login_Done_Redirect_to_accountpage Test Case passed!
+2024-03-15 15:45:21,674  INFO [main] Kwikpass:345 - Test Case Completed !
+2024-03-15 15:45:23,277  INFO [main] Kwikpass:74 - Verify_Slurrp_Farm_Kwikpass_login_using_OTP_Via_SMS Test case is running.....
+2024-03-15 15:45:26,911  INFO [main] Kwikpass:76 - URL is open
+2024-03-15 15:45:26,912  INFO [main] Kwikpass:77 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 15:45:27,165  INFO [main] Kwikpass:82 - Clicked Kwikpass Icon
+2024-03-15 15:45:30,214  INFO [main] Kwikpass:86 - switched to Kwikpass login modal iframe
+2024-03-15 15:45:30,318  INFO [main] Kwikpass:88 - Mobile number entered
+2024-03-15 15:45:32,374  INFO [main] Kwikpass:91 - OTP entered
+2024-03-15 15:45:40,507  INFO [main] Kwikpass:98 - Clicked Kwikpass Icon after login
+2024-03-15 15:45:40,540  INFO [main] Kwikpass:104 - Kwikpass Login Successful !
+2024-03-15 15:45:40,540  INFO [main] Kwikpass:105 - Verify_Slurrp_Farm_Kwikpass_login_using_OTP_Via_SMS Test Case passed!
+2024-03-15 15:45:40,540  INFO [main] Kwikpass:106 - Test Case Completed !
+2024-03-15 15:45:42,008  INFO [main] Kwikpass:117 - Verify_Slurrp_Farm_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....
+2024-03-15 15:45:45,768  INFO [main] Kwikpass:119 - URL is open
+2024-03-15 15:45:45,768  INFO [main] Kwikpass:120 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 15:45:45,959  INFO [main] Kwikpass:125 - Clicked Kwikpass Icon
+2024-03-15 15:45:49,009  INFO [main] Kwikpass:129 - switched to Kwikpass login modal iframe
+2024-03-15 15:45:49,127  INFO [main] Kwikpass:131 - Mobile number entered
+2024-03-15 15:45:51,185  INFO [main] Kwikpass:134 - OTP entered
+2024-03-15 15:45:59,287  INFO [main] Kwikpass:141 - Clicked Kwikpass Icon after login
+2024-03-15 15:46:09,435  INFO [main] Kwikpass:148 - Shopify login and session created in Slurrp_Farm after Kwikpass login passed.
+2024-03-15 15:46:09,435  INFO [main] Kwikpass:149 - Verify_Slurrp_Farm_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!
+2024-03-15 15:46:09,435  INFO [main] Kwikpass:150 - Test Case Completed !
+2024-03-15 15:47:09,202  INFO [main] Kwikpass:161 - Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-03-15 15:47:13,256  INFO [main] Kwikpass:163 - URL is open
+2024-03-15 15:47:13,257  INFO [main] Kwikpass:164 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 15:47:13,514  INFO [main] Kwikpass:169 - Clicked Kwikpass Icon
+2024-03-15 15:47:16,571  INFO [main] Kwikpass:173 - switched to Kwikpass login modal iframe
+2024-03-15 15:47:16,692  INFO [main] Kwikpass:175 - Mobile number entered
+2024-03-15 15:47:34,507  INFO [main] Kwikpass:161 - Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-03-15 15:47:38,519  INFO [main] Kwikpass:163 - URL is open
+2024-03-15 15:47:38,520  INFO [main] Kwikpass:164 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 15:47:38,751  INFO [main] Kwikpass:169 - Clicked Kwikpass Icon
+2024-03-15 15:47:41,797  INFO [main] Kwikpass:173 - switched to Kwikpass login modal iframe
+2024-03-15 15:47:41,932  INFO [main] Kwikpass:175 - Mobile number entered
+2024-03-15 15:47:44,009  INFO [main] Kwikpass:178 - OTP entered
+2024-03-15 15:47:52,144  INFO [main] Kwikpass:185 - Clicked Kwikpass Icon after login
+2024-03-15 15:47:52,179  INFO [main] Kwikpass:191 - Login Successful !
+2024-03-15 15:47:58,241  INFO [main] Kwikpass:194 - Navigated to PDP page
+2024-03-15 16:30:11,931  INFO [main] Kwikpass:162 - Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-03-15 16:30:15,654  INFO [main] Kwikpass:164 - URL is open
+2024-03-15 16:30:15,655  INFO [main] Kwikpass:165 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 16:30:15,919  INFO [main] Kwikpass:170 - Clicked Kwikpass Icon
+2024-03-15 16:30:18,966  INFO [main] Kwikpass:174 - switched to Kwikpass login modal iframe
+2024-03-15 16:30:19,082  INFO [main] Kwikpass:176 - Mobile number entered
+2024-03-15 16:30:21,150  INFO [main] Kwikpass:179 - OTP entered
+2024-03-15 16:30:29,277  INFO [main] Kwikpass:186 - Clicked Kwikpass Icon after login
+2024-03-15 16:30:29,312  INFO [main] Kwikpass:192 - Login Successful !
+2024-03-15 16:30:35,427  INFO [main] Kwikpass:195 - Navigated to PDP page
+2024-03-15 16:34:21,058  INFO [main] Kwikpass:162 - Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-03-15 16:34:24,941  INFO [main] Kwikpass:164 - URL is open
+2024-03-15 16:34:24,941  INFO [main] Kwikpass:165 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 16:34:25,163  INFO [main] Kwikpass:170 - Clicked Kwikpass Icon
+2024-03-15 16:34:28,230  INFO [main] Kwikpass:174 - switched to Kwikpass login modal iframe
+2024-03-15 16:34:28,347  INFO [main] Kwikpass:176 - Mobile number entered
+2024-03-15 16:34:44,955  INFO [main] Kwikpass:162 - Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen Test case is running.....
+2024-03-15 16:34:48,849  INFO [main] Kwikpass:164 - URL is open
+2024-03-15 16:34:48,850  INFO [main] Kwikpass:165 - Slurrp_Farm does not have Kwikpass AP
+2024-03-15 16:34:49,103  INFO [main] Kwikpass:170 - Clicked Kwikpass Icon
+2024-03-15 16:34:52,158  INFO [main] Kwikpass:174 - switched to Kwikpass login modal iframe
+2024-03-15 16:34:52,280  INFO [main] Kwikpass:176 - Mobile number entered
+2024-03-15 16:34:54,351  INFO [main] Kwikpass:179 - OTP entered
+2024-03-15 16:35:02,456  INFO [main] Kwikpass:186 - Clicked Kwikpass Icon after login
+2024-03-15 16:35:02,491  INFO [main] Kwikpass:192 - Login Successful !
+2024-03-15 16:35:08,514  INFO [main] Kwikpass:195 - Navigated to PDP page

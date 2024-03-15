@@ -220,6 +220,9 @@
 			<!--Case_Mania Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Case_Mania_Test_Cases" />
 			
+			<!--Slurrp_Farm Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Slurrp_Farm_Test_Cases" />
+			
 </classes>
 	</test>
 
