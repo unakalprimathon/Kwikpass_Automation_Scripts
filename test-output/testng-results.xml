@@ -1,73 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-15T16:34:42 IST" name="Default suite" finished-at="2024-03-15T16:35:19 IST" duration-ms="36722">
+  <suite started-at="2024-03-18T09:40:54 IST" name="Default suite" finished-at="2024-03-18T09:41:36 IST" duration-ms="42493">
     <groups>
     </groups>
-    <test started-at="2024-03-15T16:34:42 IST" name="Default test" finished-at="2024-03-15T16:35:19 IST" duration-ms="36722">
-      <class name="com.kwikpass.automation.scripts.TC_Slurrp_Farm_Test_Cases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Slurrp_Farm_Test_Cases@2b71e916]" started-at="2024-03-15T16:34:42 IST" name="setUp" finished-at="2024-03-15T16:34:44 IST" duration-ms="2426" status="PASS">
+    <test started-at="2024-03-18T09:40:54 IST" name="Default test" finished-at="2024-03-18T09:41:36 IST" duration-ms="42493">
+      <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@477b4cdf]" started-at="2024-03-18T09:40:54 IST" name="setUp" finished-at="2024-03-18T09:40:59 IST" duration-ms="5053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen()[pri:0, instance:com.kwikpass.automation.scripts.TC_Slurrp_Farm_Test_Cases@2b71e916]" started-at="2024-03-15T16:34:44 IST" name="Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen" finished-at="2024-03-15T16:35:18 IST" duration-ms="33733" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (34891e920c3eb593a219db697154df2d)] -> class name: gokwik-checkout] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55289/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 34891e920c3eb593a219db697154df2d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (34891e920c3eb593a219db697154df2d)] -> class name: gokwik-checkout] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55289/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 34891e920c3eb593a219db697154df2d
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-at com.kwikpass.automation.scripts.TC_Slurrp_Farm_Test_Cases.Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen(TC_Slurrp_Farm_Test_Cases.java:200)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@477b4cdf]" started-at="2024-03-18T09:40:59 IST" name="Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login" finished-at="2024-03-18T09:41:35 IST" duration-ms="36465" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Slurrp_Farm_Test_Cases@2b71e916]" started-at="2024-03-15T16:35:18 IST" name="tearDown" finished-at="2024-03-15T16:35:19 IST" duration-ms="533" status="PASS">
+        </test-method> <!-- Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@477b4cdf]" started-at="2024-03-18T09:41:35 IST" name="tearDown" finished-at="2024-03-18T09:41:36 IST" duration-ms="888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.kwikpass.automation.scripts.TC_Slurrp_Farm_Test_Cases -->
+      </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

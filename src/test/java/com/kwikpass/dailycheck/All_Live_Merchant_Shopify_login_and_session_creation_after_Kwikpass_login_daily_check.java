@@ -3523,10 +3523,10 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("URL is open");
 		logger.info("mCaffeine does not has Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
-		WebElement dropdown = driver.findElement(By.id("headerIconAccount"));
+		WebElement dropdown = driver.findElement(By.id(mCaffeine_login_icon));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(dropdown).perform();
-		WebElement loginOption = driver.findElement(By.xpath("//*[@id=\"kplogin\"]/a")); 
+		WebElement loginOption = driver.findElement(By.xpath(mCaffeine_signup_btn)); 
 		loginOption.click();
 		logger.info("Login / Signup button clicked");
 		sleep(3);
@@ -3539,10 +3539,10 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("OTP entered");
 		driver.switchTo().defaultContent();
 		sleep(12);
-		WebElement dropdown1 = driver.findElement(By.id("headerIconAccount"));
+		WebElement dropdown1 = driver.findElement(By.id(mCaffeine_login_icon));
 		Actions actions1 = new Actions(driver);
 		actions1.moveToElement(dropdown1).perform();
-		WebElement myaccount = driver.findElement(By.xpath("//li[2]/a[@href=\"/account\"]")); 
+		WebElement myaccount = driver.findElement(By.xpath(mCaffeine_profile_button)); 
 		if(myaccount.isDisplayed()) {
 			logger.info("Kwikpass login successful");
 			myaccount.click();
@@ -3550,7 +3550,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			String url = driver.getCurrentUrl();
 			String vurl = "https://www.mcaffeine.com/account";
 			if(url.equals(vurl)) {
-				driver.findElement(By.xpath(nobero_logout_btn)).isDisplayed();
+				driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
 				logger.info("Shopify_Login_and_session_creation_Ater_Kwikpass_Login passed");
 				logger.info("Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login passed");
 				logger.info("Test case completed");

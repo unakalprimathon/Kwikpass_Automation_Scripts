@@ -214,4 +214,7 @@ public interface Locator {
 	public String Slurrp_Farm_addtocart = locatorconfig.getSlurrp_Farm_addtocart();
 	public String Slurrp_Farm_cart = locatorconfig.getSlurrp_Farm_cart();
 	public String Slurrp_Farm_Proceedtocheckout = locatorconfig.getSlurrp_Farm_Proceedtocheckout();
+	public String mCaffeine_login_icon = locatorconfig.getmCaffeine_login_icon();
+	public String mCaffeine_signup_btn = locatorconfig.getmCaffeine_signup_btn();
+	public String mCaffeine_profile_button = locatorconfig.getmCaffeine_profile_button();
 }

@@ -860,6 +860,18 @@ public class LocatorConfig {
 		String Slurrp_Farm_Proceedtocheckout = pro.getProperty("Slurrp_Farm_Proceedtocheckout");
 		return Slurrp_Farm_Proceedtocheckout;
 	}
+	public String getmCaffeine_login_icon() {
+		String mCaffeine_login_icon = pro.getProperty("mCaffeine_login_icon");
+		return mCaffeine_login_icon;
+	}
+	public String getmCaffeine_signup_btn() {
+		String mCaffeine_signup_btn = pro.getProperty("mCaffeine_signup_btn");
+		return mCaffeine_signup_btn;
+	}
+	public String getmCaffeine_profile_button() {
+		String mCaffeine_profile_button = pro.getProperty("mCaffeine_profile_button");
+		return mCaffeine_profile_button;
+	}
 	
 	
 }

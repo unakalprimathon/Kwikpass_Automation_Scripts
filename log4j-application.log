@@ -35943,3 +35943,14 @@
 2024-03-15 16:35:02,456  INFO [main] Kwikpass:186 - Clicked Kwikpass Icon after login
 2024-03-15 16:35:02,491  INFO [main] Kwikpass:192 - Login Successful !
 2024-03-15 16:35:08,514  INFO [main] Kwikpass:195 - Navigated to PDP page
+2024-03-18 09:40:59,181  INFO [main] Kwikpass:3521 - Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login Test case is running.....
+2024-03-18 09:41:05,218  INFO [main] Kwikpass:3523 - URL is open
+2024-03-18 09:41:05,218  INFO [main] Kwikpass:3524 - mCaffeine does not has Kwikpass AP
+2024-03-18 09:41:05,832  INFO [main] Kwikpass:3531 - Login / Signup button clicked
+2024-03-18 09:41:08,900  INFO [main] Kwikpass:3534 - switched to Kwikpass login modal iframe
+2024-03-18 09:41:10,359  INFO [main] Kwikpass:3536 - Mobile number entered
+2024-03-18 09:41:12,509  INFO [main] Kwikpass:3539 - OTP entered
+2024-03-18 09:41:24,865  INFO [main] Kwikpass:3547 - Kwikpass login successful
+2024-03-18 09:41:35,623  INFO [main] Kwikpass:3554 - Shopify_Login_and_session_creation_Ater_Kwikpass_Login passed
+2024-03-18 09:41:35,624  INFO [main] Kwikpass:3555 - Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login passed
+2024-03-18 09:41:35,624  INFO [main] Kwikpass:3556 - Test case completed
