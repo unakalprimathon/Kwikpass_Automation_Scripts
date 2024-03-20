@@ -223,4 +223,6 @@ public interface Locator {
 	public String Chemistry_Indiareward_btn = locatorconfig.getChemistry_Indiareward_btn();
 	public String Chemistry_Indiareward_iframe = locatorconfig.getChemistry_Indiareward_iframe();
 	public String Chemistry_India_signin_btn = locatorconfig.getChemistry_India_signin_btn();
+	public String Hause_And_kinfer_popupiframe = locatorconfig.getHause_And_kinfer_popupiframe();
+	public String Hause_And_kinfer_popupclose = locatorconfig.getHause_And_kinfer_popupclose();
 }

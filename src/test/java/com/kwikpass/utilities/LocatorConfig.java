@@ -896,6 +896,14 @@ public class LocatorConfig {
 		String Chemistry_India_signin_btn = pro.getProperty("Chemistry_India_signin_btn");
 		return Chemistry_India_signin_btn;
 	}
+	public String getHause_And_kinfer_popupiframe() {
+		String Hause_And_kinfer_popupiframe = pro.getProperty("Hause_And_kinfer_popupiframe");
+		return Hause_And_kinfer_popupiframe;
+	}
+	public String getHause_And_kinfer_popupclose() {
+		String Hause_And_kinfer_popupclose = pro.getProperty("Hause_And_kinfer_popupclose");
+		return Hause_And_kinfer_popupclose;
+	}
 	
 	
 }

@@ -1025,6 +1025,15 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("OTP entered");
 		sleep(8);
 		driver.switchTo().defaultContent();
+		if (Hause_And_kinfer_popupiframe != null) {
+			lp.switchToIframe(Hause_And_kinfer_popupiframe);
+			WebElement popup = driver.findElement(By.className(Hause_And_kinfer_popupclose));
+			WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
+			popup.click();
+			logger.info("close Hause & Kinder popup");
+		}
+		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
 		By orderhistorybtn = By.xpath(orderhistory_btn);
@@ -2238,15 +2247,6 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("OTP entered");
 		sleep(8);
 		driver.switchTo().defaultContent();
-		lp.switchToIframe(Saadaa_popup_iframe);
-		WebElement popup = driver.findElement(By.className(Saadaa_popup_close));
-		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
-		if (popup.isDisplayed()) {
-			popup.click();
-			logger.info("close saadaa popup");
-		}
-		driver.switchTo().defaultContent();
 		String x = driver.findElement(By.id(Saadaa_account_txt)).getText();
 		logger.info(x);
 		String x11 = "ACCOUNT";
@@ -3412,7 +3412,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		kp_after_login_btn.click();
 		logger.info("Clicked Kwikpass Icon after login");
 		driver.findElement(By.xpath(orderhistory_btn)).click();
-		sleep(10);
+		sleep(15);
 		String curl = driver.getCurrentUrl();
 		String vurl = "https://letshyphen.com/account";
 		if (curl.equals(vurl)) {
