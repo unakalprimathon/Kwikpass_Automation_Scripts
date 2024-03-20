@@ -211,9 +211,6 @@
 			<!--HyPhen Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Hyphen_Test_Cases" />
 			
-			<!--mCaffeine Test cases -->
-			<class name="com.kwikpass.automation.scripts.TC_mcaffeine_Test_Cases" />
-			
 			<!--Libas Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Libas_Test_Cases" />
 			
@@ -222,6 +219,12 @@
 			
 			<!--Slurrp_Farm Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Slurrp_Farm_Test_Cases" />
+			
+			<!--mCaffeine Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases" />
+			
+			<!--Chemistry_India Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Chemistry_India_Test_Cases" />
 			
 </classes>
 	</test>

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kwikpass.automation.scripts.TC_Slurrp_Farm_Test_Cases">
+      <class name="com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases">
         <methods>
           <include name="setUp"/>
-          <include name="Verify_Slurrp_Farm_Kwikpass_login_Done_Gokwik_login_should_happen"/>
+          <include name="Verify_mCaffeine_Kwikpass_login_using_OTP_Via_SMS"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kwikpass.automation.scripts.TC_Slurrp_Farm_Test_Cases -->
+      </class> <!-- com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

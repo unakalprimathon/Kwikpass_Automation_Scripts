@@ -217,4 +217,10 @@ public interface Locator {
 	public String mCaffeine_login_icon = locatorconfig.getmCaffeine_login_icon();
 	public String mCaffeine_signup_btn = locatorconfig.getmCaffeine_signup_btn();
 	public String mCaffeine_profile_button = locatorconfig.getmCaffeine_profile_button();
+	public String mCaffeine_addtocart = locatorconfig.getmCaffeine_addtocart();
+	public String mCaffeine_placeorder = locatorconfig.getmCaffeine_placeorder();
+	public String Chemistry_Indiabuynow = locatorconfig.getChemistry_Indiabuynow();
+	public String Chemistry_Indiareward_btn = locatorconfig.getChemistry_Indiareward_btn();
+	public String Chemistry_Indiareward_iframe = locatorconfig.getChemistry_Indiareward_iframe();
+	public String Chemistry_India_signin_btn = locatorconfig.getChemistry_India_signin_btn();
 }

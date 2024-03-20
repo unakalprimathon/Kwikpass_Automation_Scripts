@@ -9,23 +9,21 @@
     <classes>
       <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
         <methods>
-          <include name="Verify_Louis_Stitch_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Heelium_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="Verify_Saadaa_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Karagiri_KwikPass_Login_at_accountpage"/>
+          <include name="Verify_Stickitup_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Bombae_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="tearDown"/>
           <include name="Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login"/>
-          <include name="Verify_Plum_Goodness_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Guniaa_Shopify_login_and_session_creation_after_Kwikpass_login_From_Login_Modal"/>
-          <include name="Verify_Portronics_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="setUp"/>
-          <include name="Verify_Puer_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Clensta_Shopify_login_and_session_creation_after_Kwikpass_login"/>
-          <include name="Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_TheLoveCO_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
           <include name="Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Xctasy_KwikPass_Login_at_accountpage"/>
         </methods>
       </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
     </classes>

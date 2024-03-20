@@ -872,6 +872,30 @@ public class LocatorConfig {
 		String mCaffeine_profile_button = pro.getProperty("mCaffeine_profile_button");
 		return mCaffeine_profile_button;
 	}
+	public String getmCaffeine_addtocart() {
+		String mCaffeine_addtocart = pro.getProperty("mCaffeine_addtocart");
+		return mCaffeine_addtocart;
+	}
+	public String getmCaffeine_placeorder() {
+		String mCaffeine_placeorder = pro.getProperty("mCaffeine_placeorder");
+		return mCaffeine_placeorder;
+	}
+	public String getChemistry_Indiabuynow() {
+		String Chemistry_Indiabuynow = pro.getProperty("Chemistry_Indiabuynow");
+		return Chemistry_Indiabuynow;
+	}
+	public String getChemistry_Indiareward_btn() {
+		String Chemistry_Indiareward_btn = pro.getProperty("Chemistry_Indiareward_btn");
+		return Chemistry_Indiareward_btn;
+	}
+	public String getChemistry_Indiareward_iframe() {
+		String Chemistry_Indiareward_iframe = pro.getProperty("Chemistry_Indiareward_iframe");
+		return Chemistry_Indiareward_iframe;
+	}
+	public String getChemistry_India_signin_btn() {
+		String Chemistry_India_signin_btn = pro.getProperty("Chemistry_India_signin_btn");
+		return Chemistry_India_signin_btn;
+	}
 	
 	
 }

@@ -37,6 +37,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/user/Desktop/Automation Scripts/kp_Automation_Scripts/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ADMIN/Desktop/test/Kwikpass_Automation_Scripts/javax.mail.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
