@@ -808,6 +808,102 @@ public class LocatorConfig {
 		String Hyphen_popup = pro.getProperty("Hyphen_popup");
 		return Hyphen_popup;
 	}
+	public String getStick_ItUp_addtocart() {
+		String Stick_ItUp_addtocart = pro.getProperty("Stick_ItUp_addtocart");
+		return Stick_ItUp_addtocart;
+	}
+	public String getStick_ItUp_checkout() {
+		String Stick_ItUp_checkout = pro.getProperty("Stick_ItUp_checkout");
+		return Stick_ItUp_checkout;
+	}
+	public String getLouis_Stitch_order_now() {
+		String Louis_Stitch_order_now = pro.getProperty("Louis_Stitch_order_now");
+		return Louis_Stitch_order_now;
+	}
+	public String getJapam_order_now() {
+		String Japam_order_now = pro.getProperty("Japam_order_now");
+		return Japam_order_now;
+	}
+	public String getHyphen_Addtocart() {
+		String Hyphen_Addtocart =  pro.getProperty("Hyphen_Addtocart");
+		return Hyphen_Addtocart;
+	}
+	public String getHyphen_placeorder() {
+		String Hyphen_placeorder =  pro.getProperty("Hyphen_placeorder");
+		return Hyphen_placeorder;
+	}
+	public String getLibas_addtocart() {
+		String Libas_addtocart = pro.getProperty("Libas_addtocart");
+		return Libas_addtocart;
+	}
+	public String getLibas_placeorder() {
+		String Libas_placeorder = pro.getProperty("Libas_placeorder");
+		return Libas_placeorder;
+	}
+	public String getCase_Mania_addtocart() {
+		String Case_Mania_addtocart = pro.getProperty("Case_Mania_addtocart");
+		return Case_Mania_addtocart;
+	}
+	public String getCase_Mania_placeorder() {
+		String Case_Mania_placeorder =  pro.getProperty("Case_Mania_placeorder");
+		return Case_Mania_placeorder;
+	}
+	public String getSlurrp_Farm_addtocart() {
+		String Slurrp_Farm_Proceedtocheckout = pro.getProperty("Slurrp_Farm_Proceedtocheckout");
+		return Slurrp_Farm_Proceedtocheckout;
+	}
+	public String getSlurrp_Farm_cart() {
+		String Slurrp_Farm_cart = pro.getProperty("Slurrp_Farm_cart");
+		return Slurrp_Farm_cart;
+	}
+	public String getSlurrp_Farm_Proceedtocheckout() {
+		String Slurrp_Farm_Proceedtocheckout = pro.getProperty("Slurrp_Farm_Proceedtocheckout");
+		return Slurrp_Farm_Proceedtocheckout;
+	}
+	public String getmCaffeine_login_icon() {
+		String mCaffeine_login_icon = pro.getProperty("mCaffeine_login_icon");
+		return mCaffeine_login_icon;
+	}
+	public String getmCaffeine_signup_btn() {
+		String mCaffeine_signup_btn = pro.getProperty("mCaffeine_signup_btn");
+		return mCaffeine_signup_btn;
+	}
+	public String getmCaffeine_profile_button() {
+		String mCaffeine_profile_button = pro.getProperty("mCaffeine_profile_button");
+		return mCaffeine_profile_button;
+	}
+	public String getmCaffeine_addtocart() {
+		String mCaffeine_addtocart = pro.getProperty("mCaffeine_addtocart");
+		return mCaffeine_addtocart;
+	}
+	public String getmCaffeine_placeorder() {
+		String mCaffeine_placeorder = pro.getProperty("mCaffeine_placeorder");
+		return mCaffeine_placeorder;
+	}
+	public String getChemistry_Indiabuynow() {
+		String Chemistry_Indiabuynow = pro.getProperty("Chemistry_Indiabuynow");
+		return Chemistry_Indiabuynow;
+	}
+	public String getChemistry_Indiareward_btn() {
+		String Chemistry_Indiareward_btn = pro.getProperty("Chemistry_Indiareward_btn");
+		return Chemistry_Indiareward_btn;
+	}
+	public String getChemistry_Indiareward_iframe() {
+		String Chemistry_Indiareward_iframe = pro.getProperty("Chemistry_Indiareward_iframe");
+		return Chemistry_Indiareward_iframe;
+	}
+	public String getChemistry_India_signin_btn() {
+		String Chemistry_India_signin_btn = pro.getProperty("Chemistry_India_signin_btn");
+		return Chemistry_India_signin_btn;
+	}
+	public String getHause_And_kinfer_popupiframe() {
+		String Hause_And_kinfer_popupiframe = pro.getProperty("Hause_And_kinfer_popupiframe");
+		return Hause_And_kinfer_popupiframe;
+	}
+	public String getHause_And_kinfer_popupclose() {
+		String Hause_And_kinfer_popupclose = pro.getProperty("Hause_And_kinfer_popupclose");
+		return Hause_And_kinfer_popupclose;
+	}
 	
 	
 }

@@ -1025,6 +1025,15 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("OTP entered");
 		sleep(8);
 		driver.switchTo().defaultContent();
+		if (Hause_And_kinfer_popupiframe != null) {
+			lp.switchToIframe(Hause_And_kinfer_popupiframe);
+			WebElement popup = driver.findElement(By.className(Hause_And_kinfer_popupclose));
+			WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
+			popup.click();
+			logger.info("close Hause & Kinder popup");
+		}
+		driver.switchTo().defaultContent();
 		driver.findElement(By.id(kwikpass_icon_al)).click();
 		By logoutbtn = By.xpath(logout_btn);
 		By orderhistorybtn = By.xpath(orderhistory_btn);
@@ -2238,15 +2247,6 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("OTP entered");
 		sleep(8);
 		driver.switchTo().defaultContent();
-		lp.switchToIframe(Saadaa_popup_iframe);
-		WebElement popup = driver.findElement(By.className(Saadaa_popup_close));
-		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
-		if (popup.isDisplayed()) {
-			popup.click();
-			logger.info("close saadaa popup");
-		}
-		driver.switchTo().defaultContent();
 		String x = driver.findElement(By.id(Saadaa_account_txt)).getText();
 		logger.info(x);
 		String x11 = "ACCOUNT";
@@ -3269,11 +3269,11 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			String vurl = "https://www.themancompany.com/account#profile";
 			if (curl.equals(vurl)) {
 				driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
-				logger.info("Shopify login and session created in Urban Jungle after Kwikpass login .");
+				logger.info("Shopify login and session created in Man Company after Kwikpass login .");
 				logger.info("Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Case passed!");
 				logger.info("Test Case Completed !");
 			} else {
-				logger.info("Shopify login and session not created in Urban Jungle after Kwikpass login .");
+				logger.info("Shopify login and session not created in Man Company after Kwikpass login .");
 				logger.info("Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal Test Case failed!");
 				captureScreen(driver,"Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
 				Assert.fail("Verify_The_Man_Company_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal failed");
@@ -3389,6 +3389,51 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			popup.click();
 			logger.info("Closed popup");
 		}
+		sleep(2);
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(15);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://letshyphen.com/account";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in Hyphen after Kwikpass login passed.");
+			logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in Hyphen after Kwikpass login failed.");
+			logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+	
+	@Test
+	public void Verify_Slurrp_Farm_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Slurrp_Farm_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://slurrpfarm.com/");
+		logger.info("URL is open");
+		logger.info("Slurrp Farm does not have Kwikpass AP");
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -3413,17 +3458,202 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		driver.findElement(By.xpath(orderhistory_btn)).click();
 		sleep(10);
 		String curl = driver.getCurrentUrl();
-		String vurl = "https://letshyphen.com/account";
+		String vurl = "https://slurrpfarm.com/account";
 		if (curl.equals(vurl)) {
 			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
-			logger.info("Shopify login and session created in Hyphen after Kwikpass login passed.");
-			logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Shopify login and session created in Slurrp Farm after Kwikpass login passed.");
+			logger.info("Verify_Slurrp_Farm_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
 			logger.info("Test Case Completed !");
 		} else {
-			logger.info("Shopify login and session not created in Hyphen after Kwikpass login failed.");
-			logger.info("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
-			captureScreen(driver, "Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login failed");
-			Assert.fail("Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			logger.info("Shopify login and session not created in Slurrp Farm after Kwikpass login failed.");
+			logger.info("Verify_Slurrp_Farm_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Slurrp_Farm_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Slurrp_Farm_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+	
+	@Test
+	public void Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://casemania.in/");
+		logger.info("URL is open");
+		logger.info("Case Mania does not have Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://casemania.in/account";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in Case Mania after Kwikpass login passed.");
+			logger.info("Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in Case Mania after Kwikpass login failed.");
+			logger.info("Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Case_Mania_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+	
+	@Test
+	public void Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login() throws IOException, InterruptedException {
+		logger.info("Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login Test case is running.....");
+		driver.get("https://www.mcaffeine.com/");
+		logger.info("URL is open");
+		logger.info("mCaffeine does not has Kwikpass AP");
+		LoginPage lp = new LoginPage(driver);
+		WebElement dropdown = driver.findElement(By.id(mCaffeine_login_icon));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(dropdown).perform();
+		WebElement loginOption = driver.findElement(By.xpath(mCaffeine_signup_btn)); 
+		loginOption.click();
+		logger.info("Login / Signup button clicked");
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		driver.switchTo().defaultContent();
+		sleep(12);
+		WebElement dropdown1 = driver.findElement(By.id(mCaffeine_login_icon));
+		Actions actions1 = new Actions(driver);
+		actions1.moveToElement(dropdown1).perform();
+		WebElement myaccount = driver.findElement(By.xpath(mCaffeine_profile_button)); 
+		if(myaccount.isDisplayed()) {
+			logger.info("Kwikpass login successful");
+			myaccount.click();
+			sleep(8);
+			String url = driver.getCurrentUrl();
+			String vurl = "https://www.mcaffeine.com/account";
+			if(url.equals(vurl)) {
+				driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+				logger.info("Shopify_Login_and_session_creation_Ater_Kwikpass_Login passed");
+				logger.info("Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login passed");
+				logger.info("Test case completed");
+			}else {
+				logger.info("Shopify_Login_and_session_creation_Ater_Kwikpass_Login failed");
+				logger.info("Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login failed");
+				captureScreen(driver, "Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login failed");
+				Assert.fail("Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login failed");
+			}
+		}else {
+			logger.info("Kwikpass login unsuccessful");
+			logger.info("Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login failed");
+			captureScreen(driver, "Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login failed");
+			Assert.fail("Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login failed");
+		}
+	}
+	
+	@Test
+	public void Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://www.libas.in/");
+		logger.info("URL is open");
+		logger.info("Libas does not have Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://www.libas.in/account#profile";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in Libas after Kwikpass login passed.");
+			logger.info("Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in Libas after Kwikpass login failed.");
+			logger.info("Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Libas_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+	
+
+	@Test
+	public void Verify_Chemistry_India_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Chemistry_India_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://chemistryindia.com/");
+		logger.info("URL is open");
+		logger.info("Chemistry india does not have Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(2);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://chemistryindia.com/account";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in chemistry india after Kwikpass login passed.");
+			logger.info("Verify_Chemistry_India_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in chemistry india after Kwikpass login failed.");
+			logger.info("Verify_Chemistry_India_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Chemistry_India_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Chemistry_India_Shopify_login_and_session_creation_after_Kwikpass_login failed");
 		}
 	}
 

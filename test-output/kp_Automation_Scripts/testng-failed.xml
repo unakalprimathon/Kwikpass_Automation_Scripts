@@ -9,16 +9,22 @@
     <classes>
       <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
         <methods>
+          <include name="Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_Just_Herbs_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_MyFitness_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Heelium_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Saadaa_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_Dennis_Lingo_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Hause_And_Kinder_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="tearDown"/>
           <include name="Verify_MyWishCare_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="Verify_Ritualistic_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Amydus_Shopify_login_and_session_creation_after_Kwikpass_login"/>
-          <include name="Verify_TheHatke_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
+          <include name="Verify_Guniaa_Shopify_login_and_session_creation_after_Kwikpass_login_From_Login_Modal"/>
           <include name="setUp"/>
-          <include name="Verify_Puer_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Photo_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="Verify_Hyphen_Shopify_login_and_session_creation_after_Kwikpass_login"/>
-          <include name="Verify_Sereko_Shopify_login_and_session_creation_after_Kwikpass_login_from_Login_Modal"/>
-          <include name="tearDown"/>
+          <include name="Verify_Hammer_Shopify_login_and_session_creation_after_Kwikpass_login"/>
         </methods>
       </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
     </classes>
