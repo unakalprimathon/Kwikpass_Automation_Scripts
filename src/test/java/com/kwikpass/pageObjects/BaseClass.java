@@ -25,7 +25,8 @@ public class BaseClass {
 
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + readconfig.getChromeDriverPath());
+//		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + readconfig.getChromeDriverPath());
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Desktop\\Automation Scripts\\Kwikpass_Automation_Scripts\\Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 //		ChromeOptions options = new ChromeOptions();
 //		options.addArguments("--headless=new");
