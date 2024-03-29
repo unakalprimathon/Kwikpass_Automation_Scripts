@@ -3523,6 +3523,11 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("URL is open");
 		logger.info("mCaffeine does not has Kwikpass AP");
 		LoginPage lp = new LoginPage(driver);
+		WebElement later = driver.findElement(By.xpath(mcaffeine_later));
+		WebDriverWait later_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		later_wait.until(ExpectedConditions.elementToBeClickable(later));
+		later.click();
+		logger.info("closed popup");
 		WebElement dropdown = driver.findElement(By.id(mCaffeine_login_icon));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(dropdown).perform();

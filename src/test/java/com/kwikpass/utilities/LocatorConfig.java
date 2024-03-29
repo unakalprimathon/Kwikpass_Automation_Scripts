@@ -904,6 +904,10 @@ public class LocatorConfig {
 		String Hause_And_kinfer_popupclose = pro.getProperty("Hause_And_kinfer_popupclose");
 		return Hause_And_kinfer_popupclose;
 	}
+	public String getmcaffeine_later() {
+		String mcaffeine_later = pro.getProperty("mcaffeine_later");
+		return mcaffeine_later;
+	}
 	
 	
 }

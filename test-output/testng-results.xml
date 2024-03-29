@@ -1,25 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-29T09:53:30 IST" name="Default suite" finished-at="2024-03-29T09:54:02 IST" duration-ms="31554">
+  <suite started-at="2024-03-29T11:37:55 IST" name="Default suite" finished-at="2024-03-29T11:40:49 IST" duration-ms="173555">
     <groups>
     </groups>
-    <test started-at="2024-03-29T09:53:30 IST" name="Default test" finished-at="2024-03-29T09:54:02 IST" duration-ms="31554">
-      <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@40a4337a]" started-at="2024-03-29T09:53:30 IST" name="setUp" finished-at="2024-03-29T09:53:32 IST" duration-ms="1944" status="PASS">
+    <test started-at="2024-03-29T11:37:55 IST" name="Default test" finished-at="2024-03-29T11:40:49 IST" duration-ms="173555">
+      <class name="com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:37:55 IST" name="setUp" finished-at="2024-03-29T11:37:57 IST" duration-ms="1819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_TwoBrothers_India_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@40a4337a]" started-at="2024-03-29T09:53:32 IST" name="Verify_TwoBrothers_India_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-03-29T09:54:01 IST" duration-ms="29029" status="PASS">
+        <test-method signature="Verify_mCaffeine_KwikPass_Login_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:37:57 IST" name="Verify_mCaffeine_KwikPass_Login_at_accountpage" finished-at="2024-03-29T11:38:19 IST" duration-ms="21783" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_TwoBrothers_India_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@40a4337a]" started-at="2024-03-29T09:54:01 IST" name="tearDown" finished-at="2024-03-29T09:54:02 IST" duration-ms="503" status="PASS">
+        </test-method> <!-- Verify_mCaffeine_KwikPass_Login_at_accountpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:38:19 IST" name="tearDown" finished-at="2024-03-29T11:38:19 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:38:19 IST" name="setUp" finished-at="2024-03-29T11:38:20 IST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_mCaffeine_KwikPass_Login_modal_Verfication_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:38:20 IST" name="Verify_mCaffeine_KwikPass_Login_modal_Verfication_at_accountpage" finished-at="2024-03-29T11:38:28 IST" duration-ms="7692" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verify_mCaffeine_KwikPass_Login_modal_Verfication_at_accountpage failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verify_mCaffeine_KwikPass_Login_modal_Verfication_at_accountpage failed
+at org.testng.Assert.fail(Assert.java:111)
+at com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases.Verify_mCaffeine_KwikPass_Login_modal_Verfication_at_accountpage(TC_mCaffeine_Test_Cases.java:257)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_mCaffeine_KwikPass_Login_modal_Verfication_at_accountpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:38:28 IST" name="tearDown" finished-at="2024-03-29T11:38:28 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:38:28 IST" name="setUp" finished-at="2024-03-29T11:38:30 IST" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_mCaffeine_KwikPass_login_modal_verification()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:38:30 IST" name="Verify_mCaffeine_KwikPass_login_modal_verification" finished-at="2024-03-29T11:38:37 IST" duration-ms="7287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_mCaffeine_KwikPass_login_modal_verification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:38:37 IST" name="tearDown" finished-at="2024-03-29T11:38:37 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:38:37 IST" name="setUp" finished-at="2024-03-29T11:38:38 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_mCaffeine_Kwikpass_login_Done_Gokwik_login_should_happen()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:38:38 IST" name="Verify_mCaffeine_Kwikpass_login_Done_Gokwik_login_should_happen" finished-at="2024-03-29T11:39:18 IST" duration-ms="39313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_mCaffeine_Kwikpass_login_Done_Gokwik_login_should_happen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:39:18 IST" name="tearDown" finished-at="2024-03-29T11:39:18 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:39:18 IST" name="setUp" finished-at="2024-03-29T11:39:19 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_mCaffeine_Kwikpass_login_Done_Redirect_to_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:39:19 IST" name="Verify_mCaffeine_Kwikpass_login_Done_Redirect_to_accountpage" finished-at="2024-03-29T11:39:53 IST" duration-ms="33946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_mCaffeine_Kwikpass_login_Done_Redirect_to_accountpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:39:53 IST" name="tearDown" finished-at="2024-03-29T11:39:53 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:39:53 IST" name="setUp" finished-at="2024-03-29T11:39:55 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_mCaffeine_Kwikpass_login_using_OTP_Via_SMS()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:39:55 IST" name="Verify_mCaffeine_Kwikpass_login_using_OTP_Via_SMS" finished-at="2024-03-29T11:40:17 IST" duration-ms="22278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_mCaffeine_Kwikpass_login_using_OTP_Via_SMS -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:40:17 IST" name="tearDown" finished-at="2024-03-29T11:40:17 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:40:17 IST" name="setUp" finished-at="2024-03-29T11:40:18 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:40:18 IST" name="Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login" finished-at="2024-03-29T11:40:49 IST" duration-ms="30282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_mCaffeine_Shopify_Login_and_session_creation_Ater_Kwikpass_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases@4d5d943d]" started-at="2024-03-29T11:40:49 IST" name="tearDown" finished-at="2024-03-29T11:40:49 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kwikpass.automation.scripts.TC_mCaffeine_Test_Cases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
