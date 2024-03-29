@@ -34,7 +34,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -78,7 +78,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -111,7 +111,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		driver.get("https://assemblytravel.com/");
 		logger.info("URL is open");
 		logger.info("Assembly has Kwikpass AP");
-		sleep(2);
+		sleep(3);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -123,7 +123,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -175,7 +175,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -224,12 +224,12 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("closed popup");
 		}
 		driver.switchTo().defaultContent();
-		sleep(2);
+		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -272,7 +272,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -316,7 +316,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -360,7 +360,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -408,7 +408,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -458,7 +458,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(2);
+			sleep(3);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
 			sleep(8);
@@ -517,7 +517,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -562,7 +562,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -606,7 +606,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -650,7 +650,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -698,7 +698,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -742,7 +742,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -786,7 +786,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -842,7 +842,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -886,7 +886,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -930,7 +930,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -975,7 +975,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1020,7 +1020,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1083,7 +1083,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1125,7 +1125,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		driver.get("https://houseofkari.in/");
 		logger.info("URL is open");
 		logger.info("HOK does not have Kwikpass AP");
-		sleep(2);
+		sleep(3);
 		By closehok = By.xpath(hokclose);
 		boolean closehokPresent = !driver.findElements(closehok).isEmpty();
 		if(closehokPresent) {
@@ -1143,7 +1143,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1188,7 +1188,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1241,7 +1241,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1284,7 +1284,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1337,7 +1337,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1382,7 +1382,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1425,7 +1425,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1470,7 +1470,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1515,7 +1515,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1568,7 +1568,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1582,7 +1582,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("close popup");
 		}
 		driver.switchTo().defaultContent();
-		sleep(2);
+		sleep(3);
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
@@ -1622,7 +1622,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1667,12 +1667,12 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
 		driver.switchTo().defaultContent();
-		sleep(2);
+		sleep(3);
 		WebElement nothanks = driver.findElement(By.xpath(MyWishCare_closepopup));
 		WebDriverWait nothanks_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		nothanks_wait.until(ExpectedConditions.elementToBeClickable(nothanks));
@@ -1680,7 +1680,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			nothanks.click();
 			logger.info("Closed popup");
 		}
-		sleep(2);
+		sleep(3);
 		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
@@ -1720,7 +1720,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("closed popup");
 		}
 		driver.switchTo().defaultContent();
-		sleep(2);
+		sleep(3);
 		WebElement dropdown = driver.findElement(By.xpath(nobero_kwikpass_icon));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(dropdown).perform();
@@ -1732,7 +1732,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1783,7 +1783,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1832,7 +1832,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(2);
+			sleep(3);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
 			sleep(8);
@@ -1890,7 +1890,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1943,7 +1943,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -1997,7 +1997,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2049,7 +2049,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("Clicked allow btn");
 		}
 		driver.switchTo().defaultContent();
-		sleep(2);
+		sleep(3);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -2060,7 +2060,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2105,7 +2105,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2164,7 +2164,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(2);
+			sleep(3);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
 			sleep(8);
@@ -2237,12 +2237,12 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		kwikpass_btn.click();
 		logger.info("Clicked kwikpass_btn");
 		LoginPage lp = new LoginPage(driver);
-		sleep(2);
+		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2297,7 +2297,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2351,7 +2351,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2409,7 +2409,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(2);
+			sleep(3);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
 			sleep(8);
@@ -2468,7 +2468,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2522,7 +2522,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2575,7 +2575,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2628,7 +2628,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2685,7 +2685,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2728,7 +2728,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2790,12 +2790,12 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			spin.click();
 			logger.info("Closed spin wheel");
 		}
-		sleep(2);
+		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2834,7 +2834,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		hamburger_wait.until(ExpectedConditions.elementToBeClickable(hamburger));
 		hamburger.click();
 		logger.info("Clicked Hamburger");
-		sleep(2);
+		sleep(3);
 		WebElement login_btn = driver.findElement(By.xpath(whatsup_wellness_login_btn));
 		WebDriverWait login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		login_btn_wait.until(ExpectedConditions.elementToBeClickable(login_btn));
@@ -2846,7 +2846,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2891,7 +2891,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(2);
+			sleep(3);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
 			sleep(8);
@@ -2933,7 +2933,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -2979,7 +2979,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(2);
+			sleep(3);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
 			sleep(8);
@@ -3021,7 +3021,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3059,7 +3059,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		user_icon_wait.until(ExpectedConditions.elementToBeClickable(user_icon));
 		user_icon.click();
 		logger.info("Clicked user icon Icon");
-		sleep(2);
+		sleep(3);
 		WebElement kp_login_btn = driver.findElement(By.id(Just_Herbs_kp_login_btn));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -3071,7 +3071,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3123,7 +3123,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3167,7 +3167,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3212,7 +3212,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
 			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 			logger.info("Mobile number entered");
-			sleep(2);
+			sleep(3);
 			driver.findElement(By.id(otp_input)).sendKeys(otp);
 			logger.info("OTP entered");
 			sleep(8);
@@ -3254,7 +3254,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3304,7 +3304,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3348,7 +3348,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3381,7 +3381,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		driver.get("https://letshyphen.com/");
 		logger.info("URL is open");
 		logger.info("Hyphen does not have Kwikpass AP");
-		sleep(2);
+		sleep(3);
 		WebElement popup = driver.findElement(By.id(Hyphen_popup));
 		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
@@ -3389,7 +3389,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			popup.click();
 			logger.info("Closed popup");
 		}
-		sleep(2);
+		sleep(3);
 		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
@@ -3401,7 +3401,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3445,7 +3445,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3489,7 +3489,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3534,7 +3534,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		driver.switchTo().defaultContent();
@@ -3585,7 +3585,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3630,7 +3630,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
 		logger.info("Mobile number entered");
-		sleep(2);
+		sleep(3);
 		driver.findElement(By.id(otp_input)).sendKeys(otp);
 		logger.info("OTP entered");
 		sleep(8);
@@ -3654,6 +3654,223 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 			logger.info("Verify_Chemistry_India_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
 			captureScreen(driver, "Verify_Chemistry_India_Shopify_login_and_session_creation_after_Kwikpass_login failed");
 			Assert.fail("Verify_Chemistry_India_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+
+	@Test
+	public void Verify_Jimmy_luxury_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Jimmy_luxury_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://jimmyluxury.in/");
+		logger.info("URL is open");
+		logger.info("Jimmy Luxury does not have Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(3);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://jimmyluxury.in/account";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in jimmy luxury after Kwikpass login passed.");
+			logger.info("Verify_Jimmy_luxury_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in jimmy luxury after Kwikpass login failed.");
+			logger.info("Verify_Jimmy_luxury_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Jimmy_luxury_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Jimmy_luxury_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+
+	@Test
+	public void Verify_TheNaturalWash_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_TheNaturalWash_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://www.thenaturalwash.com/");
+		logger.info("URL is open");
+		logger.info("TheNatural Wash does not have Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(3);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://www.thenaturalwash.com/account";
+		if (curl.equals(vurl)) {
+			logger.info("Shopify login and session created in Natural wash after Kwikpass login passed.");
+			logger.info("Verify_TheNaturalWash_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in natural wash after Kwikpass login failed.");
+			logger.info("Verify_TheNaturalWash_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_TheNaturalWash_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_TheNaturalWash_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+	
+	@Test
+	public void Verify_Matural_KwikPass_Login_at_accountpage() throws IOException, InterruptedException {
+		logger.info("Verify_Matural_KwikPass_Login_at_accountpage Test case is running.....");
+		driver.get("https://matural.in/account");
+		logger.info("URL is open");
+		logger.info("matural doesn't has Kwikpass AP");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		By mobile_input_field = By.id(mobile_input);
+		By whatsapp_btn = By.id(whatsappid);
+		boolean mobile_input_fieldpresent = !driver.findElements(mobile_input_field).isEmpty();
+		boolean whatsapp_btnpresent = !driver.findElements(whatsapp_btn).isEmpty();
+		if (mobile_input_fieldpresent && whatsapp_btnpresent) {
+			logger.info("The Kwikpass AP modal has OTP via SMS and WhatsApp login options.");
+			driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+			logger.info("Mobile number entered");
+			sleep(3);
+			driver.findElement(By.id(otp_input)).sendKeys(otp);
+			logger.info("OTP entered");
+			sleep(8);
+			driver.switchTo().defaultContent();
+			String curl = driver.getCurrentUrl();
+			String vurl = "https://matural.in/account";
+			if (curl.equals(vurl)) {
+				logger.info("The Kwikpass Login successfull.");
+				logger.info("Verify_Matural_KwikPass_Login_at_accountpage Test Cases passed!");
+				logger.info("Test Cases Completed !");
+			} else {
+				logger.info("Verify_Matural_KwikPass_Login_at_accountpage Test Case failed!");
+				captureScreen(driver,"Verify_Matural_KwikPass_Login_at_accountpage failed");
+				Assert.fail("Verify_Matural_KwikPass_Login_at_accountpage failed");
+			}
+		} else {
+			logger.info("The Kwikpass Login modal doesn't has OTP via SMS or WhatsApp login options.");
+			logger.info("Verify_Matural_KwikPass_Login_at_accountpage Test Cases failed!");
+			captureScreen(driver, "Verify_Matural_KwikPass_Login_at_accountpage failed");
+			Assert.fail("Verify_Matural_KwikPass_Login_at_accountpage failed");
+		}
+	}
+
+	@Test
+	public void Verify_Zeraki_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_Zeraki_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://zerakijewels.com/");
+		logger.info("URL is open");
+		logger.info("Zeraki jewels does not have Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(3);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://zerakijewels.com/account";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in Zeraki jewels after Kwikpass login passed.");
+			logger.info("Verify_Zeraki_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in Zeraki jewels after Kwikpass login failed.");
+			logger.info("Verify_Zeraki_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_Zeraki_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_Zeraki_Jewels_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+		}
+	}
+
+	@Test
+	public void Verify_TwoBrothers_India_Shopify_login_and_session_creation_after_Kwikpass_login() throws IOException{
+		logger.info("Verify_TwoBrothers_India_Shopify_login_and_session_creation_after_Kwikpass_login Test case is running.....");
+		driver.get("https://twobrothersindiashop.com/");
+		logger.info("URL is open");
+		logger.info("TwoBrothers india does not have Kwikpass AP");
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		kp_login_btn.click();
+		logger.info("Clicked Kwikpass Icon");
+		LoginPage lp = new LoginPage(driver);
+		sleep(3);
+		lp.switchToIframe(kwikpass_iframe);
+		logger.info("switched to Kwikpass login modal iframe");
+		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
+		logger.info("Mobile number entered");
+		sleep(3);
+		driver.findElement(By.id(otp_input)).sendKeys(otp);
+		logger.info("OTP entered");
+		sleep(8);
+		driver.switchTo().defaultContent();
+		WebElement kp_after_login_btn = driver.findElement(By.id(kwikpass_icon_al));
+		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
+		kp_after_login_btn.click();
+		logger.info("Clicked Kwikpass Icon after login");
+		driver.findElement(By.xpath(orderhistory_btn)).click();
+		sleep(10);
+		String curl = driver.getCurrentUrl();
+		String vurl = "https://twobrothersindiashop.com/account";
+		if (curl.equals(vurl)) {
+			driver.findElement(By.xpath(acc_logout_btn)).isDisplayed();
+			logger.info("Shopify login and session created in Two Brothers india after Kwikpass login passed.");
+			logger.info("Verify_TwoBrothers_India_Shopify_login_and_session_creation_after_Kwikpass_login Test Case passed!");
+			logger.info("Test Case Completed !");
+		} else {
+			logger.info("Shopify login and session not created in TWObrothers india after Kwikpass login failed.");
+			logger.info("Verify_TwoBrothers_India_Shopify_login_and_session_creation_after_Kwikpass_login Test Case failed!");
+			captureScreen(driver, "Verify_TwoBrothers_India_Shopify_login_and_session_creation_after_Kwikpass_login failed");
+			Assert.fail("Verify_TwoBrothers_India_Shopify_login_and_session_creation_after_Kwikpass_login failed");
 		}
 	}
 
