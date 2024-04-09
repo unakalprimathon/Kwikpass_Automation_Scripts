@@ -5,7 +5,7 @@
     <classes>
       <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
         <methods>
-          <include name="Verify_Mille_supergrains_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_TwoBrothers_India_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
