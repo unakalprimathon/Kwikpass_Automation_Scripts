@@ -226,6 +226,14 @@
 			<!--Chemistry_India Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Chemistry_India_Test_Cases" />
 			
+			<!--Jimmy_Luxury Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Jimmy_Luxury_Test_Cases" />
+			
+			<!--TheNatural_Wash Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_TheNatural_Wash_Test_Cases" />
+			
+			<!--Matural Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Matural_Test_Cases" />
 </classes>
 	</test>
 

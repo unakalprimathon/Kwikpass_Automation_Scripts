@@ -226,4 +226,9 @@ public interface Locator {
 	public String Hause_And_kinfer_popupiframe = locatorconfig.getHause_And_kinfer_popupiframe();
 	public String Hause_And_kinfer_popupclose = locatorconfig.getHause_And_kinfer_popupclose();
 	public String mcaffeine_later = locatorconfig.getmcaffeine_later();
+	public String Matural_kpicon = locatorconfig.getMatural_kpicon();
+	public String Matural_kplogin_btn = locatorconfig.getMatural_kplogin_btn();
+	public String Matural_addtocart = locatorconfig.getMatural_addtocart();
+	public String Matrual_placeorder = locatorconfig.getMatrual_placeorder();
+	public String Matural_kpaccount = locatorconfig.getMatural_kpaccount();
 }

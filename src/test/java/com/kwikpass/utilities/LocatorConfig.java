@@ -908,6 +908,26 @@ public class LocatorConfig {
 		String mcaffeine_later = pro.getProperty("mcaffeine_later");
 		return mcaffeine_later;
 	}
+	public String getMatural_kpicon() {
+		String Matural_kpicon = pro.getProperty("Matural_kpicon");
+		return Matural_kpicon;
+	}
+	public String getMatural_kplogin_btn() {
+		String Matural_kplogin_btn = pro.getProperty("Matural_kplogin_btn");
+		return Matural_kplogin_btn;
+	}
+	public String getMatural_addtocart() {
+		String Matural_addtocart = pro.getProperty("Matural_addtocart");
+		return Matural_addtocart;
+	}
+	public String getMatrual_placeorder() {
+		String Matrual_placeorder = pro.getProperty("Matrual_placeorder");
+		return Matrual_placeorder;
+	}
+	public String getMatural_kpaccount() {
+		String Matural_kpaccount = pro.getProperty("Matural_kpaccount");
+		return Matural_kpaccount;
+	}
 	
 	
 }
