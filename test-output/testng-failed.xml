@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kwikpass.automation.scripts.TC_Matural_Test_Cases">
+      <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
         <methods>
-          <include name="Verify_Matural_Shopify_Login_and_session_creation_Ater_Kwikpass_Login"/>
+          <include name="Verify_Enamor_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="setUp"/>
-          <include name="Verify_Matural_Kwikpass_login_Done_Gokwik_login_should_happen"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kwikpass.automation.scripts.TC_Matural_Test_Cases -->
+      </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
