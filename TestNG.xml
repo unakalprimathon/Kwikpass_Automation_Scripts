@@ -234,6 +234,12 @@
 			
 			<!--Matural Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Matural_Test_Cases" />
+			
+			<!--Zeraki_Jewels Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Zeraki_Jewels_Test_Cases" />
+			
+			<!--Soul_Theory Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Soul_Theory_Test_Cases" />
 </classes>
 	</test>
 
