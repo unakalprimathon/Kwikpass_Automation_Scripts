@@ -956,6 +956,10 @@ public class LocatorConfig {
 		String Beyours_usericon = pro.getProperty("Beyours_usericon");
 		return Beyours_usericon;
 	}
+	public String getPuer_popup() {
+		String Puer_popup = pro.getProperty("Puer_popup");
+		return Puer_popup;
+	}
 	
 	
 }

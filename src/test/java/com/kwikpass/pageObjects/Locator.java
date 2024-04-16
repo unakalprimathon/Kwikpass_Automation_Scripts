@@ -238,4 +238,5 @@ public interface Locator {
 	public String Nursery_live_signin = locatorconfig.getNursery_live_signin();
 	public String Enamor_popup = locatorconfig.getEnamor_popup();
 	public String Beyours_usericon = locatorconfig.getBeyours_usericon();
+	public String Puer_popup = locatorconfig.getPuer_popup();
 }

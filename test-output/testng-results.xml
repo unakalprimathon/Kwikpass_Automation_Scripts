@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-16T16:39:57 IST" name="Default suite" finished-at="2024-04-16T16:40:07 IST" duration-ms="10016">
+  <suite started-at="2024-04-16T17:14:34 IST" name="Default suite" finished-at="2024-04-16T17:15:19 IST" duration-ms="44690">
     <groups>
     </groups>
-    <test started-at="2024-04-16T16:39:57 IST" name="Default test" finished-at="2024-04-16T16:40:07 IST" duration-ms="10016">
-      <class name="com.kwikpass.automation.scripts.TC_Beyours_Test_Cases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beyours_Test_Cases@4c583ecf]" started-at="2024-04-16T16:39:57 IST" name="setUp" finished-at="2024-04-16T16:39:59 IST" duration-ms="1678" status="PASS">
+    <test started-at="2024-04-16T17:14:34 IST" name="Default test" finished-at="2024-04-16T17:15:19 IST" duration-ms="44690">
+      <class name="com.kwikpass.automation.scripts.TC_Puer_Test_Cases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Puer_Test_Cases@235834f2]" started-at="2024-04-16T17:14:35 IST" name="setUp" finished-at="2024-04-16T17:14:38 IST" duration-ms="3332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Beyours_KwikPass_login_modal_verification()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beyours_Test_Cases@4c583ecf]" started-at="2024-04-16T16:39:59 IST" name="Verify_Beyours_KwikPass_login_modal_verification" finished-at="2024-04-16T16:40:07 IST" duration-ms="7880" status="PASS">
+        <test-method signature="Verify_Puer_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen()[pri:0, instance:com.kwikpass.automation.scripts.TC_Puer_Test_Cases@235834f2]" started-at="2024-04-16T17:14:38 IST" name="Verify_Puer_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen" finished-at="2024-04-16T17:15:18 IST" duration-ms="40535" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Beyours_KwikPass_login_modal_verification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beyours_Test_Cases@4c583ecf]" started-at="2024-04-16T16:40:07 IST" name="tearDown" finished-at="2024-04-16T16:40:07 IST" duration-ms="428" status="PASS">
+        </test-method> <!-- Verify_Puer_Kwikpass_login_from_Login_Modal_Done_Gokwik_login_should_happen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Puer_Test_Cases@235834f2]" started-at="2024-04-16T17:15:18 IST" name="tearDown" finished-at="2024-04-16T17:15:19 IST" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.kwikpass.automation.scripts.TC_Beyours_Test_Cases -->
+      </class> <!-- com.kwikpass.automation.scripts.TC_Puer_Test_Cases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
