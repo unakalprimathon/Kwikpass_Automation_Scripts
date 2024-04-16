@@ -240,6 +240,9 @@
 			
 			<!--Soul_Theory Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Soul_Theory_Test_Cases" />
+			
+			<!--Mille_SuperGrains Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Mille_SuperGrains_Test_Cases" />
 </classes>
 	</test>
 
