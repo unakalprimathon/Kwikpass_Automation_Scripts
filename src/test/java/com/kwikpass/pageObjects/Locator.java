@@ -231,4 +231,7 @@ public interface Locator {
 	public String Matural_addtocart = locatorconfig.getMatural_addtocart();
 	public String Matrual_placeorder = locatorconfig.getMatrual_placeorder();
 	public String Matural_kpaccount = locatorconfig.getMatural_kpaccount();
+	public String MaturaL_rewardsbtn = locatorconfig.getMaturaL_rewardsbtn();
+	public String Matural_rewardsiframe = locatorconfig.getMatural_rewardsiframe();
+	public String Matural_signinbtn = locatorconfig.getMatural_signinbtn();
 }

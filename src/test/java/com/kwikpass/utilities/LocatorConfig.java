@@ -928,6 +928,18 @@ public class LocatorConfig {
 		String Matural_kpaccount = pro.getProperty("Matural_kpaccount");
 		return Matural_kpaccount;
 	}
+	public String getMaturaL_rewardsbtn() {
+		String MaturaL_rewardsbtn = pro.getProperty("MaturaL_rewardsbtn");
+		return MaturaL_rewardsbtn;
+	}
+	public String getMatural_rewardsiframe() {
+		String Matural_rewardsiframe = pro.getProperty("Matural_rewardsiframe");
+		return Matural_rewardsiframe;
+	}
+	public String getMatural_signinbtn() {
+		String Matural_signinbtn = pro.getProperty("Matural_signinbtn");
+		return Matural_signinbtn;
+	}
 	
 	
 }
