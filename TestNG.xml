@@ -243,6 +243,18 @@
 			
 			<!--Mille_SuperGrains Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Mille_SuperGrains_Test_Cases" />
+			
+			<!--Janki Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Janki_Test_Cases" />
+			
+			<!--Indiehaat Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Indiehaat_Test_Cases" />
+			
+			<!--NurseryLive Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_NurseryLive_Test_Cases" />
+			
+			<!--CarDhobi Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_CarDhobi_Test_Cases" />
 </classes>
 	</test>
 

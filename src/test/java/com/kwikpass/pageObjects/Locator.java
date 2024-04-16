@@ -234,4 +234,6 @@ public interface Locator {
 	public String MaturaL_rewardsbtn = locatorconfig.getMaturaL_rewardsbtn();
 	public String Matural_rewardsiframe = locatorconfig.getMatural_rewardsiframe();
 	public String Matural_signinbtn = locatorconfig.getMatural_signinbtn();
+	public String Nursery_live_iframe = locatorconfig.getNursery_live_iframe();
+	public String Nursery_live_signin = locatorconfig.getNursery_live_signin();
 }

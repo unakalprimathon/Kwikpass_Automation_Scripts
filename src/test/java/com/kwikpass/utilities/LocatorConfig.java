@@ -940,6 +940,14 @@ public class LocatorConfig {
 		String Matural_signinbtn = pro.getProperty("Matural_signinbtn");
 		return Matural_signinbtn;
 	}
+	public String getNursery_live_iframe() {
+		String Nursery_live_iframe = pro.getProperty("Nursery_live_iframe");
+		return Nursery_live_iframe;
+	}
+	public String getNursery_live_signin() {
+		String Nursery_live_signin = pro.getProperty("Nursery_live_signin");
+		return Nursery_live_signin;
+	}
 	
 	
 }
