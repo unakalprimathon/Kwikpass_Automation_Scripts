@@ -4154,7 +4154,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		kp_login_btn.click();
 		logger.info("Clicked Kwikpass Icon");
 		sleep(5);
-		WebElement popup = driver.findElement(By.className("lTVETRPct_8rmWOTTgkC"));
+		WebElement popup = driver.findElement(By.className(Enamor_popup));
 		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
 		if (popup.isDisplayed()) {
@@ -4200,7 +4200,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		driver.get("https://www.beyours.in/");
 		logger.info("URL is open");
 		logger.info("BeYours does not have Kwikpass AP");
-		WebElement kp_login_btn = driver.findElement(By.xpath("//span[@id='kwik-pass-text']"));
+		WebElement kp_login_btn = driver.findElement(By.xpath(Beyours_usericon));
 		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
@@ -4216,7 +4216,7 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		logger.info("OTP entered");
 		sleep(8);
 		driver.switchTo().defaultContent();
-		WebElement kp_after_login_btn = driver.findElement(By.xpath("//span[@id='kwik-pass-text']"));
+		WebElement kp_after_login_btn = driver.findElement(By.xpath(Beyours_usericon));
 		WebDriverWait kp_after_login_btn_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		kp_after_login_btn_wait.until(ExpectedConditions.elementToBeClickable(kp_after_login_btn));
 		kp_after_login_btn.click();

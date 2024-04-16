@@ -236,4 +236,6 @@ public interface Locator {
 	public String Matural_signinbtn = locatorconfig.getMatural_signinbtn();
 	public String Nursery_live_iframe = locatorconfig.getNursery_live_iframe();
 	public String Nursery_live_signin = locatorconfig.getNursery_live_signin();
+	public String Enamor_popup = locatorconfig.getEnamor_popup();
+	public String Beyours_usericon = locatorconfig.getBeyours_usericon();
 }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kwikpass.automation.scripts.TC_CarDhobi_Test_Cases">
+      <class name="com.kwikpass.automation.scripts.TC_Beyours_Test_Cases">
         <methods>
-          <include name="Verify_CarDhobi_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="setUp"/>
+          <include name="Verify_Beyours_KwikPass_login_modal_verification"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kwikpass.automation.scripts.TC_CarDhobi_Test_Cases -->
+      </class> <!-- com.kwikpass.automation.scripts.TC_Beyours_Test_Cases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

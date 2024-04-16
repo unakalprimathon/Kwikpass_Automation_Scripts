@@ -948,6 +948,14 @@ public class LocatorConfig {
 		String Nursery_live_signin = pro.getProperty("Nursery_live_signin");
 		return Nursery_live_signin;
 	}
+	public String getEnamor_popup() {
+		String Enamor_popup = pro.getProperty("Enamor_popup");
+		return Enamor_popup;
+	}
+	public String getBeyours_usericon() {
+		String Beyours_usericon = pro.getProperty("Beyours_usericon");
+		return Beyours_usericon;
+	}
 	
 	
 }

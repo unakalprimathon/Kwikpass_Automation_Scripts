@@ -255,6 +255,12 @@
 			
 			<!--CarDhobi Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_CarDhobi_Test_Cases" />
+			
+			<!--Enamor Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Enamor_Test_Cases" />
+			
+			<!--Beyours Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Beyours_Test_Cases" />
 </classes>
 	</test>
 
