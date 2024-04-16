@@ -2099,8 +2099,15 @@ public class All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
 		logger.info("Clicked Kwikpass Icon");
+		sleep(8);
+		WebElement popup = driver.findElement(By.xpath(Puer_popup));
+		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
+		if (popup.isDisplayed()) {
+			popup.click();
+			logger.info("closed popup");
+		}
 		LoginPage lp = new LoginPage(driver);
-		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);

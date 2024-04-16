@@ -381,8 +381,15 @@ public class TC_Puer_Test_Cases extends BaseClass implements Locator{
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
 		logger.info("Clicked Kwikpass Icon");
+		sleep(8);
+		WebElement popup = driver.findElement(By.xpath(Puer_popup));
+		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
+		if (popup.isDisplayed()) {
+			popup.click();
+			logger.info("closed popup");
+		}
 		LoginPage lp = new LoginPage(driver);
-		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
@@ -416,8 +423,10 @@ public class TC_Puer_Test_Cases extends BaseClass implements Locator{
 		driver.get("https://pueronline.in/");
 		logger.info("URL is open");
 		logger.info("Puer has Kwikpass AP");
-		WebElement s = driver.findElement(By.id(kwikpass_icon_bl));
-		if (s.isDisplayed()) {
+		WebElement kp_login_btn = driver.findElement(By.id(kwikpass_icon_bl));
+		WebDriverWait kp_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
+		if (kp_login_btn.isDisplayed()) {
 			logger.info("Kwikpass icon visible in Puer");
 			logger.info("Verify_Puer_KwikPass_icon_visibility test case passed!");
 			logger.info("Test Cases Completed !");
@@ -441,8 +450,15 @@ public class TC_Puer_Test_Cases extends BaseClass implements Locator{
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
 		logger.info("Clicked Kwikpass Icon");
+		sleep(8);
+		WebElement popup = driver.findElement(By.xpath(Puer_popup));
+		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
+		if (popup.isDisplayed()) {
+			popup.click();
+			logger.info("closed popup");
+		}
 		LoginPage lp = new LoginPage(driver);
-		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		By mobile_input_field = By.id(mobile_input);
@@ -540,8 +556,15 @@ public class TC_Puer_Test_Cases extends BaseClass implements Locator{
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
 		logger.info("Clicked Kwikpass Icon");
+		sleep(8);
+		WebElement popup = driver.findElement(By.xpath(Puer_popup));
+		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
+		if (popup.isDisplayed()) {
+			popup.click();
+			logger.info("closed popup");
+		}
 		LoginPage lp = new LoginPage(driver);
-		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
@@ -664,8 +687,15 @@ public class TC_Puer_Test_Cases extends BaseClass implements Locator{
 		kp_wait.until(ExpectedConditions.elementToBeClickable(kp_login_btn));
 		kp_login_btn.click();
 		logger.info("Clicked Kwikpass Icon");
+		sleep(8);
+		WebElement popup = driver.findElement(By.xpath(Puer_popup));
+		WebDriverWait popup_wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		popup_wait.until(ExpectedConditions.elementToBeClickable(popup));
+		if (popup.isDisplayed()) {
+			popup.click();
+			logger.info("closed popup");
+		}
 		LoginPage lp = new LoginPage(driver);
-		sleep(3);
 		lp.switchToIframe(kwikpass_iframe);
 		logger.info("switched to Kwikpass login modal iframe");
 		driver.findElement(By.id(mobile_input)).sendKeys(mobile_number);
