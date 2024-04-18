@@ -261,6 +261,12 @@
 			
 			<!--Beyours Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Beyours_Test_Cases" />
+			
+			<!--NewJaisa Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_NewJaisa_Test_Cases" />
+			
+			<!--Unnhattar Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Unnhattar_Test_Cases" />
 </classes>
 	</test>
 

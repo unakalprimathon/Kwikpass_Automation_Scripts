@@ -960,6 +960,14 @@ public class LocatorConfig {
 		String Puer_popup = pro.getProperty("Puer_popup");
 		return Puer_popup;
 	}
+	public String getNewJaisa_loginbtn() {
+		String NewJaisa_loginbtn = pro.getProperty("NewJaisa_loginbtn");
+		return NewJaisa_loginbtn;
+	}
+	public String getNewJaisa_buynow() {
+		String NewJaisa_buynow = pro.getProperty("NewJaisa_buynow");
+		return NewJaisa_buynow;
+	}
 	
 	
 }

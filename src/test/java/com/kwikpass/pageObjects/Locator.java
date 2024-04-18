@@ -239,4 +239,6 @@ public interface Locator {
 	public String Enamor_popup = locatorconfig.getEnamor_popup();
 	public String Beyours_usericon = locatorconfig.getBeyours_usericon();
 	public String Puer_popup = locatorconfig.getPuer_popup();
+	public String NewJaisa_loginbtn = locatorconfig.getNewJaisa_loginbtn();
+	public String NewJaisa_buynow = locatorconfig.getNewJaisa_buynow();
 }
