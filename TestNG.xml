@@ -267,6 +267,18 @@
 			
 			<!--Unnhattar Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Unnhattar_Test_Cases" />
+			
+			<!--NumberFC Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_NumberFC_Test_Cases" />
+			
+			<!--Zingavita Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Zingavita_Test_Cases" />
+			
+			<!--Aachho Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Aachho_Test_Cases" />
+			
+			<!--Beco Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Beco_Test_Cases" />
 </classes>
 	</test>
 
