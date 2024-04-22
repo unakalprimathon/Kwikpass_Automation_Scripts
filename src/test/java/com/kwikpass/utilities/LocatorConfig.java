@@ -968,6 +968,10 @@ public class LocatorConfig {
 		String NewJaisa_buynow = pro.getProperty("NewJaisa_buynow");
 		return NewJaisa_buynow;
 	}
+	public String getAachho_popup() {
+		String Aachho_popup = pro.getProperty("Aachho_popup");
+		return Aachho_popup;
+	}
 	
 	
 }

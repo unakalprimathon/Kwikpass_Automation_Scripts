@@ -241,4 +241,5 @@ public interface Locator {
 	public String Puer_popup = locatorconfig.getPuer_popup();
 	public String NewJaisa_loginbtn = locatorconfig.getNewJaisa_loginbtn();
 	public String NewJaisa_buynow = locatorconfig.getNewJaisa_buynow();
+	public String Aachho_popup = locatorconfig.getAachho_popup();
 }

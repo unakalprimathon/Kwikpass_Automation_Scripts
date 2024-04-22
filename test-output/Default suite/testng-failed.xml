@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kwikpass.automation.scripts.TC_AdilQadri_Test_Cases">
+      <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
         <methods>
-          <include name="Verify_AdilQadri_Shopify_login_and_session_creation_after_Kwikpass_login"/>
+          <include name="Verify_Aachho_Shopify_login_and_session_creation_after_Kwikpass_login"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.kwikpass.automation.scripts.TC_AdilQadri_Test_Cases -->
+      </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
