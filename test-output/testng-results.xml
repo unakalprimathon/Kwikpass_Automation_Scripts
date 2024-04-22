@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-22T12:34:04 IST" name="Default suite" finished-at="2024-04-22T12:36:29 IST" duration-ms="145408">
+  <suite started-at="2024-04-22T14:04:30 IST" name="Default suite" finished-at="2024-04-22T14:10:25 IST" duration-ms="354676">
     <groups>
     </groups>
-    <test started-at="2024-04-22T12:34:04 IST" name="Default test" finished-at="2024-04-22T12:36:29 IST" duration-ms="145408">
-      <class name="com.kwikpass.automation.scripts.TC_Beco_Test_Cases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:04 IST" name="setUp" finished-at="2024-04-22T12:34:06 IST" duration-ms="2110" status="PASS">
+    <test started-at="2024-04-22T14:04:30 IST" name="Default test" finished-at="2024-04-22T14:10:25 IST" duration-ms="354676">
+      <class name="com.kwikpass.automation.scripts.TC_WTF_Test_Cases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:04:30 IST" name="setUp" finished-at="2024-04-22T14:04:33 IST" duration-ms="3005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Beco_KwikPass_Login_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:06 IST" name="Verify_Beco_KwikPass_Login_at_accountpage" finished-at="2024-04-22T12:34:26 IST" duration-ms="19316" status="PASS">
+        <test-method signature="Verify_WTF_KwikPass_Login_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:04:33 IST" name="Verify_WTF_KwikPass_Login_at_accountpage" finished-at="2024-04-22T14:05:31 IST" duration-ms="57735" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Beco_KwikPass_Login_at_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:26 IST" name="tearDown" finished-at="2024-04-22T12:34:26 IST" duration-ms="666" status="PASS">
+        </test-method> <!-- Verify_WTF_KwikPass_Login_at_accountpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:05:31 IST" name="tearDown" finished-at="2024-04-22T14:05:32 IST" duration-ms="412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:26 IST" name="setUp" finished-at="2024-04-22T12:34:28 IST" duration-ms="1452" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:05:32 IST" name="setUp" finished-at="2024-04-22T14:05:33 IST" duration-ms="1289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Beco_KwikPass_Login_modal_Verfication_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:28 IST" name="Verify_Beco_KwikPass_Login_modal_Verfication_at_accountpage" finished-at="2024-04-22T12:34:36 IST" duration-ms="8152" status="PASS">
+        <test-method signature="Verify_WTF_KwikPass_Login_modal_Verfication_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:05:33 IST" name="Verify_WTF_KwikPass_Login_modal_Verfication_at_accountpage" finished-at="2024-04-22T14:06:02 IST" duration-ms="29270" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Beco_KwikPass_Login_modal_Verfication_at_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:36 IST" name="tearDown" finished-at="2024-04-22T12:34:36 IST" duration-ms="399" status="PASS">
+        </test-method> <!-- Verify_WTF_KwikPass_Login_modal_Verfication_at_accountpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:02 IST" name="tearDown" finished-at="2024-04-22T14:06:04 IST" duration-ms="2083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:36 IST" name="setUp" finished-at="2024-04-22T12:34:39 IST" duration-ms="2317" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:04 IST" name="setUp" finished-at="2024-04-22T14:06:05 IST" duration-ms="1241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Beco_KwikPass_login_icon_Visibilty()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:39 IST" name="Verify_Beco_KwikPass_login_icon_Visibilty" finished-at="2024-04-22T12:34:42 IST" duration-ms="3915" status="PASS">
+        <test-method signature="Verify_WTF_KwikPass_login_icon_Visibilty()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:05 IST" name="Verify_WTF_KwikPass_login_icon_Visibilty" finished-at="2024-04-22T14:06:29 IST" duration-ms="23362" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Beco_KwikPass_login_icon_Visibilty -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:42 IST" name="tearDown" finished-at="2024-04-22T12:34:43 IST" duration-ms="371" status="PASS">
+        </test-method> <!-- Verify_WTF_KwikPass_login_icon_Visibilty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:29 IST" name="tearDown" finished-at="2024-04-22T14:06:29 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:43 IST" name="setUp" finished-at="2024-04-22T12:34:44 IST" duration-ms="1466" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:29 IST" name="setUp" finished-at="2024-04-22T14:06:30 IST" duration-ms="1344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Beco_KwikPass_login_modal_verification()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:44 IST" name="Verify_Beco_KwikPass_login_modal_verification" finished-at="2024-04-22T12:34:51 IST" duration-ms="7102" status="PASS">
+        <test-method signature="Verify_WTF_KwikPass_login_modal_verification()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:30 IST" name="Verify_WTF_KwikPass_login_modal_verification" finished-at="2024-04-22T14:06:57 IST" duration-ms="26760" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Beco_KwikPass_login_modal_verification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:51 IST" name="tearDown" finished-at="2024-04-22T12:34:52 IST" duration-ms="460" status="PASS">
+        </test-method> <!-- Verify_WTF_KwikPass_login_modal_verification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:57 IST" name="tearDown" finished-at="2024-04-22T14:06:58 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:52 IST" name="setUp" finished-at="2024-04-22T12:34:54 IST" duration-ms="2457" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:58 IST" name="setUp" finished-at="2024-04-22T14:07:00 IST" duration-ms="1915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Beco_Kwikpass_login_Done_Gokwik_login_should_happen()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:34:54 IST" name="Verify_Beco_Kwikpass_login_Done_Gokwik_login_should_happen" finished-at="2024-04-22T12:35:25 IST" duration-ms="30523" status="PASS">
+        <test-method signature="Verify_WTF_Kwikpass_login_Done_Gokwik_login_should_happen()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:07:00 IST" name="Verify_WTF_Kwikpass_login_Done_Gokwik_login_should_happen" finished-at="2024-04-22T14:08:14 IST" duration-ms="74830" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Beco_Kwikpass_login_Done_Gokwik_login_should_happen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:35:25 IST" name="tearDown" finished-at="2024-04-22T12:35:26 IST" duration-ms="861" status="PASS">
+        </test-method> <!-- Verify_WTF_Kwikpass_login_Done_Gokwik_login_should_happen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:14 IST" name="tearDown" finished-at="2024-04-22T14:08:15 IST" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:35:26 IST" name="setUp" finished-at="2024-04-22T12:35:27 IST" duration-ms="1696" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:15 IST" name="setUp" finished-at="2024-04-22T14:08:16 IST" duration-ms="1064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Beco_Kwikpass_login_Done_Redirect_to_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:35:27 IST" name="Verify_Beco_Kwikpass_login_Done_Redirect_to_accountpage" finished-at="2024-04-22T12:35:38 IST" duration-ms="11064" status="FAIL">
+        <test-method signature="Verify_WTF_Kwikpass_login_Done_Redirect_to_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:16 IST" name="Verify_WTF_Kwikpass_login_Done_Redirect_to_accountpage" finished-at="2024-04-22T14:08:42 IST" duration-ms="26410" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#phone\-input"}
@@ -80,9 +80,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d372f04218833c82b9e8bcf696edbf97, findElement {using=id, value=phone-input}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58174/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d372f04218833c82b9e8bcf696edbf97]]>
+Command: [aa631315e8257810b63af8c45adb259a, findElement {value=phone-input, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63714/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa631315e8257810b63af8c45adb259a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#phone\-input"}
@@ -91,9 +91,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d372f04218833c82b9e8bcf696edbf97, findElement {using=id, value=phone-input}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58174/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d372f04218833c82b9e8bcf696edbf97
+Command: [aa631315e8257810b63af8c45adb259a, findElement {value=phone-input, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63714/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa631315e8257810b63af8c45adb259a
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -108,7 +108,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.kwikpass.automation.scripts.TC_Beco_Test_Cases.Verify_Beco_Kwikpass_login_Done_Redirect_to_accountpage(TC_Beco_Test_Cases.java:305)
+at com.kwikpass.automation.scripts.TC_WTF_Test_Cases.Verify_WTF_Kwikpass_login_Done_Redirect_to_accountpage(TC_WTF_Test_Cases.java:318)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -140,36 +140,36 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Beco_Kwikpass_login_Done_Redirect_to_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:35:38 IST" name="tearDown" finished-at="2024-04-22T12:35:39 IST" duration-ms="382" status="PASS">
+        </test-method> <!-- Verify_WTF_Kwikpass_login_Done_Redirect_to_accountpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:42 IST" name="tearDown" finished-at="2024-04-22T14:08:43 IST" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:35:39 IST" name="setUp" finished-at="2024-04-22T12:35:40 IST" duration-ms="1441" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:43 IST" name="setUp" finished-at="2024-04-22T14:08:44 IST" duration-ms="1095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Beco_Kwikpass_login_using_OTP_Via_SMS()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:35:40 IST" name="Verify_Beco_Kwikpass_login_using_OTP_Via_SMS" finished-at="2024-04-22T12:35:59 IST" duration-ms="18951" status="PASS">
+        <test-method signature="Verify_WTF_Kwikpass_login_using_OTP_Via_SMS()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:44 IST" name="Verify_WTF_Kwikpass_login_using_OTP_Via_SMS" finished-at="2024-04-22T14:09:20 IST" duration-ms="36575" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Beco_Kwikpass_login_using_OTP_Via_SMS -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:35:59 IST" name="tearDown" finished-at="2024-04-22T12:36:00 IST" duration-ms="428" status="PASS">
+        </test-method> <!-- Verify_WTF_Kwikpass_login_using_OTP_Via_SMS -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:09:20 IST" name="tearDown" finished-at="2024-04-22T14:09:21 IST" duration-ms="570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:36:00 IST" name="setUp" finished-at="2024-04-22T12:36:01 IST" duration-ms="1284" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:09:21 IST" name="setUp" finished-at="2024-04-22T14:09:22 IST" duration-ms="1133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_Beco_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:36:01 IST" name="Verify_Beco_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-04-22T12:36:29 IST" duration-ms="28043" status="PASS">
+        <test-method signature="Verify_WTF_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:09:22 IST" name="Verify_WTF_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-04-22T14:10:25 IST" duration-ms="62694" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_Beco_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_Beco_Test_Cases@368f2016]" started-at="2024-04-22T12:36:29 IST" name="tearDown" finished-at="2024-04-22T12:36:29 IST" duration-ms="480" status="PASS">
+        </test-method> <!-- Verify_WTF_Shopify_login_and_session_creation_after_Kwikpass_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:10:25 IST" name="tearDown" finished-at="2024-04-22T14:10:25 IST" duration-ms="416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.kwikpass.automation.scripts.TC_Beco_Test_Cases -->
+      </class> <!-- com.kwikpass.automation.scripts.TC_WTF_Test_Cases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

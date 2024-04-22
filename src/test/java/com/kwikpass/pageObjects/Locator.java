@@ -242,4 +242,6 @@ public interface Locator {
 	public String NewJaisa_loginbtn = locatorconfig.getNewJaisa_loginbtn();
 	public String NewJaisa_buynow = locatorconfig.getNewJaisa_buynow();
 	public String Aachho_popup = locatorconfig.getAachho_popup();
+	public String WTF_addtocart = locatorconfig.getWTF_addtocart();
+	public String WTF_checkout_btn = locatorconfig.getWTF_checkout_btn();
 }

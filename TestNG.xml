@@ -279,6 +279,9 @@
 			
 			<!--Beco Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_Beco_Test_Cases" />
+			
+			<!--WTF Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_WTF_Test_Cases" />
 </classes>
 	</test>
 

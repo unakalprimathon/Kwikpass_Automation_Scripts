@@ -972,6 +972,14 @@ public class LocatorConfig {
 		String Aachho_popup = pro.getProperty("Aachho_popup");
 		return Aachho_popup;
 	}
+	public String getWTF_addtocart() {
+		String WTF_addtocart = pro.getProperty("WTF_addtocart");
+		return WTF_addtocart;
+	}
+	public String getWTF_checkout_btn() {
+		String WTF_checkout_btn = pro.getProperty("WTF_checkout_btn");
+		return WTF_checkout_btn;
+	}
 	
 	
 }
