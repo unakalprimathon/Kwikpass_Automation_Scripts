@@ -30,8 +30,7 @@ public class BaseClass {
 //		ChromeOptions options = new ChromeOptions();
 //		options.addArguments("--headless=new");
 //		driver = new ChromeDriver(options);
-		 WebDriverManager.chromedriver().setup();
-        	WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		logger = Logger.getLogger("Kwikpass");
 		PropertyConfigurator.configure("log4j.properties");
 		driver.manage().window().maximize();
