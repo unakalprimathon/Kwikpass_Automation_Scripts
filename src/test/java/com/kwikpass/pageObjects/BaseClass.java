@@ -25,7 +25,7 @@ public class BaseClass {
 
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + readconfig.getChromeDriverPath());
+		// System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + readconfig.getChromeDriverPath());
 		driver = new ChromeDriver();
 //		ChromeOptions options = new ChromeOptions();
 //		options.addArguments("--headless=new");
