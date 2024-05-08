@@ -67,7 +67,7 @@ public class EmailSender{
             // Replace "path/to/your/report.html" with the actual path to your HTML report
             String timeStamp = new SimpleDateFormat("yyyy.MM.dd").format(new Date());// time stamp
             String repName = "Kwikpass-Automation-Testing-Report-" + timeStamp + ".html";
-            String reportFilePath = System.getProperty("user.dir") + "/test-output/" + repName;
+            String reportFilePath = System.getProperty("user.dir") + "/test-output/Report/" + repName;
             MimeBodyPart attachmentPart = new MimeBodyPart();
             attachmentPart.attachFile(reportFilePath);
 

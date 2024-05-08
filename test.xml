@@ -1,0 +1,25 @@
+
+<suite name="kp_Automation_Scripts">
+
+	<listeners>
+		<listener class-name="com.kwikpass.utilities.Report" />
+	</listeners>
+
+	<test name="Kwickpass_Test">
+		<parameter name="browser" value="chrome" />
+			
+<classes>
+	
+			<!--FireBoltt Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_FireBoltt_Test_Cases" />
+			
+			<!--TheBearHouse Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_TheBearHouse_Test_Cases" />
+			
+			<!--Fabcurate Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Fabcurate_Test_Cases" />
+			
+</classes>
+	</test>
+
+</suite>

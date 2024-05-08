@@ -282,6 +282,27 @@
 			
 			<!--WTF Test cases -->
 			<class name="com.kwikpass.automation.scripts.TC_WTF_Test_Cases" />
+			
+			<!--ASquad Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_ASquad_Test_Cases" />
+			
+			<!--MyFrido Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_MyFrido_Test_Cases" />
+			
+			<!--Extrokids Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Extrokids_Test_Cases" />
+			
+			<!--Unniyarcha Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Unniyarcha_Test_Cases" />
+			
+			<!--TheBearHouse Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_TheBearHouse_Test_Cases" />
+			
+			<!--Fabcurate Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_Fabcurate_Test_Cases" />
+			
+			<!--BlissClub Test cases -->
+			<class name="com.kwikpass.automation.scripts.TC_BlissClub_Test_Cases" />
 </classes>
 	</test>
 

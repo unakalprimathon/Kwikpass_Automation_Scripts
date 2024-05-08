@@ -980,6 +980,38 @@ public class LocatorConfig {
 		String WTF_checkout_btn = pro.getProperty("WTF_checkout_btn");
 		return WTF_checkout_btn;
 	}
+	public String getExtrokids_myacc_btn() {
+		String Extrokids_myacc_btn = pro.getProperty("Extrokids_myacc_btn");
+		return Extrokids_myacc_btn;
+	}
+	public String getExtrokids_addtocart() {
+		String Extrokids_addtocart = pro.getProperty("Extrokids_addtocart");
+		return Extrokids_addtocart;
+	}
+	public String getExtrokids_checkout() {
+		String Extrokids_checkout = pro.getProperty("Extrokids_checkout");
+		return Extrokids_checkout;
+	}
+	public String getEstrokids_logout() {
+		String Estrokids_logout = pro.getProperty("Estrokids_logout");
+		return Estrokids_logout;
+	}
+	public String getgokwik_checkout() {
+		String gokwik_checkout = pro.getProperty("gokwik_checkout");
+		return gokwik_checkout;
+	}
+	public String getTheBearHouse_rewards_btn() {
+		String TheBearHouse_rewards_btn = pro.getProperty("TheBearHouse_rewards_btn");
+		return TheBearHouse_rewards_btn;
+	}
+	public String getTheBearHouse_rewards_iframe() {
+		String TheBearHouse_rewards_iframe = pro.getProperty("TheBearHouse_rewards_iframe");
+		return TheBearHouse_rewards_iframe;
+	}
+	public String getTheBearHouse_signin_btn() {
+		String TheBearHouse_signin_btn = pro.getProperty("TheBearHouse_signin_btn");
+		return TheBearHouse_signin_btn;
+	}
 	
 	
 }

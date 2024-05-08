@@ -4,9 +4,6 @@ package com.kwikpass.utilities;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -26,10 +23,10 @@ public class Report extends TestListenerAdapter {
 	public ExtentTest logger;
 
 	public void onStart(ITestContext testContext) {
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd").format(new Date());// time stamp
-		String repName = "Kwikpass-Automation-Testing-Report-" + timeStamp + ".html";
-		String fileName = "Kwikpass-Automation-Testing-Report-" + timeStamp + ".html";
-		String filePath = System.getProperty("user.dir") + "/test-output/";
+//		String timeStamp = new SimpleDateFormat("yyyy.MM.dd").format(new Date());// time stamp
+		String repName = "Kwikpass-Automation-Testing-Report-" + ".html";
+		String fileName = "Kwikpass-Automation-Testing-Report-" + ".html";
+		String filePath = System.getProperty("user.dir") + "/test-output/Report/";
 
 		// Check if the file already exists
 		File reportFile = new File(filePath + fileName);
@@ -43,7 +40,7 @@ public class Report extends TestListenerAdapter {
 			}
 		}
 
-		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/" + repName);// specify location of the report
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/Report/" + repName);// specify location of the report
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/extent-config.xml");
 
 		extent = new ExtentReports();

@@ -14,6 +14,7 @@ public interface Locator {
 	public String kwikpass_icon_al = locatorconfig.getkwikpass_icon_al();
 	public String kwikpass_icon_bl = locatorconfig.getkwikpass_icon_bl();
 	public String gokwik_buy_now = locatorconfig.getgokwik_buy_now();
+	public String gokwik_checkout = locatorconfig.getgokwik_checkout();
 	public String gokwikclose = locatorconfig.getgokwikclose();
 	public String gokwikyes = locatorconfig.getgokwikyes();
 	public String gokwikskip = locatorconfig.getgokwikskip();
@@ -244,4 +245,11 @@ public interface Locator {
 	public String Aachho_popup = locatorconfig.getAachho_popup();
 	public String WTF_addtocart = locatorconfig.getWTF_addtocart();
 	public String WTF_checkout_btn = locatorconfig.getWTF_checkout_btn();
+	public String Extrokids_myacc_btn = locatorconfig.getExtrokids_myacc_btn();
+	public String Extrokids_addtocart = locatorconfig.getExtrokids_addtocart();
+	public String Extrokids_checkout = locatorconfig.getExtrokids_checkout();
+	public String Estrokids_logout = locatorconfig.getEstrokids_logout();
+	public String TheBearHouse_rewards_btn = locatorconfig.getTheBearHouse_rewards_btn();
+	public String TheBearHouse_rewards_iframe = locatorconfig.getTheBearHouse_rewards_iframe();
+	public String TheBearHouse_signin_btn = locatorconfig.getTheBearHouse_signin_btn();
 }

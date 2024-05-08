@@ -1,175 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-22T14:04:30 IST" name="Default suite" finished-at="2024-04-22T14:10:25 IST" duration-ms="354676">
+  <suite started-at="2024-05-07T12:32:36 IST" name="Default suite" finished-at="2024-05-07T12:33:37 IST" duration-ms="61077">
     <groups>
     </groups>
-    <test started-at="2024-04-22T14:04:30 IST" name="Default test" finished-at="2024-04-22T14:10:25 IST" duration-ms="354676">
-      <class name="com.kwikpass.automation.scripts.TC_WTF_Test_Cases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:04:30 IST" name="setUp" finished-at="2024-04-22T14:04:33 IST" duration-ms="3005" status="PASS">
+    <test started-at="2024-05-07T12:32:36 IST" name="Default test" finished-at="2024-05-07T12:33:37 IST" duration-ms="61077">
+      <class name="com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@4b2bac3f]" started-at="2024-05-07T12:32:36 IST" name="setUp" finished-at="2024-05-07T12:32:52 IST" duration-ms="15446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_WTF_KwikPass_Login_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:04:33 IST" name="Verify_WTF_KwikPass_Login_at_accountpage" finished-at="2024-04-22T14:05:31 IST" duration-ms="57735" status="PASS">
+        <test-method signature="Verify_BlissClub_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@4b2bac3f]" started-at="2024-05-07T12:32:52 IST" name="Verify_BlissClub_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-05-07T12:33:36 IST" duration-ms="44105" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_WTF_KwikPass_Login_at_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:05:31 IST" name="tearDown" finished-at="2024-04-22T14:05:32 IST" duration-ms="412" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:05:32 IST" name="setUp" finished-at="2024-04-22T14:05:33 IST" duration-ms="1289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_WTF_KwikPass_Login_modal_Verfication_at_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:05:33 IST" name="Verify_WTF_KwikPass_Login_modal_Verfication_at_accountpage" finished-at="2024-04-22T14:06:02 IST" duration-ms="29270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_WTF_KwikPass_Login_modal_Verfication_at_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:02 IST" name="tearDown" finished-at="2024-04-22T14:06:04 IST" duration-ms="2083" status="PASS">
+        </test-method> <!-- Verify_BlissClub_Shopify_login_and_session_creation_after_Kwikpass_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check@4b2bac3f]" started-at="2024-05-07T12:33:36 IST" name="tearDown" finished-at="2024-05-07T12:33:37 IST" duration-ms="1359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:04 IST" name="setUp" finished-at="2024-04-22T14:06:05 IST" duration-ms="1241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_WTF_KwikPass_login_icon_Visibilty()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:05 IST" name="Verify_WTF_KwikPass_login_icon_Visibilty" finished-at="2024-04-22T14:06:29 IST" duration-ms="23362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_WTF_KwikPass_login_icon_Visibilty -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:29 IST" name="tearDown" finished-at="2024-04-22T14:06:29 IST" duration-ms="333" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:29 IST" name="setUp" finished-at="2024-04-22T14:06:30 IST" duration-ms="1344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_WTF_KwikPass_login_modal_verification()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:30 IST" name="Verify_WTF_KwikPass_login_modal_verification" finished-at="2024-04-22T14:06:57 IST" duration-ms="26760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_WTF_KwikPass_login_modal_verification -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:57 IST" name="tearDown" finished-at="2024-04-22T14:06:58 IST" duration-ms="343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:06:58 IST" name="setUp" finished-at="2024-04-22T14:07:00 IST" duration-ms="1915" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_WTF_Kwikpass_login_Done_Gokwik_login_should_happen()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:07:00 IST" name="Verify_WTF_Kwikpass_login_Done_Gokwik_login_should_happen" finished-at="2024-04-22T14:08:14 IST" duration-ms="74830" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_WTF_Kwikpass_login_Done_Gokwik_login_should_happen -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:14 IST" name="tearDown" finished-at="2024-04-22T14:08:15 IST" duration-ms="401" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:15 IST" name="setUp" finished-at="2024-04-22T14:08:16 IST" duration-ms="1064" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_WTF_Kwikpass_login_Done_Redirect_to_accountpage()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:16 IST" name="Verify_WTF_Kwikpass_login_Done_Redirect_to_accountpage" finished-at="2024-04-22T14:08:42 IST" duration-ms="26410" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#phone\-input"}
-  (Session info: chrome=124.0.6367.61)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa631315e8257810b63af8c45adb259a, findElement {value=phone-input, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63714/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa631315e8257810b63af8c45adb259a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#phone\-input"}
-  (Session info: chrome=124.0.6367.61)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa631315e8257810b63af8c45adb259a, findElement {value=phone-input, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63714}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63714/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa631315e8257810b63af8c45adb259a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.kwikpass.automation.scripts.TC_WTF_Test_Cases.Verify_WTF_Kwikpass_login_Done_Redirect_to_accountpage(TC_WTF_Test_Cases.java:318)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_WTF_Kwikpass_login_Done_Redirect_to_accountpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:42 IST" name="tearDown" finished-at="2024-04-22T14:08:43 IST" duration-ms="342" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:43 IST" name="setUp" finished-at="2024-04-22T14:08:44 IST" duration-ms="1095" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_WTF_Kwikpass_login_using_OTP_Via_SMS()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:08:44 IST" name="Verify_WTF_Kwikpass_login_using_OTP_Via_SMS" finished-at="2024-04-22T14:09:20 IST" duration-ms="36575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_WTF_Kwikpass_login_using_OTP_Via_SMS -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:09:20 IST" name="tearDown" finished-at="2024-04-22T14:09:21 IST" duration-ms="570" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:09:21 IST" name="setUp" finished-at="2024-04-22T14:09:22 IST" duration-ms="1133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="Verify_WTF_Shopify_login_and_session_creation_after_Kwikpass_login()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:09:22 IST" name="Verify_WTF_Shopify_login_and_session_creation_after_Kwikpass_login" finished-at="2024-04-22T14:10:25 IST" duration-ms="62694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_WTF_Shopify_login_and_session_creation_after_Kwikpass_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kwikpass.automation.scripts.TC_WTF_Test_Cases@368f2016]" started-at="2024-04-22T14:10:25 IST" name="tearDown" finished-at="2024-04-22T14:10:25 IST" duration-ms="416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.kwikpass.automation.scripts.TC_WTF_Test_Cases -->
+      </class> <!-- com.kwikpass.dailycheck.All_Live_Merchant_Shopify_login_and_session_creation_after_Kwikpass_login_daily_check -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
