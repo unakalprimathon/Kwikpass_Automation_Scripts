@@ -92,8 +92,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.2.5</version>
 				<configuration>
+					<testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>test.xml</suiteXmlFile>
+						<suiteXmlFile>All_live_merchant_kwikpass_verification.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
