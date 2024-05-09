@@ -46,7 +46,8 @@ public class BaseClass {
 		options.addArguments("--disable-gpu");
 		options.addArguments("--dns-prefetch-disable");
 //		options.addArguments("--allow-insecure-localhost");
-		options.addArguments("Chrome/114.0.5735.90");
+//		options.addArguments("Chrome/114.0.5735.90");
+		options.addArguments("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.90 Safari/537.36");
 		cap.setCapability(ChromeOptions.CAPABILITY, options);
 		// cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		options.setExperimentalOption("w3c", true);
